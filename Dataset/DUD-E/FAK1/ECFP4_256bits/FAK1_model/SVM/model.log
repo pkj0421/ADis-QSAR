@@ -1,0 +1,51 @@
+2023-04-07 06:47:08,933 [INFO] Train data : D:\PARK\Lab\Database\ADis-QSAR_final\data\DUDE\FAK1\ECFP4_256bits\preprocessing\FAK1_train_vector.tsv
+2023-04-07 06:47:08,933 [INFO] Test data : D:\PARK\Lab\Database\ADis-QSAR_final\data\DUDE\FAK1\ECFP4_256bits\preprocessing\FAK1_test_vector.tsv
+2023-04-07 06:47:08,933 [INFO] Output path : D:\PARK\Lab\Database\ADis-QSAR_final\data\DUDE\FAK1\ECFP4_256bits\FAK1_model\SVM
+2023-04-07 06:47:08,933 [INFO] Model type : SVM
+2023-04-07 06:47:08,933 [INFO] Use cores : 10
+2023-04-07 06:47:08,944 [INFO] Start Learning model
+2023-04-07 06:47:08,944 [INFO] Train : 96 | Test : 24
+2023-04-07 06:47:08,944 [INFO] Set parameters : {'C': [0.01, 0.1, 1, 10, 100, 1000], 'gamma': [0.01, 0.1, 1, 100, 1000]}
+2023-04-07 06:47:11,038 [INFO] GridSearchCV results :
+    mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+0              0.572222                   0.0             0.5
+1              0.572222                   0.0             0.5
+28             0.572222                   0.0             0.5
+27             0.572222                   0.0             0.5
+26             0.572222                   0.0             0.5
+25             0.572222                   0.0             0.5
+24             0.572222                   0.0             0.5
+23             0.572222                   0.0             0.5
+22             0.572222                   0.0             0.5
+21             0.572222                   0.0             0.5
+20             0.572222                   0.0             0.5
+19             0.572222                   0.0             0.5
+18             0.572222                   0.0             0.5
+17             0.572222                   0.0             0.5
+16             0.572222                   0.0             0.5
+15             0.572222                   0.0             0.5
+14             0.572222                   0.0             0.5
+13             0.572222                   0.0             0.5
+12             0.572222                   0.0             0.5
+11             0.572222                   0.0             0.5
+10             0.572222                   0.0             0.5
+9              0.572222                   0.0             0.5
+8              0.572222                   0.0             0.5
+7              0.572222                   0.0             0.5
+6              0.572222                   0.0             0.5
+5              0.572222                   0.0             0.5
+4              0.572222                   0.0             0.5
+3              0.572222                   0.0             0.5
+2              0.572222                   0.0             0.5
+29             0.572222                   0.0             0.5
+2023-04-07 06:47:11,039 [INFO] Best model :
+SVC(C=0.01, gamma=0.01, random_state=42)
+2023-04-07 06:47:11,044 [INFO] Save train_prediction_log data...
+2023-04-07 06:47:11,046 [INFO] {'Data': 'train', 'ACC': '0.57 (55 / 96)', 'TP': 0, 'FP': 0, 'FN': 41, 'TN': 55, 'Precision': '0 (0 / 0 + 0)', 'Recall': '0 (0 / 0 + 41)', 'F1': '0 (2 * (0 * 0) / 0 + 0)', 'Specificity': '1.0 (55 / 55 + 0)', 'AUC': 0.5, 'r2': -0.75}
+2023-04-07 06:47:11,050 [INFO] Save test_prediction_log data...
+2023-04-07 06:47:11,051 [INFO] {'Data': 'test', 'ACC': '0.62 (15 / 24)', 'TP': 0, 'FP': 0, 'FN': 9, 'TN': 15, 'Precision': '0 (0 / 0 + 0)', 'Recall': '0 (0 / 0 + 9)', 'F1': '0 (2 * (0 * 0) / 0 + 0)', 'Specificity': '1.0 (15 / 15 + 0)', 'AUC': 0.5, 'r2': -0.6}
+2023-04-07 06:47:11,059 [INFO] Save ext_prediction_log data...
+2023-04-07 06:47:11,061 [INFO] {'Data': 'ext', 'ACC': '0.62 (15 / 24)', 'TP': 0, 'FP': 0, 'FN': 9, 'TN': 15, 'Precision': '0 (0 / 0 + 0)', 'Recall': '0 (0 / 0 + 9)', 'F1': '0 (2 * (0 * 0) / 0 + 0)', 'Specificity': '1.0 (15 / 15 + 0)', 'AUC': 0.5, 'r2': -0.6}
+2023-04-07 06:47:11,063 [INFO] Save training_log data...
+2023-04-07 06:47:11,064 [INFO] Save score_log data...
+2023-04-07 06:47:11,065 [INFO] Time : 2.1326212882995605

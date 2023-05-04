@@ -1,0 +1,11 @@
+Sources	Targets	G1	Train	Test	External
+ChEMBL	ALK	50 (Active 50)	578 (Active 247 | Inactive 331)	142 (Active 62 | Inactive 80)	144 (Active 62 | Inactive 82)
+ChEMBL	BTK	50 (Active 50)	713 (Active 306 | Inactive 407)	177 (Active 76 | Inactive 101)	178 (Active 76 | Inactive 102)
+ChEMBL	CHK1	50 (Active 50)	1001 (Active 429 | Inactive 572)	250 (Active 107 | Inactive 143)	250 (Active 107 | Inactive 143)
+ChEMBL	FLT3	50 (Active 50)	699 (Active 301 | Inactive 398)	173 (Active 74 | Inactive 99)	173 (Active 74 | Inactive 99)
+ChEMBL	HGF	50 (Active 50)	1052 (Active 446 | Inactive 606)	264 (Active 112 | Inactive 152)	264 (Active 112 | Inactive 152)
+ChEMBL	ITK	50 (Active 50)	514 (Active 230 | Inactive 284)	128 (Active 58 | Inactive 70)	128 (Active 58 | Inactive 70)
+ChEMBL	IRAK4	50 (Active 50)	641 (Active 275 | Inactive 366)	161 (Active 69 | Inactive 92)	161 (Active 69 | Inactive 92)
+ChEMBL	PIM1	50 (Active 50)	650 (Active 279 | Inactive 371)	162 (Active 69 | Inactive 93)	162 (Active 69 | Inactive 93)
+ChEMBL	SYK	50 (Active 50)	713 (Active 306 | Inactive 407)	177 (Active 75 | Inactive 102)	177 (Active 75 | Inactive 102)
+ChEMBL	TRKA	50 (Active 50)	602 (Active 258 | Inactive 344)	150 (Active 64 | Inactive 86)	150 (Active 64 | Inactive 86)

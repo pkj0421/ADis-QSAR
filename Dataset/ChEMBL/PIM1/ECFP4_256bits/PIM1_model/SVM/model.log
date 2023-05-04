@@ -1,0 +1,51 @@
+2023-04-11 18:05:59,843 [INFO] Train data : D:\PARK\Lab\Database\ADis-QSAR_final\data\ChEMBL\PIM1\ECFP4_256bits\preprocessing\PIM1_train_vector.tsv
+2023-04-11 18:05:59,843 [INFO] Test data : D:\PARK\Lab\Database\ADis-QSAR_final\data\ChEMBL\PIM1\ECFP4_256bits\preprocessing\PIM1_test_vector.tsv
+2023-04-11 18:05:59,843 [INFO] Output path : D:\PARK\Lab\Database\ADis-QSAR_final\data\ChEMBL\PIM1\ECFP4_256bits\PIM1_model\SVM
+2023-04-11 18:05:59,843 [INFO] Model type : SVM
+2023-04-11 18:05:59,843 [INFO] Use cores : 10
+2023-04-11 18:05:59,863 [INFO] Start Learning model
+2023-04-11 18:05:59,863 [INFO] Train : 650 | Test : 162
+2023-04-11 18:05:59,863 [INFO] Set parameters : {'C': [0.01, 0.1, 1, 10, 100, 1000], 'gamma': [0.01, 0.1, 1, 100, 1000]}
+2023-04-11 18:06:03,657 [INFO] GridSearchCV results :
+    mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+0              0.570769                   0.0             0.5
+1              0.570769                   0.0             0.5
+28             0.570769                   0.0             0.5
+27             0.570769                   0.0             0.5
+26             0.570769                   0.0             0.5
+25             0.570769                   0.0             0.5
+24             0.570769                   0.0             0.5
+23             0.570769                   0.0             0.5
+22             0.570769                   0.0             0.5
+21             0.570769                   0.0             0.5
+20             0.570769                   0.0             0.5
+19             0.570769                   0.0             0.5
+18             0.570769                   0.0             0.5
+17             0.570769                   0.0             0.5
+16             0.570769                   0.0             0.5
+15             0.570769                   0.0             0.5
+14             0.570769                   0.0             0.5
+13             0.570769                   0.0             0.5
+12             0.570769                   0.0             0.5
+11             0.570769                   0.0             0.5
+10             0.570769                   0.0             0.5
+9              0.570769                   0.0             0.5
+8              0.570769                   0.0             0.5
+7              0.570769                   0.0             0.5
+6              0.570769                   0.0             0.5
+5              0.570769                   0.0             0.5
+4              0.570769                   0.0             0.5
+3              0.570769                   0.0             0.5
+2              0.570769                   0.0             0.5
+29             0.570769                   0.0             0.5
+2023-04-11 18:06:03,658 [INFO] Best model :
+SVC(C=0.01, gamma=0.01, random_state=42)
+2023-04-11 18:06:03,711 [INFO] Save train_prediction_log data...
+2023-04-11 18:06:03,715 [INFO] {'Data': 'train', 'ACC': '0.57 (371 / 650)', 'TP': 0, 'FP': 0, 'FN': 279, 'TN': 371, 'Precision': '0 (0 / 0 + 0)', 'Recall': '0 (0 / 0 + 279)', 'F1': '0 (2 * (0 * 0) / 0 + 0)', 'Specificity': '1.0 (371 / 371 + 0)', 'AUC': 0.5, 'r2': -0.75}
+2023-04-11 18:06:03,731 [INFO] Save test_prediction_log data...
+2023-04-11 18:06:03,733 [INFO] {'Data': 'test', 'ACC': '0.57 (93 / 162)', 'TP': 0, 'FP': 0, 'FN': 69, 'TN': 93, 'Precision': '0 (0 / 0 + 0)', 'Recall': '0 (0 / 0 + 69)', 'F1': '0 (2 * (0 * 0) / 0 + 0)', 'Specificity': '1.0 (93 / 93 + 0)', 'AUC': 0.5, 'r2': -0.74}
+2023-04-11 18:06:03,755 [INFO] Save ext_prediction_log data...
+2023-04-11 18:06:03,757 [INFO] {'Data': 'ext', 'ACC': '0.57 (93 / 162)', 'TP': 0, 'FP': 0, 'FN': 69, 'TN': 93, 'Precision': '0 (0 / 0 + 0)', 'Recall': '0 (0 / 0 + 69)', 'F1': '0 (2 * (0 * 0) / 0 + 0)', 'Specificity': '1.0 (93 / 93 + 0)', 'AUC': 0.5, 'r2': -0.74}
+2023-04-11 18:06:03,760 [INFO] Save training_log data...
+2023-04-11 18:06:03,761 [INFO] Save score_log data...
+2023-04-11 18:06:03,762 [INFO] Time : 3.91921329498291

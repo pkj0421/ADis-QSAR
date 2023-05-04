@@ -1,0 +1,43 @@
+2023-04-06 03:23:47,897 [INFO] Train data : D:\PARK\Lab\Database\ADis-QSAR_final\data\DUDE\AKT1\ECFP4_256bits\preprocessing\AKT1_train_vector.tsv
+2023-04-06 03:23:47,897 [INFO] Test data : D:\PARK\Lab\Database\ADis-QSAR_final\data\DUDE\AKT1\ECFP4_256bits\preprocessing\AKT1_test_vector.tsv
+2023-04-06 03:23:47,897 [INFO] Output path : D:\PARK\Lab\Database\ADis-QSAR_final\data\DUDE\AKT1\ECFP4_256bits\AKT1_model\XGB
+2023-04-06 03:23:47,897 [INFO] Model type : XGB
+2023-04-06 03:23:47,897 [INFO] Use cores : 10
+2023-04-06 03:23:47,914 [INFO] Start Learning model
+2023-04-06 03:23:47,915 [INFO] Train : 485 | Test : 119
+2023-04-06 03:23:47,915 [INFO] Set parameters : {'max_depth': [4, 6, 8], 'learning_rate': [0.01, 0.2], 'n_estimators': [200, 600, 1000], 'gamma': [0, 1000], 'min_child_weight': [1, 3], 'subsample': [0.5, 1], 'colsample_bytree': [0.5, 1], 'objective': ['binary:logitraw'], 'eval_metric': ['auc', 'error']}
+2023-04-06 03:32:30,078 [INFO] GridSearchCV results :
+     mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+156             0.954847              0.988487        0.945425
+168             0.954847              0.988487        0.945425
+24              0.954847              0.988487        0.945425
+12              0.954847              0.988487        0.945425
+17              0.977423              0.984474        0.974490
+..                   ...                   ...             ...
+362             0.600043              0.000000        0.500000
+361             0.600043              0.000000        0.500000
+360             0.600043              0.000000        0.500000
+113             0.600043              0.000000        0.500000
+575             0.600043              0.000000        0.500000
+
+[576 rows x 3 columns]
+2023-04-06 03:32:30,081 [INFO] Best model :
+XGBClassifier(base_score=0.5, booster='gbtree', callbacks=None,
+              colsample_bylevel=1, colsample_bynode=1, colsample_bytree=0.5,
+              early_stopping_rounds=None, enable_categorical=False,
+              eval_metric='auc', gamma=0, gpu_id=-1, grow_policy='depthwise',
+              importance_type=None, interaction_constraints='',
+              learning_rate=0.01, max_bin=256, max_cat_to_onehot=4,
+              max_delta_step=0, max_depth=6, max_leaves=0, min_child_weight=1,
+              missing=nan, monotone_constraints='()', n_estimators=200,
+              n_jobs=0, num_parallel_tree=1, objective='binary:logitraw',
+              predictor='auto', random_state=42, reg_alpha=0, ...)
+2023-04-06 03:32:30,091 [INFO] Save train_prediction_log data...
+2023-04-06 03:32:30,095 [INFO] {'Data': 'train', 'ACC': '0.99 (481 / 485)', 'TP': 190, 'FP': 0, 'FN': 4, 'TN': 291, 'Precision': '1.0 (190 / 190 + 0)', 'Recall': '0.98 (190 / 190 + 4)', 'F1': '0.99 (2 * (0.98 * 1.0) / 0.98 + 1.0)', 'Specificity': '1.0 (291 / 291 + 0)', 'AUC': 0.99, 'r2': 0.97}
+2023-04-06 03:32:30,102 [INFO] Save test_prediction_log data...
+2023-04-06 03:32:30,105 [INFO] {'Data': 'test', 'ACC': '0.98 (117 / 119)', 'TP': 49, 'FP': 2, 'FN': 0, 'TN': 68, 'Precision': '0.96 (49 / 49 + 2)', 'Recall': '1.0 (49 / 49 + 0)', 'F1': '0.98 (2 * (1.0 * 0.96) / 1.0 + 0.96)', 'Specificity': '0.97 (68 / 68 + 2)', 'AUC': 0.99, 'r2': 0.93}
+2023-04-06 03:32:30,119 [INFO] Save ext_prediction_log data...
+2023-04-06 03:32:30,122 [INFO] {'Data': 'ext', 'ACC': '0.71 (84 / 119)', 'TP': 20, 'FP': 6, 'FN': 29, 'TN': 64, 'Precision': '0.77 (20 / 20 + 6)', 'Recall': '0.41 (20 / 20 + 29)', 'F1': '0.54 (2 * (0.41 * 0.77) / 0.41 + 0.77)', 'Specificity': '0.91 (64 / 64 + 6)', 'AUC': 0.66, 'r2': -0.21}
+2023-04-06 03:32:30,126 [INFO] Save training_log data...
+2023-04-06 03:32:30,484 [INFO] Save score_log data...
+2023-04-06 03:32:30,486 [INFO] Time : 522.5886964797974

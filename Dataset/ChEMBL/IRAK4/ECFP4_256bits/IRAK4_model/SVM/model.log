@@ -1,0 +1,48 @@
+2023-04-04 19:49:53,748 [INFO] Train data : D:\PARK\Lab\Database\ADis-QSAR_final\data\ChEMBL\IRAK4\ECFP4_256bits\preprocessing\IRAK4_train_vector.tsv
+2023-04-04 19:49:53,748 [INFO] Test data : D:\PARK\Lab\Database\ADis-QSAR_final\data\ChEMBL\IRAK4\ECFP4_256bits\preprocessing\IRAK4_test_vector.tsv
+2023-04-04 19:49:53,748 [INFO] Output path : D:\PARK\Lab\Database\ADis-QSAR_final\data\ChEMBL\IRAK4\ECFP4_256bits\IRAK4_model\SVM
+2023-04-04 19:49:53,748 [INFO] Model type : SVM
+2023-04-04 19:49:53,748 [INFO] Use cores : 10
+2023-04-04 19:49:53,767 [INFO] Start Learning model
+2023-04-04 19:49:53,767 [INFO] Train : 641 | Test : 161
+2023-04-04 19:49:53,768 [INFO] Set parameters : {'C': [0.01, 0.1, 1, 10, 100, 1000], 'gamma': [0.01, 0.1, 1, 100, 1000]}
+2023-04-04 19:49:56,903 [INFO] GridSearchCV results :
+    mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+0              0.570986                   0.0             0.5
+1              0.570986                   0.0             0.5
+28             0.570986                   0.0             0.5
+27             0.570986                   0.0             0.5
+26             0.570986                   0.0             0.5
+25             0.570986                   0.0             0.5
+24             0.570986                   0.0             0.5
+23             0.570986                   0.0             0.5
+22             0.570986                   0.0             0.5
+21             0.570986                   0.0             0.5
+20             0.570986                   0.0             0.5
+19             0.570986                   0.0             0.5
+18             0.570986                   0.0             0.5
+17             0.570986                   0.0             0.5
+16             0.570986                   0.0             0.5
+15             0.570986                   0.0             0.5
+14             0.570986                   0.0             0.5
+13             0.570986                   0.0             0.5
+12             0.570986                   0.0             0.5
+11             0.570986                   0.0             0.5
+10             0.570986                   0.0             0.5
+9              0.570986                   0.0             0.5
+8              0.570986                   0.0             0.5
+7              0.570986                   0.0             0.5
+6              0.570986                   0.0             0.5
+5              0.570986                   0.0             0.5
+4              0.570986                   0.0             0.5
+3              0.570986                   0.0             0.5
+2              0.570986                   0.0             0.5
+29             0.570986                   0.0             0.5
+2023-04-04 19:49:56,904 [INFO] Best model :
+SVC(C=0.01, gamma=0.01, random_state=42)
+2023-04-04 19:49:56,948 [INFO] {'Data': 'train', 'ACC': '0.57 (366 / 641)', 'TP': 0, 'FP': 0, 'FN': 275, 'TN': 366, 'Precision': '0 (0 / 0 + 0)', 'Recall': '0 (0 / 0 + 275)', 'F1': '0 (2 * (0 * 0) / 0 + 0)', 'Specificity': '1.0 (366 / 366 + 0)', 'AUC': 0.5, 'r2': -0.75}
+2023-04-04 19:49:56,961 [INFO] {'Data': 'test', 'ACC': '0.57 (92 / 161)', 'TP': 0, 'FP': 0, 'FN': 69, 'TN': 92, 'Precision': '0 (0 / 0 + 0)', 'Recall': '0 (0 / 0 + 69)', 'F1': '0 (2 * (0 * 0) / 0 + 0)', 'Specificity': '1.0 (92 / 92 + 0)', 'AUC': 0.5, 'r2': -0.75}
+2023-04-04 19:49:56,980 [INFO] {'Data': 'ext', 'ACC': '0.57 (92 / 161)', 'TP': 0, 'FP': 0, 'FN': 69, 'TN': 92, 'Precision': '0 (0 / 0 + 0)', 'Recall': '0 (0 / 0 + 69)', 'F1': '0 (2 * (0 * 0) / 0 + 0)', 'Specificity': '1.0 (92 / 92 + 0)', 'AUC': 0.5, 'r2': -0.75}
+2023-04-04 19:49:57,022 [INFO] Save training_log data...
+2023-04-04 19:49:57,024 [INFO] Save score_log data...
+2023-04-04 19:49:57,024 [INFO] Time : 3.2758548259735107

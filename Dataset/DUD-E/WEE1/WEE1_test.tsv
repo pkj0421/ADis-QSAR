@@ -1,0 +1,26 @@
+Compound_ID	Active	Smiles	canonical_smi	Set	Set_type	MW	HBD	HBA	NRB	NR	NAR	PSA	Standard Type	Standard Relation	Standard Units	Standard Value	Assay ChEMBL ID	Assay Description	BAO Label
+CHEMBL472542	1.0	NC(=O)CCn2c1ccc(O)cc1c5c2cc(c3ccccc3Cl)c4c(=O)[nH]c(=O)c45	NC(=O)CCn1c2ccc(O)cc2c2c3c(c(-c4ccccc4Cl)cc21)C(=O)NC3=O	G2 active	Test	433.85	3	4	4	5	4	114.42							
+CHEMBL471163	1.0	OCCCn2c1ccc(O)cc1c5c2cc(c3c(Cl)cccc3Cl)c4c(=O)[nH]c(=O)c45	O=C1NC(=O)c2c1c(-c1c(Cl)cccc1Cl)cc1c2c2cc(O)ccc2n1CCCO	G2 active	Test	455.3	3	4	4	5	4	91.56							
+CHEMBL256480	1.0	Oc1cc6c(cc1OCCCN2CCOCC2)[nH]c5cc(c3ccccc3Cl)c4c(=O)[nH]c(=O)c4c56	O=C1NC(=O)c2c1c(-c1ccccc1Cl)cc1[nH]c3cc(OCCCN4CCOCC4)c(O)cc3c21	G2 active	Test	505.96	3	6	6	6	4	103.89							
+CHEMBL438566	1.0	Cn3c2cc(CCCCN1CCOCC1)c(O)cc2c6c3cc(c4ccccc4Cl)c5c(=O)[nH]c(=O)c56	Cn1c2cc(CCCCN3CCOCC3)c(O)cc2c2c3c(c(-c4ccccc4Cl)cc21)C(=O)NC3=O	G2 active	Test	518.01	2	5	6	6	4	83.8							
+CHEMBL403679	1.0	Oc1cc6c(cc1CCCCN2CCOCC2)[nH]c5cc(c3ccccc3Cl)c4c(=O)[nH]c(=O)c4c56	O=C1NC(=O)c2c1c(-c1ccccc1Cl)cc1[nH]c3cc(CCCCN4CCOCC4)c(O)cc3c21	G2 active	Test	503.99	3	5	6	6	4	94.66							
+CHEMBL486665	1.0	Oc6ccc5n(CCCn1ccnc1)c4cc(c2ccccc2Cl)c3c(=O)[nH]c(=O)c3c4c5c6	O=C1NC(=O)c2c1c(-c1ccccc1Cl)cc1c2c2cc(O)ccc2n1CCCn1ccnc1	G2 active	Test	470.92	2	4	5	6	5	89.15							
+CHEMBL272351	1.0	Cn3c2cc(OCCCN1CCOCC1)c(O)cc2c6c3cc(c4ccccc4Cl)c5c(=O)[nH]c(=O)c56	Cn1c2cc(OCCCN3CCOCC3)c(O)cc2c2c3c(c(-c4ccccc4Cl)cc21)C(=O)NC3=O	G2 active	Test	519.99	2	6	6	6	4	93.03							
+CHEMBL483786	1.0	Oc6ccc5n(CCCC(=O)n1ccnc1)c4cc(c2c(Cl)cccc2Cl)c3c(=O)[nH]c(=O)c3c4c5c6	O=C1NC(=O)c2c1c(-c1c(Cl)cccc1Cl)cc1c2c2cc(O)ccc2n1CCCC(=O)n1ccnc1	G2 active	Test	533.37	2	5	5	6	5	106.22							
+CHEMBL529669	1.0	Oc6ccc5n(CCN1CCOCC1)c4cc(c2ccccc2Cl)c3c(=O)[nH]c(=O)c3c4c5c6	O=C1NC(=O)c2c1c(-c1ccccc1Cl)cc1c2c2cc(O)ccc2n1CCN1CCOCC1	G2 active	Test	475.93	2	5	4	6	4	83.8							
+CHEMBL483611	1.0	Oc6ccc5n(CCCC(=O)N1CCOCC1)c4cc(c2c(Cl)cccc2Cl)c3c(=O)[nH]c(=O)c3c4c5c6	O=C1NC(=O)c2c1c(-c1c(Cl)cccc1Cl)cc1c2c2cc(O)ccc2n1CCCC(=O)N1CCOCC1	G2 active	Test	552.41	2	5	5	6	4	100.87							
+C34107785	0.0	C[C@@H]1CCCN(C1)C2=NC(=O)/C(=C/c3ccc(o3)c4ccc(cc4)S(=O)(=O)N)/S2	C[C@@H]1CCCN(C2=NC(=O)/C(=C/c3ccc(-c4ccc(S(N)(=O)=O)cc4)o3)S2)C1	G2 inactive	Test	431.54	1	6	3	4	2	105.97							
+C14885806	0.0	c1c2cc3c(cc2nc(c1C[NH2+]CCC4=CCCCC4)N5CCC[C@H](C5)CO)OCO3	OC[C@@H]1CCCN(c2nc3cc4c(cc3cc2C[NH2+]CCC2=CCCCC2)OCO4)C1	G2 inactive	Test	424.57	2	5	7	5	2	71.43							
+C23191775	0.0	Cc1cc(n(n1)c2ccc(cc2)N3CCC(CC3)[NH2+]Cc4cc([nH]n4)C5CC5)C	Cc1cc(C)n(-c2ccc(N3CCC([NH2+]Cc4cc(C5CC5)[nH]n4)CC3)cc2)n1	G2 inactive	Test	391.54	2	3	6	5	3	66.35							
+C20214186	0.0	CCOC(=O)C1=C(NC(=O)N[C@@H]1c2ccc(cc2)Cl)CN3CCN(CC3)c4cc(ccc4C)C	CCOC(=O)C1=C(CN2CCN(c3cc(C)ccc3C)CC2)NC(=O)N[C@@H]1c1ccc(Cl)cc1	G2 inactive	Test	483.01	2	5	6	4	2	73.91							
+C40984335	0.0	Cc1c(nc(o1)c2ccc(c(c2)OC)OC)C[NH+]3CCC(CC3)C(=O)NCc4cccc(c4)C(F)(F)F	COc1ccc(-c2nc(C[NH+]3CCC(C(=O)NCc4cccc(C(F)(F)F)c4)CC3)c(C)o2)cc1OC	G2 inactive	Test	518.56	2	5	8	4	3	78.03							
+C02201806	0.0	c1ccc(cc1)N2CCN(CC2)c3c(c(=O)n4ccccc4n3)/C=C(\C#N)/C(=O)N	N#C/C(=C\c1c(N2CCN(c3ccccc3)CC2)nc2ccccn2c1=O)C(N)=O	G2 inactive	Test	400.44	1	6	4	4	3	107.73							
+C50558826	0.0	C1CCc2nnc(n2CC1)[C@H]3CCCN3C(=O)CNC(=O)NCC4CCCC4	O=C(NCC(=O)N1CCC[C@@H]1c1nnc2n1CCCCC2)NCC1CCCC1	G2 inactive	Test	388.52	2	4	5	4	1	92.15							
+C54982236	0.0	c1c(nc(nc1Cl)N)NC2[C@@H]3CCC[C@H]2C[NH+](C3)C4CC4	Nc1nc(Cl)cc(NC2[C@H]3CCC[C@@H]2C[NH+](C2CC2)C3)n1	G2 inactive	Test	308.84	3	4	3	4	1	68.27							
+C02411007	0.0	c1ccc2c(c1)nc3c(c(n(c3n2)/N=C/c4cccs4)N)S(=O)(=O)c5ccc(cc5)Cl	Nc1c(S(=O)(=O)c2ccc(Cl)cc2)c2nc3ccccc3nc2n1/N=C/c1cccs1	G2 inactive	Test	467.96	1	5	4	5	5	103.23							
+C16385782	0.0	c1cc(c(cc1[N+](=O)[O-])Cl)C(=O)NC(=S)Nc2ccc(cc2C(=O)[O-])Cl	O=C(NC(=S)Nc1ccc(Cl)cc1C(=O)[O-])c1ccc([N+](=O)[O-])cc1Cl	G2 inactive	Test	413.22	2	7	4	2	2	124.4							
+C16034506	0.0	CC(C)(C)[C@H]1CC=C2[C@@H](C1)[C@H](C(C(=C2C#N)N)(C#N)C#N)c3cc(c(cc3OC)OC)OC	COc1cc(OC)c([C@@H]2[C@@H]3C[C@@H](C(C)(C)C)CC=C3C(C#N)=C(N)C2(C#N)C#N)cc1OC	G2 inactive	Test	446.55	1	7	4	3	1	125.08							
+C13460367	0.0	COc1cc(cc(c1OC)S(=O)(=O)/N=c\2/[nH]c(cs2)c3ccc4c(c3)CCO4)/C=C/C(=O)[O-]	COc1cc(/C=C/C(=O)[O-])cc(S(=O)(=O)/N=c2/[nH]c(-c3ccc4c(c3)CCO4)cs2)c1OC	G2 inactive	Test	487.54	1	7	7	4	3	130.11							
+C40709637	0.0	c1ccc(cc1)CN(Cc2ccccc2)c3c(c(ncn3)Nc4ccc(cc4F)Br)N	Nc1c(Nc2ccc(Br)cc2F)ncnc1N(Cc1ccccc1)Cc1ccccc1	G2 inactive	Test	478.37	2	5	7	4	4	67.07							
+C16573745	0.0	CC[C@H](C)[C@H](C(=O)Nc1nnc(s1)c2cccc(c2)Br)NC(=O)Nc3ccc(cc3C)C	CC[C@H](C)[C@@H](NC(=O)Nc1ccc(C)cc1C)C(=O)Nc1nnc(-c2cccc(Br)c2)s1	G2 inactive	Test	516.47	3	4	7	3	3	96.01							
+C63530470	0.0	C[C@H](c1ccc2c(c1)OCCO2)NC(=O)[C@H]3C(=c4ccccc4=[NH+]3)Sc5ccc(cc5)Cl	C[C@@H](NC(=O)[C@@H]1[NH+]=c2ccccc2=C1Sc1ccc(Cl)cc1)c1ccc2c(c1)OCCO2	G2 inactive	Test	465.98	2	4	5	5	3	61.53							
