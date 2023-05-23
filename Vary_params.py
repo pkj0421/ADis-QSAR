@@ -4,6 +4,7 @@ import itertools
 import subprocess
 import numpy as np
 import pandas as pd
+import multiprocessing
 from joblib import dump
 from pathlib import Path
 from rdkit.Chem import PandasTools, AllChem
@@ -25,14 +26,14 @@ out_path = Path('Vary_params_results')
 out_path.mkdir(parents=True, exist_ok=True)
 
 
-def fps(df, rd, bt, g1):
+def fps(df, rd, bt, g1, n_cpu):
     PandasTools.AddMoleculeColumnToFrame(df)
     bit_generator = AllChem.GetMorganFingerprintAsBitVect
     df['bits'] = df['ROMol'].apply(lambda x: bit_generator(x, useChirality=True, radius=rd, nBits=bt))
     g1['bits'] = g1['ROMol'].apply(lambda x: bit_generator(x, useChirality=True, radius=rd, nBits=bt))
 
     # vectorize
-    vector = vectorize.run(g1, df, 12)
+    vector = vectorize.run(g1, df, n_cpu)
     return vector
 
 
@@ -44,6 +45,7 @@ if __name__ == "__main__":
     clt = Cluster()
     vectorize = Vector()
     run_list = ['IRAK4', 'SYK', 'CSF1R', 'KPCB', 'AKT1', 'FAK1', 'MET']
+    cores = multiprocessing.cpu_count() - 2
 
     col_wr = True
     for db in data_path.glob('*'):
@@ -87,7 +89,7 @@ if __name__ == "__main__":
                     while g1_cls:
                         if rb_idx == len(rb_lst) - 1:
                             break
-                        g1, g1_remains = clt.run(train_act, g1_cnt, rb_lst[rb_idx], 12)
+                        g1, g1_remains = clt.run(train_act, g1_cnt, rb_lst[rb_idx], cores)
                         if len(g1) == g1_cnt:
                             g1_cls = False
                         rb_idx += 1
@@ -113,15 +115,15 @@ if __name__ == "__main__":
                     test.drop(columns='ROMol').to_csv(fdata_path / f"{fn}_test.tsv", sep='\t', index=False)
                     ext.drop(columns='ROMol').to_csv(fdata_path / f"{fn}_external.tsv", sep='\t', index=False)
 
-                for radius in [1, 2, 3]:
+                for radius in [2, 3]:
                     for nbits in [256, 512]:
 
                         if g1_cnt == 50 and radius == 2 and nbits == 256:
                             continue
 
-                        train_vector = fps(train, rd=radius, bt=nbits, g1=g1)
-                        test_vector = fps(test, rd=radius, bt=nbits, g1=g1)
-                        ext_vector = fps(ext, rd=radius, bt=nbits, g1=g1)
+                        train_vector = fps(train, rd=radius, bt=nbits, g1=g1, n_cpu=cores)
+                        test_vector = fps(test, rd=radius, bt=nbits, g1=g1, n_cpu=cores)
+                        ext_vector = fps(ext, rd=radius, bt=nbits, g1=g1, n_cpu=cores)
 
                         fcols = [col for col in train_vector.columns if col.startswith('f_')]
                         for s_type, scaler in scalers.items():
@@ -149,7 +151,7 @@ if __name__ == "__main__":
 
                             # generate model
                             for md in ['RF', 'XGB', 'SVM', 'MLP']:
-                                model_run = f'-train {train_path} -test {test_path} -ext {ext_path} -o {f_output.as_posix()} -m {md} -core 12'
+                                model_run = f'-train {train_path} -test {test_path} -ext {ext_path} -o {f_output.as_posix()} -m {md} -core {cores}'
                                 subprocess.run(args=[sys.executable, 'ADis_QSAR.py'] + model_run.split(' '))
 
                                 model_path = f_output / f"{fn}_model" / md
