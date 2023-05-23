@@ -12,6 +12,7 @@ from Admodule import Utils
 from sklearn.svm import SVC
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.neural_network import MLPClassifier
 from sklearn.exceptions import UndefinedMetricWarning
 from sklearn.metrics import make_scorer, accuracy_score, roc_auc_score, precision_score, confusion_matrix, r2_score
 
@@ -177,6 +178,17 @@ if __name__ == "__main__":
                       "colsample_bytree": [0.5, 1],
                       "objective" : ['binary:logitraw'],
                       "eval_metric": ['auc', 'error'],
+                      }
+
+    elif args.model.upper() == 'MLP':
+        model = MLPClassifier(random_state=42)
+        parameters = {'hidden_layer_sizes': [(50,), (100,), (50, 50), (100, 100)],
+                      'learning_rate': ['constant', 'invscaling', 'adaptive'],
+                      'activation': ['relu', 'identity', 'logistic', 'tanh'],
+                      'solver': ['adam', 'sgd', 'lbfgs'],
+                      'alpha': [0.1, 0.01, 0.001],
+                      'max_iter': [500, 1000],
+                      'early_stopping': [True]
                       }
 
     else:
