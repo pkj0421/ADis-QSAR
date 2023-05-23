@@ -45,6 +45,7 @@ if __name__ == "__main__":
     vectorize = Vector()
     run_list = ['IRAK4', 'SYK', 'CSF1R', 'KPCB', 'AKT1', 'FAK1', 'MET']
 
+    col_wr = True
     for db in data_path.glob('*'):
         dn = db.stem
         if 'Summary' in dn:
@@ -181,9 +182,10 @@ if __name__ == "__main__":
                                 fwr[f"{md} SP"] = SP
 
                             with open(str(out_path / 'Vary_params_Summary.tsv'), 'a') as fw:
-                                if (fd_idx == 0) and (dn == 'ChEMBL'):
+                                if col_wr:
                                     fw.write('\t'.join(fwr.keys()) + '\n')
-                                fw.write('\t'.join(fwr.values()) + '\n')
+                                    col_wr = False
+                                fw.write('\t'.join(map(str, fwr.values())) + '\n')
 
             f_time = time.strftime("%H:%M:%S", time.gmtime(time.time() - start))
             finish(f'\nFinished: {fn}\nLearning time: {f_time}')
