@@ -10,7 +10,7 @@ from sklearn.preprocessing import RobustScaler, StandardScaler, MinMaxScaler
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-out_path = Path('Baseline_results')
+out_path = Path('Baseline')
 out_path.mkdir(parents=True, exist_ok=True)
 
 
@@ -28,8 +28,7 @@ def fps(df, rd, bt):
     return pd.DataFrame(new_df)
 
 
-data_path = Path(r"Dataset")
-# scalers = {'Robust': RobustScaler(), 'Standard': StandardScaler(), 'MinMax': MinMaxScaler()}
+data_path = Path(r"F_Dataset")
 scalers = {'Robust': RobustScaler()}
 radius_type = {1: 'ECFP2', 2: 'ECFP4', 3: 'ECFP6'}
 
@@ -41,49 +40,53 @@ for db in data_path.glob('*'):
         fn = fd.stem
         if 'table' in fn:
             continue
-        g1 = pd.read_csv(fd / f"{fn}_g1.tsv", sep='\t')
-        train = pd.read_csv(fd / f"{fn}_train.tsv", sep='\t')
-        test = pd.read_csv(fd / f"{fn}_test.tsv", sep='\t')
-        ext = pd.read_csv(fd / f"{fn}_external.tsv", sep='\t')
-
-        # print(f'target : {fn}')
-        # print('g1', len(g1))
-        # print('train', len(train), train['Active'].value_counts()[1], train['Active'].value_counts()[0])
-        # print('test', len(test), test['Active'].value_counts()[1], test['Active'].value_counts()[0])
-        # print('ext', len(ext), ext['Active'].value_counts()[1], ext['Active'].value_counts()[0])
-        # print('\n')
+        g1 = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_g1.tsv", sep='\t')
+        train = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_train.tsv", sep='\t')
+        valid = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_valid.tsv", sep='\t')
+        test = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_test.tsv", sep='\t')
 
         for radius in [2]:
             for nbits in [256]:
                 train_fps = fps(train, rd=radius, bt=nbits)
+                valid_fps = fps(valid, rd=radius, bt=nbits)
                 test_fps = fps(test, rd=radius, bt=nbits)
-                ext_fps = fps(ext, rd=radius, bt=nbits)
+
+                t_output = out_path / dn / fn / f"{radius_type[radius]}_{nbits}bits"
+                t_output.mkdir(parents=True, exist_ok=True)
+
+                train_raw_path = (t_output / f"{fn}_raw_train.tsv").as_posix()
+                valid_raw_path = (t_output / f"{fn}_raw_valid.tsv").as_posix()
+                test_raw_path = (t_output / f"{fn}_raw_test.tsv").as_posix()
+
+                train_fps.to_csv(train_raw_path, sep='\t', index=False)
+                valid_fps.to_csv(valid_raw_path, sep='\t', index=False)
+                test_fps.to_csv(test_raw_path, sep='\t', index=False)
 
                 fcols = [col for col in train_fps.columns if col.startswith('f_')]
                 for s_type, scaler in scalers.items():
                     train_fps[fcols] = scaler.fit_transform(train_fps[fcols])
+                    valid_fps[fcols] = scaler.transform(valid_fps[fcols])
                     test_fps[fcols] = scaler.transform(test_fps[fcols])
-                    ext_fps[fcols] = scaler.transform(ext_fps[fcols])
 
                     f_output = out_path / dn / fn / f"{radius_type[radius]}_{nbits}bits" / s_type
                     f_output.mkdir(parents=True, exist_ok=True)
 
                     scaler_path = (f_output / f"{fn}_scaler.pkl").as_posix()
                     train_path = (f_output / f"{fn}_train.tsv").as_posix()
+                    valid_path = (f_output / f"{fn}_valid.tsv").as_posix()
                     test_path = (f_output / f"{fn}_test.tsv").as_posix()
-                    ext_path = (f_output / f"{fn}_ext.tsv").as_posix()
 
-                    # dump(scaler, scaler_path)
-                    # train_fps.to_csv(train_path, sep='\t', index=False)
-                    # test_fps.to_csv(test_path, sep='\t', index=False)
-                    # ext_fps.to_csv(ext_path, sep='\t', index=False)
+                    dump(scaler, scaler_path)
+                    train_fps.to_csv(train_path, sep='\t', index=False)
+                    valid_fps.to_csv(valid_path, sep='\t', index=False)
+                    test_fps.to_csv(test_path, sep='\t', index=False)
 
                     fwr = {'Dataset': fn, 'Type': f"{radius_type[radius]}_{nbits}bits"}
 
                     # generate model
                     for md in ['RF', 'XGB', 'SVM', 'MLP']:
-                        # model_run = f'-train {train_path} -test {test_path} -ext {ext_path} -o {f_output.as_posix()} -m {md} -core 12'
-                        # subprocess.run(args=[sys.executable, 'ADis_QSAR.py'] + model_run.split(' '))
+                        model_run = f'-train {train_path} -valid {valid_path} -test {test_path} -o {f_output.as_posix()} -m {md} -core 12'
+                        subprocess.run(args=[sys.executable, 'ADis_QSAR.py'] + model_run.split(' '))
 
                         model_path = f_output / f"{fn}_model" / md
                         mcs = pd.read_csv(model_path / f"{fn}_{md}_model_score_log.tsv", sep='\t')

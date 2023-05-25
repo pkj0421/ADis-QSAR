@@ -109,8 +109,8 @@ def result_scoring(md, df, cols, name, out):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Generate ADis QSAR model')
     parser.add_argument('-train', '--train', required=True, help='Train data')
-    parser.add_argument('-test', '--test', required=True, help='Test data')
-    parser.add_argument('-ext', '--ext', default=False, help='External data')
+    parser.add_argument('-valid', '--valid', required=True, help='Valid data')
+    parser.add_argument('-test', '--test', default=False, help='Test data')
     parser.add_argument('-o', '--output', type=str, required=True, help='Set your output path')
     parser.add_argument('-m', '--model', type=str, default='RF', help='Set your model type')
     parser.add_argument('-core', '--num_cores', type=int, default=2, help='Set the number of CPU cores to use')
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     # path
     path_train = Path(args.train)
-    path_test = Path(args.test)
+    path_valid = Path(args.valid)
     file_name = path_train.stem.split('_')[0]
     path_output = Path(args.output) / f"{file_name}_model" / args.model
     path_output.mkdir(parents=True, exist_ok=True)
@@ -137,23 +137,24 @@ if __name__ == "__main__":
 
     # initial info
     logger.info(f'Train data : {path_train}')
-    logger.info(f'Test data : {path_test}')
+    logger.info(f'Valid data : {path_valid}')
     logger.info(f'Output path : {path_output}')
     logger.info(f'Model type : {args.model}')
     logger.info(f'Use cores : {n_cores}')
 
     # load data
     train = pd.read_csv(path_train, sep='\t')
-    test = pd.read_csv(path_test, sep='\t')
+    valid = pd.read_csv(path_valid, sep='\t')
 
     # data info
     logger.info('Start Learning model')
-    logger.info(f"Train : {len(train)} | Test : {len(test)}")
+    logger.info(f"Train : {len(train)} | Valid : {len(valid)}")
 
     # model init
     if args.model.upper() == 'SVM':
-        model = SVC(kernel='rbf', random_state=42)
-        parameters = {"C": [0.01, 0.1, 1, 10, 100, 1000],
+        model = SVC(random_state=42)
+        parameters = {"kernel": ['linear', 'rbf'],
+                      "C": [0.01, 0.1, 1, 10, 100, 1000],
                       "gamma": [0.01, 0.1, 1, 100, 1000],
                       }
 
@@ -205,14 +206,14 @@ if __name__ == "__main__":
 
     # scoring
     train_score = result_scoring(grid_model, train, xcols, 'train', out=path_output / f"{file_name}_{args.model}")
-    test_score = result_scoring(grid_model, test, xcols, 'test', out=path_output / f"{file_name}_{args.model}")
-    if args.ext:  # if you have
-        path_ext = Path(args.ext)
-        ext = pd.read_csv(path_ext, sep='\t')
-        ext_score = result_scoring(grid_model, ext, xcols, 'ext', out=path_output / f"{file_name}_{args.model}")
-        total_score = pd.DataFrame([train_score, test_score, ext_score])
+    valid_score = result_scoring(grid_model, valid, xcols, 'valid', out=path_output / f"{file_name}_{args.model}")
+    if args.test:  # if you have
+        path_test = Path(args.test)
+        test = pd.read_csv(path_test, sep='\t')
+        test_score = result_scoring(grid_model, test, xcols, 'test', out=path_output / f"{file_name}_{args.model}")
+        total_score = pd.DataFrame([train_score, valid_score, test_score])
     else:
-        total_score = pd.DataFrame([train_score, test_score])
+        total_score = pd.DataFrame([train_score, valid_score])
 
     # save model
     dump(grid_model, path_output / f'{file_name}_{args.model}_model.pkl')

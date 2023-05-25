@@ -67,17 +67,20 @@ if __name__ == "__main__":
     logger.info(f'Output path\t: {args.output}')
     time.sleep(1)
 
-    main_ar = int(input("Input active range (only int) [IC50, Ki, Kd] : "))
-    main_ir = int(input("Input inactive range (only int) [IC50, Ki, Kd] : "))
-    criteria = {'act': main_ar, 'inact': main_ir}
-    if args.inhits:
-        criteria['i-act'] = int(input("Input active range (only int) [%Inhibition] : "))
-        criteria['i-inact'] = int(input("Input inactive range (only int) [%Inhibition] : "))
-    logger.info(f"Active range\t: {criteria}")
-
     # load & preprocessing data
     filename_extension = path_data.suffix
     if args.chembl:
+
+        # main_ar = int(input("Input active range (only int) [IC50, Ki, Kd] : "))
+        # main_ir = int(input("Input inactive range (only int) [IC50, Ki, Kd] : "))
+        main_ar = 100
+        main_ir = 10000
+        criteria = {'act': main_ar, 'inact': main_ir}
+        if args.inhits:
+            # criteria['i-inact'] = int(input("Input inactive range (only int) [%Inhibition] : "))
+            criteria['i-inact'] = 20
+        logger.info(f"Active range\t: {criteria}")
+
         logger.info(f'Read ChEMBL raw data..')
         c_reader = Reader.ChEMBL_reader()
         c_reader.run(filename_extension, criteria, path_data, args.inhits, path_output / file_name)

@@ -45,6 +45,9 @@ def save(data, output, custom='custom'):
         if 'ROMol' in data.columns:
             data.drop(columns='ROMol', inplace=True)
 
+        # save tsv
+        data.to_csv(output.with_suffix('.tsv'), sep='\t', index=False)
+
         # save excel
         data.to_excel(output.with_suffix('.xlsx'), sheet_name='Sheet1', index=False, header=True)
 

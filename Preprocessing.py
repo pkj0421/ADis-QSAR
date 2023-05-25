@@ -2,12 +2,14 @@ import time
 import logging
 import warnings
 import argparse
+import itertools
 import pandas as pd
 
 from joblib import dump
 from pathlib import Path
+from rdkit.Chem import AllChem
 from Admodule import Reader, Grouping, Utils
-from sklearn.preprocessing import RobustScaler
+from sklearn.preprocessing import RobustScaler, StandardScaler, MinMaxScaler
 
 """
 This code is used for data preprocessing
@@ -33,14 +35,82 @@ The output is train(sdf, vector), test(sdf, vector), and scaler(.pkl) files
 logger = logging.getLogger(__name__)
 
 
+def adjust_ratio(df1, df2, ratio, cores):
+    len1 = df1.shape[0]
+    len2 = df2.shape[0]
+
+    if len1 > len2:
+        target_len = int(len2 * (1 / ratio))
+        df1_cent = pick_molecules(df1, target_len, cores)[0]
+        df2_cent = df2.copy()
+
+    elif len2 >= len1:
+        target_len = int(len1 * ratio)
+        if len2 == target_len:
+            df1_cent = df1.copy()
+            df2_cent = df2.copy()
+        elif len2 > target_len:
+            df1_cent = df1.copy()
+            df2_cent = pick_molecules(df2, target_len, cores)[0]
+        else:
+            fix_target_len = int(len2 * (1 / ratio))
+            df1_cent = pick_molecules(df1, fix_target_len, cores)[0]
+            df2_cent = df2.copy()
+
+    return df1_cent, df2_cent
+
+
+def pick_molecules(df, cls_num, cores, rb=False):
+    rb_idx = 0
+    check = True
+    rb_lst = [x for x in itertools.product([3, 2, 1], [2048, 1024, 512, 256])]
+    clt = Grouping.Cluster()
+
+    while check:
+        if rb_idx == len(rb_lst) - 1:
+            break
+        logger.info(f'Use radius, nbits for Butina clustering : {rb_lst[rb_idx]}')
+        cent, remains = clt.run(df, cls_num, rb_lst[rb_idx], cores)
+        if len(cent) == cls_num:
+            check = False
+        rb_idx += 1
+
+    if len(cent) > cls_num:
+        cent.reset_index(drop=True, inplace=True)
+        num_rows = len(cent) - cls_num
+        random_rows = cent.sample(num_rows, random_state=42)
+
+        cent.drop(random_rows.index, inplace=True)
+        remains = pd.concat([remains, random_rows])
+        remains.reset_index(drop=True, inplace=True)
+    elif len(cent) < cls_num:
+        cent.reset_index(drop=True, inplace=True)
+        num_rows = cls_num - len(cent)
+        random_rows = remains.sample(num_rows, random_state=42)
+
+        remains.drop(random_rows.index, inplace=True)
+        cent = pd.concat([cent, random_rows])
+        cent.reset_index(drop=True, inplace=True)
+    else:
+        pass
+
+    if rb:
+        bit_generator = AllChem.GetMorganFingerprintAsBitVect
+        cent['bits'] = cent['ROMol'].apply(lambda x: bit_generator(x, useChirality=True, radius=rb[0], nBits=rb[1]))
+        remains['bits'] = remains['ROMol'].apply(lambda x: bit_generator(x, useChirality=True, radius=rb[0], nBits=rb[1]))
+    return cent, remains
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Preprocessing data')
     parser.add_argument('-a', '--active', required=True, help='Active data')
     parser.add_argument('-i', '--inactive', required=True, help='Inactive data')
     parser.add_argument('-o', '--output', type=str, required=True, help='Set your output path')
+    parser.add_argument('-v', '--valid_size', type=float, default=0.2, help='Set your valid size')
     parser.add_argument('-t', '--test_size', type=float, default=0.2, help='Set your test size')
     parser.add_argument('-r', '--radius', type=int, default=2, help='Set your radius')
     parser.add_argument('-b', '--bits', type=int, default=256, help='Set your nbits')
+    parser.add_argument('-s', '--scaler', type=str, default='Robust', help='Set your scaler')
     parser.add_argument('-core', '--num_cores', type=int, default=2, help='Set the number of CPU cores to use')
     args = parser.parse_args()
 
@@ -68,7 +138,6 @@ if __name__ == "__main__":
     logger.info(f'Active data : {path_active}')
     logger.info(f'Inactive data : {path_inactive}')
     logger.info(f'Output path : {path_output}')
-    logger.info(f'Test size : {args.test_size}')
     logger.info(f'Fingerprint radius : {args.radius}')
     logger.info(f'Fingerprint nbits : {args.bits}')
     logger.info(f'Use cores : {n_cores}')
@@ -78,53 +147,81 @@ if __name__ == "__main__":
     active = c_reader.run(path_active.suffix, path_active)
     inactive = c_reader.run(path_inactive.suffix, path_inactive)
 
-    # # split train & test
-    train_size = 10 - (args.test_size * 10)
+    # # split train & valid & test
+    train_size = 10 - (args.valid_size * 10)
+    valid_size = args.valid_size * 10
     test_size = args.test_size * 10
-    clt = Grouping.Cluster()
+    logger.info(f'Train : Valid = {int(train_size)} : {int(valid_size)}')
+    logger.info(f"Test size = {int(test_size)}")
 
     rb = [args.radius, args.bits]
-    g1, g1_remains = clt.run(active, 50, rb, n_cores)
+    g1, g1_remains = pick_molecules(active, 50, n_cores, rb)
 
     # Grouping
     g1['Group'] = 'G1'
     g1_remains['Group'] = 'G2'
     inactive['Group'] = 'G2'
 
+    # set active : inactive ratio
+    active, inactive = adjust_ratio(active, inactive, 1.5, n_cores)
+    logger.info(f"Adjust ratio : active ({len(active)}), inactive ({len(inactive)})")
+
     # divide active
-    da = len(g1_remains) / 10
-    tra, tea = list(map(round, [da * train_size, da * test_size]))
-    train_act, test_act = clt.run(g1_remains, tra, rb, n_cores)
+    da = len(g1_remains) / (train_size + valid_size + test_size)
+    tra, va, tea = list(map(round, [da * train_size, da * valid_size, da * test_size]))
+    logger.info(f"tra : {tra}, va : {va}, tea : {tea}")
+
+    train_act, ta_remains = pick_molecules(g1_remains, tra, n_cores, rb)
+    valid_act, test_act = pick_molecules(ta_remains, va, n_cores, rb)
+    logger.info(f"train_act : {len(train_act)}, valid_act : {len(valid_act)}, test_act : {len(test_act)}")
 
     # divide inactive
-    di = len(inactive) / 10
-    tri, tei = list(map(round, [da * train_size, da * test_size]))
-    train_inact, test_inact = clt.run(inactive, tri, rb, n_cores)
+    di = len(inactive) / (train_size + valid_size + test_size)
+    tri, vi, tei = list(map(round, [di * train_size, di * valid_size, di * test_size]))
+    logger.info(f"tri : {tri}, va : {vi}, tea : {tei}")
+
+    train_inact, ti_remains = pick_molecules(inactive, tri, n_cores, rb)
+    valid_inact, test_inact = pick_molecules(ti_remains, vi, n_cores, rb)
+    logger.info(f"train_inact : {len(train_inact)}, valid_inact : {len(valid_inact)}, test_inact : {len(test_inact)}")
 
     # save dataset
-    g2_train = pd.concat([train_act, train_inact])
-    g2_test = pd.concat([test_act, test_inact])
+    g2_train = pd.concat([train_act, train_inact]).reset_index(drop=True)
+    g2_valid = pd.concat([valid_act, valid_inact]).reset_index(drop=True)
+    g2_test = pd.concat([test_act, test_inact]).reset_index(drop=True)
+    logger.info(f"G1 : {len(g1)}, Train : {len(g2_train)}, Valid : {len(g2_valid)}, Test : {len(g2_test)}")
+
     Utils.save(g1, path_output / file_name, custom=f"g1")
     Utils.save(g2_train, path_output / file_name, custom=f"train")
+    Utils.save(g2_valid, path_output / file_name, custom=f"valid")
     Utils.save(g2_test, path_output / file_name, custom=f"test")
 
     # vectorize
     vectorize = Grouping.Vector()
     logger.info('Generate train vectors...')
     train_vector = vectorize.run(g1, g2_train, n_cores)
+    logger.info('Generate valid vectors...')
+    valid_vector = vectorize.run(g1, g2_valid, n_cores)
     logger.info('Generate test vectors...')
     test_vector = vectorize.run(g1, g2_test, n_cores)
 
+    # save before scaling
+    Utils.save(train_vector, path_output / file_name, custom=f"train_raw_vector")
+    Utils.save(valid_vector, path_output / file_name, custom=f"valid_raw_vector")
+    Utils.save(test_vector, path_output / file_name, custom=f"test_raw_vector")
+
     # scaling
     logger.info('Scaling vectors...')
-    scaler = RobustScaler()
+    scalers = {'Robust': RobustScaler(), 'Standard': StandardScaler(), 'MinMax': MinMaxScaler()}
+    scaler = scalers[args.scaler]
     cols = [col for col in train_vector.columns if col.startswith('f_')]
     train_vector[cols] = scaler.fit_transform(train_vector[cols])
+    valid_vector[cols] = scaler.transform(valid_vector[cols])
     test_vector[cols] = scaler.transform(test_vector[cols])
 
     # save
-    dump(scaler, path_output / f"{file_name}_scaler.pkl")
+    dump(scaler, path_output / f"{file_name}_{args.scaler}_scaler.pkl")
     Utils.save(train_vector, path_output / file_name, custom=f"train_vector")
+    Utils.save(valid_vector, path_output / file_name, custom=f"valid_vector")
     Utils.save(test_vector, path_output / file_name, custom=f"test_vector")
 
     # finish

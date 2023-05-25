@@ -39,14 +39,15 @@ class ChEMBL_reader:
             if inhit:
                 active, inactive = self._divide(final_data, criteria, inhits=True)
                 logger.info(f"[IC50, Ki, Kd]\tActive range : x <= {criteria['act']}nM\tInactive range : {criteria['inact']}nM >= x")
-                logger.info(f"[Inhibition%]\tActive range : {criteria['i-act']}% >= x\tInactive range : x <= {criteria['i-inact']}%")
+                logger.info(f"[Inhibition%]\tInactive range : x <= {criteria['i-inact']}%")
             else:
                 active, inactive = self._divide(final_data, criteria)
                 logger.info(f"[IC50, Ki, Kd]\tActive range : x <= {criteria['act']}nM\tInactive range : {criteria['inact']}nM >= x")
-            logger.info(f"Divide set : active ({len(active)}), inactive ({len(inactive)})")
+            total = pd.concat([active, inactive]).reset_index(drop=True)
+            logger.info(f"Divide set : total ({len(total)}) [ active ({len(active)}), inactive ({len(inactive)}) ]")
 
             # save
-            save(final_data.drop(columns='ROMol'), output, custom='total')
+            save(total.drop(columns='ROMol'), output, custom='total')
             save(active.drop(columns='ROMol'), output, custom='active')
             save(inactive.drop(columns='ROMol'), output, custom='inactive')
             return pd.concat([active, inactive])
@@ -104,9 +105,13 @@ class ChEMBL_reader:
         select_data.dropna(subset=['Smiles', 'Standard Value'], how='any', inplace=True)
         logger.info(f'Remove missing values : {len(raw_data) - len(select_data)}')
 
-        # remove salts
-        select_data['Smiles'] = select_data['Smiles'].apply(lambda x: max(x.split('.'), key=len))
+        # remove salts & canonical
+        select_data['Smiles'] = select_data['Smiles'].apply(lambda x: Chem.CanonSmiles(max(x.split('.'), key=len)))
         logger.info(f'Remove salts...')
+
+        # remove duple smi
+        select_data.drop_duplicates(subset=['Smiles'], keep='first', inplace=True)
+        logger.info(f'Remove duple Smiles...')
 
         # generate ROMol
         PandasTools.AddMoleculeColumnToFrame(select_data)
@@ -165,7 +170,7 @@ class ChEMBL_reader:
         if tp == 'main':
             acts['Active'] = acts['Standard Value'].apply(lambda x: 1 if x <= criteria['act'] else (0 if x >= criteria['inact'] else None))
         if tp == 'inhit':
-            acts['Active'] = acts['Standard Value'].apply(lambda x: 1 if x >= criteria['i-act'] else (0 if x <= criteria['i-inact'] else None))
+            acts['Active'] = acts['Standard Value'].apply(lambda x: 0 if x <= criteria['i-inact'] else None)
 
         active = acts[acts['Active'] == 1]
         inactive = acts[acts['Active'] == 0]
@@ -317,9 +322,13 @@ class Custom_reader:
         mv_data = raw_data.dropna(subset=['Smiles', 'Active'], how='any')
         logger.info(f'Remove missing values : {len(raw_data) - len(mv_data)}')
 
-        # remove salts
-        mv_data['Smiles'] = mv_data['Smiles'].apply(lambda x: max(x.split('.'), key=len))
+        # remove salts & canonical
+        mv_data['Smiles'] = mv_data['Smiles'].apply(lambda x: Chem.CanonSmiles(max(x.split('.'), key=len)))
         logger.info(f'Remove salts...')
+
+        # remove duple smi
+        mv_data.drop_duplicates(subset=['Smiles'], keep='first', inplace=True)
+        logger.info(f'Remove duple Smiles...')
 
         # generate ROMol
         PandasTools.AddMoleculeColumnToFrame(mv_data)
@@ -329,9 +338,8 @@ class Custom_reader:
 
     @staticmethod
     def _divide(df):
-        df.dropna(columns='Active', inplace=True)
+        df.dropna(subset='Active', inplace=True)
         df['Active'] = df['Active'].astype('int')
         active = df[df['Active'] == 1].reset_index(drop=True)
         inactive = df[df['Active'] == 0].reset_index(drop=True)
         return active, inactive
-
