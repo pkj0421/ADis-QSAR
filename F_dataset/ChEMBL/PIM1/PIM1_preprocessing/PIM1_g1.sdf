@@ -1,0 +1,6850 @@
+
+     RDKit          2D
+
+ 27 30  0  0  0  0  0  0  0  0999 V2000
+   -1.5000   -7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5729   -4.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2611   -6.0972    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0401   -4.9418    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1057   -4.3181    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7701   -2.1590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  1
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  6
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 19 21  1  0
+ 19 22  1  0
+ 18 23  2  0
+ 13 24  2  0
+ 24 25  1  0
+  5 26  1  0
+ 26 27  1  0
+ 27  2  1  0
+ 25  7  2  0
+ 24 10  1  0
+ 23 14  1  0
+M  END
+>  <Compound_ID>  (1) 
+CHEMBL3355550
+
+>  <Molecule Name>  (1) 
+nan
+
+>  <Molecular Weight>  (1) 
+376.38
+
+>  <AlogP>  (1) 
+4.13
+
+>  <Smiles>  (1) 
+O[C@H]1CC[C@H](Nc2ccn3ncc(-c4cccc(C(F)(F)F)c4)c3n2)CC1
+
+>  <Standard Type>  (1) 
+IC50
+
+>  <Standard Relation>  (1) 
+'='
+
+>  <Standard Units>  (1) 
+nM
+
+>  <Standard Value>  (1) 
+25.0
+
+>  <Assay ChEMBL ID>  (1) 
+CHEMBL3888916
+
+>  <Assay Description>  (1) 
+Kinase-Glo Assay: These assays are set up in duplicate 50 ul volumes in white, flat bottom 96 well plates. Inhibitors are added to the solution of 1× kinase buffer, 10 uM ATP, 100 uM Pim-1-specific substrate, 50 ng of active Pim-1 enzyme, and water in serial dilutions ranging from micromolar to nanomolar concentrations. This solution is incubated at 30 degrees Celsius at 360 rpm for two hours. Following the incubation, 50 ul of Kinase-Glo reagent is added to each well, including all positive and negative control wells, and incubated at room temperature for 15 minutes. The plate is then read by the Luminoskan Ascent instrument and the results displayed with the Ascent Software version 2.6.
+
+>  <BAO Format ID>  (1) 
+BAO_0000357
+
+>  <BAO Label>  (1) 
+single protein format
+
+>  <Assay Organism>  (1) 
+None
+
+>  <Target ChEMBL ID>  (1) 
+CHEMBL2147
+
+>  <Target Name>  (1) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (1) 
+Homo sapiens
+
+>  <Target Type>  (1) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (1) 
+CHEMBL3886885
+
+>  <Source Description>  (1) 
+BindingDB Database
+
+>  <Document Journal>  (1) 
+nan
+
+>  <Document Year>  (1) 
+2016.0
+
+>  <Active>  (1) 
+1.0
+
+>  <bits>  (1) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2C00>
+
+>  <Group>  (1) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 26 30  0  0  0  0  0  0  0  0999 V2000
+    2.8075  -10.0411    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6927   -9.0374    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2662   -9.5009    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8486   -8.4972    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2751   -8.9607    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3899   -7.9570    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8164   -8.4206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1283   -9.8878    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0136  -10.8915    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5870  -10.4280    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5367   -7.0300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8899   -6.5665    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9918   -5.3529    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3037   -6.8202    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0046   -7.5702    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+  4 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 18 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  1  0
+ 13 24  2  0
+ 24 25  1  0
+ 25 26  1  0
+ 26  2  1  0
+ 10  5  1  0
+ 26 12  2  0
+ 19 14  1  0
+ 23 17  1  0
+M  END
+>  <Compound_ID>  (2) 
+CHEMBL2322228
+
+>  <Molecule Name>  (2) 
+nan
+
+>  <Molecular Weight>  (2) 
+371.41
+
+>  <AlogP>  (2) 
+3.13
+
+>  <Smiles>  (2) 
+O=c1cc(N2CCOCC2)oc2c(-c3ccc4c(c3)OCCO4)csc12
+
+>  <Standard Type>  (2) 
+IC50
+
+>  <Standard Relation>  (2) 
+'='
+
+>  <Standard Units>  (2) 
+nM
+
+>  <Standard Value>  (2) 
+43.0
+
+>  <Assay ChEMBL ID>  (2) 
+CHEMBL2330594
+
+>  <Assay Description>  (2) 
+Inhibition of PIM1 (unknown origin)
+
+>  <BAO Format ID>  (2) 
+BAO_0000357
+
+>  <BAO Label>  (2) 
+single protein format
+
+>  <Assay Organism>  (2) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (2) 
+CHEMBL2147
+
+>  <Target Name>  (2) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (2) 
+Homo sapiens
+
+>  <Target Type>  (2) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (2) 
+CHEMBL2321770
+
+>  <Source Description>  (2) 
+Scientific Literature
+
+>  <Document Journal>  (2) 
+J Med Chem
+
+>  <Document Year>  (2) 
+2013.0
+
+>  <Active>  (2) 
+1.0
+
+>  <bits>  (2) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2AB0>
+
+>  <Group>  (2) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 22 24  0  0  0  0  0  0  0  0999 V2000
+    4.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  3  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+  4 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 12 20  1  0
+ 20 21  1  0
+ 21 22  2  0
+ 21  3  1  0
+ 10  5  1  0
+ 18 13  1  0
+M  END
+>  <Compound_ID>  (3) 
+CHEMBL441913
+
+>  <Molecule Name>  (3) 
+nan
+
+>  <Molecular Weight>  (3) 
+288.31
+
+>  <AlogP>  (3) 
+3.29
+
+>  <Smiles>  (3) 
+N#Cc1c(-c2ccccc2)cc(-c2ccccc2O)[nH]c1=O
+
+>  <Standard Type>  (3) 
+IC50
+
+>  <Standard Relation>  (3) 
+'='
+
+>  <Standard Units>  (3) 
+nM
+
+>  <Standard Value>  (3) 
+50.0
+
+>  <Assay ChEMBL ID>  (3) 
+CHEMBL2033650
+
+>  <Assay Description>  (3) 
+Inhibition of human Pim-1 using 5-FAM-RSRHSSYPAGT-CONH2 as substrate preincubated for 15 mins prior substrate addition measured after 45 mins by fluorescence assay
+
+>  <BAO Format ID>  (3) 
+BAO_0000357
+
+>  <BAO Label>  (3) 
+single protein format
+
+>  <Assay Organism>  (3) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (3) 
+CHEMBL2147
+
+>  <Target Name>  (3) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (3) 
+Homo sapiens
+
+>  <Target Type>  (3) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (3) 
+CHEMBL2029227
+
+>  <Source Description>  (3) 
+Scientific Literature
+
+>  <Document Journal>  (3) 
+J Med Chem
+
+>  <Document Year>  (3) 
+2012.0
+
+>  <Active>  (3) 
+1.0
+
+>  <bits>  (3) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2A40>
+
+>  <Group>  (3) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 26 29  0  0  0  0  0  0  0  0999 V2000
+   -8.3464   -5.0433    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9199   -4.5797    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.3834   -3.1531    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4563   -6.0063    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4933   -4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1814   -2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  2  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 15 23  2  0
+ 23 24  1  0
+  8 25  1  0
+ 25 26  2  0
+ 26  5  1  0
+ 24  9  1  0
+ 24 12  1  0
+ 22 17  1  0
+M  END
+>  <Compound_ID>  (4) 
+CHEMBL2032368
+
+>  <Molecule Name>  (4) 
+nan
+
+>  <Molecular Weight>  (4) 
+361.37
+
+>  <AlogP>  (4) 
+4.55
+
+>  <Smiles>  (4) 
+FC(F)(F)c1ccc(-c2nnc3ccc(NC4CCCCC4)nn23)cc1
+
+>  <Standard Type>  (4) 
+Ki
+
+>  <Standard Relation>  (4) 
+'='
+
+>  <Standard Units>  (4) 
+nM
+
+>  <Standard Value>  (4) 
+11.0
+
+>  <Assay ChEMBL ID>  (4) 
+CHEMBL2033650
+
+>  <Assay Description>  (4) 
+Inhibition of human Pim-1 using 5-FAM-RSRHSSYPAGT-CONH2 as substrate preincubated for 15 mins prior substrate addition measured after 45 mins by fluorescence assay
+
+>  <BAO Format ID>  (4) 
+BAO_0000357
+
+>  <BAO Label>  (4) 
+single protein format
+
+>  <Assay Organism>  (4) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (4) 
+CHEMBL2147
+
+>  <Target Name>  (4) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (4) 
+Homo sapiens
+
+>  <Target Type>  (4) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (4) 
+CHEMBL2029227
+
+>  <Source Description>  (4) 
+Scientific Literature
+
+>  <Document Journal>  (4) 
+J Med Chem
+
+>  <Document Year>  (4) 
+2012.0
+
+>  <Active>  (4) 
+1.0
+
+>  <bits>  (4) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB29D0>
+
+>  <Group>  (4) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 15 16  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1399    2.6694    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2546    3.6731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0978    5.1648    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5537    2.9231    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2418    1.4558    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2455    0.3411    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+  9 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+  5 14  1  0
+ 14 15  2  0
+ 15  2  1  0
+ 12  7  1  0
+M  END
+>  <Compound_ID>  (5) 
+CHEMBL447571
+
+>  <Molecule Name>  (5) 
+nan
+
+>  <Molecular Weight>  (5) 
+219.26
+
+>  <AlogP>  (5) 
+2.52
+
+>  <Smiles>  (5) 
+Cc1ccc(/C=C2\SC(O)=NC2=O)cc1
+
+>  <Standard Type>  (5) 
+IC50
+
+>  <Standard Relation>  (5) 
+'='
+
+>  <Standard Units>  (5) 
+nM
+
+>  <Standard Value>  (5) 
+60.0
+
+>  <Assay ChEMBL ID>  (5) 
+CHEMBL957365
+
+>  <Assay Description>  (5) 
+Inhibition of human recombinant Pim1 by ATP depletion assay
+
+>  <BAO Format ID>  (5) 
+BAO_0000357
+
+>  <BAO Label>  (5) 
+single protein format
+
+>  <Assay Organism>  (5) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (5) 
+CHEMBL2147
+
+>  <Target Name>  (5) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (5) 
+Homo sapiens
+
+>  <Target Type>  (5) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (5) 
+CHEMBL1139352
+
+>  <Source Description>  (5) 
+Scientific Literature
+
+>  <Document Journal>  (5) 
+J Med Chem
+
+>  <Document Year>  (5) 
+2009.0
+
+>  <Active>  (5) 
+1.0
+
+>  <bits>  (5) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2960>
+
+>  <Group>  (5) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 29 34  0  0  0  0  0  0  0  0999 V2000
+    2.0046   -4.9721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3037   -4.2221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9918   -2.7549    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5729   -4.6300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6876   -5.6337    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1142   -5.1701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2289   -6.1738    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.9171   -7.6411    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4905   -8.1046    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3758   -7.1009    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9085   -6.7890    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3721   -8.2156    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7701   -2.1590    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8899   -3.9684    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  0
+ 18 17  1  6
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  1  0
+ 24 25  1  0
+ 16 26  2  0
+ 11 27  1  0
+ 27 28  2  0
+  4 29  2  0
+ 29  1  1  0
+ 28  5  1  0
+ 27  8  1  0
+ 26 12  1  0
+ 23 18  1  0
+ 25 23  1  0
+M  END
+>  <Compound_ID>  (6) 
+CHEMBL3393715
+
+>  <Molecule Name>  (6) 
+nan
+
+>  <Molecular Weight>  (6) 
+404.5
+
+>  <AlogP>  (6) 
+3.66
+
+>  <Smiles>  (6) 
+c1csc(-c2ccc3[nH]nc(-c4cncc(O[C@H]5CNCCC56CC6)n4)c3c2)n1
+
+>  <Standard Type>  (6) 
+IC50
+
+>  <Standard Relation>  (6) 
+'='
+
+>  <Standard Units>  (6) 
+nM
+
+>  <Standard Value>  (6) 
+3.0
+
+>  <Assay ChEMBL ID>  (6) 
+CHEMBL3396419
+
+>  <Assay Description>  (6) 
+Inhibition of full length recombinant Pim-1 (unknown origin) assessed as phosphorylation of biotinylated-BAD peptide at Serine 112 residue
+
+>  <BAO Format ID>  (6) 
+BAO_0000357
+
+>  <BAO Label>  (6) 
+single protein format
+
+>  <Assay Organism>  (6) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (6) 
+CHEMBL2147
+
+>  <Target Name>  (6) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (6) 
+Homo sapiens
+
+>  <Target Type>  (6) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (6) 
+CHEMBL3392976
+
+>  <Source Description>  (6) 
+Scientific Literature
+
+>  <Document Journal>  (6) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (6) 
+2015.0
+
+>  <Active>  (6) 
+1.0
+
+>  <bits>  (6) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB28F0>
+
+>  <Group>  (6) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 25 28  0  0  0  0  0  0  0  0999 V2000
+   -0.0000   -5.1073    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9483   -5.7711    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6983   -7.0701    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1655   -6.7583    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3223   -5.2665    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6213   -4.5165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6213   -3.0165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9204   -2.2665    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2194   -3.0165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2194   -4.5165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9204   -5.2665    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9204   -6.7665    0.0000 N   0  0  0  0  0  4  0  0  0  0  0  0
+   -5.6213   -7.5165    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2194   -7.5165    0.0000 O   0  0  0  0  0  1  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 22 23  1  0
+ 23 24  2  0
+ 23 25  1  0
+ 10  2  1  0
+ 16 12  1  0
+ 22 17  1  0
+  9  4  1  0
+M  CHG  2  23   1  25  -1
+M  END
+>  <Compound_ID>  (7) 
+CHEMBL2347053
+
+>  <Molecule Name>  (7) 
+nan
+
+>  <Molecular Weight>  (7) 
+332.32
+
+>  <AlogP>  (7) 
+3.48
+
+>  <Smiles>  (7) 
+O=C1Nc2ccccc2/C1=C/c1c[nH]nc1-c1ccccc1[N+](=O)[O-]
+
+>  <Standard Type>  (7) 
+IC50
+
+>  <Standard Relation>  (7) 
+'='
+
+>  <Standard Units>  (7) 
+nM
+
+>  <Standard Value>  (7) 
+54.0
+
+>  <Assay ChEMBL ID>  (7) 
+CHEMBL2350674
+
+>  <Assay Description>  (7) 
+Inhibition of PIM1 (unknown origin) after 10 mins by mobility shift assay
+
+>  <BAO Format ID>  (7) 
+BAO_0000357
+
+>  <BAO Label>  (7) 
+single protein format
+
+>  <Assay Organism>  (7) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (7) 
+CHEMBL2147
+
+>  <Target Name>  (7) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (7) 
+Homo sapiens
+
+>  <Target Type>  (7) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (7) 
+CHEMBL2346519
+
+>  <Source Description>  (7) 
+Scientific Literature
+
+>  <Document Journal>  (7) 
+Bioorg Med Chem
+
+>  <Document Year>  (7) 
+2013.0
+
+>  <Active>  (7) 
+1.0
+
+>  <bits>  (7) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2880>
+
+>  <Group>  (7) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 27 30  0  0  0  0  0  0  0  0999 V2000
+   -5.9843   -0.1781    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2961   -1.6453    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1814   -2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7548   -2.1855    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9918    2.7549    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3037    4.2221    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0046    4.9721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8478    6.4639    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4775    7.0740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3207    8.5658    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7360    6.1923    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8899    3.9684    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6904   -6.5871    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4933   -4.1162    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 18 20  1  0
+ 16 21  1  0
+ 12 22  1  0
+ 22 23  2  0
+  5 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+ 25 27  1  0
+ 27  3  1  0
+ 23  6  1  0
+ 23  9  1  0
+ 21 13  1  0
+M  END
+>  <Compound_ID>  (8) 
+CHEMBL3945846
+
+>  <Molecule Name>  (8) 
+nan
+
+>  <Molecular Weight>  (8) 
+366.38
+
+>  <AlogP>  (8) 
+2.8
+
+>  <Smiles>  (8) 
+COc1nc(-c2c[nH]c3ccc(-c4nnc(NC(C)C)o4)cc23)cc(=O)[nH]1
+
+>  <Standard Type>  (8) 
+IC50
+
+>  <Standard Relation>  (8) 
+'='
+
+>  <Standard Units>  (8) 
+nM
+
+>  <Standard Value>  (8) 
+15.9
+
+>  <Assay ChEMBL ID>  (8) 
+CHEMBL3888377
+
+>  <Assay Description>  (8) 
+Enzyme Assay: The assay for the determination of Pim activity is based on the formation of phosphorylated biotinylated-BAD peptide at the Serine 112 residue (S112) and employs HTRF® (homogeneous time resolved fluorescence) technology to detect the product in a 96-well plate format. The phosphorylation of biotinylated-BAD (S112) peptide by full length recombinant Pim-1, Pim-2, or Pim-3 protein was detected with streptavidin:Allophycocyanin (APC) conjugate and a europium (Eu) labeled antibody directed against phosphorylated-BAD (S112). Excitation of Eu by a high energy laser light (337 nm) leads to a transfer of energy to the APC molecule, and results in an emission at 665 nm. The fluorescence is directly proportional to the amount of phosphorylated BAD peptide present in the reaction.Compounds were prepared in DMSO by conducting 3-fold serial dilutions to give a 10-point dosing curve having a high dose of 1 uM. A reference compound was included on each assay plate in order to validate that plate; on
+
+>  <BAO Format ID>  (8) 
+BAO_0000357
+
+>  <BAO Label>  (8) 
+single protein format
+
+>  <Assay Organism>  (8) 
+None
+
+>  <Target ChEMBL ID>  (8) 
+CHEMBL2147
+
+>  <Target Name>  (8) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (8) 
+Homo sapiens
+
+>  <Target Type>  (8) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (8) 
+CHEMBL3886684
+
+>  <Source Description>  (8) 
+BindingDB Database
+
+>  <Document Journal>  (8) 
+nan
+
+>  <Document Year>  (8) 
+2016.0
+
+>  <Active>  (8) 
+1.0
+
+>  <bits>  (8) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2810>
+
+>  <Group>  (8) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 25 28  0  0  0  0  0  0  0  0999 V2000
+   -1.5000   -7.7942    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000   -2.5981    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  2  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 11 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+  9  4  1  0
+ 18 13  1  0
+ 25 20  1  0
+ 25  8  1  0
+M  END
+>  <Compound_ID>  (9) 
+CHEMBL1915649
+
+>  <Molecule Name>  (9) 
+nan
+
+>  <Molecular Weight>  (9) 
+332.34
+
+>  <AlogP>  (9) 
+3.76
+
+>  <Smiles>  (9) 
+NC(=O)c1cccc2c1nc(Nc1ccccc1F)c1ccncc12
+
+>  <Standard Type>  (9) 
+IC50
+
+>  <Standard Relation>  (9) 
+'='
+
+>  <Standard Units>  (9) 
+nM
+
+>  <Standard Value>  (9) 
+41.0
+
+>  <Assay ChEMBL ID>  (9) 
+CHEMBL1919015
+
+>  <Assay Description>  (9) 
+Inhibition of human recombinant Pim1 using RSRHSSYPAGT as substrate by radiometric assay in the presence of 30 uM [ATP]
+
+>  <BAO Format ID>  (9) 
+BAO_0000357
+
+>  <BAO Label>  (9) 
+single protein format
+
+>  <Assay Organism>  (9) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (9) 
+CHEMBL2147
+
+>  <Target Name>  (9) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (9) 
+Homo sapiens
+
+>  <Target Type>  (9) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (9) 
+CHEMBL1914433
+
+>  <Source Description>  (9) 
+Scientific Literature
+
+>  <Document Journal>  (9) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (9) 
+2011.0
+
+>  <Active>  (9) 
+1.0
+
+>  <bits>  (9) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB27A0>
+
+>  <Group>  (9) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 24 26  0  0  0  0  0  0  0  0999 V2000
+    6.2011   -9.5322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8308   -8.9221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6172   -9.8037    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6740   -7.4303    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3037   -6.8202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9918   -5.3529    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8899   -6.5665    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0046   -7.5702    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  2  4  1  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  8 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+  7 23  2  0
+ 23 24  1  0
+ 24  5  1  0
+ 16 11  1  0
+ 22 17  1  0
+M  END
+>  <Compound_ID>  (10) 
+CHEMBL3103881
+
+>  <Molecule Name>  (10) 
+nan
+
+>  <Molecular Weight>  (10) 
+344.44
+
+>  <AlogP>  (10) 
+3.34
+
+>  <Smiles>  (10) 
+CC(=O)Nc1nc(C(=O)Nc2ccccc2N2CCCCC2)cs1
+
+>  <Standard Type>  (10) 
+Ki
+
+>  <Standard Relation>  (10) 
+'='
+
+>  <Standard Units>  (10) 
+nM
+
+>  <Standard Value>  (10) 
+90.0
+
+>  <Assay ChEMBL ID>  (10) 
+CHEMBL3794687
+
+>  <Assay Description>  (10) 
+Inhibition of Pim1 (unknown origin) using BAD peptide preincubated for 15 mins followed by ATP addition measured after 60 to 100 mins by Kinase-Glo reagent based luminescence assay
+
+>  <BAO Format ID>  (10) 
+BAO_0000357
+
+>  <BAO Label>  (10) 
+single protein format
+
+>  <Assay Organism>  (10) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (10) 
+CHEMBL2147
+
+>  <Target Name>  (10) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (10) 
+Homo sapiens
+
+>  <Target Type>  (10) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (10) 
+CHEMBL3792348
+
+>  <Source Description>  (10) 
+Scientific Literature
+
+>  <Document Journal>  (10) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (10) 
+2016.0
+
+>  <Active>  (10) 
+1.0
+
+>  <bits>  (10) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2730>
+
+>  <Group>  (10) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 26 29  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4918    2.7549    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.8037    4.2221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.1740    4.8322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.3308    6.3240    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2160    7.3277    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.8261    8.6980    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.0761    9.9970    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.3179    8.5412    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.6298    7.0740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -12.0001    6.4639    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.5046    4.9721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3899    3.9684    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 15 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+ 11 20  2  0
+ 20 21  1  0
+  8 22  2  0
+ 22 23  1  0
+ 23 24  2  0
+  5 25  1  0
+ 25 26  1  0
+ 26  2  1  0
+ 24  6  1  0
+ 21  9  1  0
+ 18 13  1  0
+M  END
+>  <Compound_ID>  (11) 
+CHEMBL4060012
+
+>  <Molecule Name>  (11) 
+nan
+
+>  <Molecular Weight>  (11) 
+403.56
+
+>  <AlogP>  (11) 
+2.45
+
+>  <Smiles>  (11) 
+CN1CCN(c2cc(-c3nc(/C=C4\SC(=S)NC4=O)cs3)ccn2)CC1
+
+>  <Standard Type>  (11) 
+IC50
+
+>  <Standard Relation>  (11) 
+'='
+
+>  <Standard Units>  (11) 
+nM
+
+>  <Standard Value>  (11) 
+1.4
+
+>  <Assay ChEMBL ID>  (11) 
+CHEMBL4029679
+
+>  <Assay Description>  (11) 
+Inhibition of recombinant PIM1 (unknown origin) by pyruvate kinase/lactate dehydrogenase-coupled assay
+
+>  <BAO Format ID>  (11) 
+BAO_0000357
+
+>  <BAO Label>  (11) 
+single protein format
+
+>  <Assay Organism>  (11) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (11) 
+CHEMBL2147
+
+>  <Target Name>  (11) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (11) 
+Homo sapiens
+
+>  <Target Type>  (11) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (11) 
+CHEMBL4028814
+
+>  <Source Description>  (11) 
+Scientific Literature
+
+>  <Document Journal>  (11) 
+Bioorg Med Chem
+
+>  <Document Year>  (11) 
+2017.0
+
+>  <Active>  (11) 
+1.0
+
+>  <bits>  (11) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB26C0>
+
+>  <Group>  (11) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 26 29  0  0  0  0  0  0  0  0999 V2000
+    5.2500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4261   -3.7029    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5408   -4.7066    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.4298   -2.5882    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4224   -4.8176    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7701   -2.1590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  1  0
+ 18 20  1  0
+ 18 21  1  0
+ 17 22  1  0
+ 22 23  2  0
+ 13 24  2  0
+ 24 25  1  0
+  6 26  2  0
+ 26  2  1  0
+ 25  7  2  0
+ 24 10  1  0
+ 23 14  1  0
+M  END
+>  <Compound_ID>  (12) 
+CHEMBL2032369
+
+>  <Molecule Name>  (12) 
+nan
+
+>  <Molecular Weight>  (12) 
+356.31
+
+>  <AlogP>  (12) 
+4.55
+
+>  <Smiles>  (12) 
+Nc1cncc(-c2ccc3noc(-c4ccc(C(F)(F)F)cc4)c3c2)n1
+
+>  <Standard Type>  (12) 
+IC50
+
+>  <Standard Relation>  (12) 
+'='
+
+>  <Standard Units>  (12) 
+nM
+
+>  <Standard Value>  (12) 
+91.0
+
+>  <Assay ChEMBL ID>  (12) 
+CHEMBL2033650
+
+>  <Assay Description>  (12) 
+Inhibition of human Pim-1 using 5-FAM-RSRHSSYPAGT-CONH2 as substrate preincubated for 15 mins prior substrate addition measured after 45 mins by fluorescence assay
+
+>  <BAO Format ID>  (12) 
+BAO_0000357
+
+>  <BAO Label>  (12) 
+single protein format
+
+>  <Assay Organism>  (12) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (12) 
+CHEMBL2147
+
+>  <Target Name>  (12) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (12) 
+Homo sapiens
+
+>  <Target Type>  (12) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (12) 
+CHEMBL2029227
+
+>  <Source Description>  (12) 
+Scientific Literature
+
+>  <Document Journal>  (12) 
+J Med Chem
+
+>  <Document Year>  (12) 
+2012.0
+
+>  <Active>  (12) 
+1.0
+
+>  <bits>  (12) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2650>
+
+>  <Group>  (12) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 28 32  0  0  0  0  0  0  0  0999 V2000
+    4.8308   -6.3240    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6740   -4.8322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3037   -4.2221    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9918   -2.7549    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135    2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6401    3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7548    2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1814    2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4933    4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3786    5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6904    6.5871    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1170    7.0506    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4289    8.5179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3142    9.5216    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8876    9.0580    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5757    7.5908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9520    4.6564    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000    3.6073    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135    2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8899   -3.9684    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0046   -4.9721    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 14 21  2  0
+  9 22  2  0
+ 22 23  1  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  2  0
+  5 27  1  0
+ 27 28  2  0
+ 28  3  1  0
+ 26  6  1  0
+ 24  8  2  0
+ 21 10  1  0
+ 20 15  1  0
+M  END
+>  <Compound_ID>  (13) 
+CHEMBL3915064
+
+>  <Molecule Name>  (13) 
+nan
+
+>  <Molecular Weight>  (13) 
+375.44
+
+>  <AlogP>  (13) 
+2.74
+
+>  <Smiles>  (13) 
+CCn1cc(-c2cc3c(-c4cccc(N5CCOCC5)n4)n[nH]c3cn2)cn1
+
+>  <Standard Type>  (13) 
+Ki
+
+>  <Standard Relation>  (13) 
+'='
+
+>  <Standard Units>  (13) 
+nM
+
+>  <Standard Value>  (13) 
+0.6
+
+>  <Assay ChEMBL ID>  (13) 
+CHEMBL4052119
+
+>  <Assay Description>  (13) 
+Inhibition of PIM1 (unknown origin) using 5FAM-ARKRRRHPSGPPTA as substrate after 90 mins in presence of ATP by caliper microfluidic mobility shift assay
+
+>  <BAO Format ID>  (13) 
+BAO_0000357
+
+>  <BAO Label>  (13) 
+single protein format
+
+>  <Assay Organism>  (13) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (13) 
+CHEMBL2147
+
+>  <Target Name>  (13) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (13) 
+Homo sapiens
+
+>  <Target Type>  (13) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (13) 
+CHEMBL4049450
+
+>  <Source Description>  (13) 
+Scientific Literature
+
+>  <Document Journal>  (13) 
+J Med Chem
+
+>  <Document Year>  (13) 
+2017.0
+
+>  <Active>  (13) 
+1.0
+
+>  <bits>  (13) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB25E0>
+
+>  <Group>  (13) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 27 30  0  0  0  0  0  0  0  0999 V2000
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -5.1073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990   -5.8573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990   -7.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -8.1073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -9.6073    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990  -10.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990  -11.8573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000  -12.6073    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990  -11.8573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990  -10.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990   -7.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990   -5.8573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+  7 14  1  0
+ 14 15  2  0
+  3 16  1  0
+ 16 17  1  0
+ 16 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 21 23  2  0
+ 20 24  2  0
+ 24 25  1  0
+ 25 26  1  0
+ 25 27  2  0
+ 27  2  1  0
+ 15  4  1  0
+ 27 18  1  0
+ 13  8  1  0
+M  END
+>  <Compound_ID>  (14) 
+CHEMBL4060267
+
+>  <Molecule Name>  (14) 
+nan
+
+>  <Molecular Weight>  (14) 
+383.88
+
+>  <AlogP>  (14) 
+2.71
+
+>  <Smiles>  (14) 
+Cc1c(-c2ccc(N3CCNCC3)cc2)n(C)c2nc(C(N)=O)cc(Cl)c12
+
+>  <Standard Type>  (14) 
+IC50
+
+>  <Standard Relation>  (14) 
+'='
+
+>  <Standard Units>  (14) 
+nM
+
+>  <Standard Value>  (14) 
+43.0
+
+>  <Assay ChEMBL ID>  (14) 
+CHEMBL4047685
+
+>  <Assay Description>  (14) 
+Inhibition of PIM1 (unknown origin) assessed as reduction in full length human BAD phosphorylation at Ser112 residues by TR-FRET assay
+
+>  <BAO Format ID>  (14) 
+BAO_0000357
+
+>  <BAO Label>  (14) 
+single protein format
+
+>  <Assay Organism>  (14) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (14) 
+CHEMBL2147
+
+>  <Target Name>  (14) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (14) 
+Homo sapiens
+
+>  <Target Type>  (14) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (14) 
+CHEMBL4043256
+
+>  <Source Description>  (14) 
+Scientific Literature
+
+>  <Document Journal>  (14) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (14) 
+2017.0
+
+>  <Active>  (14) 
+1.0
+
+>  <bits>  (14) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2570>
+
+>  <Group>  (14) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 35 40  0  0  0  0  0  0  0  0999 V2000
+    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4231    2.5537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4231    4.0537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2095    4.9353    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6731    6.3619    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1731    6.3619    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1767    7.4766    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6440    7.1648    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6477    8.2795    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.1841    9.7061    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.1878   10.8208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.6551   10.5089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.1186    9.0823    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.1149    7.9676    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.1075    5.7382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1038    4.6235    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6366    4.9353    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+  7 16  1  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  2  0
+ 26 27  1  0
+ 27 28  2  0
+ 28 29  1  0
+ 29 30  2  0
+ 24 31  2  0
+ 31 32  1  0
+ 32 33  2  0
+ 17 34  1  0
+ 34 35  2  0
+  8  3  1  0
+ 15 10  1  0
+ 33 19  1  0
+ 34  6  1  0
+ 33 22  1  0
+ 30 25  1  0
+M  END
+>  <Compound_ID>  (15) 
+CHEMBL4100433
+
+>  <Molecule Name>  (15) 
+nan
+
+>  <Molecular Weight>  (15) 
+466.54
+
+>  <AlogP>  (15) 
+4.26
+
+>  <Smiles>  (15) 
+COc1ccc2c(c1CN1CCNCC1)O/C(=C\c1c[nH]c3nc(-c4ccccc4)ccc13)C2=O
+
+>  <Standard Type>  (15) 
+IC50
+
+>  <Standard Relation>  (15) 
+'='
+
+>  <Standard Units>  (15) 
+nM
+
+>  <Standard Value>  (15) 
+16.0
+
+>  <Assay ChEMBL ID>  (15) 
+CHEMBL3997623
+
+>  <Assay Description>  (15) 
+Inhibition of PIM1 (unknown origin) using 5-FAM-RSRHSSYPAGT-CONH2 as substrate after 2 hrs by electrophoretic mobility shift assay
+
+>  <BAO Format ID>  (15) 
+BAO_0000357
+
+>  <BAO Label>  (15) 
+single protein format
+
+>  <Assay Organism>  (15) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (15) 
+CHEMBL2147
+
+>  <Target Name>  (15) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (15) 
+Homo sapiens
+
+>  <Target Type>  (15) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (15) 
+CHEMBL3994673
+
+>  <Source Description>  (15) 
+Scientific Literature
+
+>  <Document Journal>  (15) 
+ACS Med Chem Lett
+
+>  <Document Year>  (15) 
+2017.0
+
+>  <Active>  (15) 
+1.0
+
+>  <bits>  (15) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2500>
+
+>  <Group>  (15) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 24 27  0  0  0  0  0  0  0  0999 V2000
+    2.9418   -6.4791    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2537   -5.0118    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4672   -2.9099    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6807   -2.0283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0511   -2.6384    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2079   -4.1302    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5782   -4.7403    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    5.9943   -5.0118    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1511   -6.5036    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    4.6240   -4.4017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  8 10  1  0
+ 10 11  1  0
+ 10 12  2  0
+  4 13  1  0
+ 13 14  1  0
+ 14 15  3  0
+ 13 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 16 22  1  0
+ 22 23  1  0
+ 23 24  2  0
+ 12  2  1  0
+ 21 16  1  0
+ 23  3  1  0
+ 12  5  1  0
+M  END
+>  <Compound_ID>  (16) 
+CHEMBL1945559
+
+>  <Molecule Name>  (16) 
+nan
+
+>  <Molecular Weight>  (16) 
+363.25
+
+>  <AlogP>  (16) 
+2.96
+
+>  <Smiles>  (16) 
+Cn1c2c(c3ccc(Cl)c(Cl)c31)C(C#N)C1(CCNCC1)NC2=O
+
+>  <Standard Type>  (16) 
+IC50
+
+>  <Standard Relation>  (16) 
+'='
+
+>  <Standard Units>  (16) 
+nM
+
+>  <Standard Value>  (16) 
+60.0
+
+>  <Assay ChEMBL ID>  (16) 
+CHEMBL1948360
+
+>  <Assay Description>  (16) 
+Inhibition of PIM1 using ATP as substrate
+
+>  <BAO Format ID>  (16) 
+BAO_0000357
+
+>  <BAO Label>  (16) 
+single protein format
+
+>  <Assay Organism>  (16) 
+None
+
+>  <Target ChEMBL ID>  (16) 
+CHEMBL2147
+
+>  <Target Name>  (16) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (16) 
+Homo sapiens
+
+>  <Target Type>  (16) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (16) 
+CHEMBL1944596
+
+>  <Source Description>  (16) 
+Scientific Literature
+
+>  <Document Journal>  (16) 
+J Med Chem
+
+>  <Document Year>  (16) 
+2012.0
+
+>  <Active>  (16) 
+1.0
+
+>  <bits>  (16) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2490>
+
+>  <Group>  (16) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 37 42  0  0  0  0  0  0  0  0999 V2000
+   -1.8373   -5.6601    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    3.8971    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5921   -4.2382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8056   -5.1199    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3421   -6.5465    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0921   -7.8455    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3421   -9.1446    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8421   -9.1446    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0921  -10.4436    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8421  -11.7426    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0921  -13.0417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8421  -14.3407    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0921  -15.6397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5921  -15.6397    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8421  -14.3407    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5921  -13.0417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0921   -7.8455    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8421   -6.5465    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 12 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 10 19  1  0
+ 19 20  2  0
+  2 21  1  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  2  0
+ 26 27  1  0
+ 27 28  1  0
+ 28 29  1  0
+ 29 30  1  0
+ 30 31  1  0
+ 31 32  1  0
+ 32 33  1  0
+ 33 34  1  0
+ 34 35  1  0
+ 27 36  2  0
+ 36 37  1  0
+ 20  4  1  0
+ 37 21  2  0
+ 20  7  1  0
+ 37 24  1  0
+ 17 11  1  0
+ 35 30  1  0
+M  END
+>  <Compound_ID>  (17) 
+CHEMBL2387475
+
+>  <Molecule Name>  (17) 
+nan
+
+>  <Molecular Weight>  (17) 
+503.51
+
+>  <AlogP>  (17) 
+4.18
+
+>  <Smiles>  (17) 
+O=C(Nc1c[nH]c2ncc(-c3c(F)cccc3F)cc12)c1cnn2ccc(OCC3CCNCC3)nc12
+
+>  <Standard Type>  (17) 
+Ki
+
+>  <Standard Relation>  (17) 
+'='
+
+>  <Standard Units>  (17) 
+nM
+
+>  <Standard Value>  (17) 
+0.04
+
+>  <Assay ChEMBL ID>  (17) 
+CHEMBL2388109
+
+>  <Assay Description>  (17) 
+Inhibition of PIM1 (unknown origin) using FAM-pimtide as substrate after 90 mins by spectrophotometry in presence of ATP
+
+>  <BAO Format ID>  (17) 
+BAO_0000357
+
+>  <BAO Label>  (17) 
+single protein format
+
+>  <Assay Organism>  (17) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (17) 
+CHEMBL2147
+
+>  <Target Name>  (17) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (17) 
+Homo sapiens
+
+>  <Target Type>  (17) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (17) 
+CHEMBL2385019
+
+>  <Source Description>  (17) 
+Scientific Literature
+
+>  <Document Journal>  (17) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (17) 
+2013.0
+
+>  <Active>  (17) 
+1.0
+
+>  <bits>  (17) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2420>
+
+>  <Group>  (17) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 25 28  0  0  0  0  0  0  0  0999 V2000
+   -6.9199   -4.5797    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4933   -4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1814   -2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    9.0933    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 18 20  1  0
+ 20 21  2  0
+ 12 22  1  0
+ 22 23  2  0
+  5 24  1  0
+ 24 25  2  0
+ 25  2  1  0
+ 23  6  1  0
+ 23  9  1  0
+ 21 15  1  0
+M  END
+>  <Compound_ID>  (18) 
+CHEMBL1952107
+
+>  <Molecule Name>  (18) 
+nan
+
+>  <Molecular Weight>  (18) 
+335.34
+
+>  <AlogP>  (18) 
+3.27
+
+>  <Smiles>  (18) 
+Oc1ccc(-n2nnc3ccc(NCc4ccc(F)cc4)nc32)cc1
+
+>  <Standard Type>  (18) 
+IC50
+
+>  <Standard Relation>  (18) 
+'='
+
+>  <Standard Units>  (18) 
+nM
+
+>  <Standard Value>  (18) 
+69.0
+
+>  <Assay ChEMBL ID>  (18) 
+CHEMBL1954566
+
+>  <Assay Description>  (18) 
+Inhibition of PIM1
+
+>  <BAO Format ID>  (18) 
+BAO_0000357
+
+>  <BAO Label>  (18) 
+single protein format
+
+>  <Assay Organism>  (18) 
+None
+
+>  <Target ChEMBL ID>  (18) 
+CHEMBL2147
+
+>  <Target Name>  (18) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (18) 
+Homo sapiens
+
+>  <Target Type>  (18) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (18) 
+CHEMBL1949661
+
+>  <Source Description>  (18) 
+Scientific Literature
+
+>  <Document Journal>  (18) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (18) 
+2012.0
+
+>  <Active>  (18) 
+1.0
+
+>  <bits>  (18) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB23B0>
+
+>  <Group>  (18) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 17 18  0  0  0  0  0  0  0  0999 V2000
+   -3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -5.1073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990   -5.8573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990   -7.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5981   -5.1073    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  1  0
+  6  8  2  0
+  4  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  1  0
+ 13 16  1  0
+ 16 17  2  0
+ 17  3  1  0
+ 17 10  1  0
+M  END
+>  <Compound_ID>  (19) 
+CHEMBL1349996
+
+>  <Molecule Name>  (19) 
+nan
+
+>  <Molecular Weight>  (19) 
+249.34
+
+>  <AlogP>  (19) 
+3.06
+
+>  <Smiles>  (19) 
+CCN1/C(=C\C(C)=O)Sc2ccc(OC)cc21
+
+>  <Standard Type>  (19) 
+Kd
+
+>  <Standard Relation>  (19) 
+'='
+
+>  <Standard Units>  (19) 
+nM
+
+>  <Standard Value>  (19) 
+100.0
+
+>  <Assay ChEMBL ID>  (19) 
+CHEMBL4728283
+
+>  <Assay Description>  (19) 
+Binding affinity to PIM1 (unknown origin)
+
+>  <BAO Format ID>  (19) 
+BAO_0000357
+
+>  <BAO Label>  (19) 
+single protein format
+
+>  <Assay Organism>  (19) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (19) 
+CHEMBL2147
+
+>  <Target Name>  (19) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (19) 
+Homo sapiens
+
+>  <Target Type>  (19) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (19) 
+CHEMBL4725345
+
+>  <Source Description>  (19) 
+Scientific Literature
+
+>  <Document Journal>  (19) 
+J Med Chem
+
+>  <Document Year>  (19) 
+2020.0
+
+>  <Active>  (19) 
+1.0
+
+>  <bits>  (19) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2340>
+
+>  <Group>  (19) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 21 23  0  0  0  0  0  0  0  0999 V2000
+   -2.9499    4.2246    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8351    3.2209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4086    3.6844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0967    5.1517    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+    0.7062    2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1328    3.1443    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8578   -2.6401    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1459   -3.7548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3177   -5.1814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6860   -6.2961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2225   -7.7227    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2447   -8.0346    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2484   -6.9199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7849   -5.4933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1470    1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5736    1.2902    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  3  5  1  0
+  5  6  1  0
+  5  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+  9 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 20  2  1  0
+ 19  7  1  0
+ 17 12  1  0
+M  END
+>  <Compound_ID>  (20) 
+CHEMBL3684961
+
+>  <Molecule Name>  (20) 
+nan
+
+>  <Molecular Weight>  (20) 
+545.9
+
+>  <AlogP>  (20) 
+5.02
+
+>  <Smiles>  (20) 
+Brc1c(Br)c(Br)c2[nH]c(NCC3CCNCC3)nc2c1Br
+
+>  <Standard Type>  (20) 
+IC50
+
+>  <Standard Relation>  (20) 
+'='
+
+>  <Standard Units>  (20) 
+nM
+
+>  <Standard Value>  (20) 
+65.24
+
+>  <Assay ChEMBL ID>  (20) 
+CHEMBL3705636
+
+>  <Assay Description>  (20) 
+Luminometric Kinase Assay: Kinase assay was performed using luminescent Kinase-Glo (Promega) system. The Kinase-Glo Luminescent Kinase Assay Platform provides a homogeneous, high-throughput screening method for measuring kinase activity by quantifying the amount of ATP remaining in solution following a kinase reaction.
+
+>  <BAO Format ID>  (20) 
+BAO_0000357
+
+>  <BAO Label>  (20) 
+single protein format
+
+>  <Assay Organism>  (20) 
+None
+
+>  <Target ChEMBL ID>  (20) 
+CHEMBL2147
+
+>  <Target Name>  (20) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (20) 
+Homo sapiens
+
+>  <Target Type>  (20) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (20) 
+CHEMBL3638987
+
+>  <Source Description>  (20) 
+BindingDB Database
+
+>  <Document Journal>  (20) 
+nan
+
+>  <Document Year>  (20) 
+2013.0
+
+>  <Active>  (20) 
+1.0
+
+>  <bits>  (20) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB22D0>
+
+>  <Group>  (20) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 28 32  0  0  0  0  0  0  0  0999 V2000
+    2.4968  -10.3689    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6536   -8.8771    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8104   -7.3853    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1807   -6.7752    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3943   -7.6569    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3375   -5.2834    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1240   -4.4017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9672   -2.9099    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7537   -5.0118    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5969   -6.5036    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2266   -7.1137    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9869   -6.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3573   -6.8421    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5141   -8.3339    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3005   -9.2156    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0698   -8.6055    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2833   -9.4872    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  3  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  4  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 12 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 26 27  2  0
+ 27 28  1  0
+ 21  3  2  0
+ 27 22  1  0
+ 20  7  1  0
+ 19  9  1  0
+ 16 10  1  0
+M  END
+>  <Compound_ID>  (21) 
+CHEMBL4797117
+
+>  <Molecule Name>  (21) 
+nan
+
+>  <Molecular Weight>  (21) 
+388.77
+
+>  <AlogP>  (21) 
+3.43
+
+>  <Smiles>  (21) 
+N#Cc1c(O)nc2nn3c4cc(O)ccc4nnc3c2c1-c1ccccc1Cl
+
+>  <Standard Type>  (21) 
+IC50
+
+>  <Standard Relation>  (21) 
+'='
+
+>  <Standard Units>  (21) 
+nM
+
+>  <Standard Value>  (21) 
+87.0
+
+>  <Assay ChEMBL ID>  (21) 
+CHEMBL4705104
+
+>  <Assay Description>  (21) 
+Inhibition of recombinant human GST-tagged PIM1 by ELISA
+
+>  <BAO Format ID>  (21) 
+BAO_0000357
+
+>  <BAO Label>  (21) 
+single protein format
+
+>  <Assay Organism>  (21) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (21) 
+CHEMBL2147
+
+>  <Target Name>  (21) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (21) 
+Homo sapiens
+
+>  <Target Type>  (21) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (21) 
+CHEMBL4699630
+
+>  <Source Description>  (21) 
+Scientific Literature
+
+>  <Document Journal>  (21) 
+Bioorg Med Chem
+
+>  <Document Year>  (21) 
+2020.0
+
+>  <Active>  (21) 
+1.0
+
+>  <bits>  (21) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2260>
+
+>  <Group>  (21) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 24 27  0  0  0  0  0  0  0  0999 V2000
+   -4.9294   -1.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6304   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6304    0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3313    1.5000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3313    3.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6304    3.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.6304    5.2500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8439    6.1317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3804    7.5583    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8804    7.5583    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4168    6.1317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8578    2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3250    2.9520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7886    4.3786    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7849    5.4933    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3177    5.1814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6860    6.2961    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1459    3.7548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3313   -1.5000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  1  0
+  4 12  2  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  1  0
+ 18 20  2  0
+ 13 21  2  0
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  2  0
+ 24  2  1  0
+ 11  7  2  0
+ 23 12  1  0
+ 20 14  1  0
+M  END
+>  <Compound_ID>  (22) 
+CHEMBL5091510
+
+>  <Molecule Name>  (22) 
+nan
+
+>  <Molecular Weight>  (22) 
+337.41
+
+>  <AlogP>  (22) 
+3.55
+
+>  <Smiles>  (22) 
+Cc1nc(OCc2ccsc2)c2c(-c3ccnc(N)c3)c[nH]c2n1
+
+>  <Standard Type>  (22) 
+IC50
+
+>  <Standard Relation>  (22) 
+'='
+
+>  <Standard Units>  (22) 
+nM
+
+>  <Standard Value>  (22) 
+79.0
+
+>  <Assay ChEMBL ID>  (22) 
+CHEMBL5034574
+
+>  <Assay Description>  (22) 
+Inhibition of PIM1 (unknown origin) by ADP hunter plus assay
+
+>  <BAO Format ID>  (22) 
+BAO_0000357
+
+>  <BAO Label>  (22) 
+single protein format
+
+>  <Assay Organism>  (22) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (22) 
+CHEMBL2147
+
+>  <Target Name>  (22) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (22) 
+Homo sapiens
+
+>  <Target Type>  (22) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (22) 
+CHEMBL5034005
+
+>  <Source Description>  (22) 
+Scientific Literature
+
+>  <Document Journal>  (22) 
+J Med Chem
+
+>  <Document Year>  (22) 
+2021.0
+
+>  <Active>  (22) 
+1.0
+
+>  <bits>  (22) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB21F0>
+
+>  <Group>  (22) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 27 30  0  0  0  0  0  0  0  0999 V2000
+   -6.0000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4231    2.5537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7221    1.8037    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4231    4.0537    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  3  2  1  1
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  6
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  2  0
+ 19 21  1  0
+ 18 22  2  0
+ 22 23  1  0
+ 23 24  2  0
+ 12 25  2  0
+  6 26  1  0
+ 26 27  1  0
+ 27  3  1  0
+ 25  8  1  0
+ 24 13  1  0
+ 23 16  1  0
+M  END
+>  <Compound_ID>  (23) 
+CHEMBL1782516
+
+>  <Molecule Name>  (23) 
+nan
+
+>  <Molecular Weight>  (23) 
+366.42
+
+>  <AlogP>  (23) 
+3.52
+
+>  <Smiles>  (23) 
+NC[C@H]1CC[C@H](Nc2cncc(-c3ccc4oc(C(=O)O)cc4c3)n2)CC1
+
+>  <Standard Type>  (23) 
+IC50
+
+>  <Standard Relation>  (23) 
+'='
+
+>  <Standard Units>  (23) 
+nM
+
+>  <Standard Value>  (23) 
+53.0
+
+>  <Assay ChEMBL ID>  (23) 
+CHEMBL1786237
+
+>  <Assay Description>  (23) 
+Inhibition of human Pim1 using 5-FAM-RSRHSSYPAGT-CONH2 as substrate after 45 mins by off-chip mobility shift method
+
+>  <BAO Format ID>  (23) 
+BAO_0000357
+
+>  <BAO Label>  (23) 
+single protein format
+
+>  <Assay Organism>  (23) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (23) 
+CHEMBL2147
+
+>  <Target Name>  (23) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (23) 
+Homo sapiens
+
+>  <Target Type>  (23) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (23) 
+CHEMBL1781944
+
+>  <Source Description>  (23) 
+Scientific Literature
+
+>  <Document Journal>  (23) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (23) 
+2011.0
+
+>  <Active>  (23) 
+1.0
+
+>  <bits>  (23) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2180>
+
+>  <Group>  (23) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 29 33  0  0  0  0  0  0  0  0999 V2000
+   -1.8373   -5.6601    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4933   -4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1814   -2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9008    2.5457    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.3632    2.2119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5360    3.1471    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5360    4.6471    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.3632    5.5823    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9008    5.2486    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  1  0
+ 19 27  2  0
+ 14 28  1  0
+ 28 29  2  0
+  7  2  1  0
+ 29  8  1  0
+ 29 11  1  0
+ 27 15  1  0
+ 26 20  1  0
+M  END
+>  <Compound_ID>  (24) 
+CHEMBL4126656
+
+>  <Molecule Name>  (24) 
+nan
+
+>  <Molecular Weight>  (24) 
+387.46
+
+>  <AlogP>  (24) 
+4.23
+
+>  <Smiles>  (24) 
+Fc1ccccc1-c1c[nH]c2ccc(-c3cncc(N4CCCNCC4)n3)cc12
+
+>  <Standard Type>  (24) 
+IC50
+
+>  <Standard Relation>  (24) 
+'='
+
+>  <Standard Units>  (24) 
+nM
+
+>  <Standard Value>  (24) 
+12.0
+
+>  <Assay ChEMBL ID>  (24) 
+CHEMBL4124626
+
+>  <Assay Description>  (24) 
+Inhibition of PIM1 (unknown origin)
+
+>  <BAO Format ID>  (24) 
+BAO_0000357
+
+>  <BAO Label>  (24) 
+single protein format
+
+>  <Assay Organism>  (24) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (24) 
+CHEMBL2147
+
+>  <Target Name>  (24) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (24) 
+Homo sapiens
+
+>  <Target Type>  (24) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (24) 
+CHEMBL4118246
+
+>  <Source Description>  (24) 
+Scientific Literature
+
+>  <Document Journal>  (24) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (24) 
+2018.0
+
+>  <Active>  (24) 
+1.0
+
+>  <bits>  (24) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2110>
+
+>  <Group>  (24) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 26 30  0  0  0  0  0  0  0  0999 V2000
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1317    0.0855    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5583    0.5490    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5583    2.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6730    3.0527    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.3611    4.5200    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9345    4.9835    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.8198    3.9798    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1317    2.5126    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+  3 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 13 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+ 26  1  1  0
+ 10  5  1  0
+ 25 11  1  0
+ 22 14  1  0
+ 22 17  1  0
+M  END
+>  <Compound_ID>  (25) 
+CHEMBL3660006
+
+>  <Molecule Name>  (25) 
+nan
+
+>  <Molecular Weight>  (25) 
+344.42
+
+>  <AlogP>  (25) 
+3.11
+
+>  <Smiles>  (25) 
+c1cc(NC2CCNCC2)c2nc(-c3nnc4ccccn34)ccc2c1
+
+>  <Standard Type>  (25) 
+IC50
+
+>  <Standard Relation>  (25) 
+'='
+
+>  <Standard Units>  (25) 
+nM
+
+>  <Standard Value>  (25) 
+1.6
+
+>  <Assay ChEMBL ID>  (25) 
+CHEMBL3705106
+
+>  <Assay Description>  (25) 
+PIM-1 Enzyme Assay: The assay for the determination of PIM activity is based on the incorporation of [33P] ATP into PIM2tide substrate and capture of the radiolabeled peptide onto a Whatman P81 (phosphocellulose) filter plate. Assay mixtures contained 35uM [gamma-33P] ATP (20 uCi/mL), 7.5 uM PIM2tide and 0.25 nM PIM-1 in a total volume of 50 pt.
+
+>  <BAO Format ID>  (25) 
+BAO_0000357
+
+>  <BAO Label>  (25) 
+single protein format
+
+>  <Assay Organism>  (25) 
+None
+
+>  <Target ChEMBL ID>  (25) 
+CHEMBL2147
+
+>  <Target Name>  (25) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (25) 
+Homo sapiens
+
+>  <Target Type>  (25) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (25) 
+CHEMBL3639321
+
+>  <Source Description>  (25) 
+BindingDB Database
+
+>  <Document Journal>  (25) 
+nan
+
+>  <Document Year>  (25) 
+2013.0
+
+>  <Active>  (25) 
+1.0
+
+>  <bits>  (25) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB20A0>
+
+>  <Group>  (25) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 30 34  0  0  0  0  0  0  0  0999 V2000
+    5.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135    2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000    3.6073    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135    2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6401    3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7548    2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1814    2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4933    4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3786    5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6904    6.5871    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1170    7.0506    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4289    8.5179    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3142    9.5216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8876    9.0580    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5757    7.5908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7808    6.3187    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1849    8.1527    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9520    4.6564    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 10 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 21 20  1  6
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  1  0
+ 26 27  1  0
+ 26 28  1  0
+ 20 29  2  0
+  6 30  2  0
+ 30  2  1  0
+ 12  7  1  0
+ 29 16  1  0
+ 15  9  1  0
+ 26 21  1  0
+M  END
+>  <Compound_ID>  (26) 
+CHEMBL4076913
+
+>  <Molecule Name>  (26) 
+nan
+
+>  <Molecular Weight>  (26) 
+407.43
+
+>  <AlogP>  (26) 
+3.29
+
+>  <Smiles>  (26) 
+Cc1cncc(-c2cc3c(cn2)cnn3-c2cccc([C@H]3CNCCC3(F)F)n2)n1
+
+>  <Standard Type>  (26) 
+Ki
+
+>  <Standard Relation>  (26) 
+'='
+
+>  <Standard Units>  (26) 
+nM
+
+>  <Standard Value>  (26) 
+0.07
+
+>  <Assay ChEMBL ID>  (26) 
+CHEMBL4052119
+
+>  <Assay Description>  (26) 
+Inhibition of PIM1 (unknown origin) using 5FAM-ARKRRRHPSGPPTA as substrate after 90 mins in presence of ATP by caliper microfluidic mobility shift assay
+
+>  <BAO Format ID>  (26) 
+BAO_0000357
+
+>  <BAO Label>  (26) 
+single protein format
+
+>  <Assay Organism>  (26) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (26) 
+CHEMBL2147
+
+>  <Target Name>  (26) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (26) 
+Homo sapiens
+
+>  <Target Type>  (26) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (26) 
+CHEMBL4049450
+
+>  <Source Description>  (26) 
+Scientific Literature
+
+>  <Document Journal>  (26) 
+J Med Chem
+
+>  <Document Year>  (26) 
+2017.0
+
+>  <Active>  (26) 
+1.0
+
+>  <bits>  (26) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB2030>
+
+>  <Group>  (26) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 20 22  0  0  0  0  0  0  0  0999 V2000
+   -4.6883    2.2939    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5736    1.2902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8855   -0.1771    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1470    1.7537    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8351    3.2209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9499    4.2246    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6380    5.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7527    6.6955    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2114    6.1554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8995    7.6226    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0967    5.1517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4086    3.6844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7062    2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1328    3.1443    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7760    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  1  0
+  7  9  2  0
+  9 10  1  0
+  9 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 13 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 16 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20  4  1  0
+ 12  5  1  0
+ 20 15  2  0
+M  END
+>  <Compound_ID>  (27) 
+CHEMBL509801
+
+>  <Molecule Name>  (27) 
+nan
+
+>  <Molecular Weight>  (27) 
+296.69
+
+>  <AlogP>  (27) 
+2.81
+
+>  <Smiles>  (27) 
+CC(C)n1c2cc(Cl)c(F)cc2c(=O)c2c(=O)o[nH]c21
+
+>  <Standard Type>  (27) 
+Ki
+
+>  <Standard Relation>  (27) 
+'='
+
+>  <Standard Units>  (27) 
+nM
+
+>  <Standard Value>  (27) 
+12.3
+
+>  <Assay ChEMBL ID>  (27) 
+CHEMBL994190
+
+>  <Assay Description>  (27) 
+Inhibition of Pim1
+
+>  <BAO Format ID>  (27) 
+BAO_0000357
+
+>  <BAO Label>  (27) 
+single protein format
+
+>  <Assay Organism>  (27) 
+None
+
+>  <Target ChEMBL ID>  (27) 
+CHEMBL2147
+
+>  <Target Name>  (27) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (27) 
+Homo sapiens
+
+>  <Target Type>  (27) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (27) 
+CHEMBL1144228
+
+>  <Source Description>  (27) 
+Scientific Literature
+
+>  <Document Journal>  (27) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (27) 
+2008.0
+
+>  <Active>  (27) 
+1.0
+
+>  <bits>  (27) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1FC0>
+
+>  <Group>  (27) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 33 38  0  0  0  0  0  0  0  0999 V2000
+   -3.7500   -9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -7.7942    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8817   -1.3846    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4182    0.0420    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9916    0.5056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9916    2.0056    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4182    2.4691    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0283    3.8394    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5200    3.9962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4017    2.7827    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7916    1.4124    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2998    1.2556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3083   -1.8481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5218   -0.9664    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3083   -3.3481    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8817   -3.8116    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4182   -5.2382    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 10 20  1  0
+ 20 21  2  0
+ 20 22  1  0
+ 22 23  1  0
+ 23 24  2  0
+  8 25  2  0
+ 25 26  1  0
+ 26 27  2  0
+ 27 28  1  0
+ 28 29  2  0
+ 29 30  1  0
+ 30 31  2  0
+  5 32  1  0
+ 32 33  1  0
+ 33  2  1  0
+ 31  6  1  0
+ 23  9  1  0
+ 30 25  1  0
+ 19 11  1  0
+ 19 14  1  0
+M  END
+>  <Compound_ID>  (28) 
+CHEMBL565612
+
+>  <Molecule Name>  (28) 
+SOTRASTAURIN
+
+>  <Molecular Weight>  (28) 
+438.49
+
+>  <AlogP>  (28) 
+2.43
+
+>  <Smiles>  (28) 
+CN1CCN(c2nc(C3=C(c4c[nH]c5ccccc45)C(=O)NC3=O)c3ccccc3n2)CC1
+
+>  <Standard Type>  (28) 
+IC50
+
+>  <Standard Relation>  (28) 
+'='
+
+>  <Standard Units>  (28) 
+nM
+
+>  <Standard Value>  (28) 
+50.12
+
+>  <Assay ChEMBL ID>  (28) 
+CHEMBL2422657
+
+>  <Assay Description>  (28) 
+Inhibition of PIM1 (unknown origin)
+
+>  <BAO Format ID>  (28) 
+BAO_0000357
+
+>  <BAO Label>  (28) 
+single protein format
+
+>  <Assay Organism>  (28) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (28) 
+CHEMBL2147
+
+>  <Target Name>  (28) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (28) 
+Homo sapiens
+
+>  <Target Type>  (28) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (28) 
+CHEMBL2417410
+
+>  <Source Description>  (28) 
+Scientific Literature
+
+>  <Document Journal>  (28) 
+J Med Chem
+
+>  <Document Year>  (28) 
+2013.0
+
+>  <Active>  (28) 
+1.0
+
+>  <bits>  (28) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1F50>
+
+>  <Group>  (28) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 29 32  0  0  0  0  0  0  0  0999 V2000
+   -6.6948   -5.1660    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3245   -4.5559    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1677   -3.0642    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1110   -5.4376    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7406   -4.8275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5838   -3.3357    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    6.4952    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2500    9.0933    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2990    8.5442    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7010    7.0442    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1568   -5.0991    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0567   -5.9808    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5271   -5.7092    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 19 21  1  0
+ 19 22  1  0
+ 17 23  1  0
+ 23 24  2  0
+ 13 25  1  0
+ 25 26  2  0
+  8 27  1  0
+ 27 28  2  0
+ 27 29  1  0
+ 29  5  1  0
+ 26  7  1  0
+ 26 10  1  0
+ 24 14  1  0
+M  END
+>  <Compound_ID>  (29) 
+CHEMBL575254
+
+>  <Molecule Name>  (29) 
+nan
+
+>  <Molecular Weight>  (29) 
+419.43
+
+>  <AlogP>  (29) 
+4.77
+
+>  <Smiles>  (29) 
+CN(C)Cc1nc2c(sc3ccc(-c4ccc(OC(F)(F)F)cc4)cc32)c(=O)[nH]1
+
+>  <Standard Type>  (29) 
+Ki
+
+>  <Standard Relation>  (29) 
+'='
+
+>  <Standard Units>  (29) 
+nM
+
+>  <Standard Value>  (29) 
+12.0
+
+>  <Assay ChEMBL ID>  (29) 
+CHEMBL1059319
+
+>  <Assay Description>  (29) 
+Inhibition of human PIM1 by scintillation counting
+
+>  <BAO Format ID>  (29) 
+BAO_0000357
+
+>  <BAO Label>  (29) 
+single protein format
+
+>  <Assay Organism>  (29) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (29) 
+CHEMBL2147
+
+>  <Target Name>  (29) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (29) 
+Homo sapiens
+
+>  <Target Type>  (29) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (29) 
+CHEMBL1154637
+
+>  <Source Description>  (29) 
+Scientific Literature
+
+>  <Document Journal>  (29) 
+J Med Chem
+
+>  <Document Year>  (29) 
+2009.0
+
+>  <Active>  (29) 
+1.0
+
+>  <bits>  (29) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1EE0>
+
+>  <Group>  (29) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 24 27  0  0  0  0  0  0  0  0999 V2000
+    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4635    4.0247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8901    4.4882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2020    5.9554    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0048    3.4845    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2500    4.9063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0365    4.0247    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3901    4.4882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5048    3.4845    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9314    3.9480    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2433    5.4152    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1286    6.4189    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7020    5.9554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 11 13  2  0
+ 10 14  2  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 15 22  1  0
+ 22 23  1  0
+ 23 24  2  0
+ 24  3  1  0
+ 23  6  1  0
+ 22  9  2  0
+ 21 16  1  0
+M  END
+>  <Compound_ID>  (30) 
+CHEMBL3703185
+
+>  <Molecule Name>  (30) 
+nan
+
+>  <Molecular Weight>  (30) 
+341.44
+
+>  <AlogP>  (30) 
+2.33
+
+>  <Smiles>  (30) 
+CSc1ncc2ccc3c(C(N)=O)cn(C4CCNCC4)c3c2n1
+
+>  <Standard Type>  (30) 
+IC50
+
+>  <Standard Relation>  (30) 
+'='
+
+>  <Standard Units>  (30) 
+nM
+
+>  <Standard Value>  (30) 
+7.0
+
+>  <Assay ChEMBL ID>  (30) 
+CHEMBL3705587
+
+>  <Assay Description>  (30) 
+Trans-Phosphorylation Assay: Specific peptide or protein substrates are trans-phosphorylated by their specific ser-thr or tyr kinase in the presence of ATP traced with 33P-gamma-ATP, and in the presence of their own optimal buffer and cofactors.At the end of the phosphorylation reaction, more than 98% unlabeled ATP and radioactive ATP is captured by an excess of the ion exchange dowex resin; the resin then settles down to the bottom of the reaction plate by gravity.Supernatant is subsequently withdrawn and transferred into a counting plate, then evaluated by beta -counting.Reagents/Assay ConditionsDowex Resin Preparation500 g of wet resin (SIGMA, custom prepared resin DOWEX 18 200-400 mesh, 2.5 Kg) are weighed out and diluted to 2 L in 150 mM sodium formate, pH 3.00.The resin is allowed to settle down (some hours) and then the supernatant is discarded.After three washes as above over a couple of days, the resin is allowed to settle and two volumes (wrt the resin volume) of 150 mM sodium formate buffer are added.
+
+>  <BAO Format ID>  (30) 
+BAO_0000357
+
+>  <BAO Label>  (30) 
+single protein format
+
+>  <Assay Organism>  (30) 
+None
+
+>  <Target ChEMBL ID>  (30) 
+CHEMBL2147
+
+>  <Target Name>  (30) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (30) 
+Homo sapiens
+
+>  <Target Type>  (30) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (30) 
+CHEMBL3639053
+
+>  <Source Description>  (30) 
+BindingDB Database
+
+>  <Document Journal>  (30) 
+nan
+
+>  <Document Year>  (30) 
+2015.0
+
+>  <Active>  (30) 
+1.0
+
+>  <bits>  (30) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1E70>
+
+>  <Group>  (30) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 25 29  0  0  0  0  0  0  0  0999 V2000
+   -6.9177    4.3013    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4912    4.7648    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3764    3.7611    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6883    2.2939    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5736    1.2902    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1470    1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8351    3.2209    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4086    3.6844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0967    5.1517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2114    6.1554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6786    5.8435    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4286    7.1425    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4249    8.2572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0546    7.6471    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3299    5.6152    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4446    4.6115    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1328    3.1443    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7062    2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1149    1.8303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2296    2.8340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+  9 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  1  0
+  4 24  1  0
+ 24 25  2  0
+ 25  1  1  0
+ 23  6  1  0
+ 18  8  1  0
+ 23 19  2  0
+ 14 10  1  0
+M  END
+>  <Compound_ID>  (31) 
+CHEMBL2017327
+
+>  <Molecule Name>  (31) 
+nan
+
+>  <Molecular Weight>  (31) 
+343.42
+
+>  <AlogP>  (31) 
+4.98
+
+>  <Smiles>  (31) 
+c1ccc(Nc2nc3c(-c4nnc[nH]4)cccc3c3ccsc23)cc1
+
+>  <Standard Type>  (31) 
+IC50
+
+>  <Standard Relation>  (31) 
+'='
+
+>  <Standard Units>  (31) 
+nM
+
+>  <Standard Value>  (31) 
+16.0
+
+>  <Assay ChEMBL ID>  (31) 
+CHEMBL2020770
+
+>  <Assay Description>  (31) 
+Inhibition of human recombinant Pim1 using RSRHSSYPAGT as substrate and 30 uM ATP by radiometric assay
+
+>  <BAO Format ID>  (31) 
+BAO_0000357
+
+>  <BAO Label>  (31) 
+single protein format
+
+>  <Assay Organism>  (31) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (31) 
+CHEMBL2147
+
+>  <Target Name>  (31) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (31) 
+Homo sapiens
+
+>  <Target Type>  (31) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (31) 
+CHEMBL2016532
+
+>  <Source Description>  (31) 
+Scientific Literature
+
+>  <Document Journal>  (31) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (31) 
+2012.0
+
+>  <Active>  (31) 
+1.0
+
+>  <bits>  (31) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1E00>
+
+>  <Group>  (31) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 28 32  0  0  0  0  0  0  0  0999 V2000
+    5.3807   -5.2457    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9542   -5.7092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4906   -7.1358    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9906   -7.1358    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1090   -8.3493    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5271   -5.7092    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1568   -5.0991    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0567   -5.9808    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5838   -3.3357    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7406   -4.8275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4430   -0.7182    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5577    0.2855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9843   -0.1781    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.2961   -1.6453    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1814   -2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  4  6  1  0
+  6  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 10 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 14 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 17 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+ 26 27  1  0
+ 27 28  2  0
+ 12  2  1  0
+ 20 13  1  0
+ 28 23  1  0
+ 12  6  1  0
+ 21  9  1  0
+M  END
+>  <Compound_ID>  (32) 
+CHEMBL4060990
+
+>  <Molecule Name>  (32) 
+nan
+
+>  <Molecular Weight>  (32) 
+430.32
+
+>  <AlogP>  (32) 
+3.61
+
+>  <Smiles>  (32) 
+O=C1NC(=S)N2C(=O)C3C(C=C12)c1c(Cl)cc(Cl)cc1N3Cc1ccccc1
+
+>  <Standard Type>  (32) 
+IC50
+
+>  <Standard Relation>  (32) 
+'='
+
+>  <Standard Units>  (32) 
+nM
+
+>  <Standard Value>  (32) 
+100.0
+
+>  <Assay ChEMBL ID>  (32) 
+CHEMBL4029679
+
+>  <Assay Description>  (32) 
+Inhibition of recombinant PIM1 (unknown origin) by pyruvate kinase/lactate dehydrogenase-coupled assay
+
+>  <BAO Format ID>  (32) 
+BAO_0000357
+
+>  <BAO Label>  (32) 
+single protein format
+
+>  <Assay Organism>  (32) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (32) 
+CHEMBL2147
+
+>  <Target Name>  (32) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (32) 
+Homo sapiens
+
+>  <Target Type>  (32) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (32) 
+CHEMBL4028814
+
+>  <Source Description>  (32) 
+Scientific Literature
+
+>  <Document Journal>  (32) 
+Bioorg Med Chem
+
+>  <Document Year>  (32) 
+2017.0
+
+>  <Active>  (32) 
+1.0
+
+>  <bits>  (32) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1D90>
+
+>  <Group>  (32) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 24 26  0  0  0  0  0  0  0  0999 V2000
+    5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4418    3.8810    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0152    4.3445    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2966    5.8117    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8181    6.8154    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2447    6.3519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3594    7.3556    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0475    8.8228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1622    9.8265    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8504   11.2937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9651   12.2974    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5565    4.8847    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  2  4  1  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 16 22  2  0
+ 11 23  1  0
+ 23 24  2  0
+ 24  5  1  0
+ 23  8  1  0
+ 22 12  1  0
+M  END
+>  <Compound_ID>  (33) 
+CHEMBL4229130
+
+>  <Molecule Name>  (33) 
+nan
+
+>  <Molecular Weight>  (33) 
+325.42
+
+>  <AlogP>  (33) 
+2.4
+
+>  <Smiles>  (33) 
+CC(C)Nc1ccc2cnn(-c3cncc(NCCCN)n3)c2c1
+
+>  <Standard Type>  (33) 
+IC50
+
+>  <Standard Relation>  (33) 
+'='
+
+>  <Standard Units>  (33) 
+nM
+
+>  <Standard Value>  (33) 
+20.0
+
+>  <Assay ChEMBL ID>  (33) 
+CHEMBL4222672
+
+>  <Assay Description>  (33) 
+Inhibition of human PIM1
+
+>  <BAO Format ID>  (33) 
+BAO_0000357
+
+>  <BAO Label>  (33) 
+single protein format
+
+>  <Assay Organism>  (33) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (33) 
+CHEMBL2147
+
+>  <Target Name>  (33) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (33) 
+Homo sapiens
+
+>  <Target Type>  (33) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (33) 
+CHEMBL4219163
+
+>  <Source Description>  (33) 
+Scientific Literature
+
+>  <Document Journal>  (33) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (33) 
+2018.0
+
+>  <Active>  (33) 
+1.0
+
+>  <bits>  (33) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1D20>
+
+>  <Group>  (33) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 30 33  0  0  0  0  0  0  0  0999 V2000
+   -8.0325    5.3050    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9177    4.3013    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2296    2.8340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1149    1.8303    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6883    2.2939    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3764    3.7611    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5736    1.2902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1470    1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8351    3.2209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4086    3.6844    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7062    2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1328    3.1443    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8578   -2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1459   -3.7548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3177   -5.1814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7849   -5.4933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7886   -4.3786    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2558   -4.6904    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3250   -2.9520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6562    2.3705    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.7709    3.3742    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.1975    2.9107    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.5094    1.4435    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.3946    0.4398    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.9681    0.9033    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  3  2  1  1
+  3  4  1  0
+  4  5  1  0
+  5  6  2  0
+  5  7  1  0
+  8  7  1  1
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 11 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  1  0
+ 20 22  2  0
+ 15 23  2  0
+ 23 24  1  0
+  3 25  1  0
+ 25 26  1  0
+ 26 27  1  0
+ 27 28  1  0
+ 28 29  1  0
+ 29 30  1  0
+ 24  8  1  0
+ 30 25  1  0
+ 24 13  1  0
+ 22 16  1  0
+M  END
+>  <Compound_ID>  (34) 
+CHEMBL3297759
+
+>  <Molecule Name>  (34) 
+nan
+
+>  <Molecular Weight>  (34) 
+412.51
+
+>  <AlogP>  (34) 
+2.99
+
+>  <Smiles>  (34) 
+NC[C@@H](NC(=O)C[C@H]1CNC(=O)c2cc(-c3cccc(F)c3)cn21)C1CCCCC1
+
+>  <Standard Type>  (34) 
+IC50
+
+>  <Standard Relation>  (34) 
+'='
+
+>  <Standard Units>  (34) 
+nM
+
+>  <Standard Value>  (34) 
+12.0
+
+>  <Assay ChEMBL ID>  (34) 
+CHEMBL3301295
+
+>  <Assay Description>  (34) 
+Inhibition of human PIM1 using ARK-RERTYSFGHHA as substrate incubated for 60 mins prior to substrate addition by topcount scintillation counting analysis in presence of [P33gamma]-ATP
+
+>  <BAO Format ID>  (34) 
+BAO_0000357
+
+>  <BAO Label>  (34) 
+single protein format
+
+>  <Assay Organism>  (34) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (34) 
+CHEMBL2147
+
+>  <Target Name>  (34) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (34) 
+Homo sapiens
+
+>  <Target Type>  (34) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (34) 
+CHEMBL3297733
+
+>  <Source Description>  (34) 
+Scientific Literature
+
+>  <Document Journal>  (34) 
+Bioorg Med Chem
+
+>  <Document Year>  (34) 
+2013.0
+
+>  <Active>  (34) 
+1.0
+
+>  <bits>  (34) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1CB0>
+
+>  <Group>  (34) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 34 41  0  0  0  0  0  0  0  0999 V2000
+    3.4199   -7.0384    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5382   -5.8249    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2490   -4.5040    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6595   -3.1247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1533   -3.2967    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8442   -4.6281    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3427   -4.6954    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0367   -5.8922    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7277   -7.2235    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5518   -3.5691    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6191   -5.0676    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3550   -5.8751    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0212   -7.3375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8846   -8.5641    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2541   -9.9251    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2399  -10.0596    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1033   -8.8330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4728   -7.4720    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0623   -6.0927    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0673   -5.1058    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0650   -5.4667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5921   -6.8710    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8913   -4.2148    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9561   -3.0421    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3552   -1.5961    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6
+  2  3  1  0
+  3  4  1  0
+  4  5  1  1
+  5  6  1  0
+  6  7  1  6
+  6  8  1  0
+  8  9  1  1
+  4 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 22 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 25 26  2  0
+ 26 27  1  0
+ 27 28  1  0
+ 28 29  2  0
+ 19 30  1  0
+ 30 31  2  0
+ 30 32  1  0
+ 32 33  1  0
+ 33 34  2  0
+  8  2  1  0
+ 29 10  1  0
+ 27  2  1  0
+ 16 11  1  0
+ 29 17  1  0
+ 33 18  1  0
+ 28 20  1  0
+ 26 21  1  0
+M  END
+>  <Compound_ID>  (35) 
+CHEMBL4444272
+
+>  <Molecule Name>  (35) 
+nan
+
+>  <Molecular Weight>  (35) 
+453.45
+
+>  <AlogP>  (35) 
+3.11
+
+>  <Smiles>  (35) 
+C[C@]12O[C@H](C[C@H](O)[C@H]1O)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)C(=O)NC4=O
+
+>  <Standard Type>  (35) 
+Kd
+
+>  <Standard Relation>  (35) 
+'='
+
+>  <Standard Units>  (35) 
+nM
+
+>  <Standard Value>  (35) 
+2.9
+
+>  <Assay ChEMBL ID>  (35) 
+CHEMBL4360623
+
+>  <Assay Description>  (35) 
+Binding affinity to Pim-1 (unknown origin)
+
+>  <BAO Format ID>  (35) 
+BAO_0000357
+
+>  <BAO Label>  (35) 
+single protein format
+
+>  <Assay Organism>  (35) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (35) 
+CHEMBL2147
+
+>  <Target Name>  (35) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (35) 
+Homo sapiens
+
+>  <Target Type>  (35) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (35) 
+CHEMBL4359824
+
+>  <Source Description>  (35) 
+Scientific Literature
+
+>  <Document Journal>  (35) 
+Eur J Med Chem
+
+>  <Document Year>  (35) 
+2019.0
+
+>  <Active>  (35) 
+1.0
+
+>  <bits>  (35) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1C40>
+
+>  <Group>  (35) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 21 25  0  0  0  0  0  0  0  0999 V2000
+    2.1732   -9.6719    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4850   -8.2047    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3703   -7.2010    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0969   -7.5128    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8469   -6.2138    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1568   -5.0991    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5271   -5.7092    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7406   -4.8275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5838   -3.3357    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6330   -3.2104    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1390   -4.6225    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3505   -5.8985    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 17 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+  7  3  1  0
+ 18 10  2  0
+ 21  5  1  0
+ 18  6  1  0
+ 16 11  1  0
+M  END
+>  <Compound_ID>  (36) 
+CHEMBL3627996
+
+>  <Molecule Name>  (36) 
+nan
+
+>  <Molecular Weight>  (36) 
+274.32
+
+>  <AlogP>  (36) 
+3.97
+
+>  <Smiles>  (36) 
+O=Cc1cn2c3c1ccc1c4ccccc4n(c13)CCC2
+
+>  <Standard Type>  (36) 
+IC50
+
+>  <Standard Relation>  (36) 
+'='
+
+>  <Standard Units>  (36) 
+nM
+
+>  <Standard Value>  (36) 
+42.0
+
+>  <Assay ChEMBL ID>  (36) 
+CHEMBL3631734
+
+>  <Assay Description>  (36) 
+Inhibition of Pim-1 (unknown origin)
+
+>  <BAO Format ID>  (36) 
+BAO_0000357
+
+>  <BAO Label>  (36) 
+single protein format
+
+>  <Assay Organism>  (36) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (36) 
+CHEMBL2147
+
+>  <Target Name>  (36) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (36) 
+Homo sapiens
+
+>  <Target Type>  (36) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (36) 
+CHEMBL3627645
+
+>  <Source Description>  (36) 
+Scientific Literature
+
+>  <Document Journal>  (36) 
+Bioorg Med Chem
+
+>  <Document Year>  (36) 
+2015.0
+
+>  <Active>  (36) 
+1.0
+
+>  <bits>  (36) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1BD0>
+
+>  <Group>  (36) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 28 32  0  0  0  0  0  0  0  0999 V2000
+    5.9017   -4.2221    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6027   -4.9721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6027   -6.4721    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3037   -7.2221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0046   -6.4721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0046   -4.9721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8899   -3.9684    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500   -6.4952    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9918   -2.7549    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3037   -4.2221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 16 25  1  0
+ 25 26  2  0
+  8 27  2  0
+ 27 28  1  0
+ 28  2  1  0
+ 28  6  2  0
+ 26  9  1  0
+ 26 13  1  0
+ 23 18  1  0
+M  END
+>  <Compound_ID>  (37) 
+CHEMBL3915285
+
+>  <Molecule Name>  (37) 
+nan
+
+>  <Molecular Weight>  (37) 
+386.84
+
+>  <AlogP>  (37) 
+5.47
+
+>  <Smiles>  (37) 
+O=c1[nH]ccc2[nH]c(-c3cccc4ccc(Nc5ccccc5Cl)nc34)cc12
+
+>  <Standard Type>  (37) 
+IC50
+
+>  <Standard Relation>  (37) 
+'='
+
+>  <Standard Units>  (37) 
+nM
+
+>  <Standard Value>  (37) 
+5.2
+
+>  <Assay ChEMBL ID>  (37) 
+CHEMBL3888797
+
+>  <Assay Description>  (37) 
+Homogeneous Time Resolved Fluorescence Assay (HTRF): The assay for the determination of Pim activity is based on the formation of phosphorylated biotinylated-BAD peptide at the Serine 112 residue (S112) and employs HTRF® (homogeneous time resolved fluorescence) technology to detect the product in a 96-well plate format. The phosphorylation of biotinylated-BAD (S112) peptide by full length recombinant Pim-1, Pim-2, or Pim-3 protein was detected with streptavidin:Allophycocyanin (APC) conjugate and a europium (Eu) labeled antibody directed against phosphorylated-BAD (S112). Excitation of Eu by a high energy laser light (337 nm) leads to a transfer of energy to the APC molecule, and results in an emission at 665 nm. The fluorescence is directly proportional to the amount of phosphorylated BAD peptide present in the reaction. Compounds were prepared in DMSO by conducting 3-fold serial dilutions to give a 10-point dosing curve having a high dose of 1 μM. A reference compound was included on each assay plate in order to validate that plate; on one plate of every assay run, two additional reference compounds were included. The final buffer conditions were as follows: 60 mM Hepes, pH 7.0, 0.05% BSA, 2 mM DTT. Incubations were carried out at RT (22° C.) for 2 h for Pim-1, 1 hour and 30 min for Pim-3, and 45 min for Pim-2. The reaction was stopped by the addition of 3 mM EDTA, and fluorescence was measured by an HTRF® Rubystar microplate reader.
+
+>  <BAO Format ID>  (37) 
+BAO_0000357
+
+>  <BAO Label>  (37) 
+single protein format
+
+>  <Assay Organism>  (37) 
+None
+
+>  <Target ChEMBL ID>  (37) 
+CHEMBL2147
+
+>  <Target Name>  (37) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (37) 
+Homo sapiens
+
+>  <Target Type>  (37) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (37) 
+CHEMBL3886836
+
+>  <Source Description>  (37) 
+BindingDB Database
+
+>  <Document Journal>  (37) 
+nan
+
+>  <Document Year>  (37) 
+2016.0
+
+>  <Active>  (37) 
+1.0
+
+>  <bits>  (37) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1B60>
+
+>  <Group>  (37) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 32 35  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500   -3.8971    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  1
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 12 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 20 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 18 27  2  0
+  4 28  1  0
+ 28 29  1  0
+ 29 30  1  1
+ 29 31  1  0
+ 31 32  1  6
+ 31  2  1  0
+ 10  5  1  0
+ 27 14  1  0
+ 25 19  1  0
+M  END
+>  <Compound_ID>  (38) 
+CHEMBL3651922
+
+>  <Molecule Name>  (38) 
+nan
+
+>  <Molecular Weight>  (38) 
+439.47
+
+>  <AlogP>  (38) 
+2.82
+
+>  <Smiles>  (38) 
+C[C@H]1CN(c2ccncc2NC(=O)c2cccc(-c3c(F)cccc3F)n2)C[C@@H](N)[C@@H]1O
+
+>  <Standard Type>  (38) 
+IC50
+
+>  <Standard Relation>  (38) 
+'='
+
+>  <Standard Units>  (38) 
+nM
+
+>  <Standard Value>  (38) 
+1.0
+
+>  <Assay ChEMBL ID>  (38) 
+CHEMBL3706382
+
+>  <Assay Description>  (38) 
+ATP Depletion Assay: The activity of PIM1, PIM2, and PIM3 is measured using a luciferase-luciferin based ATP detection reagent to quantify ATP depletion resulting from kinase-catalyzed phosphoryl transfer to a peptide substrate.
+
+>  <BAO Format ID>  (38) 
+BAO_0000357
+
+>  <BAO Label>  (38) 
+single protein format
+
+>  <Assay Organism>  (38) 
+None
+
+>  <Target ChEMBL ID>  (38) 
+CHEMBL2147
+
+>  <Target Name>  (38) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (38) 
+Homo sapiens
+
+>  <Target Type>  (38) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (38) 
+CHEMBL3638421
+
+>  <Source Description>  (38) 
+BindingDB Database
+
+>  <Document Journal>  (38) 
+nan
+
+>  <Document Year>  (38) 
+2013.0
+
+>  <Active>  (38) 
+1.0
+
+>  <bits>  (38) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1AF0>
+
+>  <Group>  (38) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 27 31  0  0  0  0  0  0  0  0999 V2000
+    4.6740   -4.8322    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3037   -4.2221    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9918   -2.7549    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    1.2990    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1399   -2.6694    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2546   -3.6731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5537   -2.9231    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2418   -1.4558    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8527   -3.6731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8527   -5.1731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5537   -5.9231    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2546   -5.1731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9556   -5.9231    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8899   -3.9684    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0046   -4.9721    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  1  0
+ 11 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 17 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  2  0
+ 13 24  1  0
+ 24 25  2  0
+  4 26  1  0
+ 26 27  2  0
+ 27  2  1  0
+ 25  5  1  0
+ 24  8  1  0
+ 18 14  1  0
+ 22 16  1  0
+M  END
+>  <Compound_ID>  (39) 
+CHEMBL3895191
+
+>  <Molecule Name>  (39) 
+nan
+
+>  <Molecular Weight>  (39) 
+361.38
+
+>  <AlogP>  (39) 
+3.06
+
+>  <Smiles>  (39) 
+Cn1cc(-c2ccc3ccc(F)c(-c4cc5c([nH]4)CCNC5=O)c3n2)cn1
+
+>  <Standard Type>  (39) 
+IC50
+
+>  <Standard Relation>  (39) 
+'='
+
+>  <Standard Units>  (39) 
+nM
+
+>  <Standard Value>  (39) 
+90.9
+
+>  <Assay ChEMBL ID>  (39) 
+CHEMBL3888799
+
+>  <Assay Description>  (39) 
+Homogeneous Time Resolved Fluorescence Assay (HTRF): The assay for the determination of Pim activity is based on the formation of phosphorylated biotinylated-BAD peptide at the Serine 112 residue (S112) and employs HTRF® (homogeneous time resolved fluorescence) technology to detect the product in a 384-well plate format. The phosphorylation of biotinylated-BAD (S112) peptide by full length recombinant Pim-1, Pim-2, or Pim-3 protein was detected with streptavidin:Allophycocyanin (APC) conjugate and a europium (Eu) labeled antibody directed against phosphorylated-BAD (S112). Excitation of Eu by a high energy laser light (337 nm) leads to a transfer of energy to the APC molecule, and results in an emission at 665 nm. The fluorescence is directly proportional to the amount of phosphorylated BAD peptide present in the reaction. Compounds were prepared in DMSO by conducting 3-fold serial dilutions to give a 22-point dosing curve having a high dose of 1 μM. A reference compound was included on each assay plate [Costar 3658] in order to validate that plate; on one plate of every assay run, two additional reference compounds were included. The Reaction Buffer consisted of 45 mM Hepes, pH 7.0, 15 mM NaCl, and 1 mM MgCl. The quench/detection buffer consisted of 50 mM Tris, 100 mM NaCl, 0.05% BSA, 0.1% Tween and 3 mM EDTA. Biotinylated BAD peptide (Biopeptide), 10 mM ATP (Sigma), Labeled p-BAD (S112) mAb (Cell Signalling and Perkin Elmer) [with 0.05% BSA and 2 mM DTT added] streptavidin:Allophycocyanin [Perkin Elmer]. Final concentrations either Pim-1 enzyme [5 pM], or Pim-2 enzyme [0.5 pM], DMSO [1%], BLC BAD (S112) [0.5 μM], ATP [1.5 μM], streptavidin:Allophycocyanin [0.002 mg/mL] and biotinylated-BAD (S112) mAb [100 pM]. Initial incubations were carried out at RT (22° C.) for 30 min for both Pim-1 and for Pim-2. Pim enzyme is added to compound in buffer, and plates are incubated of 30 min. Biotinylated BAD and ATP are added and plates are incubated for 1 h. A mixture of labeled p-BAD (S112) mAb and quench/detection buffer are added and incubated for 2 h. Fluorescence was measured by an HTRF® Envision microplate reader.
+
+>  <BAO Format ID>  (39) 
+BAO_0000357
+
+>  <BAO Label>  (39) 
+single protein format
+
+>  <Assay Organism>  (39) 
+None
+
+>  <Target ChEMBL ID>  (39) 
+CHEMBL2147
+
+>  <Target Name>  (39) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (39) 
+Homo sapiens
+
+>  <Target Type>  (39) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (39) 
+CHEMBL3886836
+
+>  <Source Description>  (39) 
+BindingDB Database
+
+>  <Document Journal>  (39) 
+nan
+
+>  <Document Year>  (39) 
+2016.0
+
+>  <Active>  (39) 
+1.0
+
+>  <bits>  (39) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1A80>
+
+>  <Group>  (39) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 19 20  0  0  0  0  0  0  0  0999 V2000
+    6.5218   -0.9664    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3083   -1.8481    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3083   -3.3481    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8817   -3.8116    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4182   -5.2382    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5000    2.5981    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0490    0.5490    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4510    2.0490    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8817   -1.3846    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  4  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 14 16  1  0
+ 14 17  1  0
+ 12 18  2  0
+  6 19  1  0
+ 19  2  1  0
+ 18  8  1  0
+M  END
+>  <Compound_ID>  (40) 
+CHEMBL496783
+
+>  <Molecule Name>  (40) 
+nan
+
+>  <Molecular Weight>  (40) 
+289.23
+
+>  <AlogP>  (40) 
+2.91
+
+>  <Smiles>  (40) 
+O=C1NC(=O)/C(=C/c2cccc(OC(F)(F)F)c2)S1
+
+>  <Standard Type>  (40) 
+IC50
+
+>  <Standard Relation>  (40) 
+'='
+
+>  <Standard Units>  (40) 
+nM
+
+>  <Standard Value>  (40) 
+67.0
+
+>  <Assay ChEMBL ID>  (40) 
+CHEMBL957365
+
+>  <Assay Description>  (40) 
+Inhibition of human recombinant Pim1 by ATP depletion assay
+
+>  <BAO Format ID>  (40) 
+BAO_0000357
+
+>  <BAO Label>  (40) 
+single protein format
+
+>  <Assay Organism>  (40) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (40) 
+CHEMBL2147
+
+>  <Target Name>  (40) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (40) 
+Homo sapiens
+
+>  <Target Type>  (40) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (40) 
+CHEMBL1139352
+
+>  <Source Description>  (40) 
+Scientific Literature
+
+>  <Document Journal>  (40) 
+J Med Chem
+
+>  <Document Year>  (40) 
+2009.0
+
+>  <Active>  (40) 
+1.0
+
+>  <bits>  (40) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1A10>
+
+>  <Group>  (40) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 26 29  0  0  0  0  0  0  0  0999 V2000
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4943    2.4138    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7079    1.5321    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0782    2.1422    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5511    0.0403    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7646   -0.8414    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1807   -0.5698    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0240   -2.0616    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -6.4952    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  8 10  1  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  1  0
+ 14 16  2  0
+ 16 17  1  0
+ 16 18  1  0
+ 18 19  1  0
+ 18 20  2  0
+ 20 21  1  0
+ 21 22  1  0
+  5 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 25  3  1  0
+ 22  6  1  0
+ 21 10  2  0
+ 20 12  1  0
+M  END
+>  <Compound_ID>  (41) 
+CHEMBL4551767
+
+>  <Molecule Name>  (41) 
+nan
+
+>  <Molecular Weight>  (41) 
+434.32
+
+>  <AlogP>  (41) 
+4.24
+
+>  <Smiles>  (41) 
+COc1cc(C2NC(=O)c3sc4nc(C)c(Br)c(C)c4c3N2)ccc1O
+
+>  <Standard Type>  (41) 
+IC50
+
+>  <Standard Relation>  (41) 
+'='
+
+>  <Standard Units>  (41) 
+nM
+
+>  <Standard Value>  (41) 
+80.0
+
+>  <Assay ChEMBL ID>  (41) 
+CHEMBL4348704
+
+>  <Assay Description>  (41) 
+Inhibition of human PIM1 by ELISA
+
+>  <BAO Format ID>  (41) 
+BAO_0000357
+
+>  <BAO Label>  (41) 
+single protein format
+
+>  <Assay Organism>  (41) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (41) 
+CHEMBL2147
+
+>  <Target Name>  (41) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (41) 
+Homo sapiens
+
+>  <Target Type>  (41) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (41) 
+CHEMBL4346696
+
+>  <Source Description>  (41) 
+Scientific Literature
+
+>  <Document Journal>  (41) 
+Eur J Med Chem
+
+>  <Document Year>  (41) 
+2019.0
+
+>  <Active>  (41) 
+1.0
+
+>  <bits>  (41) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB19A0>
+
+>  <Group>  (41) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 22 24  0  0  0  0  0  0  0  0999 V2000
+   -8.0346   -3.5760    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9199   -4.5797    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2317   -6.0469    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4933   -4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1814   -2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  2  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 15 20  2  0
+  7 21  1  0
+ 21 22  2  0
+ 22  4  1  0
+ 20  8  1  0
+ 20 11  1  0
+M  END
+>  <Compound_ID>  (42) 
+CHEMBL3354526
+
+>  <Molecule Name>  (42) 
+nan
+
+>  <Molecular Weight>  (42) 
+297.32
+
+>  <AlogP>  (42) 
+1.13
+
+>  <Smiles>  (42) 
+NC(=O)c1ccc(-c2c[nH]c3ncnc(NCCO)c23)cc1
+
+>  <Standard Type>  (42) 
+IC50
+
+>  <Standard Relation>  (42) 
+'='
+
+>  <Standard Units>  (42) 
+nM
+
+>  <Standard Value>  (42) 
+21.0
+
+>  <Assay ChEMBL ID>  (42) 
+CHEMBL3376646
+
+>  <Assay Description>  (42) 
+Inhibition of PIM1 (unknown origin)
+
+>  <BAO Format ID>  (42) 
+BAO_0000357
+
+>  <BAO Label>  (42) 
+single protein format
+
+>  <Assay Organism>  (42) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (42) 
+CHEMBL2147
+
+>  <Target Name>  (42) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (42) 
+Homo sapiens
+
+>  <Target Type>  (42) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (42) 
+CHEMBL3352230
+
+>  <Source Description>  (42) 
+Scientific Literature
+
+>  <Document Journal>  (42) 
+Bioorg Med Chem Lett
+
+>  <Document Year>  (42) 
+2015.0
+
+>  <Active>  (42) 
+1.0
+
+>  <bits>  (42) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1930>
+
+>  <Group>  (42) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 26 30  0  0  0  0  0  0  0  0999 V2000
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8817   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3083   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3083    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8817    1.2135    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7348    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1984    2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1947    3.7548    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6165    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7348   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1984   -2.6401    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2990   -5.9462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2990   -4.4462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 12 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 14 17  1  0
+ 17 18  1  0
+ 18 19  2  0
+  8 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 22 23  1  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  1  0
+ 22  2  1  0
+ 26 24  1  0
+ 20  4  1  0
+ 13  9  1  0
+ 18 11  1  0
+M  END
+>  <Compound_ID>  (43) 
+CHEMBL3905144
+
+>  <Molecule Name>  (43) 
+nan
+
+>  <Molecular Weight>  (43) 
+349.39
+
+>  <AlogP>  (43) 
+2.28
+
+>  <Smiles>  (43) 
+Cc1nc2cccc(-c3cc4c([nH]3)C(CO)NC4=O)c2nc1NC1CC1
+
+>  <Standard Type>  (43) 
+IC50
+
+>  <Standard Relation>  (43) 
+'='
+
+>  <Standard Units>  (43) 
+nM
+
+>  <Standard Value>  (43) 
+0.331
+
+>  <Assay ChEMBL ID>  (43) 
+CHEMBL3888799
+
+>  <Assay Description>  (43) 
+Homogeneous Time Resolved Fluorescence Assay (HTRF): The assay for the determination of Pim activity is based on the formation of phosphorylated biotinylated-BAD peptide at the Serine 112 residue (S112) and employs HTRF® (homogeneous time resolved fluorescence) technology to detect the product in a 384-well plate format. The phosphorylation of biotinylated-BAD (S112) peptide by full length recombinant Pim-1, Pim-2, or Pim-3 protein was detected with streptavidin:Allophycocyanin (APC) conjugate and a europium (Eu) labeled antibody directed against phosphorylated-BAD (S112). Excitation of Eu by a high energy laser light (337 nm) leads to a transfer of energy to the APC molecule, and results in an emission at 665 nm. The fluorescence is directly proportional to the amount of phosphorylated BAD peptide present in the reaction. Compounds were prepared in DMSO by conducting 3-fold serial dilutions to give a 22-point dosing curve having a high dose of 1 μM. A reference compound was included on each assay plate [Costar 3658] in order to validate that plate; on one plate of every assay run, two additional reference compounds were included. The Reaction Buffer consisted of 45 mM Hepes, pH 7.0, 15 mM NaCl, and 1 mM MgCl. The quench/detection buffer consisted of 50 mM Tris, 100 mM NaCl, 0.05% BSA, 0.1% Tween and 3 mM EDTA. Biotinylated BAD peptide (Biopeptide), 10 mM ATP (Sigma), Labeled p-BAD (S112) mAb (Cell Signalling and Perkin Elmer) [with 0.05% BSA and 2 mM DTT added] streptavidin:Allophycocyanin [Perkin Elmer]. Final concentrations either Pim-1 enzyme [5 pM], or Pim-2 enzyme [0.5 pM], DMSO [1%], BLC BAD (S112) [0.5 μM], ATP [1.5 μM], streptavidin:Allophycocyanin [0.002 mg/mL] and biotinylated-BAD (S112) mAb [100 pM]. Initial incubations were carried out at RT (22° C.) for 30 min for both Pim-1 and for Pim-2. Pim enzyme is added to compound in buffer, and plates are incubated of 30 min. Biotinylated BAD and ATP are added and plates are incubated for 1 h. A mixture of labeled p-BAD (S112) mAb and quench/detection buffer are added and incubated for 2 h. Fluorescence was measured by an HTRF® Envision microplate reader.
+
+>  <BAO Format ID>  (43) 
+BAO_0000357
+
+>  <BAO Label>  (43) 
+single protein format
+
+>  <Assay Organism>  (43) 
+None
+
+>  <Target ChEMBL ID>  (43) 
+CHEMBL2147
+
+>  <Target Name>  (43) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (43) 
+Homo sapiens
+
+>  <Target Type>  (43) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (43) 
+CHEMBL3886836
+
+>  <Source Description>  (43) 
+BindingDB Database
+
+>  <Document Journal>  (43) 
+nan
+
+>  <Document Year>  (43) 
+2016.0
+
+>  <Active>  (43) 
+1.0
+
+>  <bits>  (43) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB18C0>
+
+>  <Group>  (43) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 22 24  0  0  0  0  0  0  0  0999 V2000
+    5.0260   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5260   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2760    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8578    2.6401    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3250    2.9520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7886    4.3786    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7849    5.4933    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3177    5.1814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1459    3.7548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323    0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1470   -1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5736   -1.2902    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8351   -3.2209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9499   -4.2246    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4086   -3.6844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0967   -5.1517    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+    0.7062   -2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1328   -3.1443    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+  5 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 14 16  1  0
+ 16 17  1  0
+ 16 18  2  0
+ 18 19  1  0
+ 18 20  1  0
+ 20 21  1  0
+ 20 22  2  0
+ 22  4  1  0
+ 11  6  1  0
+ 22 13  1  0
+M  END
+>  <Compound_ID>  (44) 
+CHEMBL3639838
+
+>  <Molecule Name>  (44) 
+nan
+
+>  <Molecular Weight>  (44) 
+559.93
+
+>  <AlogP>  (44) 
+4.91
+
+>  <Smiles>  (44) 
+CCCn1c(N2CCNCC2)nc2c(Br)c(Br)c(Br)c(Br)c21
+
+>  <Standard Type>  (44) 
+IC50
+
+>  <Standard Relation>  (44) 
+'='
+
+>  <Standard Units>  (44) 
+nM
+
+>  <Standard Value>  (44) 
+9.36
+
+>  <Assay ChEMBL ID>  (44) 
+CHEMBL3705636
+
+>  <Assay Description>  (44) 
+Luminometric Kinase Assay: Kinase assay was performed using luminescent Kinase-Glo (Promega) system. The Kinase-Glo Luminescent Kinase Assay Platform provides a homogeneous, high-throughput screening method for measuring kinase activity by quantifying the amount of ATP remaining in solution following a kinase reaction.
+
+>  <BAO Format ID>  (44) 
+BAO_0000357
+
+>  <BAO Label>  (44) 
+single protein format
+
+>  <Assay Organism>  (44) 
+None
+
+>  <Target ChEMBL ID>  (44) 
+CHEMBL2147
+
+>  <Target Name>  (44) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (44) 
+Homo sapiens
+
+>  <Target Type>  (44) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (44) 
+CHEMBL3638987
+
+>  <Source Description>  (44) 
+BindingDB Database
+
+>  <Document Journal>  (44) 
+nan
+
+>  <Document Year>  (44) 
+2013.0
+
+>  <Active>  (44) 
+1.0
+
+>  <bits>  (44) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1850>
+
+>  <Group>  (44) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 27 30  0  0  0  0  0  0  0  0999 V2000
+    5.2500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5729   -4.6300    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6876   -5.6337    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8024   -6.6374    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6839   -6.7484    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6913   -4.5189    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7701   -2.1590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  1
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  1  0
+ 20 22  1  0
+ 20 23  1  0
+ 18 24  2  0
+ 13 25  1  0
+ 25 26  1  0
+  6 27  1  0
+ 27  2  1  0
+ 26  7  2  0
+ 25 10  1  0
+ 24 14  1  0
+M  END
+>  <Compound_ID>  (45) 
+CHEMBL3929768
+
+>  <Molecule Name>  (45) 
+nan
+
+>  <Molecular Weight>  (45) 
+377.37
+
+>  <AlogP>  (45) 
+3.22
+
+>  <Smiles>  (45) 
+N[C@H]1CCCN(c2ccc3ncc(-c4cccc(OC(F)(F)F)c4)n3n2)C1
+
+>  <Standard Type>  (45) 
+IC50
+
+>  <Standard Relation>  (45) 
+'='
+
+>  <Standard Units>  (45) 
+nM
+
+>  <Standard Value>  (45) 
+30.0
+
+>  <Assay ChEMBL ID>  (45) 
+CHEMBL3888916
+
+>  <Assay Description>  (45) 
+Kinase-Glo Assay: These assays are set up in duplicate 50 ul volumes in white, flat bottom 96 well plates. Inhibitors are added to the solution of 1× kinase buffer, 10 uM ATP, 100 uM Pim-1-specific substrate, 50 ng of active Pim-1 enzyme, and water in serial dilutions ranging from micromolar to nanomolar concentrations. This solution is incubated at 30 degrees Celsius at 360 rpm for two hours. Following the incubation, 50 ul of Kinase-Glo reagent is added to each well, including all positive and negative control wells, and incubated at room temperature for 15 minutes. The plate is then read by the Luminoskan Ascent instrument and the results displayed with the Ascent Software version 2.6.
+
+>  <BAO Format ID>  (45) 
+BAO_0000357
+
+>  <BAO Label>  (45) 
+single protein format
+
+>  <Assay Organism>  (45) 
+None
+
+>  <Target ChEMBL ID>  (45) 
+CHEMBL2147
+
+>  <Target Name>  (45) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (45) 
+Homo sapiens
+
+>  <Target Type>  (45) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (45) 
+CHEMBL3886885
+
+>  <Source Description>  (45) 
+BindingDB Database
+
+>  <Document Journal>  (45) 
+nan
+
+>  <Document Year>  (45) 
+2016.0
+
+>  <Active>  (45) 
+1.0
+
+>  <bits>  (45) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB17E0>
+
+>  <Group>  (45) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 30 34  0  0  0  0  0  0  0  0999 V2000
+    3.7500   -1.2990    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.8204    1.2389    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2470    1.7024    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.3617    0.6987    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.0498   -0.7685    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4261   -3.7029    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.8527   -3.2394    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.9674   -4.2431    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.6555   -5.7103    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.2289   -6.1738    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.1142   -5.1701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  2  0
+  3  4  1  0
+  4  5  2  0
+  5  6  1  0
+  6  7  2  0
+  7  8  1  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 23 22  1  6
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  1  0
+ 26 27  1  0
+ 27 28  1  0
+ 14 29  1  0
+ 29 30  1  0
+  7  2  1  0
+ 30  8  2  0
+ 29 11  1  0
+ 21 16  1  0
+ 28 23  1  0
+M  END
+>  <Compound_ID>  (46) 
+CHEMBL3942758
+
+>  <Molecule Name>  (46) 
+nan
+
+>  <Molecular Weight>  (46) 
+420.9
+
+>  <AlogP>  (46) 
+4.32
+
+>  <Smiles>  (46) 
+Clc1ccccc1-c1ccc2cnc(Nc3cnccc3O[C@H]3CCCNC3)n2n1
+
+>  <Standard Type>  (46) 
+IC50
+
+>  <Standard Relation>  (46) 
+'='
+
+>  <Standard Units>  (46) 
+nM
+
+>  <Standard Value>  (46) 
+44.0
+
+>  <Assay ChEMBL ID>  (46) 
+CHEMBL3887608
+
+>  <Assay Description>  (46) 
+PIM Enzyme Assay: The assay for the determination of Pim activity is based on the formation of phosphorylated biotinylated-BAD peptide at the Serine 112 residue (S112) and employs HTRF (homogeneous time resolved fluorescence) technology to detect the product in a 96-well plate format. The phosphorylation of biotinylated-BAD (S112) peptide by full length recombinant Pim-1, Pim-2, or Pim-3 protein was detected with streptavidin:Allophycocyanin (APC) conjugate and a europium (Eu) labeled antibody directed against phosphorylated-BAD (S112). Excitation of Eu by a high energy laser light (337 nm) leads to a transfer of energy to the APC molecule, and results in an emission at 665 nm. The fluorescence is directly proportional to the amount of phosphorylated BAD peptide present in the reaction.Compounds were prepared in DMSO by conducting 3-fold serial dilutions to give a 10-point dosing curve having a high dose of 1 uM. A reference compound was included on each assay plate in order to validate that plate.
+
+>  <BAO Format ID>  (46) 
+BAO_0000357
+
+>  <BAO Label>  (46) 
+single protein format
+
+>  <Assay Organism>  (46) 
+None
+
+>  <Target ChEMBL ID>  (46) 
+CHEMBL2147
+
+>  <Target Name>  (46) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (46) 
+Homo sapiens
+
+>  <Target Type>  (46) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (46) 
+CHEMBL3886376
+
+>  <Source Description>  (46) 
+BindingDB Database
+
+>  <Document Journal>  (46) 
+nan
+
+>  <Document Year>  (46) 
+2015.0
+
+>  <Active>  (46) 
+1.0
+
+>  <bits>  (46) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1700>
+
+>  <Group>  (46) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 28 31  0  0  0  0  0  0  0  0999 V2000
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1317    0.0855    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5583    0.5490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.7718   -0.3326    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5583    2.0490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.7718    2.9307    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.6150    4.4225    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.7297    5.4262    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.1196    6.7965    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.6278    6.6397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6241    7.7544    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1569    7.4426    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1532    8.5573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6167    9.9839    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0840   10.2957    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.5475   11.7223    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0877    9.1810    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.3160    5.1725    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1317    2.5126    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 10 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  1  0
+ 22 24  2  0
+ 17 25  1  0
+ 12 26  1  0
+  5 27  1  0
+ 27 28  1  0
+ 28  2  1  0
+ 26  8  1  0
+ 25 14  1  0
+ 24 18  1  0
+M  END
+>  <Compound_ID>  (47) 
+CHEMBL4781049
+
+>  <Molecule Name>  (47) 
+nan
+
+>  <Molecular Weight>  (47) 
+415.95
+
+>  <AlogP>  (47) 
+4.5
+
+>  <Smiles>  (47) 
+CN1CCC(CNC2=NC(=O)/C(=C/c3ccc(-c4cccc(Cl)c4)o3)S2)CC1
+
+>  <Standard Type>  (47) 
+IC50
+
+>  <Standard Relation>  (47) 
+'='
+
+>  <Standard Units>  (47) 
+nM
+
+>  <Standard Value>  (47) 
+37.0
+
+>  <Assay ChEMBL ID>  (47) 
+CHEMBL4687837
+
+>  <Assay Description>  (47) 
+Inhibition of PIM1 (unknown origin) by coupled kinetic assay
+
+>  <BAO Format ID>  (47) 
+BAO_0000357
+
+>  <BAO Label>  (47) 
+single protein format
+
+>  <Assay Organism>  (47) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (47) 
+CHEMBL2147
+
+>  <Target Name>  (47) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (47) 
+Homo sapiens
+
+>  <Target Type>  (47) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (47) 
+CHEMBL4680285
+
+>  <Source Description>  (47) 
+Scientific Literature
+
+>  <Document Journal>  (47) 
+Bioorg Med Chem
+
+>  <Document Year>  (47) 
+2020.0
+
+>  <Active>  (47) 
+1.0
+
+>  <bits>  (47) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1690>
+
+>  <Group>  (47) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 27 30  0  0  0  0  0  0  0  0999 V2000
+   -5.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500   -5.3971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2500   -2.3971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9918   -2.7549    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3037   -4.2221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0046   -4.9721    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8899   -3.9684    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0046   -6.4721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3037   -7.2221    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6027   -6.4721    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6027   -4.9721    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9017   -4.2221    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7500    1.2990    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  5  7  1  0
+  5  8  1  0
+  3  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  2  0
+ 14 15  1  0
+ 15 16  1  0
+ 15 17  1  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 20 21  2  0
+ 11 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 26 27  2  0
+ 26  2  1  0
+ 25 10  1  0
+ 16 12  2  0
+ 20 14  1  0
+M  END
+>  <Compound_ID>  (48) 
+CHEMBL3962885
+
+>  <Molecule Name>  (48) 
+nan
+
+>  <Molecular Weight>  (48) 
+365.44
+
+>  <AlogP>  (48) 
+2.36
+
+>  <Smiles>  (48) 
+Cn1c(NC(C)(C)C)nc2c(-c3cc4n(c3)CCNC4=O)cccc2c1=O
+
+>  <Standard Type>  (48) 
+IC50
+
+>  <Standard Relation>  (48) 
+'='
+
+>  <Standard Units>  (48) 
+nM
+
+>  <Standard Value>  (48) 
+7.74
+
+>  <Assay ChEMBL ID>  (48) 
+CHEMBL3888799
+
+>  <Assay Description>  (48) 
+Homogeneous Time Resolved Fluorescence Assay (HTRF): The assay for the determination of Pim activity is based on the formation of phosphorylated biotinylated-BAD peptide at the Serine 112 residue (S112) and employs HTRF® (homogeneous time resolved fluorescence) technology to detect the product in a 384-well plate format. The phosphorylation of biotinylated-BAD (S112) peptide by full length recombinant Pim-1, Pim-2, or Pim-3 protein was detected with streptavidin:Allophycocyanin (APC) conjugate and a europium (Eu) labeled antibody directed against phosphorylated-BAD (S112). Excitation of Eu by a high energy laser light (337 nm) leads to a transfer of energy to the APC molecule, and results in an emission at 665 nm. The fluorescence is directly proportional to the amount of phosphorylated BAD peptide present in the reaction. Compounds were prepared in DMSO by conducting 3-fold serial dilutions to give a 22-point dosing curve having a high dose of 1 μM. A reference compound was included on each assay plate [Costar 3658] in order to validate that plate; on one plate of every assay run, two additional reference compounds were included. The Reaction Buffer consisted of 45 mM Hepes, pH 7.0, 15 mM NaCl, and 1 mM MgCl. The quench/detection buffer consisted of 50 mM Tris, 100 mM NaCl, 0.05% BSA, 0.1% Tween and 3 mM EDTA. Biotinylated BAD peptide (Biopeptide), 10 mM ATP (Sigma), Labeled p-BAD (S112) mAb (Cell Signalling and Perkin Elmer) [with 0.05% BSA and 2 mM DTT added] streptavidin:Allophycocyanin [Perkin Elmer]. Final concentrations either Pim-1 enzyme [5 pM], or Pim-2 enzyme [0.5 pM], DMSO [1%], BLC BAD (S112) [0.5 μM], ATP [1.5 μM], streptavidin:Allophycocyanin [0.002 mg/mL] and biotinylated-BAD (S112) mAb [100 pM]. Initial incubations were carried out at RT (22° C.) for 30 min for both Pim-1 and for Pim-2. Pim enzyme is added to compound in buffer, and plates are incubated of 30 min. Biotinylated BAD and ATP are added and plates are incubated for 1 h. A mixture of labeled p-BAD (S112) mAb and quench/detection buffer are added and incubated for 2 h. Fluorescence was measured by an HTRF® Envision microplate reader.
+
+>  <BAO Format ID>  (48) 
+BAO_0000357
+
+>  <BAO Label>  (48) 
+single protein format
+
+>  <Assay Organism>  (48) 
+None
+
+>  <Target ChEMBL ID>  (48) 
+CHEMBL2147
+
+>  <Target Name>  (48) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (48) 
+Homo sapiens
+
+>  <Target Type>  (48) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (48) 
+CHEMBL3886836
+
+>  <Source Description>  (48) 
+BindingDB Database
+
+>  <Document Journal>  (48) 
+nan
+
+>  <Document Year>  (48) 
+2016.0
+
+>  <Active>  (48) 
+1.0
+
+>  <bits>  (48) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1620>
+
+>  <Group>  (48) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 26 29  0  0  0  0  0  0  0  0999 V2000
+    5.2500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135    2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000    3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000    5.1073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    5.8573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990    7.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000    8.1073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990    7.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5981    8.1073    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2990    5.8573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135    2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6401    3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7548    2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1814    2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4933    4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3786    5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9520    4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  0
+ 16 18  2  0
+ 11 19  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 19 26  1  0
+ 26  4  1  0
+ 26  9  1  0
+ 18 12  1  0
+ 25 20  1  0
+M  END
+>  <Compound_ID>  (49) 
+CHEMBL3980052
+
+>  <Molecule Name>  (49) 
+nan
+
+>  <Molecular Weight>  (49) 
+365.86
+
+>  <AlogP>  (49) 
+4.11
+
+>  <Smiles>  (49) 
+NCCC1CNC(=O)c2cc(-c3cccc(Cl)c3)c(-c3ccccc3)n21
+
+>  <Standard Type>  (49) 
+IC50
+
+>  <Standard Relation>  (49) 
+'='
+
+>  <Standard Units>  (49) 
+nM
+
+>  <Standard Value>  (49) 
+34.0
+
+>  <Assay ChEMBL ID>  (49) 
+CHEMBL3887519
+
+>  <Assay Description>  (49) 
+Trans-Phosphorylation Assay: The inhibitory activity of putative kinase inhibitors and the potency of selected compounds were determined using a trans-phosphorylation assay. Specific peptide or protein substrates were trans-phosphorylated by their specific ser-thr or tyr kinase in the presence of ATP traced with 33P-gamma-ATP, and in the presence of their own optimal buffer and cofactors.At the end of the phosphorylation reaction, more than 98% unlabeled ATP and radioactive ATP were captured by an excess of the ion exchange dowex resin; the resin then settled down to the bottom of the reaction plate by gravity. Supernatant was subsequently withdrawn and transferred into a counting plate, then evaluated by beta-counting. Kinase Buffer (KB):The buffer for PIM1 assay was composed of HEPES 50 mM, at pH 7.5, with 10 mM MgCl2, 1 mM DTT, 3 uM NaVO3, and 0.2 mg/mL BSA.Â  Full-length human PIM1 was expressed and purified as described in Bullock A N, et al., J. Biol. Chem. 2005, 280, 41675-82.
+
+>  <BAO Format ID>  (49) 
+BAO_0000357
+
+>  <BAO Label>  (49) 
+single protein format
+
+>  <Assay Organism>  (49) 
+None
+
+>  <Target ChEMBL ID>  (49) 
+CHEMBL2147
+
+>  <Target Name>  (49) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (49) 
+Homo sapiens
+
+>  <Target Type>  (49) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (49) 
+CHEMBL3886350
+
+>  <Source Description>  (49) 
+BindingDB Database
+
+>  <Document Journal>  (49) 
+nan
+
+>  <Document Year>  (49) 
+2015.0
+
+>  <Active>  (49) 
+1.0
+
+>  <bits>  (49) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB15B0>
+
+>  <Group>  (49) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 34 38  0  0  0  0  0  0  0  0999 V2000
+   -5.4350    5.9978    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7559    5.2870    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.9695    6.1687    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.4154    5.7697    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.0049    4.3904    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.2941    3.0695    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.1758    1.8559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -11.6676    2.0127    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5657    0.4856    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  -10.4474   -0.7279    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.8373   -2.0982    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.3455   -2.2550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.7354   -3.6253    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4638   -1.0415    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9720   -1.1983    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9684   -0.0836    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5980   -0.6937    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -5.1073    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.2220   -2.4973    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.0739    0.3288    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.8183    2.8016    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6886    3.7885    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 12 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 21 23  1  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 26 27  2  0
+ 27 28  1  0
+ 27 29  1  0
+ 29 30  2  0
+ 18 31  1  0
+ 14 32  2  0
+  6 33  1  0
+ 33 34  1  0
+ 34  2  1  0
+ 32  9  1  0
+ 31 15  1  0
+ 30 20  1  0
+ 30 24  1  0
+M  END
+>  <Compound_ID>  (50) 
+CHEMBL2037204
+
+>  <Molecule Name>  (50) 
+nan
+
+>  <Molecular Weight>  (50) 
+479.94
+
+>  <AlogP>  (50) 
+5.01
+
+>  <Smiles>  (50) 
+CN1CCCN(C(=O)c2ccc(F)c(-c3ccc(/C=C4/C(=O)Nc5ccc(Cl)cc54)o3)c2)CC1
+
+>  <Standard Type>  (50) 
+IC50
+
+>  <Standard Relation>  (50) 
+'='
+
+>  <Standard Units>  (50) 
+nM
+
+>  <Standard Value>  (50) 
+3.0
+
+>  <Assay ChEMBL ID>  (50) 
+CHEMBL2038828
+
+>  <Assay Description>  (50) 
+Inhibition of human recombinant Pim1 using RSRHSSYPAGT as substrate by radiometric assay
+
+>  <BAO Format ID>  (50) 
+BAO_0000357
+
+>  <BAO Label>  (50) 
+single protein format
+
+>  <Assay Organism>  (50) 
+Homo sapiens
+
+>  <Target ChEMBL ID>  (50) 
+CHEMBL2147
+
+>  <Target Name>  (50) 
+Serine/threonine-protein kinase PIM1
+
+>  <Target Organism>  (50) 
+Homo sapiens
+
+>  <Target Type>  (50) 
+SINGLE PROTEIN
+
+>  <Document ChEMBL ID>  (50) 
+CHEMBL2034977
+
+>  <Source Description>  (50) 
+Scientific Literature
+
+>  <Document Journal>  (50) 
+ACS Med Chem Lett
+
+>  <Document Year>  (50) 
+2012.0
+
+>  <Active>  (50) 
+1.0
+
+>  <bits>  (50) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x0000026CC4FB1540>
+
+>  <Group>  (50) 
+G1
+
+$$$$

@@ -1,0 +1,11 @@
+Source	Target	Total	G1	Train	Valid	Test
+DUD-E	AKT1	773 (Active 342 | Inactive 431)	50 (Active 50)	482 (Active 195 | Inactive 287)	121 (Active 49 | Inactive 72)	120 (Active 48 | Inactive 72)
+DUD-E	AKT2	243 (Active 130 | Inactive 113)	50 (Active 50)	128 (Active 53 | Inactive 75)	32 (Active 13 | Inactive 19)	33 (Active 14 | Inactive 19)
+DUD-E	CSF1R	357 (Active 189 | Inactive 168)	50 (Active 50)	205 (Active 93 | Inactive 112)	51 (Active 23 | Inactive 28)	51 (Active 23 | Inactive 28)
+DUD-E	FAK1	194 (Active 109 | Inactive 85)	50 (Active 50)	96 (Active 39 | Inactive 57)	24 (Active 10 | Inactive 14)	24 (Active 10 | Inactive 14)
+DUD-E	KPCB	303 (Active 152 | Inactive 151)	50 (Active 50)	169 (Active 68 | Inactive 101)	42 (Active 17 | Inactive 25)	42 (Active 17 | Inactive 25)
+DUD-E	MAPK2	205 (Active 111 | Inactive 94)	50 (Active 50)	104 (Active 41 | Inactive 63)	26 (Active 10 | Inactive 16)	25 (Active 10 | Inactive 15)
+DUD-E	MET	365 (Active 189 | Inactive 176)	50 (Active 50)	210 (Active 93 | Inactive 117)	52 (Active 23 | Inactive 29)	53 (Active 23 | Inactive 30)
+DUD-E	MP2K1	263 (Active 135 | Inactive 128)	50 (Active 50)	142 (Active 57 | Inactive 85)	35 (Active 14 | Inactive 21)	36 (Active 14 | Inactive 22)
+DUD-E	PLK1	220 (Active 117 | Inactive 103)	50 (Active 50)	114 (Active 45 | Inactive 69)	28 (Active 11 | Inactive 17)	28 (Active 11 | Inactive 17)
+DUD-E	WEE1	203 (Active 112 | Inactive 91)	50 (Active 50)	102 (Active 41 | Inactive 61)	25 (Active 10 | Inactive 15)	26 (Active 11 | Inactive 15)
