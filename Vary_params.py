@@ -34,7 +34,7 @@ def fps(df, rd, bt, g1, n_cpu):
     return vector
 
 
-def pick_molecules(df, cls_num, cores, rb=False):
+def pick_molecules(df, cls_num, cores):
     rb_idx = 0
     check = True
     rb_lst = [x for x in itertools.product([3, 2, 1], [2048, 1024, 512, 256])]
@@ -67,10 +67,6 @@ def pick_molecules(df, cls_num, cores, rb=False):
     else:
         pass
 
-    if rb:
-        bit_generator = AllChem.GetMorganFingerprintAsBitVect
-        cent['bits'] = cent['ROMol'].apply(lambda x: bit_generator(x, useChirality=True, radius=rb[0], nBits=rb[1]))
-        remains['bits'] = remains['ROMol'].apply(lambda x: bit_generator(x, useChirality=True, radius=rb[0], nBits=rb[1]))
     return cent, remains
 
 
@@ -108,6 +104,11 @@ if __name__ == "__main__":
                 train = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_train.tsv", sep='\t')
                 valid = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_valid.tsv", sep='\t')
                 test = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_test.tsv", sep='\t')
+
+                PandasTools.AddMoleculeColumnToFrame(g1)
+                PandasTools.AddMoleculeColumnToFrame(train)
+                PandasTools.AddMoleculeColumnToFrame(valid)
+                PandasTools.AddMoleculeColumnToFrame(test)
 
                 if g1_cnt == 50:
 
