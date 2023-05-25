@@ -163,8 +163,8 @@ if __name__ == "__main__":
     inactive['Group'] = 'G2'
 
     # set active : inactive ratio
-    active, inactive = adjust_ratio(active, inactive, 1.5, n_cores)
-    logger.info(f"Adjust ratio : active ({len(active)}), inactive ({len(inactive)})")
+    g1_remains, inactive = adjust_ratio(g1_remains, inactive, 1.5, n_cores)
+    logger.info(f"Adjust ratio : active ({len(g1_remains)}), inactive ({len(inactive)})")
 
     # divide active
     da = len(g1_remains) / (train_size + valid_size + test_size)

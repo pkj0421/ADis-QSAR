@@ -1,4 +1,4 @@
-Sources	Targets	G1	Train	Test	External
+Source	Target	Total	G1	Train	Valid	Test
 ChEMBL	ALK	50 (Active 50)	578 (Active 247 | Inactive 331)	142 (Active 62 | Inactive 80)	144 (Active 62 | Inactive 82)
 ChEMBL	BTK	50 (Active 50)	713 (Active 306 | Inactive 407)	177 (Active 76 | Inactive 101)	178 (Active 76 | Inactive 102)
 ChEMBL	CHK1	50 (Active 50)	1001 (Active 429 | Inactive 572)	250 (Active 107 | Inactive 143)	250 (Active 107 | Inactive 143)

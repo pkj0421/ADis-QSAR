@@ -22,9 +22,6 @@ def finish(message):
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-out_path = Path('Vary_params_results')
-out_path.mkdir(parents=True, exist_ok=True)
-
 
 def fps(df, rd, bt, g1, n_cpu):
     PandasTools.AddMoleculeColumnToFrame(df)
@@ -79,6 +76,8 @@ def pick_molecules(df, cls_num, cores, rb=False):
 
 if __name__ == "__main__":
     data_path = Path(r"F_Dataset")
+    out_path = Path('Vary_params')
+    out_path.mkdir(parents=True, exist_ok=True)
     scalers = {'Robust': RobustScaler(), 'Standard': StandardScaler(), 'MinMax': MinMaxScaler()}
     radius_type = {1: 'ECFP2', 2: 'ECFP4', 3: 'ECFP6'}
 

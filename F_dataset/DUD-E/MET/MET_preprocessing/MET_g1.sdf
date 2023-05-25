@@ -148,7 +148,7 @@ nan
 nan
 
 >  <bits>  (1) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4510>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCBDF0>
 
 >  <Group>  (1) 
 G1
@@ -304,7 +304,7 @@ nan
 nan
 
 >  <bits>  (2) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4580>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCBD80>
 
 >  <Group>  (2) 
 G1
@@ -445,7 +445,7 @@ nan
 nan
 
 >  <bits>  (3) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A52A0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCBAE0>
 
 >  <Group>  (3) 
 G1
@@ -599,7 +599,7 @@ nan
 nan
 
 >  <bits>  (4) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A7CA0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB530>
 
 >  <Group>  (4) 
 G1
@@ -727,7 +727,7 @@ nan
 nan
 
 >  <bits>  (5) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A7D10>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB4C0>
 
 >  <Group>  (5) 
 G1
@@ -868,7 +868,7 @@ nan
 nan
 
 >  <bits>  (6) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A7D80>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB450>
 
 >  <Group>  (6) 
 G1
@@ -985,7 +985,7 @@ nan
 nan
 
 >  <bits>  (7) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A7DF0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB3E0>
 
 >  <Group>  (7) 
 G1
@@ -1134,7 +1134,7 @@ nan
 nan
 
 >  <bits>  (8) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A7E60>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB370>
 
 >  <Group>  (8) 
 G1
@@ -1277,7 +1277,7 @@ nan
 nan
 
 >  <bits>  (9) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A7ED0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB300>
 
 >  <Group>  (9) 
 G1
@@ -1392,7 +1392,7 @@ nan
 nan
 
 >  <bits>  (10) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A7F40>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB290>
 
 >  <Group>  (10) 
 G1
@@ -1532,7 +1532,7 @@ nan
 nan
 
 >  <bits>  (11) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4040>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB220>
 
 >  <Group>  (11) 
 G1
@@ -1655,7 +1655,7 @@ nan
 nan
 
 >  <bits>  (12) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A40B0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB1B0>
 
 >  <Group>  (12) 
 G1
@@ -1775,7 +1775,7 @@ nan
 nan
 
 >  <bits>  (13) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4120>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB140>
 
 >  <Group>  (13) 
 G1
@@ -1904,7 +1904,7 @@ nan
 nan
 
 >  <bits>  (14) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A42E0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB0D0>
 
 >  <Group>  (14) 
 G1
@@ -2032,7 +2032,7 @@ nan
 nan
 
 >  <bits>  (15) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4350>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCB060>
 
 >  <Group>  (15) 
 G1
@@ -2174,7 +2174,7 @@ nan
 nan
 
 >  <bits>  (16) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4430>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCAF80>
 
 >  <Group>  (16) 
 G1
@@ -2301,7 +2301,7 @@ nan
 nan
 
 >  <bits>  (17) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4740>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCAF10>
 
 >  <Group>  (17) 
 G1
@@ -2417,7 +2417,7 @@ nan
 nan
 
 >  <bits>  (18) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A47B0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCAEA0>
 
 >  <Group>  (18) 
 G1
@@ -2562,7 +2562,7 @@ nan
 nan
 
 >  <bits>  (19) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4820>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCAE30>
 
 >  <Group>  (19) 
 G1
@@ -2683,7 +2683,7 @@ nan
 nan
 
 >  <bits>  (20) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4890>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCADC0>
 
 >  <Group>  (20) 
 G1
@@ -2827,7 +2827,7 @@ nan
 nan
 
 >  <bits>  (21) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4900>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCAD50>
 
 >  <Group>  (21) 
 G1
@@ -2965,7 +2965,7 @@ nan
 nan
 
 >  <bits>  (22) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4970>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCACE0>
 
 >  <Group>  (22) 
 G1
@@ -3086,7 +3086,7 @@ nan
 nan
 
 >  <bits>  (23) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A49E0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCAC70>
 
 >  <Group>  (23) 
 G1
@@ -3205,7 +3205,7 @@ nan
 nan
 
 >  <bits>  (24) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4A50>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCAC00>
 
 >  <Group>  (24) 
 G1
@@ -3363,7 +3363,7 @@ nan
 nan
 
 >  <bits>  (25) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4B30>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCAB20>
 
 >  <Group>  (25) 
 G1
@@ -3507,7 +3507,7 @@ nan
 nan
 
 >  <bits>  (26) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4BA0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCAAB0>
 
 >  <Group>  (26) 
 G1
@@ -3660,7 +3660,7 @@ nan
 nan
 
 >  <bits>  (27) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4C10>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCAA40>
 
 >  <Group>  (27) 
 G1
@@ -3800,7 +3800,7 @@ nan
 nan
 
 >  <bits>  (28) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4D60>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA960>
 
 >  <Group>  (28) 
 G1
@@ -3950,7 +3950,7 @@ nan
 nan
 
 >  <bits>  (29) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4DD0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA8F0>
 
 >  <Group>  (29) 
 G1
@@ -4088,7 +4088,7 @@ nan
 nan
 
 >  <bits>  (30) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4E40>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA880>
 
 >  <Group>  (30) 
 G1
@@ -4224,7 +4224,7 @@ nan
 nan
 
 >  <bits>  (31) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4EB0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA810>
 
 >  <Group>  (31) 
 G1
@@ -4354,7 +4354,7 @@ Inhibition of human recombinant c-Met pre-incubated for 5 mins before ATP/substr
 single protein format
 
 >  <bits>  (32) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A4F90>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA7A0>
 
 >  <Group>  (32) 
 G1
@@ -4499,7 +4499,7 @@ Inhibition of c-Met (unknown origin) using poly (Glu, Tyr) 4:1 as substrate afte
 single protein format
 
 >  <bits>  (33) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A5000>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA730>
 
 >  <Group>  (33) 
 G1
@@ -4627,7 +4627,7 @@ Tyrosine Kinase Activity Assay: Recombinant human c-Met protein (Invitrogen, Car
 single protein format
 
 >  <bits>  (34) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A5070>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA6C0>
 
 >  <Group>  (34) 
 G1
@@ -4745,7 +4745,7 @@ Inhibition of wild type MET (unknown origin)
 single protein format
 
 >  <bits>  (35) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A50E0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA650>
 
 >  <Group>  (35) 
 G1
@@ -4883,7 +4883,7 @@ Inhibition of recombinant c-Met (unknown origin) using poly (Glu,Tyr)4:1 substra
 single protein format
 
 >  <bits>  (36) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A5150>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA5E0>
 
 >  <Group>  (36) 
 G1
@@ -5012,7 +5012,7 @@ Inhibition of wild type MET (unknown origin)
 single protein format
 
 >  <bits>  (37) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A51C0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA570>
 
 >  <Group>  (37) 
 G1
@@ -5172,7 +5172,7 @@ Inhibition of human c-MET
 single protein format
 
 >  <bits>  (38) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A5230>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA500>
 
 >  <Group>  (38) 
 G1
@@ -5318,7 +5318,7 @@ Inhibition of purified recombinant c-MET (unknown origin) using poly (Glu, Tyr) 
 single protein format
 
 >  <bits>  (39) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A53F0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA490>
 
 >  <Group>  (39) 
 G1
@@ -5472,7 +5472,7 @@ Inhibition of c-MET (unknown origin) using poly (Glu, Tyr) 4:1 as substrate afte
 single protein format
 
 >  <bits>  (40) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A5460>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA420>
 
 >  <Group>  (40) 
 G1
@@ -5603,7 +5603,7 @@ Inhibition of human c-MET
 single protein format
 
 >  <bits>  (41) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A54D0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA3B0>
 
 >  <Group>  (41) 
 G1
@@ -5753,7 +5753,7 @@ Inhibition of human c-MET
 single protein format
 
 >  <bits>  (42) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A5540>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA340>
 
 >  <Group>  (42) 
 G1
@@ -5897,7 +5897,7 @@ LanthaScreen Assay: The kinase assay is based on the LanthaScreen technology. La
 single protein format
 
 >  <bits>  (43) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A55B0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA2D0>
 
 >  <Group>  (43) 
 G1
@@ -6124,7 +6124,7 @@ Inhibition of MET (unknown origin)
 single protein format
 
 >  <bits>  (44) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A5690>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA1F0>
 
 >  <Group>  (44) 
 G1
@@ -6259,7 +6259,7 @@ Time-Resolved Fluorescence Assay: Homogeneous time-resolved fluorescence assay u
 single protein format
 
 >  <bits>  (45) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A5700>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA180>
 
 >  <Group>  (45) 
 G1
@@ -6409,7 +6409,7 @@ Inhibition of purified recombinant c-MET (unknown origin) after 60 mins by ELISA
 single protein format
 
 >  <bits>  (46) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A5770>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA110>
 
 >  <Group>  (46) 
 G1
@@ -6550,7 +6550,7 @@ Inhibition of c-Met (unknown origin) incubated for 20 mins followed by [33P]ATP 
 single protein format
 
 >  <bits>  (47) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A57E0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA0A0>
 
 >  <Group>  (47) 
 G1
@@ -6678,7 +6678,7 @@ Inhibition of c-Met (unknown origin) using poly Glu-Tyr as substrate preincubate
 single protein format
 
 >  <bits>  (48) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A5850>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CCA030>
 
 >  <Group>  (48) 
 G1
@@ -6814,7 +6814,7 @@ Inhibition of N-terminal His-6-tagged human recombinant c-Met (974 to 1390) usin
 single protein format
 
 >  <bits>  (49) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A58C0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CC9FC0>
 
 >  <Group>  (49) 
 G1
@@ -6947,7 +6947,7 @@ Inhibition of c-Met (unknown origin)
 single protein format
 
 >  <bits>  (50) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000282441A59A0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001D6E3CC9F50>
 
 >  <Group>  (50) 
 G1

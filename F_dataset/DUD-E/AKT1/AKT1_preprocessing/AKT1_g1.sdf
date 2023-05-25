@@ -145,7 +145,7 @@ nan
 nan
 
 >  <bits>  (1) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1850>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2500>
 
 >  <Group>  (1) 
 G1
@@ -276,7 +276,7 @@ nan
 nan
 
 >  <bits>  (2) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2340>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2180>
 
 >  <Group>  (2) 
 G1
@@ -421,7 +421,7 @@ nan
 nan
 
 >  <bits>  (3) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE18C0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A19A0>
 
 >  <Group>  (3) 
 G1
@@ -568,7 +568,7 @@ nan
 nan
 
 >  <bits>  (4) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2420>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A1D90>
 
 >  <Group>  (4) 
 G1
@@ -692,7 +692,7 @@ nan
 nan
 
 >  <bits>  (5) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE19A0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A1FC0>
 
 >  <Group>  (5) 
 G1
@@ -808,7 +808,7 @@ nan
 nan
 
 >  <bits>  (6) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1A10>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A21F0>
 
 >  <Group>  (6) 
 G1
@@ -951,7 +951,7 @@ nan
 nan
 
 >  <bits>  (7) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1A80>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2490>
 
 >  <Group>  (7) 
 G1
@@ -1056,7 +1056,7 @@ nan
 nan
 
 >  <bits>  (8) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1F50>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A1B60>
 
 >  <Group>  (8) 
 G1
@@ -1215,7 +1215,7 @@ nan
 nan
 
 >  <bits>  (9) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1AF0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A1CB0>
 
 >  <Group>  (9) 
 G1
@@ -1351,7 +1351,7 @@ nan
 nan
 
 >  <bits>  (10) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1B60>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A1C40>
 
 >  <Group>  (10) 
 G1
@@ -1480,7 +1480,7 @@ nan
 nan
 
 >  <bits>  (11) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1CB0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A1D20>
 
 >  <Group>  (11) 
 G1
@@ -1607,7 +1607,7 @@ nan
 nan
 
 >  <bits>  (12) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE23B0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A1E00>
 
 >  <Group>  (12) 
 G1
@@ -1751,7 +1751,7 @@ nan
 nan
 
 >  <bits>  (13) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1E00>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A22D0>
 
 >  <Group>  (13) 
 G1
@@ -1865,7 +1865,7 @@ nan
 nan
 
 >  <bits>  (14) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2570>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A1E70>
 
 >  <Group>  (14) 
 G1
@@ -1995,7 +1995,7 @@ nan
 nan
 
 >  <bits>  (15) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE20A0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A23B0>
 
 >  <Group>  (15) 
 G1
@@ -2146,7 +2146,7 @@ nan
 nan
 
 >  <bits>  (16) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2110>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A1F50>
 
 >  <Group>  (16) 
 G1
@@ -2293,7 +2293,7 @@ nan
 nan
 
 >  <bits>  (17) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE21F0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2570>
 
 >  <Group>  (17) 
 G1
@@ -2451,7 +2451,7 @@ nan
 nan
 
 >  <bits>  (18) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2260>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A20A0>
 
 >  <Group>  (18) 
 G1
@@ -2604,7 +2604,7 @@ Kinase Assay: Activated Akt isoforms and pleckstrin homology domain deletion con
 single protein format
 
 >  <bits>  (19) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2490>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2420>
 
 >  <Group>  (19) 
 G1
@@ -2725,7 +2725,7 @@ Inhibition of AKT1
 single protein format
 
 >  <bits>  (20) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2500>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2110>
 
 >  <Group>  (20) 
 G1
@@ -2860,7 +2860,7 @@ Inhibition of AKT1 after 10 mins by [gamma33]ATP assay
 single protein format
 
 >  <bits>  (21) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1D90>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2260>
 
 >  <Group>  (21) 
 G1
@@ -2999,7 +2999,7 @@ Inhibition of AKT1
 single protein format
 
 >  <bits>  (22) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1C40>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A25E0>
 
 >  <Group>  (22) 
 G1
@@ -3151,7 +3151,7 @@ Inhibition of AKT1 by AKT1/PKBalpha KinEASE FP fluorescein green assay
 single protein format
 
 >  <bits>  (23) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1FC0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A18C0>
 
 >  <Group>  (23) 
 G1
@@ -3271,7 +3271,7 @@ Inhibition of AKT1 (unknown origin)
 single protein format
 
 >  <bits>  (24) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE1BD0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A1BD0>
 
 >  <Group>  (24) 
 G1
@@ -3420,7 +3420,7 @@ AKT Enzyme Assay: A TTP Mosquito liquid handling instrument is used to place 125
 single protein format
 
 >  <bits>  (25) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE25E0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2650>
 
 >  <Group>  (25) 
 G1
@@ -3550,7 +3550,7 @@ Inhibition of Akt1 (unknown origin) using ATP/eNOS as substrate preincubated for
 single protein format
 
 >  <bits>  (26) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2650>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A26C0>
 
 >  <Group>  (26) 
 G1
@@ -3693,7 +3693,7 @@ Inhibition of AKT
 single protein format
 
 >  <bits>  (27) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE26C0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2730>
 
 >  <Group>  (27) 
 G1
@@ -3843,7 +3843,7 @@ Inhibition of AKT1 (unknown origin)
 single protein format
 
 >  <bits>  (28) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2730>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A27A0>
 
 >  <Group>  (28) 
 G1
@@ -3986,7 +3986,7 @@ Alpha Screen Assay: AKT1 activity was assayed using the GSK3-derived biotinylate
 single protein format
 
 >  <bits>  (29) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE27A0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2810>
 
 >  <Group>  (29) 
 G1
@@ -4105,7 +4105,7 @@ Inhibition of AKT
 single protein format
 
 >  <bits>  (30) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2810>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2880>
 
 >  <Group>  (30) 
 G1
@@ -4246,7 +4246,7 @@ Inhibition of pAkt
 single protein format
 
 >  <bits>  (31) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2880>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A28F0>
 
 >  <Group>  (31) 
 G1
@@ -4375,7 +4375,7 @@ Inhibition of AKT1
 single protein format
 
 >  <bits>  (32) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE28F0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2960>
 
 >  <Group>  (32) 
 G1
@@ -4506,7 +4506,7 @@ AKT Enzyme Assay: A TTP Mosquito liquid handling instrument is used to place 125
 single protein format
 
 >  <bits>  (33) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2960>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A29D0>
 
 >  <Group>  (33) 
 G1
@@ -4658,7 +4658,7 @@ Inhibition of PH domain lacking AKT1 (unknown origin) using Tamara-labeled GRPRT
 single protein format
 
 >  <bits>  (34) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE29D0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2A40>
 
 >  <Group>  (34) 
 G1
@@ -4794,7 +4794,7 @@ In Vitro Assay: This assay determines the ability of test compounds to inhibit p
 single protein format
 
 >  <bits>  (35) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2A40>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2AB0>
 
 >  <Group>  (35) 
 G1
@@ -4951,7 +4951,7 @@ Time-Resolved Fluorescence Resonance energy transfer (TR-FRET) Immunoassay: The 
 single protein format
 
 >  <bits>  (36) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2AB0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2B20>
 
 >  <Group>  (36) 
 G1
@@ -5177,7 +5177,7 @@ Inhibition of Akt using RPRTSSF peptide and [gamma32]ATP by cell-free radioactiv
 single protein format
 
 >  <bits>  (37) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2B20>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2B90>
 
 >  <Group>  (37) 
 G1
@@ -5329,7 +5329,7 @@ Inhibition of AKT-1
 single protein format
 
 >  <bits>  (38) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2B90>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2C00>
 
 >  <Group>  (38) 
 G1
@@ -5464,7 +5464,7 @@ Inhibition of AKT1 after 3 hrs by luciferase based chemiluminescence assay
 single protein format
 
 >  <bits>  (39) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2C00>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2C70>
 
 >  <Group>  (39) 
 G1
@@ -5590,7 +5590,7 @@ Inhibition of AKT1 (unknown origin) after 10 mins by mobility shift assay
 single protein format
 
 >  <bits>  (40) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2C70>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2CE0>
 
 >  <Group>  (40) 
 G1
@@ -5702,7 +5702,7 @@ Inhibition of AKT1 (unknown origin) after 1 hr by Z'-LYTE kinase assay in presen
 single protein format
 
 >  <bits>  (41) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2CE0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2D50>
 
 >  <Group>  (41) 
 G1
@@ -5818,7 +5818,7 @@ Inhibition of recombinant AKT1 (unknown origin) by FRET-based Z'-LYTE assay
 single protein format
 
 >  <bits>  (42) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2D50>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2DC0>
 
 >  <Group>  (42) 
 G1
@@ -5929,7 +5929,7 @@ Binding affinity to GST-tagged PH domain of AKT (unknown origin) by surface Plas
 single protein format
 
 >  <bits>  (43) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2DC0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2E30>
 
 >  <Group>  (43) 
 G1
@@ -6041,7 +6041,7 @@ Binding affinity to AKT PH-domain (unknown origin) at 0.01 to 50 uM by SPR spect
 single protein format
 
 >  <bits>  (44) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2E30>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2EA0>
 
 >  <Group>  (44) 
 G1
@@ -6185,7 +6185,7 @@ Inhibition of His-tagged AKT1 using 5FAM-GRPRTSSFAEGCONH2 as substrate by fluore
 single protein format
 
 >  <bits>  (45) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2EA0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2F10>
 
 >  <Group>  (45) 
 G1
@@ -6311,7 +6311,7 @@ Binding affinity to AKT PH-domain (unknown origin) at 0.01 to 50 uM by SPR spect
 single protein format
 
 >  <bits>  (46) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2F10>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2F80>
 
 >  <Group>  (46) 
 G1
@@ -6439,7 +6439,7 @@ Inhibition of Akt1 (unknown origin)
 single protein format
 
 >  <bits>  (47) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2F80>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A2FF0>
 
 >  <Group>  (47) 
 G1
@@ -7010,7 +7010,7 @@ Inhibition of Akt1 (unknown origin)
 single protein format
 
 >  <bits>  (48) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE2FF0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A3060>
 
 >  <Group>  (48) 
 G1
@@ -7216,7 +7216,7 @@ SPR Competitive Binding Assay: SPR interaction analyses were performed with a Bi
 single protein format
 
 >  <bits>  (49) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE3060>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A30D0>
 
 >  <Group>  (49) 
 G1
@@ -7382,7 +7382,7 @@ Binding affinity to AKT1
 single protein format
 
 >  <bits>  (50) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000243F3BE30D0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x00000284977A3140>
 
 >  <Group>  (50) 
 G1

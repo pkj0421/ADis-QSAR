@@ -127,7 +127,7 @@ nan
 nan
 
 >  <bits>  (1) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6BD80>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13BDF0>
 
 >  <Group>  (1) 
 G1
@@ -268,7 +268,7 @@ nan
 nan
 
 >  <bits>  (2) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B920>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B990>
 
 >  <Group>  (2) 
 G1
@@ -419,7 +419,7 @@ nan
 nan
 
 >  <bits>  (3) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B8B0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B920>
 
 >  <Group>  (3) 
 G1
@@ -545,7 +545,7 @@ nan
 nan
 
 >  <bits>  (4) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B840>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B8B0>
 
 >  <Group>  (4) 
 G1
@@ -672,7 +672,7 @@ nan
 nan
 
 >  <bits>  (5) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B530>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B5A0>
 
 >  <Group>  (5) 
 G1
@@ -809,7 +809,7 @@ nan
 nan
 
 >  <bits>  (6) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B4C0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B530>
 
 >  <Group>  (6) 
 G1
@@ -955,7 +955,7 @@ nan
 nan
 
 >  <bits>  (7) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B3E0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B450>
 
 >  <Group>  (7) 
 G1
@@ -1105,7 +1105,7 @@ nan
 nan
 
 >  <bits>  (8) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B370>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B3E0>
 
 >  <Group>  (8) 
 G1
@@ -1223,7 +1223,7 @@ nan
 nan
 
 >  <bits>  (9) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B300>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B370>
 
 >  <Group>  (9) 
 G1
@@ -1355,7 +1355,7 @@ nan
 nan
 
 >  <bits>  (10) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B290>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B300>
 
 >  <Group>  (10) 
 G1
@@ -1473,7 +1473,7 @@ nan
 nan
 
 >  <bits>  (11) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B220>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B290>
 
 >  <Group>  (11) 
 G1
@@ -1628,7 +1628,7 @@ nan
 nan
 
 >  <bits>  (12) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B1B0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B220>
 
 >  <Group>  (12) 
 G1
@@ -1781,7 +1781,7 @@ nan
 nan
 
 >  <bits>  (13) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B140>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B1B0>
 
 >  <Group>  (13) 
 G1
@@ -1912,7 +1912,7 @@ nan
 nan
 
 >  <bits>  (14) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B0D0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B140>
 
 >  <Group>  (14) 
 G1
@@ -2024,7 +2024,7 @@ nan
 nan
 
 >  <bits>  (15) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6B060>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13B0D0>
 
 >  <Group>  (15) 
 G1
@@ -2146,7 +2146,7 @@ nan
 nan
 
 >  <bits>  (16) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6AF10>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13AF80>
 
 >  <Group>  (16) 
 G1
@@ -2279,7 +2279,7 @@ nan
 nan
 
 >  <bits>  (17) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6AEA0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13AF10>
 
 >  <Group>  (17) 
 G1
@@ -2411,7 +2411,7 @@ nan
 nan
 
 >  <bits>  (18) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6AE30>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13AEA0>
 
 >  <Group>  (18) 
 G1
@@ -2530,7 +2530,7 @@ nan
 nan
 
 >  <bits>  (19) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6ADC0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13AE30>
 
 >  <Group>  (19) 
 G1
@@ -2664,7 +2664,7 @@ nan
 nan
 
 >  <bits>  (20) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6AC70>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13ACE0>
 
 >  <Group>  (20) 
 G1
@@ -2795,7 +2795,7 @@ nan
 nan
 
 >  <bits>  (21) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6AC00>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13AC70>
 
 >  <Group>  (21) 
 G1
@@ -2919,7 +2919,7 @@ nan
 nan
 
 >  <bits>  (22) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6AB90>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13AC00>
 
 >  <Group>  (22) 
 G1
@@ -3056,7 +3056,7 @@ nan
 nan
 
 >  <bits>  (23) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6AB20>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13AB90>
 
 >  <Group>  (23) 
 G1
@@ -3170,7 +3170,7 @@ nan
 nan
 
 >  <bits>  (24) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6AAB0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13AB20>
 
 >  <Group>  (24) 
 G1
@@ -3324,7 +3324,7 @@ nan
 nan
 
 >  <bits>  (25) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6AA40>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13AAB0>
 
 >  <Group>  (25) 
 G1
@@ -3434,7 +3434,7 @@ nan
 nan
 
 >  <bits>  (26) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A9D0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13AA40>
 
 >  <Group>  (26) 
 G1
@@ -3568,7 +3568,7 @@ nan
 nan
 
 >  <bits>  (27) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A960>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A9D0>
 
 >  <Group>  (27) 
 G1
@@ -3700,7 +3700,7 @@ nan
 nan
 
 >  <bits>  (28) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A8F0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A960>
 
 >  <Group>  (28) 
 G1
@@ -3851,7 +3851,7 @@ nan
 nan
 
 >  <bits>  (29) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A880>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A8F0>
 
 >  <Group>  (29) 
 G1
@@ -3985,7 +3985,7 @@ nan
 nan
 
 >  <bits>  (30) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A730>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A7A0>
 
 >  <Group>  (30) 
 G1
@@ -4114,7 +4114,7 @@ nan
 nan
 
 >  <bits>  (31) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A6C0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A730>
 
 >  <Group>  (31) 
 G1
@@ -4237,7 +4237,7 @@ nan
 nan
 
 >  <bits>  (32) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A650>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A6C0>
 
 >  <Group>  (32) 
 G1
@@ -4383,7 +4383,7 @@ nan
 nan
 
 >  <bits>  (33) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A5E0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A650>
 
 >  <Group>  (33) 
 G1
@@ -4535,7 +4535,7 @@ nan
 nan
 
 >  <bits>  (34) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A570>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A5E0>
 
 >  <Group>  (34) 
 G1
@@ -4677,7 +4677,7 @@ nan
 nan
 
 >  <bits>  (35) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A500>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A570>
 
 >  <Group>  (35) 
 G1
@@ -4824,7 +4824,7 @@ nan
 nan
 
 >  <bits>  (36) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A490>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A500>
 
 >  <Group>  (36) 
 G1
@@ -4960,7 +4960,7 @@ Inhibitory concentration against human protein kinase C-betaII using histone as 
 single protein format
 
 >  <bits>  (37) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A420>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A490>
 
 >  <Group>  (37) 
 G1
@@ -5119,7 +5119,7 @@ Inhibition of human PKCbeta2 measured at apparent ATP Km level
 single protein format
 
 >  <bits>  (38) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A3B0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A420>
 
 >  <Group>  (38) 
 G1
@@ -5257,7 +5257,7 @@ Inhibition of PKCbeta1 (unknown origin) after 60 mins in presence of [gamma33P]A
 single protein format
 
 >  <bits>  (39) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A340>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A3B0>
 
 >  <Group>  (39) 
 G1
@@ -5411,7 +5411,7 @@ Inhibition of human Protein kinase C beta 2
 single protein format
 
 >  <bits>  (40) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A2D0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A340>
 
 >  <Group>  (40) 
 G1
@@ -5529,7 +5529,7 @@ Inhibition of recombinant human PKCbeta1 assessed as [33P]-ATP incorporation int
 single protein format
 
 >  <bits>  (41) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A260>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A2D0>
 
 >  <Group>  (41) 
 G1
@@ -5669,7 +5669,7 @@ Inhibition of protein kinase C beta
 single protein format
 
 >  <bits>  (42) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A1F0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A260>
 
 >  <Group>  (42) 
 G1
@@ -5818,7 +5818,7 @@ Inhibition of Protein kinase C beta 2
 single protein format
 
 >  <bits>  (43) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A180>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A1F0>
 
 >  <Group>  (43) 
 G1
@@ -5950,7 +5950,7 @@ Inhibition of PKCbeta
 single protein format
 
 >  <bits>  (44) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A110>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A180>
 
 >  <Group>  (44) 
 G1
@@ -6082,7 +6082,7 @@ Inhibition of [3H]-phorbol 12,13-dibutyrate (PDBu) binding to human recombinant 
 single protein format
 
 >  <bits>  (45) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A0A0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A110>
 
 >  <Group>  (45) 
 G1
@@ -6226,7 +6226,7 @@ Inhibition Assay: Protein Kinase C beta 2 (PKC beta II) catalyzes the production
 single protein format
 
 >  <bits>  (46) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD6A030>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD13A0A0>
 
 >  <Group>  (46) 
 G1
@@ -6366,7 +6366,7 @@ Inhibition Assay: Protein Kinase C beta 2 (PKC beta II) catalyzes the production
 single protein format
 
 >  <bits>  (47) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD69F50>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD139FC0>
 
 >  <Group>  (47) 
 G1
@@ -6518,7 +6518,7 @@ Inhibition Assay: Protein Kinase C beta 2 (PKC beta II) catalyzes the production
 single protein format
 
 >  <bits>  (48) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD69EE0>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD139F50>
 
 >  <Group>  (48) 
 G1
@@ -6655,7 +6655,7 @@ Inhibition Assay: Protein Kinase C beta 2 (PKC beta II) catalyzes the production
 single protein format
 
 >  <bits>  (49) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD69E00>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD139E70>
 
 >  <Group>  (49) 
 G1
@@ -6802,7 +6802,7 @@ Displacement of 3[H]PDBu from Protein kinase C beta C1a domain
 single protein format
 
 >  <bits>  (50) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001685CD69D90>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002CFCD139E00>
 
 >  <Group>  (50) 
 G1

@@ -1,11 +1,7 @@
 import sys
 import subprocess
-import numpy as np
 import pandas as pd
-from joblib import dump
 from pathlib import Path
-from rdkit.Chem import PandasTools, AllChem
-from sklearn.preprocessing import RobustScaler, StandardScaler, MinMaxScaler
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -47,10 +43,10 @@ for db in data_path.glob('*'):
         subprocess.run(args=[sys.executable, 'Preprocessing.py'] + preprocess_run.split(' '))
 
         # check compounds
-        g1 = pd.read_csv(fd / f'{fn}_preprocessing' / f'{fn}_g1.tsv', sep='\t')
-        train = pd.read_csv(fd / f'{fn}_preprocessing' / f'{fn}_train.tsv', sep='\t')
-        valid = pd.read_csv(fd / f'{fn}_preprocessing' / f'{fn}_valid.tsv', sep='\t')
-        test = pd.read_csv(fd / f'{fn}_preprocessing' / f'{fn}_test.tsv', sep='\t')
+        g1 = pd.read_csv(out_path / dn / fn / f'{fn}_preprocessing' / f'{fn}_g1.tsv', sep='\t')
+        train = pd.read_csv(out_path / dn / fn / f'{fn}_preprocessing' / f'{fn}_train.tsv', sep='\t')
+        valid = pd.read_csv(out_path / dn / fn / f'{fn}_preprocessing' / f'{fn}_valid.tsv', sep='\t')
+        test = pd.read_csv(out_path / dn / fn / f'{fn}_preprocessing' / f'{fn}_test.tsv', sep='\t')
         total = pd.concat([g1, train, valid, test]).reset_index(drop=True)
         for _, i in total.groupby('Smiles'):
             if len(i) >= 2:
@@ -71,10 +67,6 @@ for db in data_path.glob('*'):
         table += [row]
 
     table_df = pd.DataFrame(table)
-    table_df.to_csv(db / f'{dn}_table.tsv', sep='\t', index=False)
-
-
-
-
+    table_df.to_csv(out_path / dn / f'{dn}_table.tsv', sep='\t', index=False)
 
 
