@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
     clt = Cluster()
     vectorize = Vector()
-    run_list = ['IRAK4', 'SYK', 'CSF1R', 'KPCB', 'AKT1', 'FAK1']
+    run_list = ['IRAK4', 'ITK', 'SYK']
     cores = multiprocessing.cpu_count() - 2
 
     col_wr = True

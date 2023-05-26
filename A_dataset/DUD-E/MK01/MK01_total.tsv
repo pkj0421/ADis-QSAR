@@ -1,0 +1,138 @@
+Compound_ID	Active	Smiles	canonical_smi	Set	Set_type	MW	HBD	HBA	NRB	NR	NAR	PSA	Standard Type	Standard Relation	Standard Units	Standard Value	Assay ChEMBL ID	Assay Description	BAO Label
+CHEMBL318804	1.0	Cn1ccnc1Sc2ccc(cc2Cl)Nc3c4cc(c(cc4ncc3C#N)OCCCN5CCOCC5)OC	COc1cc2c(Nc3ccc(Sc4nccn4C)c(Cl)c3)c(C#N)cnc2cc1OCCCN1CCOCC1	G1 active	G1	565.1	1	9	10	5	4	97.46							
+CHEMBL162	1.0	C[C@@]12[C@@H]([C@@H](CC(O1)n3c4ccccc4c5c3c6n2c7ccccc7c6c8c5C(=O)NC8)NC)OC	CN[C@@H]1CC2O[C@@](C)([C@@H]1OC)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)C(=O)NC4	G1 active	G1	466.54	2	4	2	8	5	69.45							
+CHEMBL576683	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)Cl)Nc4cccc5c4OC(O5)(F)F	Cc1cnc(Nc2cccc3c2OC(F)(F)O3)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(Cl)c2)c1	G1 active	G1	527.92	4	7	7	5	4	121.39							
+CHEMBL571031	1.0	Cc1ccccc1Nc2ncc(c(n2)c3cc([nH]c3)C(=O)N[C@H](CO)c4cccc(c4)Cl)C	Cc1ccccc1Nc1ncc(C)c(-c2c[nH]c(C(=O)N[C@H](CO)c3cccc(Cl)c3)c2)n1	G1 active	G1	461.95	4	5	7	4	4	102.93							
+CHEMBL565459	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3ccccc3)Nc4ccccc4	Cc1cnc(Nc2ccccc2)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2ccccc2)c1	G1 active	G1	413.48	4	5	7	4	4	102.93							
+CHEMBL569181	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)Cl)Nc4cccc(c4OC)OC	COc1cccc(Nc2ncc(C)c(-c3c[nH]c(C(=O)N[C@H](CO)c4cccc(Cl)c4)c3)n2)c1OC	G1 active	G1	507.98	4	7	9	4	4	121.39							
+CHEMBL572361	1.0	CCc1ccccc1Nc2ncc(c(n2)c3cc([nH]c3)C(=O)N[C@H](CO)c4ccccc4)C	CCc1ccccc1Nc1ncc(C)c(-c2c[nH]c(C(=O)N[C@H](CO)c3ccccc3)c2)n1	G1 active	G1	441.54	4	5	8	4	4	102.93							
+CHEMBL576048	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)Cl)Nc4ccc(cc4F)Cl	Cc1cnc(Nc2ccc(Cl)cc2F)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(Cl)c2)c1	G1 active	G1	500.36	4	5	7	4	4	102.93							
+CHEMBL359106	1.0	c1c\2c([nH]c1Br)C(=O)NCC/C2=C\3/C(=O)NC(=N3)N	NC1=N/C(=C2\CCNC(=O)c3[nH]c(Br)cc32)C(=O)N1	G1 active	G1	324.14	4	3	0	3	1	112.37							
+CHEMBL361708	1.0	c1c\2c([nH]c1Br)C(=O)NCC/C2=C/3\C(=O)N=C(N3)N	NC1=NC(=O)/C(=C2\CCNC(=O)c3[nH]c(Br)cc32)N1	G1 active	G1	324.14	4	4	0	3	1	112.37							
+CHEMBL570111	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)Cl)Nc4cccc5c4CCCC5	Cc1cnc(Nc2cccc3c2CCCC3)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(Cl)c2)c1	G1 active	G1	502.02	4	5	7	5	4	102.93							
+CHEMBL571722	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)Cl)Nc4cccc5c4OCCO5	Cc1cnc(Nc2cccc3c2OCCO3)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(Cl)c2)c1	G1 active	G1	505.96	4	7	7	5	4	121.39							
+CHEMBL220112	1.0	c1ccc(cc1)[C@@H](CO)NC(=O)c2cc(c[nH]2)c3c(cn[nH]3)c4cccc(c4)Cl	O=C(N[C@H](CO)c1ccccc1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G1 active	G1	406.87	4	3	6	4	4	93.8							
+CHEMBL222249	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NCc4ccc(c(c4)F)F	O=C(NCc1ccc(F)c(F)c1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G1 active	G1	412.83	3	2	5	4	4	73.57							
+CHEMBL1092754	1.0	Cn1cc(c2c1nccc2c3ccc(cc3)C(=O)NCCO)/C=C\4/C(=O)c5c(cccc5O4)O	Cn1cc(/C=C2\Oc3cccc(O)c3C2=O)c2c(-c3ccc(C(=O)NCCO)cc3)ccnc21	G1 active	G1	455.47	3	6	5	5	4	113.68							
+CHEMBL374677	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NC(CO)c4ccc(cc4)F	O=C(NC(CO)c1ccc(F)cc1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G1 active	G1	424.86	4	3	6	4	4	93.8							
+CHEMBL332551	1.0	c1ccc2c(c1)C3=C(CCNC(=O)C3=N2)c4c([nH]c(n4)N)O	Nc1nc(C2=C3C(=Nc4ccccc43)C(=O)NCC2)c(O)[nH]1	G1 active	G1	295.3	4	4	1	4	2	116.39							
+CHEMBL80837	1.0	Cc1c2cc(c(cc2oc(=O)c1Cc3ccccc3)OC(=O)N(C)C)Cl	Cc1c(Cc2ccccc2)c(=O)oc2cc(OC(=O)N(C)C)c(Cl)cc12	G1 active	G1	371.82	0	4	3	3	3	59.75							
+CHEMBL220272	1.0	c1ccc(cc1)CONC(=O)c2cc(c[nH]2)c3c(cn[nH]3)c4cccc(c4)Cl	O=C(NOCc1ccccc1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G1 active	G1	392.85	3	3	6	4	4	82.8							
+CHEMBL78779	1.0	Cc1c2ccc(cc2oc(=O)c1Cc3ccc(cc3)F)OC(=O)N(C)C	Cc1c(Cc2ccc(F)cc2)c(=O)oc2cc(OC(=O)N(C)C)ccc12	G1 active	G1	355.37	0	4	3	3	3	59.75							
+CHEMBL437943	1.0	CC1CNC(=O)c2c1c3cc(ccc3[nH]2)C(=O)Nc4cccnc4	CC1CNC(=O)c2[nH]c3ccc(C(=O)Nc4cccnc4)cc3c21	G1 active	G1	320.35	3	3	2	4	3	86.88							
+CHEMBL599224	1.0	CC(=O)N1CCC(CC1)Nc2ncc3c(n2)-c4c(c(nn4C)C(=O)N)CC3	CC(=O)N1CCC(Nc2ncc3c(n2)-c2c(c(C(N)=O)nn2C)CC3)CC1	G1 active	G1	369.43	2	6	3	4	2	119.03							
+CHEMBL235345	1.0	c1ccc(cc1)[C@@H]2C[C@H]2NC3=NC(=O)/C(=C/c4ccc5c(c4)cccn5)/S3	O=C1N=C(N[C@@H]2C[C@H]2c2ccccc2)S/C1=C\c1ccc2ncccc2c1	G1 active	G1	371.47	1	4	3	5	3	54.35							
+CHEMBL599428	1.0	Cn1c-2c(c(n1)C(=O)N)CCc3c2nc(nc3)NC4CCN(CC4)C(=O)c5ccccc5	Cn1nc(C(N)=O)c2c1-c1nc(NC3CCN(C(=O)c4ccccc4)CC3)ncc1CC2	G1 active	G1	431.5	2	6	4	5	3	119.03							
+CHEMBL220343	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NCc4cccnc4	O=C(NCc1cccnc1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G1 active	G1	377.84	3	3	5	4	4	86.46							
+CHEMBL219988	1.0	c1ccc(c(c1)C(CO)NC(=O)c2cc(c[nH]2)c3c(cn[nH]3)c4cccc(c4)Cl)F	O=C(NC(CO)c1ccccc1F)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G1 active	G1	424.86	4	3	6	4	4	93.8							
+CHEMBL379218	1.0	Cc1c2cc(ccc2[nH]n1)c3cc(cnc3)OC[C@H](Cc4ccccc4)N	Cc1n[nH]c2ccc(-c3cncc(OC[C@@H](N)Cc4ccccc4)c3)cc12	G1 active	G1	358.45	2	4	6	4	4	76.82							
+CHEMBL383104	1.0	CCCCNC(=O)N1Cc2c(n[nH]c2NC(=O)Cc3ccc(cc3)N4CCCC4)C1	CCCCNC(=O)N1Cc2n[nH]c(NC(=O)Cc3ccc(N4CCCC4)cc3)c2C1	G1 active	G1	410.52	3	4	7	4	2	93.36							
+CHEMBL259551	1.0	c1ccc(cc1)c2c(c3ccccn3n2)c4cc5c(n[nH]c5nn4)N	Nc1n[nH]c2nnc(-c3c(-c4ccccc4)nn4ccccc34)cc12	G1 active	G1	327.35	2	5	2	5	5	97.78							
+CHEMBL414139	1.0	COc1cc2c(cc1OCCCN3CCOCC3)ncc(c2Nc4ccc(cc4)Oc5ccccc5)C#N	COc1cc2c(Nc3ccc(Oc4ccccc4)cc3)c(C#N)cnc2cc1OCCCN1CCOCC1	G1 active	G1	510.59	1	8	10	5	4	88.87							
+CHEMBL380946	1.0	CCCCNC(=O)N1Cc2c(n[nH]c2NC(=O)[C@@H](C)c3ccc4ccccc4c3)C1	CCCCNC(=O)N1Cc2n[nH]c(NC(=O)[C@@H](C)c3ccc4ccccc4c3)c2C1	G1 active	G1	405.5	3	3	6	4	3	90.12							
+CHEMBL219683	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NCC4CCCO4	O=C(NCC1CCCO1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G1 active	G1	370.84	3	3	5	4	3	82.8							
+CHEMBL247619	1.0	CNC(=O)Nc1ccc(cn1)CNc2c(cnn2C)C(=O)Nc3ccc4c(c3)OC(C(O4)(F)F)(F)F	CNC(=O)Nc1ccc(CNc2c(C(=O)Nc3ccc4c(c3)OC(F)(F)C(F)(F)O4)cnn2C)cn1	G1 active	G1	509.42	4	7	6	4	3	131.43							
+CHEMBL223471	1.0	COc1ccc(cc1)CNC(=O)c2cc(c[nH]2)c3c(cn[nH]3)c4cccc(c4)Cl	COc1ccc(CNC(=O)c2cc(-c3[nH]ncc3-c3cccc(Cl)c3)c[nH]2)cc1	G1 active	G1	406.87	3	3	6	4	4	82.8							
+CHEMBL220888	1.0	c1ccc(cc1)[C@@H](C(=O)N)NC(=O)c2cc(c[nH]2)c3c(cn[nH]3)c4cccc(c4)Cl	NC(=O)[C@@H](NC(=O)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1)c1ccccc1	G1 active	G1	419.87	4	3	6	4	4	116.66							
+CHEMBL375621	1.0	c1ccc2c(c1)CCN(C2)C(=O)c3cc(c[nH]3)c4c(cn[nH]4)c5cccc(c5)Cl	O=C(c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1)N1CCc2ccccc2C1	G1 active	G1	402.88	2	2	3	5	4	64.78							
+CHEMBL99203	1.0	c1c(c2c(ncnc2n1[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O)N)I	Nc1ncnc2c1c(I)cn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O	G1 active	G1	392.15	4	7	2	3	2	126.65							
+CHEMBL440356	1.0	c1c2c([nH]c1Br)C(=O)NCCC2=O	O=C1CCNC(=O)c2[nH]c(Br)cc21	G1 active	G1	243.06	2	2	0	2	1	61.96							
+CHEMBL397332	1.0	CC1CNC(=O)c2c1c3cc(ccc3[nH]2)C(=O)Nc4nc(cs4)C(=O)N	CC1CNC(=O)c2[nH]c3ccc(C(=O)Nc4nc(C(N)=O)cs4)cc3c21	G1 active	G1	369.41	4	4	3	4	3	129.97							
+CHEMBL199395	1.0	C=CCn1c2c(cc(nn2)c3c4ccccn4nc3c5ccccc5)c(n1)N	C=CCn1nc(N)c2cc(-c3c(-c4ccccc4)nn4ccccc34)nnc21	G1 active	G1	367.42	1	5	4	5	5	86.92							
+CHEMBL375525	1.0	CCN(C)C(=O)c1cc(c[nH]1)c2c(cn[nH]2)c3cccc(c3)Cl	CCN(C)C(=O)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G1 active	G1	328.8	2	2	4	3	3	64.78							
+CHEMBL550658	1.0	c1ccc2c(c1)c(c[nH]2)c3c(cnc(n3)N)c4ccc(cc4)C(F)(F)F	Nc1ncc(-c2ccc(C(F)(F)F)cc2)c(-c2c[nH]c3ccccc23)n1	G1 active	G1	354.33	2	3	2	4	4	67.59							
+CHEMBL597754	1.0	CNC(=O)c1c2c(n(n1)C)-c3c(cnc(n3)NC4CCN(CC4)C(=O)C5CCN(CC5)S(=O)(=O)C)CC2	CNC(=O)c1nn(C)c2c1CCc1cnc(NC3CCN(C(=O)C4CCN(S(C)(=O)=O)CC4)CC3)nc1-2	G1 active	G1	530.66	2	8	5	5	2	142.42							
+CHEMBL221117	1.0	C[C@@H](c1ccccc1)NC(=O)c2cc(c[nH]2)c3c(cn[nH]3)c4cccc(c4)Cl	C[C@H](NC(=O)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1)c1ccccc1	G1 active	G1	390.87	3	2	5	4	4	73.57							
+CHEMBL247798	1.0	CCNC(=O)Nc1ccc(cn1)CNc2c(scn2)C(=O)Nc3ccc4c(c3)OC(O4)(F)F	CCNC(=O)Nc1ccc(CNc2ncsc2C(=O)Nc2ccc3c(c2)OC(F)(F)O3)cn1	G1 active	G1	476.47	4	7	7	4	3	126.5							
+CHEMBL255465	1.0	c1c[nH]c2c1/C(=C\3/C(=O)N=C(N3)N)/CCNC2=O	NC1=NC(=O)/C(=C2\CCNC(=O)c3[nH]ccc32)N1	G1 active	G1	245.24	4	4	0	3	1	112.37							
+CHEMBL524266	1.0	c1cnc(nc1c2cc3c([nH]2)[C@H](CNC3=O)CCF)N	Nc1nccc(-c2cc3c([nH]2)[C@@H](CCF)CNC3=O)n1	G1 active	G1	275.29	3	4	3	3	2	96.69							
+CHEMBL374876	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)N4CCOCC4	O=C(c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1)N1CCOCC1	G1 active	G1	356.81	2	3	3	4	3	74.01							
+CHEMBL247797	1.0	CNC(=O)Nc1ccc(cn1)CNc2c(cnn2C)C(=O)Nc3ccc(cc3)SC(F)(F)F	CNC(=O)Nc1ccc(CNc2c(C(=O)Nc3ccc(SC(F)(F)F)cc3)cnn2C)cn1	G1 active	G1	479.49	4	6	7	3	3	112.97							
+CHEMBL383264	1.0	c1ccc2c(c1)c(c[nH]2)C[C@@H](COc3cc(cnc3)c4ccc5cnccc5c4)N	N[C@H](COc1cncc(-c2ccc3cnccc3c2)c1)Cc1c[nH]c2ccccc12	G1 active	G1	394.48	2	4	6	5	5	76.82							
+CHEMBL571484	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)Cl)Nc4cccc5c4OCO5	Cc1cnc(Nc2cccc3c2OCO3)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(Cl)c2)c1	G2 active	Train	491.94	4	7	7	5	4	121.39							
+CHEMBL568937	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)Cl)Nc4cccc5c4CCC5	Cc1cnc(Nc2cccc3c2CCC3)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(Cl)c2)c1	G2 active	Train	487.99	4	5	7	5	4	102.93							
+CHEMBL571056	1.0	CCc1ccccc1Nc2ncc(c(n2)c3cc([nH]c3)C(=O)N[C@H](CO)c4cccc(c4)Cl)C	CCc1ccccc1Nc1ncc(C)c(-c2c[nH]c(C(=O)N[C@H](CO)c3cccc(Cl)c3)c2)n1	G2 active	Train	475.98	4	5	8	4	4	102.93							
+CHEMBL583042	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)Cl)Nc4ccc(cc4Cl)F	Cc1cnc(Nc2ccc(F)cc2Cl)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(Cl)c2)c1	G2 active	Train	500.36	4	5	7	4	4	102.93							
+CHEMBL572157	1.0	Cc1cccc(c1C)Nc2ncc(c(n2)c3cc([nH]c3)C(=O)N[C@H](CO)c4cccc(c4)Cl)C	Cc1cnc(Nc2cccc(C)c2C)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(Cl)c2)c1	G2 active	Train	475.98	4	5	7	4	4	102.93							
+CHEMBL565460	1.0	Cc1cccc(c1)[C@@H](CO)NC(=O)c2cc(c[nH]2)c3c(cnc(n3)Nc4ccccc4)C	Cc1cccc([C@@H](CO)NC(=O)c2cc(-c3nc(Nc4ccccc4)ncc3C)c[nH]2)c1	G2 active	Train	427.51	4	5	7	4	4	102.93							
+CHEMBL572162	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3ccccc3)Nc4ccccc4F	Cc1cnc(Nc2ccccc2F)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2ccccc2)c1	G2 active	Train	431.47	4	5	7	4	4	102.93							
+CHEMBL584754	1.0	Cc1ccccc1Nc2ncc(c(n2)c3cc([nH]c3)C(=O)N[C@H](CO)c4ccccc4)C	Cc1ccccc1Nc1ncc(C)c(-c2c[nH]c(C(=O)N[C@H](CO)c3ccccc3)c2)n1	G2 active	Train	427.51	4	5	7	4	4	102.93							
+CHEMBL571030	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3ccccc3)Nc4ccccc4C(F)(F)F	Cc1cnc(Nc2ccccc2C(F)(F)F)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2ccccc2)c1	G2 active	Train	481.48	4	5	7	4	4	102.93							
+CHEMBL568483	1.0	Cc1cc(ccc1Nc2ncc(c(n2)c3cc([nH]c3)C(=O)N[C@H](CO)c4cccc(c4)Cl)C)Cl	Cc1cc(Cl)ccc1Nc1ncc(C)c(-c2c[nH]c(C(=O)N[C@H](CO)c3cccc(Cl)c3)c2)n1	G2 active	Train	496.4	4	5	7	4	4	102.93							
+CHEMBL220897	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NC(CO)c4cc(cc(c4)Cl)Cl	O=C(NC(CO)c1cc(Cl)cc(Cl)c1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G2 active	Train	475.76	4	3	6	4	4	93.8							
+CHEMBL219790	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NC(CO)c4ccc(c(c4)F)F	O=C(NC(CO)c1ccc(F)c(F)c1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G2 active	Train	442.85	4	3	6	4	4	93.8							
+CHEMBL219849	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NC(CO)c4cccc(c4)F	O=C(NC(CO)c1cccc(F)c1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G2 active	Train	424.86	4	3	6	4	4	93.8							
+CHEMBL582829	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)Cl)Nc4cccc(c4C)F	Cc1cnc(Nc2cccc(F)c2C)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(Cl)c2)c1	G2 active	Train	479.94	4	5	7	4	4	102.93							
+CHEMBL222465	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NC(CO)c4ccc(cc4)C(F)(F)F	O=C(NC(CO)c1ccc(C(F)(F)F)cc1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G2 active	Train	474.87	4	3	6	4	4	93.8							
+CHEMBL220320	1.0	c1ccc(cc1)CNC(=O)c2cc(c[nH]2)c3c(cn[nH]3)c4cccc(c4)Cl	O=C(NCc1ccccc1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G2 active	Train	376.85	3	2	5	4	4	73.57							
+CHEMBL373628	1.0	C[C@H](c1ccccc1)NC(=O)c2cc(c[nH]2)c3c(cn[nH]3)c4cccc(c4)Cl	C[C@@H](NC(=O)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1)c1ccccc1	G2 active	Train	390.87	3	2	5	4	4	73.57							
+CHEMBL221109	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NCc4ccncc4	O=C(NCc1ccncc1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G2 active	Train	377.84	3	3	5	4	4	86.46							
+CHEMBL220110	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)N4CCCC4	O=C(c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1)N1CCCC1	G2 active	Train	340.81	2	2	3	4	3	64.78							
+CHEMBL373448	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NCCc4cccnc4	O=C(NCCc1cccnc1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G2 active	Train	391.86	3	3	6	4	4	86.46							
+CHEMBL373797	1.0	CN(Cc1ccccc1)C(=O)c2cc(c[nH]2)c3c(cn[nH]3)c4cccc(c4)Cl	CN(Cc1ccccc1)C(=O)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G2 active	Train	390.87	2	2	5	4	4	64.78							
+CHEMBL247250	1.0	CNC(=O)Nc1ccc(cn1)CNc2c(scn2)C(=O)Nc3ccc4c(c3)OC(O4)(F)F	CNC(=O)Nc1ccc(CNc2ncsc2C(=O)Nc2ccc3c(c2)OC(F)(F)O3)cn1	G2 active	Train	462.44	4	7	6	4	3	126.5							
+CHEMBL570367	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@@H](CO)c3ccccc3)Nc4ccccc4	Cc1cnc(Nc2ccccc2)nc1-c1c[nH]c(C(=O)N[C@@H](CO)c2ccccc2)c1	G2 active	Train	413.48	4	5	7	4	4	102.93							
+C01868878	0.0	c1cc(c(cc1[N+](=O)[O-])[C@H]2c3c([nH]cn3)C[C@@H]([NH2+]2)C(=O)[O-])[O-]	O=C([O-])[C@H]1Cc2[nH]cnc2[C@H](c2cc([N+](=O)[O-])ccc2[O-])[NH2+]1	G2 inactive	Train	303.25	2	6	3	3	2	151.62							
+C14437962	0.0	Cc1c(cc2c(c1O)C(=O)[C@H]([C@@H](O2)c3cc(c(c(c3)O)O)O)O)O	Cc1c(O)cc2c(c1O)C(=O)[C@@H](O)[C@H](c1cc(O)c(O)c(O)c1)O2	G2 inactive	Train	334.28	6	8	1	3	2	147.68							
+C55575862	0.0	c1c2c([nH]n1)nc(nc2N3CCC4(CC3)C(=O)N=C(N4)C5CC5)N	Nc1nc(N2CCC3(CC2)NC(C2CC2)=NC3=O)c2cn[nH]c2n1	G2 inactive	Train	326.36	3	7	2	5	2	125.18							
+C16983299	0.0	CCOC1=C/C(=C\2/NN=C3[N-]NC(=S)N3N2)/C=CC1=O	CCOC1=C/C(=C2/NN=C3[N-]NC(=S)N3N2)C=CC1=O	G2 inactive	Train	291.32	3	7	2	3	0	92.09							
+C00469956	0.0	COc1ccc(c(c1O)Cl)[C@H]2C(=C(OC3=C2C(=O)CCC3)N)C#N	COc1ccc([C@H]2C(C#N)=C(N)OC3=C2C(=O)CCC3)c(Cl)c1O	G2 inactive	Train	346.77	2	6	2	3	1	105.57							
+C32751863	0.0	c1cc(ccc1/C=C\2/C(=NC(=S)S2)[O-])OC([C@@H](C(F)(F)F)F)(F)F	[O-]C1=NC(=S)S/C1=C\c1ccc(OC(F)(F)[C@H](F)C(F)(F)F)cc1	G2 inactive	Train	386.32	0	4	4	2	1	44.65							
+C22865640	0.0	C1N[C@@H]2N/C(=N\O)/C(=N/O)/N[C@@H]2NC1	O/N=C1\N[C@@H]2NCCN[C@@H]2N\C1=N/O	G2 inactive	Train	200.2	6	6	0	2	0	113.3							
+C44168159	0.0	C1CCC2(CC1)O[C@@H]3[C@H]([C@@H]([C@@H]([C@H]([C@H]3O2)O)O)O)O	O[C@H]1[C@@H](O)[C@H](O)[C@H]2OC3(CCCCC3)O[C@@H]2[C@@H]1O	G2 inactive	Train	260.29	4	6	0	3	0	99.38							
+C38595174	0.0	[H]/N=C\1/N[C@H](NC(=S)N1)[C@H]2C=CC=N2	[H]/N=C1\NC(=S)N[C@H]([C@H]2C=CC=N2)N1	G2 inactive	Train	195.25	4	4	1	2	0	72.3							
+C16082817	0.0	c1(c(c(c(c(c1F)F)F)/C(=N/O)/N)F)/C(=N\O)/N	N/C(=N\O)c1c(F)c(F)c(F)c(/C(N)=N\O)c1F	G2 inactive	Train	266.15	4	4	2	1	1	117.22							
+C17106132	0.0	CCSc1c(nc2c(n1)c(nc(n2)N)N)[O-]	CCSc1nc2c(N)nc(N)nc2nc1[O-]	G2 inactive	Train	237.27	2	8	2	2	2	126.66							
+C05338486	0.0	c1ccc(cc1)[C@@H]2N(NC(=NN2c3ccccc3)c4ccc(cc4)N)c5ccccc5	Nc1ccc(C2=NN(c3ccccc3)[C@H](c3ccccc3)N(c3ccccc3)N2)cc1	G2 inactive	Train	405.51	2	4	4	5	4	56.89							
+C12343413	0.0	C1[C@@H]2CC3(C[C@@H](C2=NNc4[n-]nnn4)CC1C3)O	OC12CC3C[C@@H](C1)C(=NNc1nnn[n-]1)[C@H](C3)C2	G2 inactive	Train	247.28	2	6	2	5	1	97.39							
+C50693518	0.0	c1c(cnc(c1Cl)N)/C(=N/c2nncs2)/[O-]	Nc1ncc(/C([O-])=N/c2nncs2)cc1Cl	G2 inactive	Train	254.68	1	5	2	2	2	100.11							
+C43425484	0.0	C1CC[C@H]2[C@H](C1)N(CCO2)CC(=S)N	NC(=S)CN1CCO[C@H]2CCCC[C@@H]21	G2 inactive	Train	214.33	1	4	2	2	0	38.49							
+C64365820	0.0	C1=CC(=CC2=CC=N[C@@H]21)/C=C(\C#N)/C(=O)N	N#C/C(=C\C1=CC2=CC=N[C@@H]2C=C1)C(N)=O	G2 inactive	Train	211.22	1	2	2	2	0	79.24							
+C44963477	0.0	C[C@]12CCC(=O)C=C1[C@@H](C[C@@H]3[C@H]2[C@H](C[C@]4([C@H]3CC[C@@]4(C(=O)CO)O)C)O)O	C[C@]12C[C@H](O)[C@@H]3[C@@H](C[C@@H](O)C4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@]2(O)C(=O)CO	G2 inactive	Train	378.47	4	6	2	4	0	115.06							
+C40143006	0.0	c1ccc2c(c1)c(=O)c(c[nH]2)C(=O)NCC(=O)N=c3[nH]c4ccccc4[nH]3	O=C(CNC(=O)c1c[nH]c2ccccc2c1=O)N=c1[nH]c2ccccc2[nH]1	G2 inactive	Train	361.36	4	3	3	4	4	122.97							
+C03871804	0.0	c1cc(c(cc1/C=C\C(=O)c2ccc(cc2O)O)O)O	O=C(/C=C\c1ccc(O)c(O)c1)c1ccc(O)cc1O	G2 inactive	Train	272.26	4	5	3	2	2	97.99							
+C06382137	0.0	CC1=NN=C2C1=C(CC(C2)(C)C)NNC(=S)N	CC1=NN=C2CC(C)(C)CC(NNC(N)=S)=C12	G2 inactive	Train	251.36	3	4	2	2	0	74.8							
+C60280588	0.0	CC(C)CN1C(=[NH2+])[C@@H]([NH+]=C1C2CC2)c3ccc(cc3F)Br	CC(C)CN1C(=[NH2+])[C@H](c2ccc(Br)cc2F)[NH+]=C1C1CC1	G2 inactive	Train	354.27	2	1	4	3	1	42.8							
+C04008803	0.0	C[C@H](C(=O)[O-])N1[C@@H]2[C@@H](NC(=O)N2)NC1=O	C[C@H](C(=O)[O-])N1C(=O)N[C@@H]2NC(=O)N[C@@H]21	G2 inactive	Train	213.17	3	4	2	2	0	113.6							
+C05368875	0.0	C(CCl)/C(=N\S(=O)(=O)[NH-])/N	[NH-]S(=O)(=O)/N=C(/N)CCCl	G2 inactive	Train	184.63	1	3	3	0	0	96.32							
+C43113048	0.0	CCCc1cc(=O)[nH]c(n1)S[C@H](c2cccs2)[C@H](CC)[NH3+]	CCCc1cc(=O)[nH]c(S[C@H](c2cccs2)[C@@H]([NH3+])CC)n1	G2 inactive	Train	324.5	2	3	7	2	2	73.39							
+C39315288	0.0	Cc1c(c(n(n1)c2c(c(c(c(c2F)F)C(F)(F)F)F)F)C)[N+](=O)[O-]	Cc1nn(-c2c(F)c(F)c(C(F)(F)F)c(F)c2F)c(C)c1[N+](=O)[O-]	G2 inactive	Train	357.19	0	3	2	2	2	60.96							
+C00807684	0.0	Cc1c2c(n(c(c2c(nn1)C)C)c3nc(c(s3)C)c4ccc(cc4)OC)C	COc1ccc(-c2nc(-n3c(C)c4c(C)nnc(C)c4c3C)sc2C)cc1	G2 inactive	Train	378.5	0	4	3	4	4	52.83							
+C00795598	0.0	c1ccc(c(c1)CSc2nc3c(nn2)-c4ccccc4N=CO3)Cl	Clc1ccccc1CSc1nnc2c(n1)OC=Nc1ccccc1-2	G2 inactive	Train	354.82	0	5	3	4	3	60.26							
+C03231025	0.0	Cc1ccc(cc1)Sc2c(nn(c2C)C(=O)c3ccc4c(c3)OCO4)C	Cc1ccc(Sc2c(C)nn(C(=O)c3ccc4c(c3)OCO4)c2C)cc1	G2 inactive	Train	366.44	0	5	3	4	3	53.35							
+C09602487	0.0	Cc1ccccc1NC(=O)C[C@@H]2C(=O)Nc3ccccc3N2CCOc4ccc(cc4)S(=O)(=O)N	Cc1ccccc1NC(=O)C[C@@H]1C(=O)Nc2ccccc2N1CCOc1ccc(S(N)(=O)=O)cc1	G2 inactive	Train	494.57	3	6	8	4	3	130.83							
+C36545194	0.0	CC(C)(C)NC(=O)[C@@H](c1ccccc1O)N(c2ccccc2Cl)C(=O)c3c(cccc3O)O	CC(C)(C)NC(=O)[C@@H](c1ccccc1O)N(C(=O)c1c(O)cccc1O)c1ccccc1Cl	G2 inactive	Train	468.94	4	5	5	3	3	110.1							
+C02793653	0.0	c1cc(oc1)CNC(=S)NNC(=O)c2cc3n(n2)[C@@H](C[C@@H](N3)c4ccc(cc4)Cl)C(F)(F)F	O=C(NNC(=S)NCc1ccco1)c1cc2n(n1)[C@H](C(F)(F)F)C[C@H](c1ccc(Cl)cc1)N2	G2 inactive	Train	498.92	4	7	4	4	3	96.15							
+C12931181	0.0	c1cc(c(cc1NS(=O)(=O)c2ccc3c(c2)[nH]c(=O)[nH]3)S(=O)(=O)N4CCOCC4)F	O=c1[nH]c2ccc(S(=O)(=O)Nc3ccc(F)c(S(=O)(=O)N4CCOCC4)c3)cc2[nH]1	G2 inactive	Train	456.48	3	6	5	4	3	141.43							
+C59489979	0.0	Cc1nnc(n1/N=C/c2ccc(c(c2)[N+](=O)[O-])N3CCN(CC3)Cc4ccccc4)SCc5ccccc5	Cc1nnc(SCc2ccccc2)n1/N=C/c1ccc(N2CCN(Cc3ccccc3)CC2)c([N+](=O)[O-])c1	G2 inactive	Train	527.65	0	7	9	5	4	92.69							
+C31168905	0.0	C/C=C(/C)\C(=O)O[C@@H]1[C@@H]([C@H]([C@H](O[C@@H]1O[C@]2(CC[C@H]([C@@]3([C@H]2CC(=CC3)C(C)C)C)O)C)C)O)O	C/C=C(/C)C(=O)O[C@H]1[C@@H](O[C@@]2(C)CC[C@@H](O)[C@@]3(C)CC=C(C(C)C)C[C@@H]23)O[C@H](C)[C@H](O)[C@H]1O	G2 inactive	Train	466.62	3	7	5	3	0	105.45							
+CHEMBL577193	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)Cl)Nc4ccccc4	Cc1cnc(Nc2ccccc2)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(Cl)c2)c1	G2 active	Test	447.93	4	5	7	4	4	102.93							
+CHEMBL569869	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3cccc(c3)F)Nc4ccccc4	Cc1cnc(Nc2ccccc2)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2cccc(F)c2)c1	G2 active	Test	431.47	4	5	7	4	4	102.93							
+CHEMBL571038	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3ccccc3)Nc4ccccc4Cl	Cc1cnc(Nc2ccccc2Cl)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2ccccc2)c1	G2 active	Test	447.93	4	5	7	4	4	102.93							
+CHEMBL570366	1.0	Cc1cnc(nc1c2cc([nH]c2)C(=O)N[C@H](CO)c3ccccc3)Nc4ccccc4O	Cc1cnc(Nc2ccccc2O)nc1-c1c[nH]c(C(=O)N[C@H](CO)c2ccccc2)c1	G2 active	Test	429.48	5	6	7	4	4	123.16							
+CHEMBL220054	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NC(CO)c4ccc(c(c4)Cl)F	O=C(NC(CO)c1ccc(F)c(Cl)c1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G2 active	Test	459.31	4	3	6	4	4	93.8							
+CHEMBL375544	1.0	c1cc(cc(c1)Cl)c2cn[nH]c2c3cc([nH]c3)C(=O)NC(CO)c4ccc(cc4)Cl	O=C(NC(CO)c1ccc(Cl)cc1)c1cc(-c2[nH]ncc2-c2cccc(Cl)c2)c[nH]1	G2 active	Test	441.32	4	3	6	4	4	93.8							
+C08894136	0.0	Cc1c(c(=O)[nH]c(=S)[nH]1)Cc2c([nH]c(=S)[nH]c2=O)C	Cc1[nH]c(=S)[nH]c(=O)c1Cc1c(C)[nH]c(=S)[nH]c1=O	G2 inactive	Test	296.38	4	4	2	2	2	97.3							
+C42439584	0.0	C[C@H]1CC[C@@H](CN1C(=O)NC2(CCCC2)C(=O)[O-])C(=O)N	C[C@H]1CC[C@H](C(N)=O)CN1C(=O)NC1(C(=O)[O-])CCCC1	G2 inactive	Test	296.35	2	4	3	2	0	115.56							
+C03897369	0.0	C1COCCNC(=S)NCCOCCOCCNC(=S)N1	S=C1NCCOCCNC(=S)NCCOCCOCCN1	G2 inactive	Test	336.48	4	9	0	1	0	75.81							
+C44932441	0.0	C[C@]1(CCS(=O)(=O)C1)n2c(nnn2)c3ccc(cc3N)N	C[C@@]1(n2nnnc2-c2ccc(N)cc2N)CCS(=O)(=O)C1	G2 inactive	Test	308.37	2	7	2	3	2	129.78							
+C45555374	0.0	C[C@@H]1CCc2c(sc3c2c(nc(n3)SCC(=O)N(CCC(=O)N)c4ccc(cc4)F)N)C1	C[C@@H]1CCc2c(sc3nc(SCC(=O)N(CCC(N)=O)c4ccc(F)cc4)nc(N)c23)C1	G2 inactive	Test	473.6	2	6	7	4	3	115.2							
+C04772744	0.0	Cc1ccc(cc1C)N(C[C@@H]([C@H]([C@@H](CO)O)O)O)/N=N/c2ccc(cc2)Cl	Cc1ccc(N(C[C@H](O)[C@@H](O)[C@H](O)CO)/N=N/c2ccc(Cl)cc2)cc1C	G2 inactive	Test	393.87	4	5	8	2	2	108.88							
+C40760702	0.0	C[C@@H](c1ccccc1)Nc2c(c(ncn2)Sc3cccc4c3nccc4)N	C[C@H](Nc1ncnc(Sc2cccc3cccnc23)c1N)c1ccccc1	G2 inactive	Test	373.49	2	6	5	4	4	76.72							
+C33812500	0.0	CCCC[C@@H](CC)CN1C(=O)/C(=C/c2c(c(c(=O)n(c2N3CC[NH+](CC3)CC)CC)C#N)C)/SC1=S	CCCC[C@@H](CC)CN1C(=O)/C(=C/c2c(C)c(C#N)c(=O)n(CC)c2N2CC[NH+](CC)CC2)SC1=S	G2 inactive	Test	530.78	1	6	10	3	1	73.78							
+C39097174	0.0	C1[C@H](CN([C@@H]1O)O)CC[P@](=O)(O)[O-]	O=[P@]([O-])(O)CC[C@@H]1C[C@@H](O)N(O)C1	G2 inactive	Test	210.15	3	6	3	1	0	104.06							
+CHEMBL4475587	1.0	Cc1cc(-c2n[nH]c3cc(Nc4nccs4)ncc23)ccn1	Cc1cc(-c2n[nH]c3cc(Nc4nccs4)ncc23)ccn1	G2 active	External	308.37	2	5	3	4	4	79.38	IC50	'='	nM	56.0	CHEMBL4426447	Inhibition of human ERK2 preincubated for 15 mins followed by addition of IMAP peptide substrate and ATP measured after 60 mins by IMAP-FP assay	single protein format
+CHEMBL38	1.0	CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C(=O)O)C(C)(C)CCC1	CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C(=O)O)C(C)(C)CCC1	G2 active	External	300.44	1	2	5	1	0	37.3	IC50	'='	nM	576.0	CHEMBL1909200	DRUGMATRIX: Protein Serine/Threonine Kinase, ERK2 enzyme inhibition (substrate: Myelin Basic Protein)	single protein format
+CHEMBL496	1.0	Oc1c(Cl)cc(Cl)c(Cl)c1Cc1c(O)c(Cl)cc(Cl)c1Cl	Oc1c(Cl)cc(Cl)c(Cl)c1Cc1c(O)c(Cl)cc(Cl)c1Cl	G2 active	External	406.91	2	2	2	2	2	40.46	IC50	'='	nM	196.0	CHEMBL1909200	DRUGMATRIX: Protein Serine/Threonine Kinase, ERK2 enzyme inhibition (substrate: Myelin Basic Protein)	single protein format
+CHEMBL3926750	1.0	Nc1ncc(C2CNC(=O)C2)cc1-c1ccc(C(=O)N[C@H](CO)c2ccccc2)c(F)c1	Nc1ncc(C2CNC(=O)C2)cc1-c1ccc(C(=O)N[C@H](CO)c2ccccc2)c(F)c1	G2 active	External	434.47	4	5	6	4	3	117.34	IC50	'='	nM	37.6	CHEMBL3887899	Kinase Assay (New): Compound potency against activated ERK2 is determined using a kinase assay that measures ERK2-catalyzed phosphorylation of biotinylated ERKtide peptide substrate ([Biotin]-AHA-K-R-E-L-V-E-P-L-T-P-S-G-E-A-P-N-Q-A-L-L-R-[NH2], the peptide sequence derived from EGF receptor: SEQ ID NO:1). The assay is carried out in 50 mM HEPES [pH 7.5], 5 mM MgCl2, 1 mM DTT, 0.01% Tween-20, 0.05% BSA using 0.25 nM ERK2, 200 nM ERKtide peptide and 35 uM ATP (all concentrations are final in the reaction) in a total volume of 10.25 uL. A 16-point, half-log dilution series of compounds at 41x final concentration is used for generating IC50 curves. Compound dilution series are prepared in 100% DMSO. ERK2 is preincubated with compounds for 30 minutes at ambient temperature. Reaction is initiated by addition of a substrate cocktail of ERKtide peptide and ATP and is allowed to proceed for 2-3 hours at ambient temperature. Reaction is terminated by addition of 10 uL of a 2x stop buffer consisting of 100 mM Tris-Cl [pH 7.5], 25 mM EDTA, 0.01% Tween 20, 10 ug/mL of AlphaScreen Protein A Acceptor Beads, 10 ug/mL of Streptavidin Donor Beads (PerkinElmer, Waltham, Mass.), and 1.4 ug/mL phospho-EGF Receptor (Thr669) antibody (Cat #3056, Cell Signaling Technology, Danvers, Mass.). Terminated reactions are read, after overnight incubation in the dark, on an EnVision Multilabel Plate Reader (PerkinElmer, Waltham, Mass.), with excitation and emission wavelengths set to 680 nm and 570 nm, respectively. IC50 values are determined using a four-parameter fit.	single protein format
+CHEMBL392052	1.0	O=C1NC(=O)c2c1c1c3cc(Cl)ccc3[nH]c1c1cccn21	O=C1NC(=O)c2c1c1c3cc(Cl)ccc3[nH]c1c1cccn21	G2 active	External	309.71	2	2	0	5	4	66.37	Inhibition	'='	%	98.0	CHEMBL898644	Inhibition of MAPK1 at 1 uM	single protein format
+CHEMBL177820	1.0	Brc1c(Br)c(Br)c2[nH]nnc2c1Br	Brc1c(Br)c(Br)c2[nH]nnc2c1Br	G2 active	External	434.71	1	2	0	2	2	41.57	Inhibition	'='	%	111.0	CHEMBL920451	Inhibition of MAPK2/ERK2 at 10 uM relative to control	single protein format
+CHEMBL507666	0.0	O=C1/C(=C/C=C/c2ccccc2)SC(=S)N1Cc1ccc2c(c1)OCO2	O=C1/C(=C/C=C/c2ccccc2)SC(=S)N1Cc1ccc2c(c1)OCO2	G2 inactive	External	381.48	0	5	4	4	2	38.77	IC50	'='	nM	23700.0	CHEMBL939460	Inhibition of recombinant ERK2	single protein format
+CHEMBL2420913	0.0	c1nc(N2CCCC3(CCNCC3)C2)c2nc[nH]c2n1	c1nc(N2CCCC3(CCNCC3)C2)c2nc[nH]c2n1	G2 inactive	External	272.36	2	5	1	4	2	69.73	Inhibition	'='	%	28.0	CHEMBL2424326	Inhibition of ERK2 (unknown origin) at 30 uM by microfluidic mobility shift assay relative to control	single protein format
+CHEMBL2216825	0.0	C[C@H]1O[C@@H]2CC(=O)O[C@@H]2C2=C1C(=O)c1c(ccc([C@H]3C[C@@H](N(C)C)[C@H](O)[C@@H](C)O3)c1O)C2=O	C[C@H]1O[C@@H]2CC(=O)O[C@@H]2C2=C1C(=O)c1c(ccc([C@H]3C[C@@H](N(C)C)[C@H](O)[C@@H](C)O3)c1O)C2=O	G2 inactive	External	457.48	2	9	2	5	1	122.6	Inhibition	'='	%	6.0	CHEMBL1019624	Inhibition of MAPK1 at 1 uM	single protein format
+CHEMBL1813800	0.0	Cn1nc(N)c2cnc(-c3ccccc3)cc21	Cn1nc(N)c2cnc(-c3ccccc3)cc21	G2 inactive	External	224.27	1	3	1	3	3	56.73	Inhibition	'='	%	4.0	CHEMBL1815734	Inhibition of ERK2 at 30 uM by microfluidic mobility shift assay	single protein format
+CHEMBL4536012	0.0	CCc1nc(-c2ccc(F)cc2)c(-c2ccnc(NC(=O)C3CC3)c2)[nH]1	CCc1nc(-c2ccc(F)cc2)c(-c2ccnc(NC(=O)C3CC3)c2)[nH]1	G2 inactive	External	350.4	2	3	5	4	3	70.67	Inhibition	'='	%	10.94	CHEMBL4395882	Inhibition of human recombinant ERK2 at 1 uM using Ulight-CFFKNIVTPRTPPPSQGK-amide as substrate measured after 15 mins in presence of ATP by LANCE assay relative to control	single protein format
+CHEMBL1794059	0.0	NS(=O)(=O)c1cccc(N/C=C2\C(=O)Nc3ccccc32)c1	NS(=O)(=O)c1cccc(N/C=C2\C(=O)Nc3ccccc32)c1	G2 inactive	External	315.35	3	4	3	3	2	101.29	Inhibition	'='	%	3.76	CHEMBL1962053	GSK_PKIS: MAPK1 mean inhibition at 1 uM [Nanosyn]	single protein format
+CHEMBL1909342	0.0	N#Cc1c(NC(=O)CN2CCOCC2)sc2c1CCCC2	N#Cc1c(NC(=O)CN2CCOCC2)sc2c1CCCC2	G2 inactive	External	305.4	1	4	3	3	1	65.36	Inhibition	'='	%	4.42	CHEMBL1962052	GSK_PKIS: MAPK1 mean inhibition at 0.1 uM [Nanosyn]	single protein format
+CHEMBL374060	0.0	Cc1cc(O)cc(C)c1/C=C/c1cncc(C(=O)OC(C)(C)C)c1	Cc1cc(O)cc(C)c1/C=C/c1cncc(C(=O)OC(C)(C)C)c1	G2 inactive	External	325.41	1	4	3	2	2	59.42	Inhibition	'='	%	3.51	CHEMBL1962053	GSK_PKIS: MAPK1 mean inhibition at 1 uM [Nanosyn]	single protein format
+CHEMBL506414	0.0	Fc1cccc(COc2ccc(Nc3ncnc4sc(-c5cccs5)cc34)cc2Cl)c1	Fc1cccc(COc2ccc(Nc3ncnc4sc(-c5cccs5)cc34)cc2Cl)c1	G2 inactive	External	467.98	1	4	6	5	5	47.04	Inhibition	'='	%	1.88	CHEMBL1962052	GSK_PKIS: MAPK1 mean inhibition at 0.1 uM [Nanosyn]	single protein format

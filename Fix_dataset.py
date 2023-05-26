@@ -12,18 +12,17 @@ def check_vals(df):
     return act_dict
 
 
-out_path = Path('F_dataset')
+# out_path = Path('F_dataset')
+out_path = Path('AF_dataset')
 out_path.mkdir(parents=True, exist_ok=True)
 
-data_path = Path(r"Dataset")
+# data_path = Path(r"Dataset")
+data_path = Path(r"A_dataset")
 for db in data_path.glob('*'):
     dn = db.stem
     if 'Summary' in dn:
         continue
     table = []
-
-    if dn == 'ChEMBL':
-        continue
 
     for fd_idx, fd in enumerate(db.glob('*')):
         fn = fd.stem

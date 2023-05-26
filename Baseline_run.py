@@ -5,7 +5,7 @@ import pandas as pd
 from joblib import dump
 from pathlib import Path
 from rdkit.Chem import PandasTools, AllChem
-from sklearn.preprocessing import RobustScaler, StandardScaler, MinMaxScaler
+from sklearn.preprocessing import RobustScaler
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -32,18 +32,17 @@ data_path = Path(r"F_Dataset")
 scalers = {'Robust': RobustScaler()}
 radius_type = {1: 'ECFP2', 2: 'ECFP4', 3: 'ECFP6'}
 
+col_wr = True
 for db in data_path.glob('*'):
     dn = db.stem
     if 'Summary' in dn:
-        continue
-
-    if dn == 'ChEMBL':
         continue
 
     for fd_idx, fd in enumerate(db.glob('*')):
         fn = fd.stem
         if 'table' in fn:
             continue
+
         g1 = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_g1.tsv", sep='\t')
         train = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_train.tsv", sep='\t')
         valid = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_valid.tsv", sep='\t')
@@ -122,7 +121,8 @@ for db in data_path.glob('*'):
                         fwr[f"{md} SP"] = SP
 
                     with open(str(out_path / 'Baseline_Summary.tsv'), 'a') as fw:
-                        if (fd_idx == 0) and (dn == 'ChEMBL'):
+                        if col_wr:
                             fw.write('\t'.join(fwr.keys()) + '\n')
+                            col_wr = False
                         fw.write('\t'.join(fwr.values()) + '\n')
 

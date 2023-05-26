@@ -148,7 +148,7 @@ class Vector:
     def __init__(self):
         pass
 
-    def run(self, g1, g2, n_cores):
+    def run(self, g1, g2, n_cores, ss=True):
 
         # low memory
         if 'Active' in g2.columns:
@@ -163,20 +163,26 @@ class Vector:
 
         # pair
         pool = Pool(processes=n_cores)
-        if exist_act:
-            func = partial(self._compare, ref=g1_start)
+        if ss:
+            if exist_act:
+                func = partial(self._compare, ref=g1_start)
+            else:
+                func = partial(self._compare, ref=g1_start, ext=True)
         else:
-            func = partial(self._compare, ref=g1_start, ext=True)
+            if exist_act:
+                func = partial(self._compare, ref=g1_start, ss=False)
+            else:
+                func = partial(self._compare, ref=g1_start, ext=True, ss=False)
 
         g2_progress = tqdm([row[1] for row in g2_start.iterrows()], total=len(g2_start))
-        vectors = pd.concat(pool.map(func, g2_progress))
+        vectors = pd.concat(pool.map(func, g2_progress)).reset_index(drop=True)
 
         pool.close()
         pool.join()
 
         return vectors
 
-    def _compare(self, compound, ref, ext=False):
+    def _compare(self, compound, ref, ext=False, ss=True):
 
         pairs = pd.DataFrame()
 
@@ -194,12 +200,19 @@ class Vector:
             fps_dict = dict(zip(keys, class_fps))
             pairs = pairs.append(fps_dict, ignore_index=True)
 
-        vector = pairs.sum().to_frame().T
-        vector.insert(0, 'Compound_ID', compound['Compound_ID'])
+        if ss:
+            vector = pairs.sum().to_frame().T
+            vector.insert(0, 'Compound_ID', compound['Compound_ID'])
 
-        if not ext:
-            vector.insert(1, 'AD', compound['Active'])
+            if not ext:
+                vector.insert(1, 'AD', compound['Active'])
+        else:
+            vector = pairs.copy()
+            vector.insert(0, 'Compound_ID', compound['Compound_ID'])
+            vector.insert(1, 'G1', ref['Compound_ID'])
 
+            if not ext:
+                vector.insert(2, 'AD', compound['Active'])
         return vector
 
     @staticmethod
