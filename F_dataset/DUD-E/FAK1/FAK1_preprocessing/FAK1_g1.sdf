@@ -1,6 +1,150 @@
 
      RDKit          2D
 
+ 35 37  0  0  0  0  0  0  0  0999 V2000
+    3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500    3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000    5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5000   -0.0000    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.7990    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2010   -0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500    6.4952    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    5.1962    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    6.6962    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    3.6962    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -1.2990    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4510   -2.0490    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0490   -0.5490    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  1  0
+ 19 21  2  0
+ 19 22  2  0
+ 18 23  1  0
+ 23 24  2  0
+ 13 25  2  0
+ 25 26  1  0
+ 26 27  2  0
+ 27 28  1  0
+ 28 29  1  0
+ 28 30  1  0
+ 28 31  1  0
+  2 32  1  0
+ 32 33  1  0
+ 32 34  2  0
+ 32 35  2  0
+  8  3  1  0
+ 27 11  1  0
+ 24 15  1  0
+M  END
+>  <Compound_ID>  (1) 
+CHEMBL488247
+
+>  <Active>  (1) 
+1
+
+>  <Smiles>  (1) 
+CN(c1ccccc1CNc1nc(Nc2ccc(S(C)(=O)=O)cc2)ncc1C(F)(F)F)S(C)(=O)=O
+
+>  <canonical_smi>  (1) 
+CN(c1ccccc1CNc1nc(Nc2ccc(S(C)(=O)=O)cc2)ncc1C(F)(F)F)S(C)(=O)=O
+
+>  <Set>  (1) 
+G1 active
+
+>  <Set_type>  (1) 
+G1
+
+>  <MW>  (1) 
+529.57
+
+>  <HBD>  (1) 
+2
+
+>  <HBA>  (1) 
+8
+
+>  <NRB>  (1) 
+8
+
+>  <NR>  (1) 
+3
+
+>  <NAR>  (1) 
+3
+
+>  <PSA>  (1) 
+121.36
+
+>  <Standard Type>  (1) 
+nan
+
+>  <Standard Relation>  (1) 
+nan
+
+>  <Standard Units>  (1) 
+nan
+
+>  <Standard Value>  (1) 
+nan
+
+>  <Assay ChEMBL ID>  (1) 
+nan
+
+>  <Assay Description>  (1) 
+nan
+
+>  <BAO Label>  (1) 
+nan
+
+>  <bits>  (1) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F609A10>
+
+>  <Group>  (1) 
+G1
+
+$$$$
+
+     RDKit          2D
+
  33 36  0  0  0  0  0  0  0  0999 V2000
    -3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
    -3.0000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
@@ -72,70 +216,70 @@
  25 10  1  0
  24 14  1  0
 M  END
->  <Compound_ID>  (1) 
+>  <Compound_ID>  (2) 
 CHEMBL207491
 
->  <Active>  (1) 
+>  <Active>  (2) 
 1
 
->  <Smiles>  (1) 
+>  <Smiles>  (2) 
 COc1cc(Nc2ncc3ccn(-c4cccc(CCC(=O)O)n4)c3n2)cc(OC)c1OC
 
->  <canonical_smi>  (1) 
+>  <canonical_smi>  (2) 
 COc1cc(Nc2ncc3ccn(-c4cccc(CCC(=O)O)n4)c3n2)cc(OC)c1OC
 
->  <Set>  (1) 
+>  <Set>  (2) 
 G1 active
 
->  <Set_type>  (1) 
+>  <Set_type>  (2) 
 G1
 
->  <MW>  (1) 
+>  <MW>  (2) 
 449.47
 
->  <HBD>  (1) 
+>  <HBD>  (2) 
 2
 
->  <HBA>  (1) 
+>  <HBA>  (2) 
 9
 
->  <NRB>  (1) 
+>  <NRB>  (2) 
 9
 
->  <NR>  (1) 
+>  <NR>  (2) 
 4
 
->  <NAR>  (1) 
+>  <NAR>  (2) 
 4
 
->  <PSA>  (1) 
+>  <PSA>  (2) 
 120.62
 
->  <Standard Type>  (1) 
+>  <Standard Type>  (2) 
 nan
 
->  <Standard Relation>  (1) 
+>  <Standard Relation>  (2) 
 nan
 
->  <Standard Units>  (1) 
+>  <Standard Units>  (2) 
 nan
 
->  <Standard Value>  (1) 
+>  <Standard Value>  (2) 
 nan
 
->  <Assay ChEMBL ID>  (1) 
+>  <Assay ChEMBL ID>  (2) 
 nan
 
->  <Assay Description>  (1) 
+>  <Assay Description>  (2) 
 nan
 
->  <BAO Label>  (1) 
+>  <BAO Label>  (2) 
 nan
 
->  <bits>  (1) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BE5E0>
+>  <bits>  (2) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F609C40>
 
->  <Group>  (1) 
+>  <Group>  (2) 
 G1
 
 $$$$
@@ -203,70 +347,70 @@ $$$$
  18 10  1  0
  17 13  1  0
 M  END
->  <Compound_ID>  (2) 
+>  <Compound_ID>  (3) 
 CHEMBL471526
 
->  <Active>  (2) 
+>  <Active>  (3) 
 1
 
->  <Smiles>  (2) 
+>  <Smiles>  (3) 
 FC(F)(F)c1cnc(Nc2ccc3[nH]ncc3c2)nc1NCc1ccccn1
 
->  <canonical_smi>  (2) 
+>  <canonical_smi>  (3) 
 FC(F)(F)c1cnc(Nc2ccc3[nH]ncc3c2)nc1NCc1ccccn1
 
->  <Set>  (2) 
+>  <Set>  (3) 
 G1 active
 
->  <Set_type>  (2) 
+>  <Set_type>  (3) 
 G1
 
->  <MW>  (2) 
+>  <MW>  (3) 
 385.35
 
->  <HBD>  (2) 
+>  <HBD>  (3) 
 3
 
->  <HBA>  (2) 
+>  <HBA>  (3) 
 6
 
->  <NRB>  (2) 
+>  <NRB>  (3) 
 5
 
->  <NR>  (2) 
+>  <NR>  (3) 
 4
 
->  <NAR>  (2) 
+>  <NAR>  (3) 
 4
 
->  <PSA>  (2) 
+>  <PSA>  (3) 
 91.41
 
->  <Standard Type>  (2) 
+>  <Standard Type>  (3) 
 nan
 
->  <Standard Relation>  (2) 
+>  <Standard Relation>  (3) 
 nan
 
->  <Standard Units>  (2) 
+>  <Standard Units>  (3) 
 nan
 
->  <Standard Value>  (2) 
+>  <Standard Value>  (3) 
 nan
 
->  <Assay ChEMBL ID>  (2) 
+>  <Assay ChEMBL ID>  (3) 
 nan
 
->  <Assay Description>  (2) 
+>  <Assay Description>  (3) 
 nan
 
->  <BAO Label>  (2) 
+>  <BAO Label>  (3) 
 nan
 
->  <bits>  (2) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BE650>
+>  <bits>  (3) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F609CB0>
 
->  <Group>  (2) 
+>  <Group>  (3) 
 G1
 
 $$$$
@@ -353,70 +497,70 @@ $$$$
  37 10  1  0
  26 21  1  0
 M  END
->  <Compound_ID>  (3) 
+>  <Compound_ID>  (4) 
 CHEMBL514409
 
->  <Active>  (3) 
+>  <Active>  (4) 
 1
 
->  <Smiles>  (3) 
+>  <Smiles>  (4) 
 CCS(=O)(=O)Nc1ccc2c(c1)/C(=C(/Nc1ccc(CN3CCCCC3)cc1)c1ccccc1)C(=O)N2
 
->  <canonical_smi>  (3) 
+>  <canonical_smi>  (4) 
 CCS(=O)(=O)Nc1ccc2c(c1)/C(=C(/Nc1ccc(CN3CCCCC3)cc1)c1ccccc1)C(=O)N2
 
->  <Set>  (3) 
+>  <Set>  (4) 
 G1 active
 
->  <Set_type>  (3) 
+>  <Set_type>  (4) 
 G1
 
->  <MW>  (3) 
+>  <MW>  (4) 
 516.67
 
->  <HBD>  (3) 
+>  <HBD>  (4) 
 3
 
->  <HBA>  (3) 
+>  <HBA>  (4) 
 5
 
->  <NRB>  (3) 
+>  <NRB>  (4) 
 8
 
->  <NR>  (3) 
+>  <NR>  (4) 
 5
 
->  <NAR>  (3) 
+>  <NAR>  (4) 
 3
 
->  <PSA>  (3) 
+>  <PSA>  (4) 
 90.54
 
->  <Standard Type>  (3) 
+>  <Standard Type>  (4) 
 nan
 
->  <Standard Relation>  (3) 
+>  <Standard Relation>  (4) 
 nan
 
->  <Standard Units>  (3) 
+>  <Standard Units>  (4) 
 nan
 
->  <Standard Value>  (3) 
+>  <Standard Value>  (4) 
 nan
 
->  <Assay ChEMBL ID>  (3) 
+>  <Assay ChEMBL ID>  (4) 
 nan
 
->  <Assay Description>  (3) 
+>  <Assay Description>  (4) 
 nan
 
->  <BAO Label>  (3) 
+>  <BAO Label>  (4) 
 nan
 
->  <bits>  (3) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BE6C0>
+>  <bits>  (4) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F609E00>
 
->  <Group>  (3) 
+>  <Group>  (4) 
 G1
 
 $$$$
@@ -484,70 +628,70 @@ $$$$
  15  9  1  0
  25 20  1  0
 M  END
->  <Compound_ID>  (4) 
+>  <Compound_ID>  (5) 
 CHEMBL482968
 
->  <Active>  (4) 
+>  <Active>  (5) 
 1
 
->  <Smiles>  (4) 
+>  <Smiles>  (5) 
 Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1
 
->  <canonical_smi>  (4) 
+>  <canonical_smi>  (5) 
 Cc1cc(Nc2cc(N3CCN(C)CC3)nc(/C=C/c3ccccc3)n2)n[nH]1
 
->  <Set>  (4) 
+>  <Set>  (5) 
 G1 active
 
->  <Set_type>  (4) 
+>  <Set_type>  (5) 
 G1
 
->  <MW>  (4) 
+>  <MW>  (5) 
 375.48
 
->  <HBD>  (4) 
+>  <HBD>  (5) 
 2
 
->  <HBA>  (4) 
+>  <HBA>  (5) 
 6
 
->  <NRB>  (4) 
+>  <NRB>  (5) 
 5
 
->  <NR>  (4) 
+>  <NR>  (5) 
 4
 
->  <NAR>  (4) 
+>  <NAR>  (5) 
 3
 
->  <PSA>  (4) 
+>  <PSA>  (5) 
 72.97
 
->  <Standard Type>  (4) 
+>  <Standard Type>  (5) 
 nan
 
->  <Standard Relation>  (4) 
+>  <Standard Relation>  (5) 
 nan
 
->  <Standard Units>  (4) 
+>  <Standard Units>  (5) 
 nan
 
->  <Standard Value>  (4) 
+>  <Standard Value>  (5) 
 nan
 
->  <Assay ChEMBL ID>  (4) 
+>  <Assay ChEMBL ID>  (5) 
 nan
 
->  <Assay Description>  (4) 
+>  <Assay Description>  (5) 
 nan
 
->  <BAO Label>  (4) 
+>  <BAO Label>  (5) 
 nan
 
->  <bits>  (4) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BE730>
+>  <bits>  (5) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F609EE0>
 
->  <Group>  (4) 
+>  <Group>  (5) 
 G1
 
 $$$$
@@ -633,70 +777,70 @@ $$$$
  30 22  1  0
  28 23  1  0
 M  END
->  <Compound_ID>  (5) 
+>  <Compound_ID>  (6) 
 CHEMBL162
 
->  <Active>  (5) 
+>  <Active>  (6) 
 1
 
->  <Smiles>  (5) 
+>  <Smiles>  (6) 
 CN[C@@H]1CC2O[C@@](C)([C@@H]1OC)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)C(=O)NC4
 
->  <canonical_smi>  (5) 
+>  <canonical_smi>  (6) 
 CN[C@@H]1CC2O[C@@](C)([C@@H]1OC)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)C(=O)NC4
 
->  <Set>  (5) 
+>  <Set>  (6) 
 G1 active
 
->  <Set_type>  (5) 
+>  <Set_type>  (6) 
 G1
 
->  <MW>  (5) 
+>  <MW>  (6) 
 466.54
 
->  <HBD>  (5) 
+>  <HBD>  (6) 
 2
 
->  <HBA>  (5) 
+>  <HBA>  (6) 
 4
 
->  <NRB>  (5) 
+>  <NRB>  (6) 
 2
 
->  <NR>  (5) 
+>  <NR>  (6) 
 8
 
->  <NAR>  (5) 
+>  <NAR>  (6) 
 5
 
->  <PSA>  (5) 
+>  <PSA>  (6) 
 69.45
 
->  <Standard Type>  (5) 
+>  <Standard Type>  (6) 
 nan
 
->  <Standard Relation>  (5) 
+>  <Standard Relation>  (6) 
 nan
 
->  <Standard Units>  (5) 
+>  <Standard Units>  (6) 
 nan
 
->  <Standard Value>  (5) 
+>  <Standard Value>  (6) 
 nan
 
->  <Assay ChEMBL ID>  (5) 
+>  <Assay ChEMBL ID>  (6) 
 nan
 
->  <Assay Description>  (5) 
+>  <Assay Description>  (6) 
 nan
 
->  <BAO Label>  (5) 
+>  <BAO Label>  (6) 
 nan
 
->  <bits>  (5) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BE7A0>
+>  <bits>  (6) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F609F50>
 
->  <Group>  (5) 
+>  <Group>  (6) 
 G1
 
 $$$$
@@ -777,70 +921,70 @@ $$$$
  31 13  1  0
  27 23  1  0
 M  END
->  <Compound_ID>  (6) 
+>  <Compound_ID>  (7) 
 CHEMBL455680
 
->  <Active>  (6) 
+>  <Active>  (7) 
 1
 
->  <Smiles>  (6) 
+>  <Smiles>  (7) 
 CC(=O)N1C2CCC1c1cc(Nc3ncc(C(F)(F)F)c(N[C@@H]4CCC[C@H]4N(C)C)n3)ccc12
 
->  <canonical_smi>  (6) 
+>  <canonical_smi>  (7) 
 CC(=O)N1C2CCC1c1cc(Nc3ncc(C(F)(F)F)c(N[C@@H]4CCC[C@H]4N(C)C)n3)ccc12
 
->  <Set>  (6) 
+>  <Set>  (7) 
 G1 active
 
->  <Set_type>  (6) 
+>  <Set_type>  (7) 
 G1
 
->  <MW>  (6) 
+>  <MW>  (7) 
 474.53
 
->  <HBD>  (6) 
+>  <HBD>  (7) 
 2
 
->  <HBA>  (6) 
+>  <HBA>  (7) 
 6
 
->  <NRB>  (6) 
+>  <NRB>  (7) 
 5
 
->  <NR>  (6) 
+>  <NR>  (7) 
 5
 
->  <NAR>  (6) 
+>  <NAR>  (7) 
 2
 
->  <PSA>  (6) 
+>  <PSA>  (7) 
 73.39
 
->  <Standard Type>  (6) 
+>  <Standard Type>  (7) 
 nan
 
->  <Standard Relation>  (6) 
+>  <Standard Relation>  (7) 
 nan
 
->  <Standard Units>  (6) 
+>  <Standard Units>  (7) 
 nan
 
->  <Standard Value>  (6) 
+>  <Standard Value>  (7) 
 nan
 
->  <Assay ChEMBL ID>  (6) 
+>  <Assay ChEMBL ID>  (7) 
 nan
 
->  <Assay Description>  (6) 
+>  <Assay Description>  (7) 
 nan
 
->  <BAO Label>  (6) 
+>  <BAO Label>  (7) 
 nan
 
->  <bits>  (6) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BE810>
+>  <bits>  (7) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F609FC0>
 
->  <Group>  (6) 
+>  <Group>  (7) 
 G1
 
 $$$$
@@ -905,70 +1049,70 @@ $$$$
  20  7  1  0
  19 14  1  0
 M  END
->  <Compound_ID>  (7) 
+>  <Compound_ID>  (8) 
 CHEMBL382608
 
->  <Active>  (7) 
+>  <Active>  (8) 
 1
 
->  <Smiles>  (7) 
+>  <Smiles>  (8) 
 COc1cc(Nc2ncc(Br)c(Nc3ccccn3)n2)cc(OC)c1OC
 
->  <canonical_smi>  (7) 
+>  <canonical_smi>  (8) 
 COc1cc(Nc2ncc(Br)c(Nc3ccccn3)n2)cc(OC)c1OC
 
->  <Set>  (7) 
+>  <Set>  (8) 
 G1 active
 
->  <Set_type>  (7) 
+>  <Set_type>  (8) 
 G1
 
->  <MW>  (7) 
+>  <MW>  (8) 
 432.28
 
->  <HBD>  (7) 
+>  <HBD>  (8) 
 2
 
->  <HBA>  (7) 
+>  <HBA>  (8) 
 8
 
->  <NRB>  (7) 
+>  <NRB>  (8) 
 7
 
->  <NR>  (7) 
+>  <NR>  (8) 
 3
 
->  <NAR>  (7) 
+>  <NAR>  (8) 
 3
 
->  <PSA>  (7) 
+>  <PSA>  (8) 
 90.42
 
->  <Standard Type>  (7) 
+>  <Standard Type>  (8) 
 nan
 
->  <Standard Relation>  (7) 
+>  <Standard Relation>  (8) 
 nan
 
->  <Standard Units>  (7) 
+>  <Standard Units>  (8) 
 nan
 
->  <Standard Value>  (7) 
+>  <Standard Value>  (8) 
 nan
 
->  <Assay ChEMBL ID>  (7) 
+>  <Assay ChEMBL ID>  (8) 
 nan
 
->  <Assay Description>  (7) 
+>  <Assay Description>  (8) 
 nan
 
->  <BAO Label>  (7) 
+>  <BAO Label>  (8) 
 nan
 
->  <bits>  (7) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BE880>
+>  <bits>  (8) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A110>
 
->  <Group>  (7) 
+>  <Group>  (8) 
 G1
 
 $$$$
@@ -1049,70 +1193,70 @@ $$$$
  31 15  1  0
  27 21  1  0
 M  END
->  <Compound_ID>  (8) 
+>  <Compound_ID>  (9) 
 CHEMBL401930
 
->  <Active>  (8) 
+>  <Active>  (9) 
 1
 
->  <Smiles>  (8) 
+>  <Smiles>  (9) 
 Cc1cc(N2CCOCC2)cc2[nH]c(-c3c(NC[C@@H](O)c4cccc(Cl)c4)cc[nH]c3=O)nc12
 
->  <canonical_smi>  (8) 
+>  <canonical_smi>  (9) 
 Cc1cc(N2CCOCC2)cc2[nH]c(-c3c(NC[C@@H](O)c4cccc(Cl)c4)cc[nH]c3=O)nc12
 
->  <Set>  (8) 
+>  <Set>  (9) 
 G1 active
 
->  <Set_type>  (8) 
+>  <Set_type>  (9) 
 G1
 
->  <MW>  (8) 
+>  <MW>  (9) 
 479.97
 
->  <HBD>  (8) 
+>  <HBD>  (9) 
 4
 
->  <HBA>  (8) 
+>  <HBA>  (9) 
 6
 
->  <NRB>  (8) 
+>  <NRB>  (9) 
 6
 
->  <NR>  (8) 
+>  <NR>  (9) 
 5
 
->  <NAR>  (8) 
+>  <NAR>  (9) 
 4
 
->  <PSA>  (8) 
+>  <PSA>  (9) 
 106.27
 
->  <Standard Type>  (8) 
+>  <Standard Type>  (9) 
 nan
 
->  <Standard Relation>  (8) 
+>  <Standard Relation>  (9) 
 nan
 
->  <Standard Units>  (8) 
+>  <Standard Units>  (9) 
 nan
 
->  <Standard Value>  (8) 
+>  <Standard Value>  (9) 
 nan
 
->  <Assay ChEMBL ID>  (8) 
+>  <Assay ChEMBL ID>  (9) 
 nan
 
->  <Assay Description>  (8) 
+>  <Assay Description>  (9) 
 nan
 
->  <BAO Label>  (8) 
+>  <BAO Label>  (9) 
 nan
 
->  <bits>  (8) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BE8F0>
+>  <bits>  (9) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A180>
 
->  <Group>  (8) 
+>  <Group>  (9) 
 G1
 
 $$$$
@@ -1182,70 +1326,70 @@ $$$$
  26  9  1  0
  25 20  1  0
 M  END
->  <Compound_ID>  (9) 
+>  <Compound_ID>  (10) 
 CHEMBL470314
 
->  <Active>  (9) 
+>  <Active>  (10) 
 1
 
->  <Smiles>  (9) 
+>  <Smiles>  (10) 
 Cn1ccc2cc(Nc3ncc(C(F)(F)F)c(NCc4ccccn4)n3)ccc21
 
->  <canonical_smi>  (9) 
+>  <canonical_smi>  (10) 
 Cn1ccc2cc(Nc3ncc(C(F)(F)F)c(NCc4ccccn4)n3)ccc21
 
->  <Set>  (9) 
+>  <Set>  (10) 
 G1 active
 
->  <Set_type>  (9) 
+>  <Set_type>  (10) 
 G1
 
->  <MW>  (9) 
+>  <MW>  (10) 
 398.39
 
->  <HBD>  (9) 
+>  <HBD>  (10) 
 2
 
->  <HBA>  (9) 
+>  <HBA>  (10) 
 5
 
->  <NRB>  (9) 
+>  <NRB>  (10) 
 5
 
->  <NR>  (9) 
+>  <NR>  (10) 
 4
 
->  <NAR>  (9) 
+>  <NAR>  (10) 
 4
 
->  <PSA>  (9) 
+>  <PSA>  (10) 
 67.66
 
->  <Standard Type>  (9) 
+>  <Standard Type>  (10) 
 nan
 
->  <Standard Relation>  (9) 
+>  <Standard Relation>  (10) 
 nan
 
->  <Standard Units>  (9) 
+>  <Standard Units>  (10) 
 nan
 
->  <Standard Value>  (9) 
+>  <Standard Value>  (10) 
 nan
 
->  <Assay ChEMBL ID>  (9) 
+>  <Assay ChEMBL ID>  (10) 
 nan
 
->  <Assay Description>  (9) 
+>  <Assay Description>  (10) 
 nan
 
->  <BAO Label>  (9) 
+>  <BAO Label>  (10) 
 nan
 
->  <bits>  (9) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BE960>
+>  <bits>  (10) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A2D0>
 
->  <Group>  (9) 
+>  <Group>  (10) 
 G1
 
 $$$$
@@ -1330,70 +1474,199 @@ $$$$
  33 19  1  0
  29 24  1  0
 M  END
->  <Compound_ID>  (10) 
+>  <Compound_ID>  (11) 
 CHEMBL459729
 
->  <Active>  (10) 
+>  <Active>  (11) 
 1
 
->  <Smiles>  (10) 
+>  <Smiles>  (11) 
 Cc1cc(C2CCN(CCCF)CC2)cc2[nH]c(-c3c(NCCn4cc(Cl)cn4)cc[nH]c3=O)nc12
 
->  <canonical_smi>  (10) 
+>  <canonical_smi>  (11) 
 Cc1cc(C2CCN(CCCF)CC2)cc2[nH]c(-c3c(NCCn4cc(Cl)cn4)cc[nH]c3=O)nc12
 
->  <Set>  (10) 
+>  <Set>  (11) 
 G1 active
 
->  <Set_type>  (10) 
+>  <Set_type>  (11) 
 G1
 
->  <MW>  (10) 
+>  <MW>  (11) 
 512.03
 
->  <HBD>  (10) 
+>  <HBD>  (11) 
 3
 
->  <HBA>  (10) 
+>  <HBA>  (11) 
 5
 
->  <NRB>  (10) 
+>  <NRB>  (11) 
 9
 
->  <NR>  (10) 
+>  <NR>  (11) 
 5
 
->  <NAR>  (10) 
+>  <NAR>  (11) 
 4
 
->  <PSA>  (10) 
+>  <PSA>  (11) 
 94.63
 
->  <Standard Type>  (10) 
+>  <Standard Type>  (11) 
 nan
 
->  <Standard Relation>  (10) 
+>  <Standard Relation>  (11) 
 nan
 
->  <Standard Units>  (10) 
+>  <Standard Units>  (11) 
 nan
 
->  <Standard Value>  (10) 
+>  <Standard Value>  (11) 
 nan
 
->  <Assay ChEMBL ID>  (10) 
+>  <Assay ChEMBL ID>  (11) 
 nan
 
->  <Assay Description>  (10) 
+>  <Assay Description>  (11) 
 nan
 
->  <BAO Label>  (10) 
+>  <BAO Label>  (11) 
 nan
 
->  <bits>  (10) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BE9D0>
+>  <bits>  (11) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A340>
 
->  <Group>  (10) 
+>  <Group>  (11) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 27 30  0  0  0  0  0  0  0  0999 V2000
+   -2.2500   -9.0933    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4231    2.5537    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -7.7942    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500   -9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000  -10.3923    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500  -11.6913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500  -11.6913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0000  -10.3923    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2500   -9.0933    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  3  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 12 14  1  0
+ 14 15  1  0
+ 15 16  2  0
+ 15 17  1  0
+  6 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  1  0
+ 22 23  2  0
+ 23 24  1  0
+ 24 25  2  0
+ 25 26  1  0
+ 26 27  2  0
+ 19  3  1  0
+ 27 22  1  0
+ 13  8  1  0
+ 17 11  1  0
+M  END
+>  <Compound_ID>  (12) 
+CHEMBL470317
+
+>  <Active>  (12) 
+1
+
+>  <Smiles>  (12) 
+N#Cc1cnc(Nc2ccc3c(c2)CC(=O)N3)nc1NCc1ccccn1
+
+>  <canonical_smi>  (12) 
+N#Cc1cnc(Nc2ccc3c(c2)CC(=O)N3)nc1NCc1ccccn1
+
+>  <Set>  (12) 
+G1 active
+
+>  <Set_type>  (12) 
+G1
+
+>  <MW>  (12) 
+357.38
+
+>  <HBD>  (12) 
+3
+
+>  <HBA>  (12) 
+7
+
+>  <NRB>  (12) 
+5
+
+>  <NR>  (12) 
+4
+
+>  <NAR>  (12) 
+3
+
+>  <PSA>  (12) 
+115.62
+
+>  <Standard Type>  (12) 
+nan
+
+>  <Standard Relation>  (12) 
+nan
+
+>  <Standard Units>  (12) 
+nan
+
+>  <Standard Value>  (12) 
+nan
+
+>  <Assay ChEMBL ID>  (12) 
+nan
+
+>  <Assay Description>  (12) 
+nan
+
+>  <BAO Label>  (12) 
+nan
+
+>  <bits>  (12) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A3B0>
+
+>  <Group>  (12) 
 G1
 
 $$$$
@@ -1465,70 +1738,70 @@ $$$$
  19 14  1  0
  23 10  1  0
 M  END
->  <Compound_ID>  (11) 
+>  <Compound_ID>  (13) 
 CHEMBL383300
 
->  <Active>  (11) 
+>  <Active>  (13) 
 1
 
->  <Smiles>  (11) 
+>  <Smiles>  (13) 
 COc1cc(Nc2ncc3c(n2)N(c2ccccn2)C(O)CC3)cc(OC)c1OC
 
->  <canonical_smi>  (11) 
+>  <canonical_smi>  (13) 
 COc1cc(Nc2ncc3c(n2)N(c2ccccn2)C(O)CC3)cc(OC)c1OC
 
->  <Set>  (11) 
+>  <Set>  (13) 
 G1 active
 
->  <Set_type>  (11) 
+>  <Set_type>  (13) 
 G1
 
->  <MW>  (11) 
+>  <MW>  (13) 
 409.45
 
->  <HBD>  (11) 
+>  <HBD>  (13) 
 2
 
->  <HBA>  (11) 
+>  <HBA>  (13) 
 9
 
->  <NRB>  (11) 
+>  <NRB>  (13) 
 6
 
->  <NR>  (11) 
+>  <NR>  (13) 
 4
 
->  <NAR>  (11) 
+>  <NAR>  (13) 
 3
 
->  <PSA>  (11) 
+>  <PSA>  (13) 
 101.86
 
->  <Standard Type>  (11) 
+>  <Standard Type>  (13) 
 nan
 
->  <Standard Relation>  (11) 
+>  <Standard Relation>  (13) 
 nan
 
->  <Standard Units>  (11) 
+>  <Standard Units>  (13) 
 nan
 
->  <Standard Value>  (11) 
+>  <Standard Value>  (13) 
 nan
 
->  <Assay ChEMBL ID>  (11) 
+>  <Assay ChEMBL ID>  (13) 
 nan
 
->  <Assay Description>  (11) 
+>  <Assay Description>  (13) 
 nan
 
->  <BAO Label>  (11) 
+>  <BAO Label>  (13) 
 nan
 
->  <bits>  (11) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEA40>
+>  <bits>  (13) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A420>
 
->  <Group>  (11) 
+>  <Group>  (13) 
 G1
 
 $$$$
@@ -1603,70 +1876,195 @@ $$$$
  32 27  1  0
  23 12  1  0
 M  END
->  <Compound_ID>  (12) 
+>  <Compound_ID>  (14) 
 CHEMBL204933
 
->  <Active>  (12) 
+>  <Active>  (14) 
 1
 
->  <Smiles>  (12) 
+>  <Smiles>  (14) 
 CCOC(=O)Cc1cnc(Nc2cc(OC)c(OC)c(OC)c2)nc1Nc1ccccn1
 
->  <canonical_smi>  (12) 
+>  <canonical_smi>  (14) 
 CCOC(=O)Cc1cnc(Nc2cc(OC)c(OC)c(OC)c2)nc1Nc1ccccn1
 
->  <Set>  (12) 
+>  <Set>  (14) 
 G1 active
 
->  <Set_type>  (12) 
+>  <Set_type>  (14) 
 G1
 
->  <MW>  (12) 
+>  <MW>  (14) 
 439.47
 
->  <HBD>  (12) 
+>  <HBD>  (14) 
 2
 
->  <HBA>  (12) 
+>  <HBA>  (14) 
 10
 
->  <NRB>  (12) 
+>  <NRB>  (14) 
 10
 
->  <NR>  (12) 
+>  <NR>  (14) 
 3
 
->  <NAR>  (12) 
+>  <NAR>  (14) 
 3
 
->  <PSA>  (12) 
+>  <PSA>  (14) 
 116.72
 
->  <Standard Type>  (12) 
+>  <Standard Type>  (14) 
 nan
 
->  <Standard Relation>  (12) 
+>  <Standard Relation>  (14) 
 nan
 
->  <Standard Units>  (12) 
+>  <Standard Units>  (14) 
 nan
 
->  <Standard Value>  (12) 
+>  <Standard Value>  (14) 
 nan
 
->  <Assay ChEMBL ID>  (12) 
+>  <Assay ChEMBL ID>  (14) 
 nan
 
->  <Assay Description>  (12) 
+>  <Assay Description>  (14) 
 nan
 
->  <BAO Label>  (12) 
+>  <BAO Label>  (14) 
 nan
 
->  <bits>  (12) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEAB0>
+>  <bits>  (14) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A500>
 
->  <Group>  (12) 
+>  <Group>  (14) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 25 28  0  0  0  0  0  0  0  0999 V2000
+    0.7500   -9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7701   -2.1590    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  6  8  1  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 16 23  1  0
+ 23 24  2  0
+  8 25  2  0
+ 25  3  1  0
+ 24 10  1  0
+ 23 13  1  0
+ 22 17  1  0
+M  END
+>  <Compound_ID>  (15) 
+CHEMBL377957
+
+>  <Active>  (15) 
+1
+
+>  <Smiles>  (15) 
+COc1ccc(C)c(Nc2ncc3ccn(-c4ccccn4)c3n2)c1
+
+>  <canonical_smi>  (15) 
+COc1ccc(C)c(Nc2ncc3ccn(-c4ccccn4)c3n2)c1
+
+>  <Set>  (15) 
+G1 active
+
+>  <Set_type>  (15) 
+G1
+
+>  <MW>  (15) 
+331.38
+
+>  <HBD>  (15) 
+1
+
+>  <HBA>  (15) 
+5
+
+>  <NRB>  (15) 
+4
+
+>  <NR>  (15) 
+4
+
+>  <NAR>  (15) 
+4
+
+>  <PSA>  (15) 
+64.86
+
+>  <Standard Type>  (15) 
+nan
+
+>  <Standard Relation>  (15) 
+nan
+
+>  <Standard Units>  (15) 
+nan
+
+>  <Standard Value>  (15) 
+nan
+
+>  <Assay ChEMBL ID>  (15) 
+nan
+
+>  <Assay Description>  (15) 
+nan
+
+>  <BAO Label>  (15) 
+nan
+
+>  <bits>  (15) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A5E0>
+
+>  <Group>  (15) 
 G1
 
 $$$$
@@ -1738,70 +2136,70 @@ $$$$
  26  8  1  0
  24 18  1  0
 M  END
->  <Compound_ID>  (13) 
+>  <Compound_ID>  (16) 
 CHEMBL488446
 
->  <Active>  (13) 
+>  <Active>  (16) 
 1
 
->  <Smiles>  (13) 
+>  <Smiles>  (16) 
 O=C1Cc2cc(Nc3ncc(C(F)(F)F)c(N[C@@H]4CCCCNC4=O)n3)ccc2N1
 
->  <canonical_smi>  (13) 
+>  <canonical_smi>  (16) 
 O=C1Cc2cc(Nc3ncc(C(F)(F)F)c(N[C@@H]4CCCCNC4=O)n3)ccc2N1
 
->  <Set>  (13) 
+>  <Set>  (16) 
 G1 active
 
->  <Set_type>  (13) 
+>  <Set_type>  (16) 
 G1
 
->  <MW>  (13) 
+>  <MW>  (16) 
 420.4
 
->  <HBD>  (13) 
+>  <HBD>  (16) 
 4
 
->  <HBA>  (13) 
+>  <HBA>  (16) 
 6
 
->  <NRB>  (13) 
+>  <NRB>  (16) 
 4
 
->  <NR>  (13) 
+>  <NR>  (16) 
 4
 
->  <NAR>  (13) 
+>  <NAR>  (16) 
 2
 
->  <PSA>  (13) 
+>  <PSA>  (16) 
 108.04
 
->  <Standard Type>  (13) 
+>  <Standard Type>  (16) 
 nan
 
->  <Standard Relation>  (13) 
+>  <Standard Relation>  (16) 
 nan
 
->  <Standard Units>  (13) 
+>  <Standard Units>  (16) 
 nan
 
->  <Standard Value>  (13) 
+>  <Standard Value>  (16) 
 nan
 
->  <Assay ChEMBL ID>  (13) 
+>  <Assay ChEMBL ID>  (16) 
 nan
 
->  <Assay Description>  (13) 
+>  <Assay Description>  (16) 
 nan
 
->  <BAO Label>  (13) 
+>  <BAO Label>  (16) 
 nan
 
->  <bits>  (13) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEB20>
+>  <bits>  (16) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A730>
 
->  <Group>  (13) 
+>  <Group>  (16) 
 G1
 
 $$$$
@@ -1866,70 +2264,70 @@ $$$$
  18 13  1  0
  22 17  1  0
 M  END
->  <Compound_ID>  (14) 
+>  <Compound_ID>  (17) 
 CHEMBL382809
 
->  <Active>  (14) 
+>  <Active>  (17) 
 1
 
->  <Smiles>  (14) 
+>  <Smiles>  (17) 
 c1ccc(-n2ccc3cnc(Nc4cccc5c4CCCC5)nc32)nc1
 
->  <canonical_smi>  (14) 
+>  <canonical_smi>  (17) 
 c1ccc(-n2ccc3cnc(Nc4cccc5c4CCCC5)nc32)nc1
 
->  <Set>  (14) 
+>  <Set>  (17) 
 G1 active
 
->  <Set_type>  (14) 
+>  <Set_type>  (17) 
 G1
 
->  <MW>  (14) 
+>  <MW>  (17) 
 341.42
 
->  <HBD>  (14) 
+>  <HBD>  (17) 
 1
 
->  <HBA>  (14) 
+>  <HBA>  (17) 
 4
 
->  <NRB>  (14) 
+>  <NRB>  (17) 
 3
 
->  <NR>  (14) 
+>  <NR>  (17) 
 5
 
->  <NAR>  (14) 
+>  <NAR>  (17) 
 4
 
->  <PSA>  (14) 
+>  <PSA>  (17) 
 55.63
 
->  <Standard Type>  (14) 
+>  <Standard Type>  (17) 
 nan
 
->  <Standard Relation>  (14) 
+>  <Standard Relation>  (17) 
 nan
 
->  <Standard Units>  (14) 
+>  <Standard Units>  (17) 
 nan
 
->  <Standard Value>  (14) 
+>  <Standard Value>  (17) 
 nan
 
->  <Assay ChEMBL ID>  (14) 
+>  <Assay ChEMBL ID>  (17) 
 nan
 
->  <Assay Description>  (14) 
+>  <Assay Description>  (17) 
 nan
 
->  <BAO Label>  (14) 
+>  <BAO Label>  (17) 
 nan
 
->  <bits>  (14) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEB90>
+>  <bits>  (17) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A7A0>
 
->  <Group>  (14) 
+>  <Group>  (17) 
 G1
 
 $$$$
@@ -1993,70 +2391,70 @@ $$$$
  25 15  1  0
  24 19  1  0
 M  END
->  <Compound_ID>  (15) 
+>  <Compound_ID>  (18) 
 CHEMBL379118
 
->  <Active>  (15) 
+>  <Active>  (18) 
 1
 
->  <Smiles>  (15) 
+>  <Smiles>  (18) 
 Cc1ccc(C(N)=O)cc1Nc1ncc2ccn(-c3ccccn3)c2n1
 
->  <canonical_smi>  (15) 
+>  <canonical_smi>  (18) 
 Cc1ccc(C(N)=O)cc1Nc1ncc2ccn(-c3ccccn3)c2n1
 
->  <Set>  (15) 
+>  <Set>  (18) 
 G1 active
 
->  <Set_type>  (15) 
+>  <Set_type>  (18) 
 G1
 
->  <MW>  (15) 
+>  <MW>  (18) 
 344.38
 
->  <HBD>  (15) 
+>  <HBD>  (18) 
 2
 
->  <HBA>  (15) 
+>  <HBA>  (18) 
 5
 
->  <NRB>  (15) 
+>  <NRB>  (18) 
 4
 
->  <NR>  (15) 
+>  <NR>  (18) 
 4
 
->  <NAR>  (15) 
+>  <NAR>  (18) 
 4
 
->  <PSA>  (15) 
+>  <PSA>  (18) 
 98.72
 
->  <Standard Type>  (15) 
+>  <Standard Type>  (18) 
 nan
 
->  <Standard Relation>  (15) 
+>  <Standard Relation>  (18) 
 nan
 
->  <Standard Units>  (15) 
+>  <Standard Units>  (18) 
 nan
 
->  <Standard Value>  (15) 
+>  <Standard Value>  (18) 
 nan
 
->  <Assay ChEMBL ID>  (15) 
+>  <Assay ChEMBL ID>  (18) 
 nan
 
->  <Assay Description>  (15) 
+>  <Assay Description>  (18) 
 nan
 
->  <BAO Label>  (15) 
+>  <BAO Label>  (18) 
 nan
 
->  <bits>  (15) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEC00>
+>  <bits>  (18) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A8F0>
 
->  <Group>  (15) 
+>  <Group>  (18) 
 G1
 
 $$$$
@@ -2125,70 +2523,70 @@ $$$$
  27 17  1  0
  27 21  1  0
 M  END
->  <Compound_ID>  (16) 
+>  <Compound_ID>  (19) 
 CHEMBL535
 
->  <Active>  (16) 
+>  <Active>  (19) 
 1
 
->  <Smiles>  (16) 
+>  <Smiles>  (19) 
 CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C
 
->  <canonical_smi>  (16) 
+>  <canonical_smi>  (19) 
 CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C
 
->  <Set>  (16) 
+>  <Set>  (19) 
 G1 active
 
->  <Set_type>  (16) 
+>  <Set_type>  (19) 
 G1
 
->  <MW>  (16) 
+>  <MW>  (19) 
 398.48
 
->  <HBD>  (16) 
+>  <HBD>  (19) 
 3
 
->  <HBA>  (16) 
+>  <HBA>  (19) 
 3
 
->  <NRB>  (16) 
+>  <NRB>  (19) 
 7
 
->  <NR>  (16) 
+>  <NR>  (19) 
 3
 
->  <NAR>  (16) 
+>  <NAR>  (19) 
 2
 
->  <PSA>  (16) 
+>  <PSA>  (19) 
 77.23
 
->  <Standard Type>  (16) 
+>  <Standard Type>  (19) 
 nan
 
->  <Standard Relation>  (16) 
+>  <Standard Relation>  (19) 
 nan
 
->  <Standard Units>  (16) 
+>  <Standard Units>  (19) 
 nan
 
->  <Standard Value>  (16) 
+>  <Standard Value>  (19) 
 nan
 
->  <Assay ChEMBL ID>  (16) 
+>  <Assay ChEMBL ID>  (19) 
 nan
 
->  <Assay Description>  (16) 
+>  <Assay Description>  (19) 
 nan
 
->  <BAO Label>  (16) 
+>  <BAO Label>  (19) 
 nan
 
->  <bits>  (16) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEC70>
+>  <bits>  (19) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A960>
 
->  <Group>  (16) 
+>  <Group>  (19) 
 G1
 
 $$$$
@@ -2261,70 +2659,70 @@ $$$$
  27  9  1  0
  24 15  1  0
 M  END
->  <Compound_ID>  (17) 
+>  <Compound_ID>  (20) 
 CHEMBL475817
 
->  <Active>  (17) 
+>  <Active>  (20) 
 1
 
->  <Smiles>  (17) 
+>  <Smiles>  (20) 
 Nc1ncc(NC(=O)c2cc(NC(=O)c3cccc(C(F)(F)F)c3)ccc2Cl)cc1Cl
 
->  <canonical_smi>  (17) 
+>  <canonical_smi>  (20) 
 Nc1ncc(NC(=O)c2cc(NC(=O)c3cccc(C(F)(F)F)c3)ccc2Cl)cc1Cl
 
->  <Set>  (17) 
+>  <Set>  (20) 
 G1 active
 
->  <Set_type>  (17) 
+>  <Set_type>  (20) 
 G1
 
->  <MW>  (17) 
+>  <MW>  (20) 
 469.25
 
->  <HBD>  (17) 
+>  <HBD>  (20) 
 3
 
->  <HBA>  (17) 
+>  <HBA>  (20) 
 4
 
->  <NRB>  (17) 
+>  <NRB>  (20) 
 4
 
->  <NR>  (17) 
+>  <NR>  (20) 
 3
 
->  <NAR>  (17) 
+>  <NAR>  (20) 
 3
 
->  <PSA>  (17) 
+>  <PSA>  (20) 
 97.11
 
->  <Standard Type>  (17) 
+>  <Standard Type>  (20) 
 nan
 
->  <Standard Relation>  (17) 
+>  <Standard Relation>  (20) 
 nan
 
->  <Standard Units>  (17) 
+>  <Standard Units>  (20) 
 nan
 
->  <Standard Value>  (17) 
+>  <Standard Value>  (20) 
 nan
 
->  <Assay ChEMBL ID>  (17) 
+>  <Assay ChEMBL ID>  (20) 
 nan
 
->  <Assay Description>  (17) 
+>  <Assay Description>  (20) 
 nan
 
->  <BAO Label>  (17) 
+>  <BAO Label>  (20) 
 nan
 
->  <bits>  (17) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BECE0>
+>  <bits>  (20) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A9D0>
 
->  <Group>  (17) 
+>  <Group>  (20) 
 G1
 
 $$$$
@@ -2390,191 +2788,70 @@ $$$$
  19 10  1  0
  18 14  1  0
 M  END
->  <Compound_ID>  (18) 
+>  <Compound_ID>  (21) 
 CHEMBL205588
 
->  <Active>  (18) 
+>  <Active>  (21) 
 1
 
->  <Smiles>  (18) 
+>  <Smiles>  (21) 
 COc1cc(Nc2ncc3ccn(-c4nccs4)c3n2)cc(OC)c1OC
 
->  <canonical_smi>  (18) 
+>  <canonical_smi>  (21) 
 COc1cc(Nc2ncc3ccn(-c4nccs4)c3n2)cc(OC)c1OC
 
->  <Set>  (18) 
+>  <Set>  (21) 
 G1 active
 
->  <Set_type>  (18) 
+>  <Set_type>  (21) 
 G1
 
->  <MW>  (18) 
+>  <MW>  (21) 
 383.43
 
->  <HBD>  (18) 
+>  <HBD>  (21) 
 1
 
->  <HBA>  (18) 
+>  <HBA>  (21) 
 7
 
->  <NRB>  (18) 
+>  <NRB>  (21) 
 6
 
->  <NR>  (18) 
+>  <NR>  (21) 
 4
 
->  <NAR>  (18) 
+>  <NAR>  (21) 
 4
 
->  <PSA>  (18) 
+>  <PSA>  (21) 
 83.32
 
->  <Standard Type>  (18) 
+>  <Standard Type>  (21) 
 nan
 
->  <Standard Relation>  (18) 
+>  <Standard Relation>  (21) 
 nan
 
->  <Standard Units>  (18) 
+>  <Standard Units>  (21) 
 nan
 
->  <Standard Value>  (18) 
+>  <Standard Value>  (21) 
 nan
 
->  <Assay ChEMBL ID>  (18) 
+>  <Assay ChEMBL ID>  (21) 
 nan
 
->  <Assay Description>  (18) 
+>  <Assay Description>  (21) 
 nan
 
->  <BAO Label>  (18) 
+>  <BAO Label>  (21) 
 nan
 
->  <bits>  (18) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BED50>
+>  <bits>  (21) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60AA40>
 
->  <Group>  (18) 
-G1
-
-$$$$
-
-     RDKit          2D
-
- 23 26  0  0  0  0  0  0  0  0999 V2000
-    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.7537    2.4138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.9672    0.3119    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.7701   -2.1590    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  2  0
-  3  4  1  0
-  4  5  2  0
-  5  6  1  0
-  6  7  2  0
-  7  8  1  0
-  8  9  1  0
-  9 10  2  0
- 10 11  1  0
- 11 12  2  0
- 12 13  1  0
- 13 14  2  0
- 14 15  1  0
- 15 16  1  0
- 16 17  2  0
- 17 18  1  0
- 18 19  2  0
- 19 20  1  0
- 20 21  2  0
- 15 22  1  0
- 22 23  2  0
-  7  2  1  0
- 23  9  1  0
- 22 12  1  0
- 21 16  1  0
-M  END
->  <Compound_ID>  (19) 
-CHEMBL206797
-
->  <Active>  (19) 
-1
-
->  <Smiles>  (19) 
-Cc1ccccc1Nc1ncc2ccn(-c3ccccn3)c2n1
-
->  <canonical_smi>  (19) 
-Cc1ccccc1Nc1ncc2ccn(-c3ccccn3)c2n1
-
->  <Set>  (19) 
-G1 active
-
->  <Set_type>  (19) 
-G1
-
->  <MW>  (19) 
-301.35
-
->  <HBD>  (19) 
-1
-
->  <HBA>  (19) 
-4
-
->  <NRB>  (19) 
-3
-
->  <NR>  (19) 
-4
-
->  <NAR>  (19) 
-4
-
->  <PSA>  (19) 
-55.63
-
->  <Standard Type>  (19) 
-nan
-
->  <Standard Relation>  (19) 
-nan
-
->  <Standard Units>  (19) 
-nan
-
->  <Standard Value>  (19) 
-nan
-
->  <Assay ChEMBL ID>  (19) 
-nan
-
->  <Assay Description>  (19) 
-nan
-
->  <BAO Label>  (19) 
-nan
-
->  <bits>  (19) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEDC0>
-
->  <Group>  (19) 
+>  <Group>  (21) 
 G1
 
 $$$$
@@ -2646,70 +2923,70 @@ $$$$
  22 10  1  0
  19 14  1  0
 M  END
->  <Compound_ID>  (20) 
+>  <Compound_ID>  (22) 
 CHEMBL206731
 
->  <Active>  (20) 
+>  <Active>  (22) 
 1
 
->  <Smiles>  (20) 
+>  <Smiles>  (22) 
 COc1cc(Nc2ncc3ccn(-c4ccccc4C#N)c3n2)cc(OC)c1OC
 
->  <canonical_smi>  (20) 
+>  <canonical_smi>  (22) 
 COc1cc(Nc2ncc3ccn(-c4ccccc4C#N)c3n2)cc(OC)c1OC
 
->  <Set>  (20) 
+>  <Set>  (22) 
 G1 active
 
->  <Set_type>  (20) 
+>  <Set_type>  (22) 
 G1
 
->  <MW>  (20) 
+>  <MW>  (22) 
 401.43
 
->  <HBD>  (20) 
+>  <HBD>  (22) 
 1
 
->  <HBA>  (20) 
+>  <HBA>  (22) 
 7
 
->  <NRB>  (20) 
+>  <NRB>  (22) 
 6
 
->  <NR>  (20) 
+>  <NR>  (22) 
 4
 
->  <NAR>  (20) 
+>  <NAR>  (22) 
 4
 
->  <PSA>  (20) 
+>  <PSA>  (22) 
 94.22
 
->  <Standard Type>  (20) 
+>  <Standard Type>  (22) 
 nan
 
->  <Standard Relation>  (20) 
+>  <Standard Relation>  (22) 
 nan
 
->  <Standard Units>  (20) 
+>  <Standard Units>  (22) 
 nan
 
->  <Standard Value>  (20) 
+>  <Standard Value>  (22) 
 nan
 
->  <Assay ChEMBL ID>  (20) 
+>  <Assay ChEMBL ID>  (22) 
 nan
 
->  <Assay Description>  (20) 
+>  <Assay Description>  (22) 
 nan
 
->  <BAO Label>  (20) 
+>  <BAO Label>  (22) 
 nan
 
->  <bits>  (20) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEE30>
+>  <bits>  (22) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60AB20>
 
->  <Group>  (20) 
+>  <Group>  (22) 
 G1
 
 $$$$
@@ -2789,70 +3066,70 @@ $$$$
  14  9  1  0
  31 26  1  0
 M  END
->  <Compound_ID>  (21) 
+>  <Compound_ID>  (23) 
 CHEMBL206853
 
->  <Active>  (21) 
+>  <Active>  (23) 
 1
 
->  <Smiles>  (21) 
+>  <Smiles>  (23) 
 Cc1ccc(-c2cnc3ccccc3n2)cc1Nc1ncc2ccn(-c3ccccn3)c2n1
 
->  <canonical_smi>  (21) 
+>  <canonical_smi>  (23) 
 Cc1ccc(-c2cnc3ccccc3n2)cc1Nc1ncc2ccn(-c3ccccn3)c2n1
 
->  <Set>  (21) 
+>  <Set>  (23) 
 G1 active
 
->  <Set_type>  (21) 
+>  <Set_type>  (23) 
 G1
 
->  <MW>  (21) 
+>  <MW>  (23) 
 429.49
 
->  <HBD>  (21) 
+>  <HBD>  (23) 
 1
 
->  <HBA>  (21) 
+>  <HBA>  (23) 
 6
 
->  <NRB>  (21) 
+>  <NRB>  (23) 
 4
 
->  <NR>  (21) 
+>  <NR>  (23) 
 6
 
->  <NAR>  (21) 
+>  <NAR>  (23) 
 6
 
->  <PSA>  (21) 
+>  <PSA>  (23) 
 81.41
 
->  <Standard Type>  (21) 
+>  <Standard Type>  (23) 
 nan
 
->  <Standard Relation>  (21) 
+>  <Standard Relation>  (23) 
 nan
 
->  <Standard Units>  (21) 
+>  <Standard Units>  (23) 
 nan
 
->  <Standard Value>  (21) 
+>  <Standard Value>  (23) 
 nan
 
->  <Assay ChEMBL ID>  (21) 
+>  <Assay ChEMBL ID>  (23) 
 nan
 
->  <Assay Description>  (21) 
+>  <Assay Description>  (23) 
 nan
 
->  <BAO Label>  (21) 
+>  <BAO Label>  (23) 
 nan
 
->  <bits>  (21) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEEA0>
+>  <bits>  (23) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60AC00>
 
->  <Group>  (21) 
+>  <Group>  (23) 
 G1
 
 $$$$
@@ -2926,70 +3203,70 @@ $$$$
  19 14  1  0
  22 17  1  0
 M  END
->  <Compound_ID>  (22) 
+>  <Compound_ID>  (24) 
 CHEMBL472211
 
->  <Active>  (22) 
+>  <Active>  (24) 
 1
 
->  <Smiles>  (22) 
+>  <Smiles>  (24) 
 CN(C)[C@@H]1CCC[C@H]1Nc1nc(Nc2ccc3c(c2)CCS3(=O)=O)ncc1C(F)(F)F
 
->  <canonical_smi>  (22) 
+>  <canonical_smi>  (24) 
 CN(C)[C@@H]1CCC[C@H]1Nc1nc(Nc2ccc3c(c2)CCS3(=O)=O)ncc1C(F)(F)F
 
->  <Set>  (22) 
+>  <Set>  (24) 
 G1 active
 
->  <Set_type>  (22) 
+>  <Set_type>  (24) 
 G1
 
->  <MW>  (22) 
+>  <MW>  (24) 
 455.51
 
->  <HBD>  (22) 
+>  <HBD>  (24) 
 2
 
->  <HBA>  (22) 
+>  <HBA>  (24) 
 7
 
->  <NRB>  (22) 
+>  <NRB>  (24) 
 5
 
->  <NR>  (22) 
+>  <NR>  (24) 
 4
 
->  <NAR>  (22) 
+>  <NAR>  (24) 
 2
 
->  <PSA>  (22) 
+>  <PSA>  (24) 
 87.22
 
->  <Standard Type>  (22) 
+>  <Standard Type>  (24) 
 nan
 
->  <Standard Relation>  (22) 
+>  <Standard Relation>  (24) 
 nan
 
->  <Standard Units>  (22) 
+>  <Standard Units>  (24) 
 nan
 
->  <Standard Value>  (22) 
+>  <Standard Value>  (24) 
 nan
 
->  <Assay ChEMBL ID>  (22) 
+>  <Assay ChEMBL ID>  (24) 
 nan
 
->  <Assay Description>  (22) 
+>  <Assay Description>  (24) 
 nan
 
->  <BAO Label>  (22) 
+>  <BAO Label>  (24) 
 nan
 
->  <bits>  (22) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEF10>
+>  <bits>  (24) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60AC70>
 
->  <Group>  (22) 
+>  <Group>  (24) 
 G1
 
 $$$$
@@ -3057,70 +3334,205 @@ $$$$
  16  8  1  0
  16 11  1  0
 M  END
->  <Compound_ID>  (23) 
+>  <Compound_ID>  (25) 
 CHEMBL201511
 
->  <Active>  (23) 
+>  <Active>  (25) 
 1
 
->  <Smiles>  (23) 
+>  <Smiles>  (25) 
 COc1cc(C2=C(c3c[nH]c4ccccc34)C(=O)NC2=O)cc(OC)c1OC
 
->  <canonical_smi>  (23) 
+>  <canonical_smi>  (25) 
 COc1cc(C2=C(c3c[nH]c4ccccc34)C(=O)NC2=O)cc(OC)c1OC
 
->  <Set>  (23) 
+>  <Set>  (25) 
 G1 active
 
->  <Set_type>  (23) 
+>  <Set_type>  (25) 
 G1
 
->  <MW>  (23) 
+>  <MW>  (25) 
 378.38
 
->  <HBD>  (23) 
+>  <HBD>  (25) 
 2
 
->  <HBA>  (23) 
+>  <HBA>  (25) 
 5
 
->  <NRB>  (23) 
+>  <NRB>  (25) 
 5
 
->  <NR>  (23) 
+>  <NR>  (25) 
 4
 
->  <NAR>  (23) 
+>  <NAR>  (25) 
 3
 
->  <PSA>  (23) 
+>  <PSA>  (25) 
 89.65
 
->  <Standard Type>  (23) 
+>  <Standard Type>  (25) 
 nan
 
->  <Standard Relation>  (23) 
+>  <Standard Relation>  (25) 
 nan
 
->  <Standard Units>  (23) 
+>  <Standard Units>  (25) 
 nan
 
->  <Standard Value>  (23) 
+>  <Standard Value>  (25) 
 nan
 
->  <Assay ChEMBL ID>  (23) 
+>  <Assay ChEMBL ID>  (25) 
 nan
 
->  <Assay Description>  (23) 
+>  <Assay Description>  (25) 
 nan
 
->  <BAO Label>  (23) 
+>  <BAO Label>  (25) 
 nan
 
->  <bits>  (23) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEF80>
+>  <bits>  (25) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60ADC0>
 
->  <Group>  (23) 
+>  <Group>  (25) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 30 33  0  0  0  0  0  0  0  0999 V2000
+   -3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7701   -2.1590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3435   -2.6226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0316   -4.0898    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  1  0
+ 13 22  1  0
+ 22 23  2  0
+  5 24  2  0
+ 24 25  1  0
+ 25 26  1  0
+ 26 27  1  0
+ 25 28  2  0
+ 28 29  1  0
+ 29 30  1  0
+ 28  3  1  0
+ 23  7  1  0
+ 22 10  1  0
+ 19 14  1  0
+M  END
+>  <Compound_ID>  (26) 
+CHEMBL208734
+
+>  <Active>  (26) 
+1
+
+>  <Smiles>  (26) 
+COc1cc(Nc2ncc3ccn(-c4ccccc4CO)c3n2)cc(OC)c1OC
+
+>  <canonical_smi>  (26) 
+COc1cc(Nc2ncc3ccn(-c4ccccc4CO)c3n2)cc(OC)c1OC
+
+>  <Set>  (26) 
+G1 active
+
+>  <Set_type>  (26) 
+G1
+
+>  <MW>  (26) 
+406.44
+
+>  <HBD>  (26) 
+2
+
+>  <HBA>  (26) 
+7
+
+>  <NRB>  (26) 
+7
+
+>  <NR>  (26) 
+4
+
+>  <NAR>  (26) 
+4
+
+>  <PSA>  (26) 
+90.66
+
+>  <Standard Type>  (26) 
+nan
+
+>  <Standard Relation>  (26) 
+nan
+
+>  <Standard Units>  (26) 
+nan
+
+>  <Standard Value>  (26) 
+nan
+
+>  <Assay ChEMBL ID>  (26) 
+nan
+
+>  <Assay Description>  (26) 
+nan
+
+>  <BAO Label>  (26) 
+nan
+
+>  <bits>  (26) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60AF10>
+
+>  <Group>  (26) 
 G1
 
 $$$$
@@ -3190,70 +3602,70 @@ $$$$
  21 10  1  0
  20 14  1  0
 M  END
->  <Compound_ID>  (24) 
+>  <Compound_ID>  (27) 
 CHEMBL383672
 
->  <Active>  (24) 
+>  <Active>  (27) 
 1
 
->  <Smiles>  (24) 
+>  <Smiles>  (27) 
 COc1cc(Nc2ncc3ccn(-c4ccnc(Cl)n4)c3n2)cc(OC)c1OC
 
->  <canonical_smi>  (24) 
+>  <canonical_smi>  (27) 
 COc1cc(Nc2ncc3ccn(-c4ccnc(Cl)n4)c3n2)cc(OC)c1OC
 
->  <Set>  (24) 
+>  <Set>  (27) 
 G1 active
 
->  <Set_type>  (24) 
+>  <Set_type>  (27) 
 G1
 
->  <MW>  (24) 
+>  <MW>  (27) 
 412.84
 
->  <HBD>  (24) 
+>  <HBD>  (27) 
 1
 
->  <HBA>  (24) 
+>  <HBA>  (27) 
 8
 
->  <NRB>  (24) 
+>  <NRB>  (27) 
 6
 
->  <NR>  (24) 
+>  <NR>  (27) 
 4
 
->  <NAR>  (24) 
+>  <NAR>  (27) 
 4
 
->  <PSA>  (24) 
+>  <PSA>  (27) 
 96.21
 
->  <Standard Type>  (24) 
+>  <Standard Type>  (27) 
 nan
 
->  <Standard Relation>  (24) 
+>  <Standard Relation>  (27) 
 nan
 
->  <Standard Units>  (24) 
+>  <Standard Units>  (27) 
 nan
 
->  <Standard Value>  (24) 
+>  <Standard Value>  (27) 
 nan
 
->  <Assay ChEMBL ID>  (24) 
+>  <Assay ChEMBL ID>  (27) 
 nan
 
->  <Assay Description>  (24) 
+>  <Assay Description>  (27) 
 nan
 
->  <BAO Label>  (24) 
+>  <BAO Label>  (27) 
 nan
 
->  <bits>  (24) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BEFF0>
+>  <bits>  (27) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60B840>
 
->  <Group>  (24) 
+>  <Group>  (27) 
 G1
 
 $$$$
@@ -3325,70 +3737,70 @@ $$$$
  19 14  1  0
  23 17  1  0
 M  END
->  <Compound_ID>  (25) 
+>  <Compound_ID>  (28) 
 CHEMBL487227
 
->  <Active>  (25) 
+>  <Active>  (28) 
 1
 
->  <Smiles>  (25) 
+>  <Smiles>  (28) 
 CN(C)[C@@H]1CCC[C@H]1Nc1nc(Nc2ccc3c(c2)CC(=O)N3)ncc1C(F)(F)F
 
->  <canonical_smi>  (25) 
+>  <canonical_smi>  (28) 
 CN(C)[C@@H]1CCC[C@H]1Nc1nc(Nc2ccc3c(c2)CC(=O)N3)ncc1C(F)(F)F
 
->  <Set>  (25) 
+>  <Set>  (28) 
 G1 active
 
->  <Set_type>  (25) 
+>  <Set_type>  (28) 
 G1
 
->  <MW>  (25) 
+>  <MW>  (28) 
 420.44
 
->  <HBD>  (25) 
+>  <HBD>  (28) 
 3
 
->  <HBA>  (25) 
+>  <HBA>  (28) 
 6
 
->  <NRB>  (25) 
+>  <NRB>  (28) 
 5
 
->  <NR>  (25) 
+>  <NR>  (28) 
 4
 
->  <NAR>  (25) 
+>  <NAR>  (28) 
 2
 
->  <PSA>  (25) 
+>  <PSA>  (28) 
 82.18
 
->  <Standard Type>  (25) 
+>  <Standard Type>  (28) 
 nan
 
->  <Standard Relation>  (25) 
+>  <Standard Relation>  (28) 
 nan
 
->  <Standard Units>  (25) 
+>  <Standard Units>  (28) 
 nan
 
->  <Standard Value>  (25) 
+>  <Standard Value>  (28) 
 nan
 
->  <Assay ChEMBL ID>  (25) 
+>  <Assay ChEMBL ID>  (28) 
 nan
 
->  <Assay Description>  (25) 
+>  <Assay Description>  (28) 
 nan
 
->  <BAO Label>  (25) 
+>  <BAO Label>  (28) 
 nan
 
->  <bits>  (25) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF060>
+>  <bits>  (28) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F6099A0>
 
->  <Group>  (25) 
+>  <Group>  (28) 
 G1
 
 $$$$
@@ -3464,70 +3876,70 @@ $$$$
  19 14  1  0
  24 17  1  0
 M  END
->  <Compound_ID>  (26) 
+>  <Compound_ID>  (29) 
 CHEMBL518905
 
->  <Active>  (26) 
+>  <Active>  (29) 
 1
 
->  <Smiles>  (26) 
+>  <Smiles>  (29) 
 CN(C)[C@@H]1CCC[C@H]1Nc1nc(Nc2ccc3c(c2)CCCNC3=O)ncc1C(F)(F)F
 
->  <canonical_smi>  (26) 
+>  <canonical_smi>  (29) 
 CN(C)[C@@H]1CCC[C@H]1Nc1nc(Nc2ccc3c(c2)CCCNC3=O)ncc1C(F)(F)F
 
->  <Set>  (26) 
+>  <Set>  (29) 
 G1 active
 
->  <Set_type>  (26) 
+>  <Set_type>  (29) 
 G1
 
->  <MW>  (26) 
+>  <MW>  (29) 
 448.49
 
->  <HBD>  (26) 
+>  <HBD>  (29) 
 3
 
->  <HBA>  (26) 
+>  <HBA>  (29) 
 6
 
->  <NRB>  (26) 
+>  <NRB>  (29) 
 5
 
->  <NR>  (26) 
+>  <NR>  (29) 
 4
 
->  <NAR>  (26) 
+>  <NAR>  (29) 
 2
 
->  <PSA>  (26) 
+>  <PSA>  (29) 
 82.18
 
->  <Standard Type>  (26) 
+>  <Standard Type>  (29) 
 nan
 
->  <Standard Relation>  (26) 
+>  <Standard Relation>  (29) 
 nan
 
->  <Standard Units>  (26) 
+>  <Standard Units>  (29) 
 nan
 
->  <Standard Value>  (26) 
+>  <Standard Value>  (29) 
 nan
 
->  <Assay ChEMBL ID>  (26) 
+>  <Assay ChEMBL ID>  (29) 
 nan
 
->  <Assay Description>  (26) 
+>  <Assay Description>  (29) 
 nan
 
->  <BAO Label>  (26) 
+>  <BAO Label>  (29) 
 nan
 
->  <bits>  (26) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF0D0>
+>  <bits>  (29) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F609AF0>
 
->  <Group>  (26) 
+>  <Group>  (29) 
 G1
 
 $$$$
@@ -3602,70 +4014,70 @@ $$$$
  20 15  1  0
 M  CHG  2  27   1  29  -1
 M  END
->  <Compound_ID>  (27) 
+>  <Compound_ID>  (30) 
 CHEMBL460746
 
->  <Active>  (27) 
+>  <Active>  (30) 
 1
 
->  <Smiles>  (27) 
+>  <Smiles>  (30) 
 O=C(NC(=S)Nc1ccc(O)c(-c2nc3ccccc3s2)c1)c1ccc([N+](=O)[O-])cc1
 
->  <canonical_smi>  (27) 
+>  <canonical_smi>  (30) 
 O=C(NC(=S)Nc1ccc(O)c(-c2nc3ccccc3s2)c1)c1ccc([N+](=O)[O-])cc1
 
->  <Set>  (27) 
+>  <Set>  (30) 
 G1 active
 
->  <Set_type>  (27) 
+>  <Set_type>  (30) 
 G1
 
->  <MW>  (27) 
+>  <MW>  (30) 
 450.5
 
->  <HBD>  (27) 
+>  <HBD>  (30) 
 3
 
->  <HBA>  (27) 
+>  <HBA>  (30) 
 7
 
->  <NRB>  (27) 
+>  <NRB>  (30) 
 4
 
->  <NR>  (27) 
+>  <NR>  (30) 
 4
 
->  <NAR>  (27) 
+>  <NAR>  (30) 
 4
 
->  <PSA>  (27) 
+>  <PSA>  (30) 
 117.39
 
->  <Standard Type>  (27) 
+>  <Standard Type>  (30) 
 nan
 
->  <Standard Relation>  (27) 
+>  <Standard Relation>  (30) 
 nan
 
->  <Standard Units>  (27) 
+>  <Standard Units>  (30) 
 nan
 
->  <Standard Value>  (27) 
+>  <Standard Value>  (30) 
 nan
 
->  <Assay ChEMBL ID>  (27) 
+>  <Assay ChEMBL ID>  (30) 
 nan
 
->  <Assay Description>  (27) 
+>  <Assay Description>  (30) 
 nan
 
->  <BAO Label>  (27) 
+>  <BAO Label>  (30) 
 nan
 
->  <bits>  (27) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF140>
+>  <bits>  (30) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60AAB0>
 
->  <Group>  (27) 
+>  <Group>  (30) 
 G1
 
 $$$$
@@ -3747,70 +4159,70 @@ $$$$
  20 15  1  0
  24 18  1  0
 M  END
->  <Compound_ID>  (28) 
+>  <Compound_ID>  (31) 
 CHEMBL472212
 
->  <Active>  (28) 
+>  <Active>  (31) 
 1
 
->  <Smiles>  (28) 
+>  <Smiles>  (31) 
 CN(c1ccccc1CNc1nc(Nc2ccc3c(c2)CC(=O)N3)ncc1C(F)(F)F)S(C)(=O)=O
 
->  <canonical_smi>  (28) 
+>  <canonical_smi>  (31) 
 CN(c1ccccc1CNc1nc(Nc2ccc3c(c2)CC(=O)N3)ncc1C(F)(F)F)S(C)(=O)=O
 
->  <Set>  (28) 
+>  <Set>  (31) 
 G2 active
 
->  <Set_type>  (28) 
+>  <Set_type>  (31) 
 Train
 
->  <MW>  (28) 
+>  <MW>  (31) 
 506.51
 
->  <HBD>  (28) 
+>  <HBD>  (31) 
 3
 
->  <HBA>  (28) 
+>  <HBA>  (31) 
 7
 
->  <NRB>  (28) 
+>  <NRB>  (31) 
 7
 
->  <NR>  (28) 
+>  <NR>  (31) 
 4
 
->  <NAR>  (28) 
+>  <NAR>  (31) 
 3
 
->  <PSA>  (28) 
+>  <PSA>  (31) 
 116.32
 
->  <Standard Type>  (28) 
+>  <Standard Type>  (31) 
 nan
 
->  <Standard Relation>  (28) 
+>  <Standard Relation>  (31) 
 nan
 
->  <Standard Units>  (28) 
+>  <Standard Units>  (31) 
 nan
 
->  <Standard Value>  (28) 
+>  <Standard Value>  (31) 
 nan
 
->  <Assay ChEMBL ID>  (28) 
+>  <Assay ChEMBL ID>  (31) 
 nan
 
->  <Assay Description>  (28) 
+>  <Assay Description>  (31) 
 nan
 
->  <BAO Label>  (28) 
+>  <BAO Label>  (31) 
 nan
 
->  <bits>  (28) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF1B0>
+>  <bits>  (31) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60AB90>
 
->  <Group>  (28) 
+>  <Group>  (31) 
 G1
 
 $$$$
@@ -3888,70 +4300,70 @@ $$$$
  21 16  1  0
  25 19  1  0
 M  END
->  <Compound_ID>  (29) 
+>  <Compound_ID>  (32) 
 CHEMBL487246
 
->  <Active>  (29) 
+>  <Active>  (32) 
 1
 
->  <Smiles>  (29) 
+>  <Smiles>  (32) 
 CS(=O)(=O)c1cccc(CNc2nc(Nc3ccc4c(c3)CC(=O)N4)ncc2C(F)(F)F)c1
 
->  <canonical_smi>  (29) 
+>  <canonical_smi>  (32) 
 CS(=O)(=O)c1cccc(CNc2nc(Nc3ccc4c(c3)CC(=O)N4)ncc2C(F)(F)F)c1
 
->  <Set>  (29) 
+>  <Set>  (32) 
 G2 active
 
->  <Set_type>  (29) 
+>  <Set_type>  (32) 
 Train
 
->  <MW>  (29) 
+>  <MW>  (32) 
 477.47
 
->  <HBD>  (29) 
+>  <HBD>  (32) 
 3
 
->  <HBA>  (29) 
+>  <HBA>  (32) 
 7
 
->  <NRB>  (29) 
+>  <NRB>  (32) 
 6
 
->  <NR>  (29) 
+>  <NR>  (32) 
 4
 
->  <NAR>  (29) 
+>  <NAR>  (32) 
 3
 
->  <PSA>  (29) 
+>  <PSA>  (32) 
 113.08
 
->  <Standard Type>  (29) 
+>  <Standard Type>  (32) 
 nan
 
->  <Standard Relation>  (29) 
+>  <Standard Relation>  (32) 
 nan
 
->  <Standard Units>  (29) 
+>  <Standard Units>  (32) 
 nan
 
->  <Standard Value>  (29) 
+>  <Standard Value>  (32) 
 nan
 
->  <Assay ChEMBL ID>  (29) 
+>  <Assay ChEMBL ID>  (32) 
 nan
 
->  <Assay Description>  (29) 
+>  <Assay Description>  (32) 
 nan
 
->  <BAO Label>  (29) 
+>  <BAO Label>  (32) 
 nan
 
->  <bits>  (29) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF220>
+>  <bits>  (32) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60B140>
 
->  <Group>  (29) 
+>  <Group>  (32) 
 G1
 
 $$$$
@@ -4021,77 +4433,77 @@ $$$$
  25  8  1  0
  24 19  1  0
 M  END
->  <Compound_ID>  (30) 
+>  <Compound_ID>  (33) 
 CHEMBL471357
 
->  <Active>  (30) 
+>  <Active>  (33) 
 1
 
->  <Smiles>  (30) 
+>  <Smiles>  (33) 
 O=C1Cc2cc(Nc3ncc(C(F)(F)F)c(NCc4ccccn4)n3)ccc2N1
 
->  <canonical_smi>  (30) 
+>  <canonical_smi>  (33) 
 O=C1Cc2cc(Nc3ncc(C(F)(F)F)c(NCc4ccccn4)n3)ccc2N1
 
->  <Set>  (30) 
+>  <Set>  (33) 
 G2 active
 
->  <Set_type>  (30) 
+>  <Set_type>  (33) 
 Train
 
->  <MW>  (30) 
+>  <MW>  (33) 
 400.36
 
->  <HBD>  (30) 
+>  <HBD>  (33) 
 3
 
->  <HBA>  (30) 
+>  <HBA>  (33) 
 6
 
->  <NRB>  (30) 
+>  <NRB>  (33) 
 5
 
->  <NR>  (30) 
+>  <NR>  (33) 
 4
 
->  <NAR>  (30) 
+>  <NAR>  (33) 
 3
 
->  <PSA>  (30) 
+>  <PSA>  (33) 
 91.83
 
->  <Standard Type>  (30) 
+>  <Standard Type>  (33) 
 nan
 
->  <Standard Relation>  (30) 
+>  <Standard Relation>  (33) 
 nan
 
->  <Standard Units>  (30) 
+>  <Standard Units>  (33) 
 nan
 
->  <Standard Value>  (30) 
+>  <Standard Value>  (33) 
 nan
 
->  <Assay ChEMBL ID>  (30) 
+>  <Assay ChEMBL ID>  (33) 
 nan
 
->  <Assay Description>  (30) 
+>  <Assay Description>  (33) 
 nan
 
->  <BAO Label>  (30) 
+>  <BAO Label>  (33) 
 nan
 
->  <bits>  (30) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF290>
+>  <bits>  (33) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60B290>
 
->  <Group>  (30) 
+>  <Group>  (33) 
 G1
 
 $$$$
 
      RDKit          2D
 
- 32 35  0  0  0  0  0  0  0  0999 V2000
+ 31 34  0  0  0  0  0  0  0  0999 V2000
    -3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
    -3.0000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
    -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -4112,8 +4524,7 @@ $$$$
    -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
    -4.5729   -4.6300    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
    -5.6876   -5.6337    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.1142   -5.1701    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.3758   -7.1009    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.8024   -6.6374    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
    -3.7701   -2.1590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
    -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
    -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
@@ -4143,87 +4554,86 @@ $$$$
  17 18  1  0
  18 19  1  0
  19 20  1  0
- 20 21  2  0
- 20 22  1  0
- 18 23  2  0
- 13 24  1  0
- 24 25  2  0
-  5 26  2  0
+ 20 21  3  0
+ 18 22  2  0
+ 13 23  1  0
+ 23 24  2  0
+  5 25  2  0
+ 25 26  1  0
  26 27  1  0
  27 28  1  0
- 28 29  1  0
- 27 30  2  0
+ 26 29  2  0
+ 29 30  1  0
  30 31  1  0
- 31 32  1  0
- 30  3  1  0
- 25  7  1  0
- 24 10  1  0
- 23 14  1  0
+ 29  3  1  0
+ 24  7  1  0
+ 23 10  1  0
+ 22 14  1  0
 M  END
->  <Compound_ID>  (31) 
-CHEMBL206255
+>  <Compound_ID>  (34) 
+CHEMBL382354
 
->  <Active>  (31) 
+>  <Active>  (34) 
 1
 
->  <Smiles>  (31) 
-COc1cc(Nc2ncc3ccn(-c4cccc(CC(=O)O)c4)c3n2)cc(OC)c1OC
+>  <Smiles>  (34) 
+COc1cc(Nc2ncc3ccn(-c4cccc(CC#N)c4)c3n2)cc(OC)c1OC
 
->  <canonical_smi>  (31) 
-COc1cc(Nc2ncc3ccn(-c4cccc(CC(=O)O)c4)c3n2)cc(OC)c1OC
+>  <canonical_smi>  (34) 
+COc1cc(Nc2ncc3ccn(-c4cccc(CC#N)c4)c3n2)cc(OC)c1OC
 
->  <Set>  (31) 
+>  <Set>  (34) 
 G2 active
 
->  <Set_type>  (31) 
+>  <Set_type>  (34) 
 Train
 
->  <MW>  (31) 
-434.45
+>  <MW>  (34) 
+415.45
 
->  <HBD>  (31) 
-2
+>  <HBD>  (34) 
+1
 
->  <HBA>  (31) 
-8
+>  <HBA>  (34) 
+7
 
->  <NRB>  (31) 
-8
+>  <NRB>  (34) 
+7
 
->  <NR>  (31) 
+>  <NR>  (34) 
 4
 
->  <NAR>  (31) 
+>  <NAR>  (34) 
 4
 
->  <PSA>  (31) 
-107.73
+>  <PSA>  (34) 
+94.22
 
->  <Standard Type>  (31) 
+>  <Standard Type>  (34) 
 nan
 
->  <Standard Relation>  (31) 
+>  <Standard Relation>  (34) 
 nan
 
->  <Standard Units>  (31) 
+>  <Standard Units>  (34) 
 nan
 
->  <Standard Value>  (31) 
+>  <Standard Value>  (34) 
 nan
 
->  <Assay ChEMBL ID>  (31) 
+>  <Assay ChEMBL ID>  (34) 
 nan
 
->  <Assay Description>  (31) 
+>  <Assay Description>  (34) 
 nan
 
->  <BAO Label>  (31) 
+>  <BAO Label>  (34) 
 nan
 
->  <bits>  (31) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF300>
+>  <bits>  (34) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60B3E0>
 
->  <Group>  (31) 
+>  <Group>  (34) 
 G1
 
 $$$$
@@ -4312,70 +4722,70 @@ $$$$
  35 19  1  0
  30 25  1  0
 M  END
->  <Compound_ID>  (32) 
+>  <Compound_ID>  (35) 
 CHEMBL564417
 
->  <Active>  (32) 
+>  <Active>  (35) 
 1
 
->  <Smiles>  (32) 
+>  <Smiles>  (35) 
 Cc1cc(N2CCN(CCC#N)CC2)cc2nc(-c3c(NC[C@@H](O)c4ccccc4Cl)cc[nH]c3=O)[nH]c12
 
->  <canonical_smi>  (32) 
+>  <canonical_smi>  (35) 
 Cc1cc(N2CCN(CCC#N)CC2)cc2nc(-c3c(NC[C@@H](O)c4ccccc4Cl)cc[nH]c3=O)[nH]c12
 
->  <Set>  (32) 
+>  <Set>  (35) 
 G2 active
 
->  <Set_type>  (32) 
+>  <Set_type>  (35) 
 Train
 
->  <MW>  (32) 
+>  <MW>  (35) 
 532.05
 
->  <HBD>  (32) 
+>  <HBD>  (35) 
 4
 
->  <HBA>  (32) 
+>  <HBA>  (35) 
 7
 
->  <NRB>  (32) 
+>  <NRB>  (35) 
 8
 
->  <NR>  (32) 
+>  <NR>  (35) 
 5
 
->  <NAR>  (32) 
+>  <NAR>  (35) 
 4
 
->  <PSA>  (32) 
+>  <PSA>  (35) 
 124.07
 
->  <Standard Type>  (32) 
+>  <Standard Type>  (35) 
 nan
 
->  <Standard Relation>  (32) 
+>  <Standard Relation>  (35) 
 nan
 
->  <Standard Units>  (32) 
+>  <Standard Units>  (35) 
 nan
 
->  <Standard Value>  (32) 
+>  <Standard Value>  (35) 
 nan
 
->  <Assay ChEMBL ID>  (32) 
+>  <Assay ChEMBL ID>  (35) 
 nan
 
->  <Assay Description>  (32) 
+>  <Assay Description>  (35) 
 nan
 
->  <BAO Label>  (32) 
+>  <BAO Label>  (35) 
 nan
 
->  <bits>  (32) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF370>
+>  <bits>  (35) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60B680>
 
->  <Group>  (32) 
+>  <Group>  (35) 
 G1
 
 $$$$
@@ -4443,70 +4853,70 @@ $$$$
  19 14  1  0
  21 10  1  0
 M  END
->  <Compound_ID>  (33) 
+>  <Compound_ID>  (36) 
 CHEMBL383241
 
->  <Active>  (33) 
+>  <Active>  (36) 
 1
 
->  <Smiles>  (33) 
+>  <Smiles>  (36) 
 COc1cc(Nc2ncc3c(n2)N(c2ccccn2)CC3)cc(OC)c1OC
 
->  <canonical_smi>  (33) 
+>  <canonical_smi>  (36) 
 COc1cc(Nc2ncc3c(n2)N(c2ccccn2)CC3)cc(OC)c1OC
 
->  <Set>  (33) 
+>  <Set>  (36) 
 G2 active
 
->  <Set_type>  (33) 
+>  <Set_type>  (36) 
 Train
 
->  <MW>  (33) 
+>  <MW>  (36) 
 379.42
 
->  <HBD>  (33) 
+>  <HBD>  (36) 
 1
 
->  <HBA>  (33) 
+>  <HBA>  (36) 
 8
 
->  <NRB>  (33) 
+>  <NRB>  (36) 
 6
 
->  <NR>  (33) 
+>  <NR>  (36) 
 4
 
->  <NAR>  (33) 
+>  <NAR>  (36) 
 3
 
->  <PSA>  (33) 
+>  <PSA>  (36) 
 81.63
 
->  <Standard Type>  (33) 
+>  <Standard Type>  (36) 
 nan
 
->  <Standard Relation>  (33) 
+>  <Standard Relation>  (36) 
 nan
 
->  <Standard Units>  (33) 
+>  <Standard Units>  (36) 
 nan
 
->  <Standard Value>  (33) 
+>  <Standard Value>  (36) 
 nan
 
->  <Assay ChEMBL ID>  (33) 
+>  <Assay ChEMBL ID>  (36) 
 nan
 
->  <Assay Description>  (33) 
+>  <Assay Description>  (36) 
 nan
 
->  <BAO Label>  (33) 
+>  <BAO Label>  (36) 
 nan
 
->  <bits>  (33) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF3E0>
+>  <bits>  (36) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60B920>
 
->  <Group>  (33) 
+>  <Group>  (36) 
 G1
 
 $$$$
@@ -4574,70 +4984,70 @@ $$$$
  20 10  1  0
  19 14  1  0
 M  END
->  <Compound_ID>  (34) 
+>  <Compound_ID>  (37) 
 CHEMBL378811
 
->  <Active>  (34) 
+>  <Active>  (37) 
 1
 
->  <Smiles>  (34) 
+>  <Smiles>  (37) 
 COc1cc(Nc2ncc3ccn(-c4cccnc4)c3n2)cc(OC)c1OC
 
->  <canonical_smi>  (34) 
+>  <canonical_smi>  (37) 
 COc1cc(Nc2ncc3ccn(-c4cccnc4)c3n2)cc(OC)c1OC
 
->  <Set>  (34) 
+>  <Set>  (37) 
 G2 active
 
->  <Set_type>  (34) 
+>  <Set_type>  (37) 
 Train
 
->  <MW>  (34) 
+>  <MW>  (37) 
 377.4
 
->  <HBD>  (34) 
+>  <HBD>  (37) 
 1
 
->  <HBA>  (34) 
+>  <HBA>  (37) 
 7
 
->  <NRB>  (34) 
+>  <NRB>  (37) 
 6
 
->  <NR>  (34) 
+>  <NR>  (37) 
 4
 
->  <NAR>  (34) 
+>  <NAR>  (37) 
 4
 
->  <PSA>  (34) 
+>  <PSA>  (37) 
 83.32
 
->  <Standard Type>  (34) 
+>  <Standard Type>  (37) 
 nan
 
->  <Standard Relation>  (34) 
+>  <Standard Relation>  (37) 
 nan
 
->  <Standard Units>  (34) 
+>  <Standard Units>  (37) 
 nan
 
->  <Standard Value>  (34) 
+>  <Standard Value>  (37) 
 nan
 
->  <Assay ChEMBL ID>  (34) 
+>  <Assay ChEMBL ID>  (37) 
 nan
 
->  <Assay Description>  (34) 
+>  <Assay Description>  (37) 
 nan
 
->  <BAO Label>  (34) 
+>  <BAO Label>  (37) 
 nan
 
->  <bits>  (34) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF450>
+>  <bits>  (37) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60BA00>
 
->  <Group>  (34) 
+>  <Group>  (37) 
 G1
 
 $$$$
@@ -4716,70 +5126,70 @@ $$$$
  24 14  1  0
  23 19  2  0
 M  END
->  <Compound_ID>  (35) 
+>  <Compound_ID>  (38) 
 CHEMBL208419
 
->  <Active>  (35) 
+>  <Active>  (38) 
 1
 
->  <Smiles>  (35) 
+>  <Smiles>  (38) 
 COc1cc(Nc2ncc3ccn(-c4cccc(-c5nn[nH]n5)c4)c3n2)cc(OC)c1OC
 
->  <canonical_smi>  (35) 
+>  <canonical_smi>  (38) 
 COc1cc(Nc2ncc3ccn(-c4cccc(-c5nn[nH]n5)c4)c3n2)cc(OC)c1OC
 
->  <Set>  (35) 
+>  <Set>  (38) 
 G2 active
 
->  <Set_type>  (35) 
+>  <Set_type>  (38) 
 Train
 
->  <MW>  (35) 
+>  <MW>  (38) 
 444.46
 
->  <HBD>  (35) 
+>  <HBD>  (38) 
 2
 
->  <HBA>  (35) 
+>  <HBA>  (38) 
 9
 
->  <NRB>  (35) 
+>  <NRB>  (38) 
 7
 
->  <NR>  (35) 
+>  <NR>  (38) 
 5
 
->  <NAR>  (35) 
+>  <NAR>  (38) 
 5
 
->  <PSA>  (35) 
+>  <PSA>  (38) 
 124.89
 
->  <Standard Type>  (35) 
+>  <Standard Type>  (38) 
 nan
 
->  <Standard Relation>  (35) 
+>  <Standard Relation>  (38) 
 nan
 
->  <Standard Units>  (35) 
+>  <Standard Units>  (38) 
 nan
 
->  <Standard Value>  (35) 
+>  <Standard Value>  (38) 
 nan
 
->  <Assay ChEMBL ID>  (35) 
+>  <Assay ChEMBL ID>  (38) 
 nan
 
->  <Assay Description>  (35) 
+>  <Assay Description>  (38) 
 nan
 
->  <BAO Label>  (35) 
+>  <BAO Label>  (38) 
 nan
 
->  <bits>  (35) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF4C0>
+>  <bits>  (38) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60BA70>
 
->  <Group>  (35) 
+>  <Group>  (38) 
 G1
 
 $$$$
@@ -4866,70 +5276,209 @@ $$$$
  24 19  1  0
  32 28  1  0
 M  END
->  <Compound_ID>  (36) 
+>  <Compound_ID>  (39) 
 CHEMBL529889
 
->  <Active>  (36) 
+>  <Active>  (39) 
 1
 
->  <Smiles>  (36) 
+>  <Smiles>  (39) 
 O=C1Cc2cc(Nc3ncc(C(F)(F)F)c(NCc4ccccc4S(=O)(=O)N4CCCC4)n3)ccc2N1
 
->  <canonical_smi>  (36) 
+>  <canonical_smi>  (39) 
 O=C1Cc2cc(Nc3ncc(C(F)(F)F)c(NCc4ccccc4S(=O)(=O)N4CCCC4)n3)ccc2N1
 
->  <Set>  (36) 
+>  <Set>  (39) 
 G2 active
 
->  <Set_type>  (36) 
+>  <Set_type>  (39) 
 Train
 
->  <MW>  (36) 
+>  <MW>  (39) 
 532.55
 
->  <HBD>  (36) 
+>  <HBD>  (39) 
 3
 
->  <HBA>  (36) 
+>  <HBA>  (39) 
 7
 
->  <NRB>  (36) 
+>  <NRB>  (39) 
 7
 
->  <NR>  (36) 
+>  <NR>  (39) 
 5
 
->  <NAR>  (36) 
+>  <NAR>  (39) 
 3
 
->  <PSA>  (36) 
+>  <PSA>  (39) 
 116.32
 
->  <Standard Type>  (36) 
+>  <Standard Type>  (39) 
 nan
 
->  <Standard Relation>  (36) 
+>  <Standard Relation>  (39) 
 nan
 
->  <Standard Units>  (36) 
+>  <Standard Units>  (39) 
 nan
 
->  <Standard Value>  (36) 
+>  <Standard Value>  (39) 
 nan
 
->  <Assay ChEMBL ID>  (36) 
+>  <Assay ChEMBL ID>  (39) 
 nan
 
->  <Assay Description>  (36) 
+>  <Assay Description>  (39) 
 nan
 
->  <BAO Label>  (36) 
+>  <BAO Label>  (39) 
 nan
 
->  <bits>  (36) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF530>
+>  <bits>  (39) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60BCA0>
 
->  <Group>  (36) 
+>  <Group>  (39) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 32 35  0  0  0  0  0  0  0  0999 V2000
+   -3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7701   -2.1590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.0498   -0.7685    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.4764   -0.3049    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.5134   -2.1951    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.5863    0.6581    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  1  0
+ 19 20  1  0
+ 19 21  1  0
+ 19 22  1  0
+ 18 23  2  0
+ 13 24  1  0
+ 24 25  2  0
+  5 26  2  0
+ 26 27  1  0
+ 27 28  1  0
+ 28 29  1  0
+ 27 30  2  0
+ 30 31  1  0
+ 31 32  1  0
+ 30  3  1  0
+ 25  7  1  0
+ 24 10  1  0
+ 23 14  1  0
+M  END
+>  <Compound_ID>  (40) 
+CHEMBL207737
+
+>  <Active>  (40) 
+1
+
+>  <Smiles>  (40) 
+COc1cc(Nc2ncc3ccn(-c4cccc(C(F)(F)F)c4)c3n2)cc(OC)c1OC
+
+>  <canonical_smi>  (40) 
+COc1cc(Nc2ncc3ccn(-c4cccc(C(F)(F)F)c4)c3n2)cc(OC)c1OC
+
+>  <Set>  (40) 
+G2 active
+
+>  <Set_type>  (40) 
+Train
+
+>  <MW>  (40) 
+444.41
+
+>  <HBD>  (40) 
+1
+
+>  <HBA>  (40) 
+6
+
+>  <NRB>  (40) 
+6
+
+>  <NR>  (40) 
+4
+
+>  <NAR>  (40) 
+4
+
+>  <PSA>  (40) 
+70.43
+
+>  <Standard Type>  (40) 
+nan
+
+>  <Standard Relation>  (40) 
+nan
+
+>  <Standard Units>  (40) 
+nan
+
+>  <Standard Value>  (40) 
+nan
+
+>  <Assay ChEMBL ID>  (40) 
+nan
+
+>  <Assay Description>  (40) 
+nan
+
+>  <BAO Label>  (40) 
+nan
+
+>  <bits>  (40) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60BD10>
+
+>  <Group>  (40) 
 G1
 
 $$$$
@@ -5005,70 +5554,215 @@ $$$$
  32 14  1  0
  30 19  1  0
 M  END
->  <Compound_ID>  (37) 
+>  <Compound_ID>  (41) 
 CHEMBL380683
 
->  <Active>  (37) 
+>  <Active>  (41) 
 1
 
->  <Smiles>  (37) 
+>  <Smiles>  (41) 
 COC(=O)c1ccccc1-n1ccc2cnc(Nc3cc(OC)c(OC)c(OC)c3)nc21
 
->  <canonical_smi>  (37) 
+>  <canonical_smi>  (41) 
 COC(=O)c1ccccc1-n1ccc2cnc(Nc3cc(OC)c(OC)c(OC)c3)nc21
 
->  <Set>  (37) 
+>  <Set>  (41) 
 G2 active
 
->  <Set_type>  (37) 
+>  <Set_type>  (41) 
 Train
 
->  <MW>  (37) 
+>  <MW>  (41) 
 434.45
 
->  <HBD>  (37) 
+>  <HBD>  (41) 
 1
 
->  <HBA>  (37) 
+>  <HBA>  (41) 
 8
 
->  <NRB>  (37) 
+>  <NRB>  (41) 
 7
 
->  <NR>  (37) 
+>  <NR>  (41) 
 4
 
->  <NAR>  (37) 
+>  <NAR>  (41) 
 4
 
->  <PSA>  (37) 
+>  <PSA>  (41) 
 96.73
 
->  <Standard Type>  (37) 
+>  <Standard Type>  (41) 
 nan
 
->  <Standard Relation>  (37) 
+>  <Standard Relation>  (41) 
 nan
 
->  <Standard Units>  (37) 
+>  <Standard Units>  (41) 
 nan
 
->  <Standard Value>  (37) 
+>  <Standard Value>  (41) 
 nan
 
->  <Assay ChEMBL ID>  (37) 
+>  <Assay ChEMBL ID>  (41) 
 nan
 
->  <Assay Description>  (37) 
+>  <Assay Description>  (41) 
 nan
 
->  <BAO Label>  (37) 
+>  <BAO Label>  (41) 
 nan
 
->  <bits>  (37) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF5A0>
+>  <bits>  (41) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60BDF0>
 
->  <Group>  (37) 
+>  <Group>  (41) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 35 38  0  0  0  0  0  0  0  0999 V2000
+   -9.5939  -10.9121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.1673  -10.4486    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.8555   -8.9814    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4289   -8.5179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.3142   -9.5216    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1170   -7.0506    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6904   -6.5871    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4933   -4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1814   -2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  1  0
+  4  5  2  0
+  4  6  1  0
+  6  7  1  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  1  0
+ 21 22  2  0
+ 22 23  1  0
+ 23 24  1  0
+ 24 25  1  0
+ 23 26  2  0
+ 26 27  1  0
+ 27 28  1  0
+ 26 29  1  0
+ 29 30  1  0
+ 30 31  1  0
+ 29 32  2  0
+ 19 33  1  0
+ 33 34  2  0
+ 12 35  2  0
+ 35  8  1  0
+ 34 13  1  0
+ 34 16  1  0
+ 32 21  1  0
+M  END
+>  <Compound_ID>  (42) 
+CHEMBL207259
+
+>  <Active>  (42) 
+1
+
+>  <Smiles>  (42) 
+CCNC(=O)CCc1cccc(-n2ccc3cnc(Nc4cc(OC)c(OC)c(OC)c4)nc32)c1
+
+>  <canonical_smi>  (42) 
+CCNC(=O)CCc1cccc(-n2ccc3cnc(Nc4cc(OC)c(OC)c(OC)c4)nc32)c1
+
+>  <Set>  (42) 
+G2 active
+
+>  <Set_type>  (42) 
+Train
+
+>  <MW>  (42) 
+475.55
+
+>  <HBD>  (42) 
+2
+
+>  <HBA>  (42) 
+7
+
+>  <NRB>  (42) 
+10
+
+>  <NR>  (42) 
+4
+
+>  <NAR>  (42) 
+4
+
+>  <PSA>  (42) 
+99.53
+
+>  <Standard Type>  (42) 
+nan
+
+>  <Standard Relation>  (42) 
+nan
+
+>  <Standard Units>  (42) 
+nan
+
+>  <Standard Value>  (42) 
+nan
+
+>  <Assay ChEMBL ID>  (42) 
+nan
+
+>  <Assay Description>  (42) 
+nan
+
+>  <BAO Label>  (42) 
+nan
+
+>  <bits>  (42) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60BF40>
+
+>  <Group>  (42) 
 G1
 
 $$$$
@@ -5138,70 +5832,203 @@ $$$$
  21 10  1  0
  19 14  1  0
 M  END
->  <Compound_ID>  (38) 
+>  <Compound_ID>  (43) 
 CHEMBL383006
 
->  <Active>  (38) 
+>  <Active>  (43) 
 1
 
->  <Smiles>  (38) 
+>  <Smiles>  (43) 
 COc1cc(Nc2ncc3ccn(-c4cnccc4Cl)c3n2)cc(OC)c1OC
 
->  <canonical_smi>  (38) 
+>  <canonical_smi>  (43) 
 COc1cc(Nc2ncc3ccn(-c4cnccc4Cl)c3n2)cc(OC)c1OC
 
->  <Set>  (38) 
+>  <Set>  (43) 
 G2 active
 
->  <Set_type>  (38) 
+>  <Set_type>  (43) 
 Train
 
->  <MW>  (38) 
+>  <MW>  (43) 
 411.85
 
->  <HBD>  (38) 
+>  <HBD>  (43) 
 1
 
->  <HBA>  (38) 
+>  <HBA>  (43) 
 7
 
->  <NRB>  (38) 
+>  <NRB>  (43) 
 6
 
->  <NR>  (38) 
+>  <NR>  (43) 
 4
 
->  <NAR>  (38) 
+>  <NAR>  (43) 
 4
 
->  <PSA>  (38) 
+>  <PSA>  (43) 
 83.32
 
->  <Standard Type>  (38) 
+>  <Standard Type>  (43) 
 nan
 
->  <Standard Relation>  (38) 
+>  <Standard Relation>  (43) 
 nan
 
->  <Standard Units>  (38) 
+>  <Standard Units>  (43) 
 nan
 
->  <Standard Value>  (38) 
+>  <Standard Value>  (43) 
 nan
 
->  <Assay ChEMBL ID>  (38) 
+>  <Assay ChEMBL ID>  (43) 
 nan
 
->  <Assay Description>  (38) 
+>  <Assay Description>  (43) 
 nan
 
->  <BAO Label>  (38) 
+>  <BAO Label>  (43) 
 nan
 
->  <bits>  (38) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF610>
+>  <bits>  (43) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F609BD0>
 
->  <Group>  (38) 
+>  <Group>  (43) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 29 32  0  0  0  0  0  0  0  0999 V2000
+   -3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.4261   -3.7029    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7701   -2.1590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000   -7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+ 11 12  2  0
+ 12 13  1  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 17 19  1  0
+ 19 20  2  0
+ 13 21  1  0
+ 21 22  2  0
+  5 23  2  0
+ 23 24  1  0
+ 24 25  1  0
+ 25 26  1  0
+ 24 27  2  0
+ 27 28  1  0
+ 28 29  1  0
+ 27  3  1  0
+ 22  7  1  0
+ 21 10  1  0
+ 20 14  1  0
+M  END
+>  <Compound_ID>  (44) 
+CHEMBL208368
+
+>  <Active>  (44) 
+1
+
+>  <Smiles>  (44) 
+COc1cc(Nc2ncc3ccn(-c4ccc(C)cc4)c3n2)cc(OC)c1OC
+
+>  <canonical_smi>  (44) 
+COc1cc(Nc2ncc3ccn(-c4ccc(C)cc4)c3n2)cc(OC)c1OC
+
+>  <Set>  (44) 
+G2 active
+
+>  <Set_type>  (44) 
+Train
+
+>  <MW>  (44) 
+390.44
+
+>  <HBD>  (44) 
+1
+
+>  <HBA>  (44) 
+6
+
+>  <NRB>  (44) 
+6
+
+>  <NR>  (44) 
+4
+
+>  <NAR>  (44) 
+4
+
+>  <PSA>  (44) 
+70.43
+
+>  <Standard Type>  (44) 
+nan
+
+>  <Standard Relation>  (44) 
+nan
+
+>  <Standard Units>  (44) 
+nan
+
+>  <Standard Value>  (44) 
+nan
+
+>  <Assay ChEMBL ID>  (44) 
+nan
+
+>  <Assay Description>  (44) 
+nan
+
+>  <BAO Label>  (44) 
+nan
+
+>  <bits>  (44) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F609D20>
+
+>  <Group>  (44) 
 G1
 
 $$$$
@@ -5261,77 +6088,472 @@ $$$$
  22 12  1  0
  21 16  1  0
 M  END
->  <Compound_ID>  (39) 
+>  <Compound_ID>  (45) 
 CHEMBL208042
 
->  <Active>  (39) 
+>  <Active>  (45) 
 1
 
->  <Smiles>  (39) 
+>  <Smiles>  (45) 
 COc1cccc(Nc2ncc3ccn(-c4ccccn4)c3n2)c1
 
->  <canonical_smi>  (39) 
+>  <canonical_smi>  (45) 
 COc1cccc(Nc2ncc3ccn(-c4ccccn4)c3n2)c1
 
->  <Set>  (39) 
+>  <Set>  (45) 
 G2 active
 
->  <Set_type>  (39) 
+>  <Set_type>  (45) 
 Train
 
->  <MW>  (39) 
+>  <MW>  (45) 
 317.35
 
->  <HBD>  (39) 
+>  <HBD>  (45) 
 1
 
->  <HBA>  (39) 
+>  <HBA>  (45) 
 5
 
->  <NRB>  (39) 
+>  <NRB>  (45) 
 4
 
->  <NR>  (39) 
+>  <NR>  (45) 
 4
 
->  <NAR>  (39) 
+>  <NAR>  (45) 
 4
 
->  <PSA>  (39) 
+>  <PSA>  (45) 
 64.86
 
->  <Standard Type>  (39) 
+>  <Standard Type>  (45) 
 nan
 
->  <Standard Relation>  (39) 
+>  <Standard Relation>  (45) 
 nan
 
->  <Standard Units>  (39) 
+>  <Standard Units>  (45) 
 nan
 
->  <Standard Value>  (39) 
+>  <Standard Value>  (45) 
 nan
 
->  <Assay ChEMBL ID>  (39) 
+>  <Assay ChEMBL ID>  (45) 
 nan
 
->  <Assay Description>  (39) 
+>  <Assay Description>  (45) 
 nan
 
->  <BAO Label>  (39) 
+>  <BAO Label>  (45) 
 nan
 
->  <bits>  (39) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF680>
+>  <bits>  (45) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A030>
 
->  <Group>  (39) 
+>  <Group>  (45) 
 G1
 
 $$$$
 
      RDKit          2D
 
- 36 39  0  0  0  0  0  0  0  0999 V2000
+ 37 40  0  0  0  0  0  0  0  0999 V2000
+   -9.9058  -12.3794    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -9.5939  -10.9121    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -8.1673  -10.4486    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.0526  -11.4523    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.8555   -8.9814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.4289   -8.5179    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1170   -7.0506    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2317   -6.0469    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6904   -6.5871    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3786   -5.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4933   -4.1162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1814   -2.6490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7548   -2.1855    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6401   -3.1891    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2135   -2.7256    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -3.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000    5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    7.7942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9520   -4.6564    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  3  5  1  0
+  5  6  1  0
+  6  7  1  0
+  7  8  2  0
+  7  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  1  0
+ 15 16  1  0
+ 16 17  2  0
+ 17 18  1  0
+ 18 19  2  0
+ 19 20  1  0
+ 20 21  2  0
+ 21 22  1  0
+ 22 23  1  0
+ 23 24  2  0
+ 24 25  1  0
+ 25 26  1  0
+ 26 27  1  0
+ 25 28  2  0
+ 28 29  1  0
+ 29 30  1  0
+ 28 31  1  0
+ 31 32  1  0
+ 32 33  1  0
+ 31 34  2  0
+ 21 35  1  0
+ 35 36  2  0
+ 14 37  2  0
+ 37 10  1  0
+ 36 15  1  0
+ 36 18  1  0
+ 34 23  1  0
+M  END
+>  <Compound_ID>  (46) 
+CHEMBL207232
+
+>  <Active>  (46) 
+1
+
+>  <Smiles>  (46) 
+COC(=O)CNC(=O)Cc1cccc(-n2ccc3cnc(Nc4cc(OC)c(OC)c(OC)c4)nc32)c1
+
+>  <canonical_smi>  (46) 
+COC(=O)CNC(=O)Cc1cccc(-n2ccc3cnc(Nc4cc(OC)c(OC)c(OC)c4)nc32)c1
+
+>  <Set>  (46) 
+G2 active
+
+>  <Set_type>  (46) 
+Train
+
+>  <MW>  (46) 
+505.53
+
+>  <HBD>  (46) 
+2
+
+>  <HBA>  (46) 
+9
+
+>  <NRB>  (46) 
+10
+
+>  <NR>  (46) 
+4
+
+>  <NAR>  (46) 
+4
+
+>  <PSA>  (46) 
+125.83
+
+>  <Standard Type>  (46) 
+nan
+
+>  <Standard Relation>  (46) 
+nan
+
+>  <Standard Units>  (46) 
+nan
+
+>  <Standard Value>  (46) 
+nan
+
+>  <Assay ChEMBL ID>  (46) 
+nan
+
+>  <Assay Description>  (46) 
+nan
+
+>  <BAO Label>  (46) 
+nan
+
+>  <bits>  (46) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A490>
+
+>  <Group>  (46) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 24 27  0  0  0  0  0  0  0  0999 V2000
+    3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7701   -2.1590    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 16 23  1  0
+ 23 24  2  0
+  8  3  1  0
+ 24 10  1  0
+ 23 13  1  0
+ 22 17  1  0
+M  END
+>  <Compound_ID>  (47) 
+CHEMBL206322
+
+>  <Active>  (47) 
+1
+
+>  <Smiles>  (47) 
+COc1ccccc1Nc1ncc2ccn(-c3ccccn3)c2n1
+
+>  <canonical_smi>  (47) 
+COc1ccccc1Nc1ncc2ccn(-c3ccccn3)c2n1
+
+>  <Set>  (47) 
+G2 active
+
+>  <Set_type>  (47) 
+Train
+
+>  <MW>  (47) 
+317.35
+
+>  <HBD>  (47) 
+1
+
+>  <HBA>  (47) 
+5
+
+>  <NRB>  (47) 
+4
+
+>  <NR>  (47) 
+4
+
+>  <NAR>  (47) 
+4
+
+>  <PSA>  (47) 
+64.86
+
+>  <Standard Type>  (47) 
+nan
+
+>  <Standard Relation>  (47) 
+nan
+
+>  <Standard Units>  (47) 
+nan
+
+>  <Standard Value>  (47) 
+nan
+
+>  <Assay ChEMBL ID>  (47) 
+nan
+
+>  <Assay Description>  (47) 
+nan
+
+>  <BAO Label>  (47) 
+nan
+
+>  <bits>  (47) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A570>
+
+>  <Group>  (47) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 24 27  0  0  0  0  0  0  0  0999 V2000
+    3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000   -2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7537    2.4138    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1240    1.8037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9672    0.3119    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0819   -0.6918    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6232   -1.2320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.3114   -2.6992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.8848   -3.1627    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.7701   -2.1590    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  3  4  2  0
+  4  5  1  0
+  5  6  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  9 10  1  0
+ 10 11  2  0
+ 11 12  1  0
+ 12 13  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 16 17  1  0
+ 17 18  2  0
+ 18 19  1  0
+ 19 20  2  0
+ 20 21  1  0
+ 21 22  2  0
+ 16 23  1  0
+ 23 24  2  0
+  8  3  1  0
+ 24 10  1  0
+ 23 13  1  0
+ 22 17  1  0
+M  END
+>  <Compound_ID>  (48) 
+CHEMBL382637
+
+>  <Active>  (48) 
+1
+
+>  <Smiles>  (48) 
+CCc1ccccc1Nc1ncc2ccn(-c3ccccn3)c2n1
+
+>  <canonical_smi>  (48) 
+CCc1ccccc1Nc1ncc2ccn(-c3ccccn3)c2n1
+
+>  <Set>  (48) 
+G2 active
+
+>  <Set_type>  (48) 
+Train
+
+>  <MW>  (48) 
+315.38
+
+>  <HBD>  (48) 
+1
+
+>  <HBA>  (48) 
+4
+
+>  <NRB>  (48) 
+4
+
+>  <NR>  (48) 
+4
+
+>  <NAR>  (48) 
+4
+
+>  <PSA>  (48) 
+55.63
+
+>  <Standard Type>  (48) 
+nan
+
+>  <Standard Relation>  (48) 
+nan
+
+>  <Standard Units>  (48) 
+nan
+
+>  <Standard Value>  (48) 
+nan
+
+>  <Assay ChEMBL ID>  (48) 
+nan
+
+>  <Assay Description>  (48) 
+nan
+
+>  <BAO Label>  (48) 
+nan
+
+>  <bits>  (48) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A810>
+
+>  <Group>  (48) 
+G1
+
+$$$$
+
+     RDKit          2D
+
+ 34 37  0  0  0  0  0  0  0  0999 V2000
    -3.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
    -3.0000   -5.1962    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
    -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
@@ -5356,8 +6578,6 @@ $$$$
   -10.5911   -1.3086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
   -11.7058   -2.3123    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
   -13.1324   -1.8488    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-  -14.2471   -2.8525    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -13.4443   -0.3816    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
    -5.5085   -0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
    -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
    -0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
@@ -5391,87 +6611,85 @@ $$$$
  21 22  1  0
  22 23  1  0
  23 24  1  0
- 24 25  1  0
- 24 26  1  0
- 18 27  2  0
- 13 28  1  0
- 28 29  2  0
-  5 30  2  0
+ 18 25  2  0
+ 13 26  1  0
+ 26 27  2  0
+  5 28  2  0
+ 28 29  1  0
+ 29 30  1  0
  30 31  1  0
- 31 32  1  0
+ 29 32  2  0
  32 33  1  0
- 31 34  2  0
- 34 35  1  0
- 35 36  1  0
- 34  3  1  0
- 29  7  1  0
- 28 10  1  0
- 27 14  1  0
+ 33 34  1  0
+ 32  3  1  0
+ 27  7  1  0
+ 26 10  1  0
+ 25 14  1  0
 M  END
->  <Compound_ID>  (40) 
-CHEMBL379837
+>  <Compound_ID>  (49) 
+CHEMBL207084
 
->  <Active>  (40) 
+>  <Active>  (49) 
 1
 
->  <Smiles>  (40) 
-COc1cc(Nc2ncc3ccn(-c4cccc(C(=O)NCCN(C)C)c4)c3n2)cc(OC)c1OC
+>  <Smiles>  (49) 
+COc1cc(Nc2ncc3ccn(-c4cccc(C(=O)NCCN)c4)c3n2)cc(OC)c1OC
 
->  <canonical_smi>  (40) 
-COc1cc(Nc2ncc3ccn(-c4cccc(C(=O)NCCN(C)C)c4)c3n2)cc(OC)c1OC
+>  <canonical_smi>  (49) 
+COc1cc(Nc2ncc3ccn(-c4cccc(C(=O)NCCN)c4)c3n2)cc(OC)c1OC
 
->  <Set>  (40) 
+>  <Set>  (49) 
 G2 active
 
->  <Set_type>  (40) 
+>  <Set_type>  (49) 
 Test
 
->  <MW>  (40) 
-490.56
+>  <MW>  (49) 
+462.51
 
->  <HBD>  (40) 
-2
+>  <HBD>  (49) 
+3
 
->  <HBA>  (40) 
+>  <HBA>  (49) 
 8
 
->  <NRB>  (40) 
-10
+>  <NRB>  (49) 
+9
 
->  <NR>  (40) 
+>  <NR>  (49) 
 4
 
->  <NAR>  (40) 
+>  <NAR>  (49) 
 4
 
->  <PSA>  (40) 
-102.77
+>  <PSA>  (49) 
+125.55
 
->  <Standard Type>  (40) 
+>  <Standard Type>  (49) 
 nan
 
->  <Standard Relation>  (40) 
+>  <Standard Relation>  (49) 
 nan
 
->  <Standard Units>  (40) 
+>  <Standard Units>  (49) 
 nan
 
->  <Standard Value>  (40) 
+>  <Standard Value>  (49) 
 nan
 
->  <Assay ChEMBL ID>  (40) 
+>  <Assay ChEMBL ID>  (49) 
 nan
 
->  <Assay Description>  (40) 
+>  <Assay Description>  (49) 
 nan
 
->  <BAO Label>  (40) 
+>  <BAO Label>  (49) 
 nan
 
->  <bits>  (40) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF6F0>
+>  <bits>  (49) 
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60A880>
 
->  <Group>  (40) 
+>  <Group>  (49) 
 G1
 
 $$$$
@@ -5551,1283 +6769,68 @@ $$$$
  26 10  1  0
  25 14  1  0
 M  END
->  <Compound_ID>  (41) 
-CHEMBL208370
-
->  <Active>  (41) 
-1
-
->  <Smiles>  (41) 
-COc1cc(Nc2ncc3ccn(-c4cccc(C(=O)NCCN)n4)c3n2)cc(OC)c1OC
-
->  <canonical_smi>  (41) 
-COc1cc(Nc2ncc3ccn(-c4cccc(C(=O)NCCN)n4)c3n2)cc(OC)c1OC
-
->  <Set>  (41) 
-G2 active
-
->  <Set_type>  (41) 
-Test
-
->  <MW>  (41) 
-463.5
-
->  <HBD>  (41) 
-3
-
->  <HBA>  (41) 
-9
-
->  <NRB>  (41) 
-9
-
->  <NR>  (41) 
-4
-
->  <NAR>  (41) 
-4
-
->  <PSA>  (41) 
-138.44
-
->  <Standard Type>  (41) 
-nan
-
->  <Standard Relation>  (41) 
-nan
-
->  <Standard Units>  (41) 
-nan
-
->  <Standard Value>  (41) 
-nan
-
->  <Assay ChEMBL ID>  (41) 
-nan
-
->  <Assay Description>  (41) 
-nan
-
->  <BAO Label>  (41) 
-nan
-
->  <bits>  (41) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF760>
-
->  <Group>  (41) 
-G1
-
-$$$$
-
-     RDKit          2D
-
- 33 37  0  0  0  0  0  0  0  0999 V2000
-   -5.4741  -16.5878    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.3174  -15.0960    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.8091  -14.9392    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.8256  -15.2528    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.1606  -13.6043    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.3741  -12.7226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.2173  -11.2308    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.8470  -10.6207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.6335  -11.5024    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.2631  -10.8923    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.0496  -11.7739    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.3207  -11.1638    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.4775   -9.6721    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    1.8478   -9.0619    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.0046   -7.5702    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    0.8899   -6.5665    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    2.9918   -5.3529    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    3.3037   -6.8202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.6740   -7.4303    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7360   -8.7904    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.1063   -9.4005    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.7902  -12.9942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-  2  5  1  0
-  5  6  2  0
-  6  7  1  0
-  7  8  2  0
-  8  9  1  0
-  9 10  1  0
- 10 11  1  0
- 11 12  1  0
- 12 13  1  0
- 13 14  1  0
- 14 15  1  0
- 15 16  1  0
- 16 17  2  0
- 17 18  1  0
- 18 19  2  0
- 19 20  1  0
- 20 21  2  0
- 21 22  1  0
- 22 23  2  0
- 22 24  1  0
- 24 25  1  0
- 25 26  1  0
- 26 27  1  0
- 17 28  1  0
- 28 29  1  0
- 29 30  2  0
- 13 31  1  0
- 31 32  1  0
-  9 33  2  0
- 33  5  1  0
- 32 10  1  0
- 29 15  1  0
- 23 18  1  0
- 27 21  1  0
-M  END
->  <Compound_ID>  (42) 
-CHEMBL4066053
-
->  <Active>  (42) 
-1
-
->  <Smiles>  (42) 
-FC(F)(F)c1cccc(N2CCN(Cn3nc(-c4ccc5c(c4)OCCO5)oc3=S)CC2)c1
-
->  <canonical_smi>  (42) 
-FC(F)(F)c1cccc(N2CCN(Cn3nc(-c4ccc5c(c4)OCCO5)oc3=S)CC2)c1
-
->  <Set>  (42) 
-G2 active
-
->  <Set_type>  (42) 
-External
-
->  <MW>  (42) 
-478.5
-
->  <HBD>  (42) 
-0
-
->  <HBA>  (42) 
-7
-
->  <NRB>  (42) 
-4
-
->  <NR>  (42) 
-5
-
->  <NAR>  (42) 
-3
-
->  <PSA>  (42) 
-55.9
-
->  <Standard Type>  (42) 
-IC50
-
->  <Standard Relation>  (42) 
-'='
-
->  <Standard Units>  (42) 
-nM
-
->  <Standard Value>  (42) 
-780.0
-
->  <Assay ChEMBL ID>  (42) 
-CHEMBL4017675
-
->  <Assay Description>  (42) 
-Inhibition of FAK (unknown origin) by enzyme immuno assay
-
->  <BAO Label>  (42) 
-single protein format
-
->  <bits>  (42) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF7D0>
-
->  <Group>  (42) 
-G1
-
-$$$$
-
-     RDKit          2D
-
- 35 39  0  0  0  0  0  0  0  0999 V2000
-  -11.7520  -12.4469    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -11.2885  -11.0203    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -12.2922   -9.9056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -11.8287   -8.4790    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.3614   -8.1671    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.8979   -6.7405    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.7796   -5.5270    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.8979   -4.3135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.3614   -2.8869    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.9349   -2.4234    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -11.7880   -3.3504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.8250   -1.4603    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.4713   -4.7770    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.4713   -6.2770    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.2578   -7.1587    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.8875   -6.5486    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.7307   -5.0568    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.6740   -7.4303    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.3037   -6.8202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.9918   -5.3529    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.8899   -6.5665    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.0046   -7.5702    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.3578   -9.2818    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.8213  -10.7084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  2  0
-  3  4  1  0
-  4  5  2  0
-  5  6  1  0
-  6  7  1  0
-  7  8  2  0
-  8  9  1  0
-  9 10  1  0
-  9 11  1  0
-  9 12  1  0
-  8 13  1  0
- 13 14  2  0
- 14 15  1  0
- 15 16  1  0
- 16 17  2  0
- 16 18  1  0
- 18 19  1  0
- 19 20  1  0
- 20 21  2  0
- 21 22  1  0
- 22 23  2  0
- 23 24  1  0
- 24 25  2  0
- 25 26  1  0
- 26 27  2  0
- 27 28  1  0
- 28 29  2  0
- 29 30  1  0
- 30 31  2  0
- 21 32  1  0
- 32 33  1  0
-  5 34  1  0
- 34 35  2  0
- 35  2  1  0
- 14  6  1  0
- 33 19  2  0
- 31 22  1  0
- 30 25  1  0
-M  END
->  <Compound_ID>  (43) 
-CHEMBL2207440
-
->  <Active>  (43) 
-1
-
->  <Smiles>  (43) 
-Cc1ccc(-n2nc(C(C)(C)C)cc2NC(=O)Nc2cc(-c3ccc4ncccc4c3)[nH]n2)cc1
-
->  <canonical_smi>  (43) 
-Cc1ccc(-n2nc(C(C)(C)C)cc2NC(=O)Nc2cc(-c3ccc4ncccc4c3)[nH]n2)cc1
-
->  <Set>  (43) 
-G2 active
-
->  <Set_type>  (43) 
-External
-
->  <MW>  (43) 
-465.56
-
->  <HBD>  (43) 
-3
-
->  <HBA>  (43) 
-4
-
->  <NRB>  (43) 
-4
-
->  <NR>  (43) 
-5
-
->  <NAR>  (43) 
-5
-
->  <PSA>  (43) 
-100.52
-
->  <Standard Type>  (43) 
-IC50
-
->  <Standard Relation>  (43) 
-'='
-
->  <Standard Units>  (43) 
-nM
-
->  <Standard Value>  (43) 
-608.0
-
->  <Assay ChEMBL ID>  (43) 
-CHEMBL2209546
-
->  <Assay Description>  (43) 
-Inhibition of FAK after 2hrs by fluorescence polarization assay
-
->  <BAO Label>  (43) 
-single protein format
-
->  <bits>  (43) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF840>
-
->  <Group>  (43) 
-G1
-
-$$$$
-
-     RDKit          2D
-
- 31 33  0  0  0  0  0  0  0  0999 V2000
-    3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.7500    3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.2500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.2500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.5000    5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -8.2500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.5000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.5000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.5000    5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -9.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  -10.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -6.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -7.5000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  2  0
-  3  4  1  0
-  4  5  1  0
-  4  6  2  0
-  6  7  1  0
-  7  8  2  0
-  8  9  1  0
-  9 10  1  0
- 10 11  1  0
- 11 12  1  0
- 11 13  1  0
- 10 14  1  0
- 14 15  1  0
- 15 16  2  0
- 16 17  1  0
- 17 18  2  0
- 18 19  1  0
- 19 20  1  0
- 19 21  2  0
- 21 22  1  0
- 21 23  1  0
- 23 24  2  0
- 24 25  1  0
- 15 26  1  0
- 26 27  2  0
- 27 28  1  0
-  6 29  1  0
- 29 30  2  0
- 30 31  1  0
- 30  2  1  0
- 26  8  1  0
- 24 17  1  0
-M  END
->  <Compound_ID>  (44) 
-CHEMBL4102284
-
->  <Active>  (44) 
-1
-
->  <Smiles>  (44) 
-Cc1nc(C)c(/C=C2\CN(C(C)C)C/C(=C\c3nc(C)c(C)nc3C)C2=NO)nc1C
-
->  <canonical_smi>  (44) 
-Cc1nc(C)c(/C=C2\CN(C(C)C)C/C(=C\c3nc(C)c(C)nc3C)C2=NO)nc1C
-
->  <Set>  (44) 
-G2 active
-
->  <Set_type>  (44) 
-External
-
->  <MW>  (44) 
-420.56
-
->  <HBD>  (44) 
-1
-
->  <HBA>  (44) 
-6
-
->  <NRB>  (44) 
-3
-
->  <NR>  (44) 
-3
-
->  <NAR>  (44) 
-2
-
->  <PSA>  (44) 
-87.39
-
->  <Standard Type>  (44) 
-IC50
-
->  <Standard Relation>  (44) 
-'='
-
->  <Standard Units>  (44) 
-nM
-
->  <Standard Value>  (44) 
-1000.0
-
->  <Assay ChEMBL ID>  (44) 
-CHEMBL4034794
-
->  <Assay Description>  (44) 
-Inhibition of FAK (unknown origin) assembly preincubated with enzyme followed by GTP addition measured after 20 mins by spectrophotometric analysis
-
->  <BAO Label>  (44) 
-single protein format
-
->  <bits>  (44) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF8B0>
-
->  <Group>  (44) 
-G1
-
-$$$$
-
-     RDKit          2D
-
- 44 47  0  0  0  0  0  0  0  0999 V2000
-    3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.2500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    2.5981    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    7.7942    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    3.0000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.7500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.2500    6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.0000    5.1962    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
-    6.0000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.5000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.2500    6.4952    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    8.2500    9.0933    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    9.7500    9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   10.5000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   12.0000    7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   12.7500    9.0933    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   14.2500    9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   12.0000   10.3923    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   10.5000   10.3923    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.2500    9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.7500    9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.0000   10.3923    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    3.7500   11.6913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500    6.4952    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.2500    1.2990    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.2010    1.8481    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.7990    3.3481    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    0.0000    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    1.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000   -1.5000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  3  4  1  0
-  4  5  2  0
-  5  6  1  0
-  6  7  2  0
-  7  8  1  0
-  8  9  2  0
-  9 10  1  0
- 10 11  1  0
- 11 12  2  0
- 12 13  1  0
- 13 14  1  0
- 14 15  1  0
- 15 16  2  0
- 16 17  1  0
- 17 18  1  0
- 17 19  2  0
- 19 20  1  0
- 20 21  2  0
- 20 22  1  0
- 22 23  1  0
- 23 24  1  0
- 24 25  1  0
- 25 26  1  0
- 26 27  1  0
- 26 28  1  0
- 28 29  1  0
- 19 30  1  0
- 30 31  2  0
- 31 32  1  0
- 32 33  1  0
- 13 34  2  0
- 34 35  1  0
- 35 36  2  0
- 36 37  1  0
- 37 38  1  0
- 37 39  1  0
- 37 40  1  0
-  3 41  1  0
- 41 42  1  0
- 41 43  2  0
- 41 44  2  0
-  9  4  1  0
- 36 11  1  0
- 31 15  1  0
- 29 23  1  0
-M  END
->  <Compound_ID>  (45) 
-CHEMBL3665939
-
->  <Active>  (45) 
-1
-
->  <Smiles>  (45) 
-CCN(c1ccccc1Oc1nc(Nc2cc(F)c(C(=O)NC3CCN(C)CC3)cc2OC)ncc1C(F)(F)F)S(C)(=O)=O
-
->  <canonical_smi>  (45) 
-CCN(c1ccccc1Oc1nc(Nc2cc(F)c(C(=O)NC3CCN(C)CC3)cc2OC)ncc1C(F)(F)F)S(C)(=O)=O
-
->  <Set>  (45) 
-G2 active
-
->  <Set_type>  (45) 
-External
-
->  <MW>  (45) 
-640.66
-
->  <HBD>  (45) 
-2
-
->  <HBA>  (45) 
-9
-
->  <NRB>  (45) 
-10
-
->  <NR>  (45) 
-4
-
->  <NAR>  (45) 
-3
-
->  <PSA>  (45) 
-125.99
-
->  <Standard Type>  (45) 
-IC50
-
->  <Standard Relation>  (45) 
-'='
-
->  <Standard Units>  (45) 
-nM
-
->  <Standard Value>  (45) 
-38.0
-
->  <Assay ChEMBL ID>  (45) 
-CHEMBL3705995
-
->  <Assay Description>  (45) 
-DELFIA Assay: This test uses active PTK2 enzyme (Invitrogen Code PV3832) and poly-Glu-Tyr (4:1, Sigma P-0275) as the kinase substrate. The kinase activity is detected by means of the phosphorylation of the substrate in a DELFIA assay. The phosphorylated substrate is detected with the Europium-labelled phosphotyrosine antibody PY20 (Perkin Elmer, No.: AD0038). In order to determine concentration-activity curves with PTK2-inhibitors the compounds are serially diluted in 10% DMSO/H2O and 10 L of each dilution are dispensed per well in a 96-well microtitre plate (clear U-shaped base plate, Greiner No. 650101) (the inhibitors are tested in duplicates) and mixed with 10 L/well of PTK2 kinase (0.01 ug/well). PTK2 kinase is diluted accordingly beforehand with kinase dilution buffer (20 mM TRIS/HCl pH 7.5, 0.1 mM EDTA, 0.1 mM EGTA, 0.286 mM sodium orthovanadate, 10% glycerol with the addition of freshly prepared BSA (fraction V 1 mg/mL) and DTT (1 mM)).
-
->  <BAO Label>  (45) 
-single protein format
-
->  <bits>  (45) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF920>
-
->  <Group>  (45) 
-G1
-
-$$$$
-
-     RDKit          2D
-
- 30 34  0  0  0  0  0  0  0  0999 V2000
-    2.3281   -7.6907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.6772   -6.3393    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.2013   -6.0714    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    0.0000   -4.5850    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.3515   -3.9342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.3880   -5.0184    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
-    1.6852   -2.4718    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    3.1476   -2.1380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    3.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.2500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.0000    2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.2500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.7500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    6.0000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.5000    5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    8.2500    3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    9.7500    3.8971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    7.5000    2.5981    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500    1.2990    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.6852   -2.4718    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.1476   -2.1380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.3515   -3.9342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.5242   -4.8694    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  2  0
-  3  4  1  0
-  4  5  2  0
-  5  6  1  0
-  5  7  1  0
-  7  8  1  0
-  7  9  1  0
-  9 10  2  0
- 10 11  1  0
- 11 12  1  0
- 12 13  1  0
- 13 14  2  0
- 14 15  1  0
- 15 16  2  0
- 16 17  1  0
- 17 18  2  0
- 17 19  1  0
- 19 20  1  0
- 20 21  1  0
- 21 22  2  0
- 21 23  1  0
- 11 24  2  0
- 24 25  1  0
- 25 26  2  0
- 26 27  1  0
- 27 28  1  0
- 27 29  1  0
- 29 30  2  0
-  6  2  1  0
- 26  9  1  0
- 29  4  1  0
- 18 13  1  0
- 23 16  1  0
-M  END
->  <Compound_ID>  (46) 
-CHEMBL4776107
-
->  <Active>  (46) 
-1
-
->  <Smiles>  (46) 
-Cc1nc2c(s1)N(C)c1nc(Nc3ccc4c(c3)CCC(=O)N4)ncc1N(C)C2=O
-
->  <canonical_smi>  (46) 
-Cc1nc2c(s1)N(C)c1nc(Nc3ccc4c(c3)CCC(=O)N4)ncc1N(C)C2=O
-
->  <Set>  (46) 
-G2 active
-
->  <Set_type>  (46) 
-External
-
->  <MW>  (46) 
-421.49
-
->  <HBD>  (46) 
-2
-
->  <HBA>  (46) 
-7
-
->  <NRB>  (46) 
-2
-
->  <NR>  (46) 
-5
-
->  <NAR>  (46) 
-3
-
->  <PSA>  (46) 
-103.35
-
->  <Standard Type>  (46) 
-IC50
-
->  <Standard Relation>  (46) 
-'='
-
->  <Standard Units>  (46) 
-nM
-
->  <Standard Value>  (46) 
-670.0
-
->  <Assay ChEMBL ID>  (46) 
-CHEMBL4679512
-
->  <Assay Description>  (46) 
-Inhibition of Focal adhesion kinase (unknown origin) using Tyr 07 peptide substrate incubated for 60 mins at room temperature followed by 60 mins development reaction measured fluorescence by Z-LYTE assay
-
->  <BAO Label>  (46) 
-single protein format
-
->  <bits>  (46) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BF990>
-
->  <Group>  (46) 
-G1
-
-$$$$
-
-     RDKit          2D
-
- 25 28  0  0  0  0  0  0  0  0999 V2000
-   -2.7569    9.9358    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.4013    8.4786    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.9615    8.0580    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.4855    7.4420    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.1298    5.9848    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -4.2140    4.9482    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.8584    3.4909    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.4186    3.0703    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.3344    4.1069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.6900    5.5641    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.1520    3.9056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.9784    5.1574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.4757    5.0677    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.3020    6.3196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.6310    7.6611    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.1337    7.7508    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.3074    6.4990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.1899    6.5887    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
-    0.9214    2.6179    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.3943   -1.2135    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.0323   -0.7500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.0323    0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.2841    1.5763    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  2  0
-  2  4  1  0
-  4  5  1  0
-  5  6  2  0
-  6  7  1  0
-  7  8  2  0
-  8  9  1  0
-  9 10  2  0
-  9 11  1  0
- 11 12  1  0
- 12 13  2  0
- 13 14  1  0
- 14 15  2  0
- 15 16  1  0
- 16 17  2  0
- 17 18  1  0
- 11 19  2  0
- 19 20  1  0
- 20 21  2  0
- 21 22  1  0
- 22 23  1  0
- 23 24  2  0
- 24 25  1  0
- 10  5  1  0
- 17 12  1  0
- 24 20  1  0
- 25  8  1  0
-M  END
->  <Compound_ID>  (47) 
-CHEMBL1257912
-
->  <Active>  (47) 
-1
-
->  <Smiles>  (47) 
-CC(=O)Nc1ccc2c(c1)C(c1ccccc1Cl)=Nc1c[nH]nc1N2
-
->  <canonical_smi>  (47) 
-CC(=O)Nc1ccc2c(c1)C(c1ccccc1Cl)=Nc1c[nH]nc1N2
-
->  <Set>  (47) 
-G2 active
-
->  <Set_type>  (47) 
-External
-
->  <MW>  (47) 
-351.8
-
->  <HBD>  (47) 
-3
-
->  <HBA>  (47) 
-3
-
->  <NRB>  (47) 
-2
-
->  <NR>  (47) 
-4
-
->  <NAR>  (47) 
-4
-
->  <PSA>  (47) 
-82.17
-
->  <Standard Type>  (47) 
-IC50
-
->  <Standard Relation>  (47) 
-'='
-
->  <Standard Units>  (47) 
-nM
-
->  <Standard Value>  (47) 
-180.0
-
->  <Assay ChEMBL ID>  (47) 
-CHEMBL1261154
-
->  <Assay Description>  (47) 
-Inhibition of FAK
-
->  <BAO Label>  (47) 
-single protein format
-
->  <bits>  (47) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BFA00>
-
->  <Group>  (47) 
-G1
-
-$$$$
-
-     RDKit          2D
-
- 26 28  0  0  0  0  0  0  0  0999 V2000
-   -1.6131    3.4430    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.1459    3.7548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.3177    5.1814    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.6860    6.2961    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    1.7849    5.4933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.2484    6.9199    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    2.7886    4.3786    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.2558    4.6904    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    2.3250    2.9520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.3287    1.8373    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    4.7960    2.1491    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    0.8578    2.6401    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.3943    1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.2760    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.3943   -1.2135    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7062   -2.6807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.1328   -3.1443    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    2.4446   -4.6115    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.4086   -3.6844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.0967   -5.1517    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.8351   -3.2209    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.9499   -4.2246    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.1470   -1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.5736   -1.2902    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.0323   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.0323    0.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  2  0
-  3  4  1  0
-  3  5  1  0
-  5  6  1  0
-  5  7  2  0
-  7  8  1  0
-  7  9  1  0
-  9 10  1  0
- 10 11  2  0
-  9 12  2  0
- 12 13  1  0
- 13 14  2  0
- 14 15  1  0
- 15 16  2  0
- 16 17  1  0
- 17 18  2  0
- 16 19  1  0
- 19 20  1  0
- 19 21  2  0
- 21 22  1  0
- 21 23  1  0
- 23 24  1  0
- 23 25  2  0
- 25 26  1  0
- 12  2  1  0
- 26 13  1  0
- 25 15  1  0
-M  END
->  <Compound_ID>  (48) 
-CHEMBL3104855
-
->  <Active>  (48) 
-1
-
->  <Smiles>  (48) 
-Cc1c(O)c(O)c(O)c(C=O)c1-c1cc2c(C=O)c(C)c(O)c(O)c2o1
-
->  <canonical_smi>  (48) 
-Cc1c(O)c(O)c(O)c(C=O)c1-c1cc2c(C=O)c(C)c(O)c(O)c2o1
-
->  <Set>  (48) 
-G2 active
-
->  <Set_type>  (48) 
-External
-
->  <MW>  (48) 
-358.3
-
->  <HBD>  (48) 
-5
-
->  <HBA>  (48) 
-8
-
->  <NRB>  (48) 
-3
-
->  <NR>  (48) 
-3
-
->  <NAR>  (48) 
-3
-
->  <PSA>  (48) 
-148.43
-
->  <Standard Type>  (48) 
-IC50
-
->  <Standard Relation>  (48) 
-'='
-
->  <Standard Units>  (48) 
-nM
-
->  <Standard Value>  (48) 
-800.0
-
->  <Assay ChEMBL ID>  (48) 
-CHEMBL3108325
-
->  <Assay Description>  (48) 
-Inhibition of FAK (unknown origin)
-
->  <BAO Label>  (48) 
-single protein format
-
->  <bits>  (48) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BFA70>
-
->  <Group>  (48) 
-G1
-
-$$$$
-
-     RDKit          2D
-
- 27 29  0  0  0  0  0  0  0  0999 V2000
-    3.8971   -7.3573    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    2.5981   -8.1073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.2990   -7.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.2990   -5.8573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.0000   -5.1073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.0000   -3.6073    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    1.2135   -2.7256    0.0000 Se  0  0  0  0  0  2  0  0  0  0  0  0
-    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.2135   -2.7256    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -2.6401   -3.1891    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    2.5981   -9.6073    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    3.8971  -10.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.8971  -11.8573    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    5.1962  -12.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.1962  -14.1073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    3.8971  -14.8573    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    6.4952  -11.8573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.7942  -12.6073    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    6.4952  -10.3573    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    7.7942   -9.6073    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-    5.1962   -9.6073    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    5.1962   -8.1073    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  2  0
-  2  3  1  0
-  3  4  1  0
-  4  5  1  0
-  5  6  1  0
-  6  7  1  0
-  7  8  1  0
-  8  9  2  0
-  9 10  1  0
- 10 11  2  0
- 11 12  1  0
- 12 13  2  0
- 13 14  1  0
- 14 15  2  0
-  2 16  1  0
- 17 16  1  1
- 17 18  1  0
- 18 19  1  0
- 19 20  1  1
- 20 21  1  0
- 19 22  1  0
- 22 23  1  6
- 22 24  1  0
- 24 25  1  1
- 24 26  1  0
- 26 27  1  6
- 14  6  1  0
- 26 17  1  0
- 13  8  1  0
-M  END
->  <Compound_ID>  (49) 
-CHEMBL1940999
-
->  <Active>  (49) 
-1
-
->  <Smiles>  (49) 
-O=C(CCCn1[se]c2ccccc2c1=O)N[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O
-
->  <canonical_smi>  (49) 
-O=C(CCCn1[se]c2ccccc2c1=O)N[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O
-
->  <Set>  (49) 
-G2 active
-
->  <Set_type>  (49) 
-External
-
->  <MW>  (49) 
-445.33
-
->  <HBD>  (49) 
-5
-
->  <HBA>  (49) 
-7
-
->  <NRB>  (49) 
-6
-
->  <NR>  (49) 
-3
-
->  <NAR>  (49) 
-2
-
->  <PSA>  (49) 
-141.25
-
->  <Standard Type>  (49) 
-IC50
-
->  <Standard Relation>  (49) 
-'='
-
->  <Standard Units>  (49) 
-nM
-
->  <Standard Value>  (49) 
-960.0
-
->  <Assay ChEMBL ID>  (49) 
-CHEMBL1944085
-
->  <Assay Description>  (49) 
-Inhibition of human recombinant full-length FAK using ATP and Poly Glu:Tyr as substrate after 4 hrs by luminescence analysis
-
->  <BAO Label>  (49) 
-single protein format
-
->  <bits>  (49) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BFAE0>
-
->  <Group>  (49) 
-G1
-
-$$$$
-
-     RDKit          2D
-
- 20 21  0  0  0  0  0  0  0  0999 V2000
-    0.7500   -9.0933    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000   -7.7942    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    3.0000   -7.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -6.4952    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -3.8971    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-    0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500    1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    2.5981    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -1.2990    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -0.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.0000   -2.5981    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.7500   -3.8971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -3.0000   -5.1962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
-   -1.5000   -5.1962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-  4  5  1  0
-  5  6  1  0
-  6  7  1  0
-  7  8  1  0
-  8  9  2  0
-  9 10  1  0
- 10 11  2  0
- 11 12  1  0
- 11 13  1  0
- 13 14  2  0
-  6 15  1  0
- 15 16  2  0
- 16 17  1  0
- 17 18  2  0
- 18 19  1  0
- 19 20  2  0
- 14  8  1  0
- 20 15  1  0
-M  END
 >  <Compound_ID>  (50) 
-CHEMBL550011
+CHEMBL208370
 
 >  <Active>  (50) 
 1
 
 >  <Smiles>  (50) 
-CN(C)CCN(Cc1ccc(Cl)cc1)c1ccccn1
+COc1cc(Nc2ncc3ccn(-c4cccc(C(=O)NCCN)n4)c3n2)cc(OC)c1OC
 
 >  <canonical_smi>  (50) 
-CN(C)CCN(Cc1ccc(Cl)cc1)c1ccccn1
+COc1cc(Nc2ncc3ccn(-c4cccc(C(=O)NCCN)n4)c3n2)cc(OC)c1OC
 
 >  <Set>  (50) 
 G2 active
 
 >  <Set_type>  (50) 
-External
+Test
 
 >  <MW>  (50) 
-289.81
+463.5
 
 >  <HBD>  (50) 
-0
-
->  <HBA>  (50) 
 3
 
+>  <HBA>  (50) 
+9
+
 >  <NRB>  (50) 
-6
+9
 
 >  <NR>  (50) 
-2
+4
 
 >  <NAR>  (50) 
-2
+4
 
 >  <PSA>  (50) 
-19.37
+138.44
 
 >  <Standard Type>  (50) 
-Kd
+nan
 
 >  <Standard Relation>  (50) 
-'='
+nan
 
 >  <Standard Units>  (50) 
-nM
+nan
 
 >  <Standard Value>  (50) 
-570.0
+nan
 
 >  <Assay ChEMBL ID>  (50) 
-CHEMBL3268326
+nan
 
 >  <Assay Description>  (50) 
-Binding affinity to biotinylated human FAK FAT domain by biolayer interoferometry
+nan
 
 >  <BAO Label>  (50) 
-single protein format
+nan
 
 >  <bits>  (50) 
-<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000002084E5BFB50>
+<rdkit.DataStructs.cDataStructs.ExplicitBitVect object at 0x000001F27F60ACE0>
 
 >  <Group>  (50) 
 G1

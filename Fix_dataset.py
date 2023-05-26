@@ -21,6 +21,10 @@ for db in data_path.glob('*'):
     if 'Summary' in dn:
         continue
     table = []
+
+    if dn == 'ChEMBL':
+        continue
+
     for fd_idx, fd in enumerate(db.glob('*')):
         fn = fd.stem
         if 'table' in fn:
@@ -32,15 +36,27 @@ for db in data_path.glob('*'):
             prepare_run = f'-d {raw_path} -o {out_pth.as_posix()} -i -chembl'
             subprocess.run(args=[sys.executable, 'Prepare.py'] + prepare_run.split(' '))
 
+            act = out_pth / f"{fn}_prepare" / f"{fn}_active.tsv"
+            inact = out_pth / f"{fn}_prepare" / f"{fn}_inactive.tsv"
+            preprocess_run = f'-a {act.as_posix()} -i {inact.as_posix()} -o {out_pth.as_posix()} -core 12'
+            subprocess.run(args=[sys.executable, 'Preprocessing.py'] + preprocess_run.split(' '))
+
         else:
-            raw_path = (fd / f"{fn}_total.tsv").as_posix()
+            pre_g1 = pd.read_csv(fd / f"{fn}_g1.tsv", sep='\t')
+            pre_train = pd.read_csv(fd / f"{fn}_train.tsv", sep='\t')
+            pre_valid = pd.read_csv(fd / f"{fn}_test.tsv", sep='\t')
+            pre_total = pd.concat([pre_g1, pre_train, pre_valid]).reset_index(drop=True)
+            pre_total.to_csv(fd / f"{fn}_DUDE.tsv", sep='\t', index=False)
+
+            raw_path = (fd / f"{fn}_DUDE.tsv").as_posix()
             prepare_run = f'-d {raw_path} -o {out_pth.as_posix()}'
             subprocess.run(args=[sys.executable, 'Prepare.py'] + prepare_run.split(' '))
 
-        act = out_pth / f"{fn}_prepare" / f"{fn}_active.tsv"
-        inact = out_pth / f"{fn}_prepare" / f"{fn}_inactive.tsv"
-        preprocess_run = f'-a {act.as_posix()} -i {inact.as_posix()} -o {out_pth.as_posix()} -core 12'
-        subprocess.run(args=[sys.executable, 'Preprocessing.py'] + preprocess_run.split(' '))
+            act = out_pth / f"{fn}_prepare" / f"{fn}_active.tsv"
+            inact = out_pth / f"{fn}_prepare" / f"{fn}_inactive.tsv"
+            test_pth = Path(rf'ChEMBL_Raw\{fn}.tsv').as_posix()
+            preprocess_run = f'-a {act.as_posix()} -i {inact.as_posix()} -o {out_pth.as_posix()} -core 12 -t {test_pth}'
+            subprocess.run(args=[sys.executable, 'Preprocessing.py'] + preprocess_run.split(' '))
 
         # check compounds
         g1 = pd.read_csv(out_path / dn / fn / f'{fn}_preprocessing' / f'{fn}_g1.tsv', sep='\t')

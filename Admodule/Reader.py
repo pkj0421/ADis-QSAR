@@ -19,33 +19,32 @@ class ChEMBL_reader:
 
     def run(self, file_type, criteria, path_data, inhit=True, output=False):
 
+        # load raw data
+        raw_data = self._read(path_data, file_type)
+        logger.info(f"Raw data counts : {len(raw_data)}")
+
+        # filter
+        ft_data = self._filter(raw_data)
+
+        # determine activity
+        final_data = self._duple(ft_data)
+        final_data.rename(columns={'Molecule ChEMBL ID': 'Compound_ID'}, inplace=True)
+
+        # divide
+        if inhit:
+            active, inactive = self._divide(final_data, criteria, inhits=True)
+            logger.info(f"[IC50, Ki, Kd]\tActive range : x <= {criteria['act']}nM\tInactive range : {criteria['inact']}nM >= x")
+            logger.info(f"[Inhibition%]\tInactive range : x <= {criteria['i-inact']}%")
+        else:
+            active, inactive = self._divide(final_data, criteria)
+            logger.info(f"[IC50, Ki, Kd]\tActive range : x <= {criteria['act']}nM\tInactive range : {criteria['inact']}nM >= x")
+        total = pd.concat([active, inactive]).reset_index(drop=True)
+        logger.info(f"Divide set : total ({len(total)}) [ active ({len(active)}), inactive ({len(inactive)}) ]")
+
         if not output:
-            # read data
-            return self._read(path_data, file_type)
+            return total
 
         else:
-            # load raw data
-            raw_data = self._read(path_data, file_type)
-            logger.info(f"Raw data counts : {len(raw_data)}")
-
-            # filter
-            ft_data = self._filter(raw_data)
-
-            # determine activity
-            final_data = self._duple(ft_data)
-            final_data.rename(columns={'Molecule ChEMBL ID': 'Compound_ID'}, inplace=True)
-
-            # divide
-            if inhit:
-                active, inactive = self._divide(final_data, criteria, inhits=True)
-                logger.info(f"[IC50, Ki, Kd]\tActive range : x <= {criteria['act']}nM\tInactive range : {criteria['inact']}nM >= x")
-                logger.info(f"[Inhibition%]\tInactive range : x <= {criteria['i-inact']}%")
-            else:
-                active, inactive = self._divide(final_data, criteria)
-                logger.info(f"[IC50, Ki, Kd]\tActive range : x <= {criteria['act']}nM\tInactive range : {criteria['inact']}nM >= x")
-            total = pd.concat([active, inactive]).reset_index(drop=True)
-            logger.info(f"Divide set : total ({len(total)}) [ active ({len(active)}), inactive ({len(inactive)}) ]")
-
             # save
             save(total.drop(columns='ROMol'), output, custom='total')
             save(active.drop(columns='ROMol'), output, custom='active')

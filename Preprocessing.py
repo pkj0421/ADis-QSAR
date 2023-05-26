@@ -7,8 +7,9 @@ import pandas as pd
 
 from joblib import dump
 from pathlib import Path
-from rdkit.Chem import AllChem
+from rdkit.Chem import AllChem, CanonSmiles
 from Admodule import Reader, Grouping, Utils
+from Admodule.Reader import ChEMBL_reader
 from sklearn.preprocessing import RobustScaler, StandardScaler, MinMaxScaler
 
 """
@@ -101,13 +102,21 @@ def pick_molecules(df, cls_num, cores, rb=False):
     return cent, remains
 
 
+def duple_structures(df1, df2):
+    df1['canonical_smi'] = df1['Smiles'].apply(CanonSmiles)
+    df2['canonical_smi'] = df2['Smiles'].apply(CanonSmiles)
+    remove_duple = df1[~df1['canonical_smi'].isin(df2['canonical_smi'])]
+    return remove_duple
+
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Preprocessing data')
     parser.add_argument('-a', '--active', required=True, help='Active data')
     parser.add_argument('-i', '--inactive', required=True, help='Inactive data')
     parser.add_argument('-o', '--output', type=str, required=True, help='Set your output path')
     parser.add_argument('-v', '--valid_size', type=float, default=0.2, help='Set your valid size')
-    parser.add_argument('-t', '--test_size', type=float, default=0.2, help='Set your test size')
+    parser.add_argument('-t', '--test_set', type=str, default='X', help='Set your test size')
     parser.add_argument('-r', '--radius', type=int, default=2, help='Set your radius')
     parser.add_argument('-b', '--bits', type=int, default=256, help='Set your nbits')
     parser.add_argument('-s', '--scaler', type=str, default='Robust', help='Set your scaler')
@@ -150,7 +159,7 @@ if __name__ == "__main__":
     # # split train & valid & test
     train_size = 10 - (args.valid_size * 10)
     valid_size = args.valid_size * 10
-    test_size = args.test_size * 10
+    test_size = valid_size
     logger.info(f'Train : Valid = {int(train_size)} : {int(valid_size)}')
     logger.info(f"Test size = {int(test_size)}")
 
@@ -166,23 +175,57 @@ if __name__ == "__main__":
     g1_remains, inactive = adjust_ratio(g1_remains, inactive, 1.5, n_cores)
     logger.info(f"Adjust ratio : active ({len(g1_remains)}), inactive ({len(inactive)})")
 
-    # divide active
-    da = len(g1_remains) / (train_size + valid_size + test_size)
-    tra, va, tea = list(map(round, [da * train_size, da * valid_size, da * test_size]))
-    logger.info(f"tra : {tra}, va : {va}, tea : {tea}")
+    if args.test_set == 'X':
+        # divide active
+        total_ratio = train_size + valid_size + test_size
+        da = len(g1_remains) / total_ratio
+        tra, va, tea = list(map(round, [da * train_size, da * valid_size, da * test_size]))
+        logger.info(f"tra : {tra}, va : {va}, tea : {tea}")
+        train_act, ta_remains = pick_molecules(g1_remains, tra, n_cores, rb)
+        valid_act, test_act = pick_molecules(ta_remains, va, n_cores, rb)
+        logger.info(f"train_act : {len(train_act)}, valid_act : {len(valid_act)}, test_act : {len(test_act)}")
 
-    train_act, ta_remains = pick_molecules(g1_remains, tra, n_cores, rb)
-    valid_act, test_act = pick_molecules(ta_remains, va, n_cores, rb)
-    logger.info(f"train_act : {len(train_act)}, valid_act : {len(valid_act)}, test_act : {len(test_act)}")
+        # divide inactive
+        di = len(inactive) / total_ratio
+        tri, vi, tei = list(map(round, [di * train_size, di * valid_size, di * test_size]))
+        logger.info(f"tri : {tri}, vi : {vi}, tei : {tei}")
 
-    # divide inactive
-    di = len(inactive) / (train_size + valid_size + test_size)
-    tri, vi, tei = list(map(round, [di * train_size, di * valid_size, di * test_size]))
-    logger.info(f"tri : {tri}, va : {vi}, tea : {tei}")
+        train_inact, ti_remains = pick_molecules(inactive, tri, n_cores, rb)
+        valid_inact, test_inact = pick_molecules(ti_remains, vi, n_cores, rb)
+        logger.info(f"train_inact : {len(train_inact)}, valid_inact : {len(valid_inact)}, test_inact : {len(test_inact)}")
 
-    train_inact, ti_remains = pick_molecules(inactive, tri, n_cores, rb)
-    valid_inact, test_inact = pick_molecules(ti_remains, vi, n_cores, rb)
-    logger.info(f"train_inact : {len(train_inact)}, valid_inact : {len(valid_inact)}, test_inact : {len(test_inact)}")
+    else:
+        c_reader = ChEMBL_reader()
+        criteria = {'act': 1000, 'inact': 30000, 'i-inact': 20}
+        test_set = c_reader.run(".tsv", criteria, Path(rf"{args.test_set}"))
+
+        pre_total = pd.concat([active, inactive]).reset_index(drop=True)
+        pre_test = duple_structures(test_set, pre_total)
+        logger.info(f"Remove duple structure in test set : {len(test_set)} -> {len(pre_test)}")
+
+        pre_test_act = pre_test[pre_test['Active'] == 1].reset_index(drop=True)
+        pre_test_inact = pre_test[pre_test['Active'] == 0].reset_index(drop=True)
+
+        # divide active
+        total_ratio = train_size + valid_size
+        da = len(g1_remains) / total_ratio
+        tra, va = list(map(round, [da * train_size, da * valid_size]))
+        logger.info(f"tra : {tra}, va : {va}, tea : {va}")
+
+        train_act, ta_remains = pick_molecules(g1_remains, tra, n_cores, rb)
+        valid_act = pick_molecules(ta_remains, va, n_cores, rb)[0]
+        test_act = pick_molecules(pre_test_act, va, n_cores, rb)[0]
+        logger.info(f"train_act : {len(train_act)}, valid_act : {len(valid_act)}, test_act : {len(test_act)}")
+
+        # divide inactive
+        di = len(inactive) / total_ratio
+        tri, vi = list(map(round, [di * train_size, di * valid_size]))
+        logger.info(f"tri : {tri}, vi : {vi}, tei : {vi}")
+
+        train_inact, ti_remains = pick_molecules(inactive, tri, n_cores, rb)
+        valid_inact = pick_molecules(ti_remains, vi, n_cores, rb)[0]
+        test_inact = pick_molecules(pre_test_inact, vi, n_cores, rb)[0]
+        logger.info(f"train_inact : {len(train_inact)}, valid_inact : {len(valid_inact)}, test_inact : {len(test_inact)}")
 
     # save dataset
     g2_train = pd.concat([train_act, train_inact]).reset_index(drop=True)

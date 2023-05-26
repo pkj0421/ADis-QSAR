@@ -36,6 +36,10 @@ for db in data_path.glob('*'):
     dn = db.stem
     if 'Summary' in dn:
         continue
+
+    if dn == 'ChEMBL':
+        continue
+
     for fd_idx, fd in enumerate(db.glob('*')):
         fn = fd.stem
         if 'table' in fn:
