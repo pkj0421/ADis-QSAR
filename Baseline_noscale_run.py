@@ -2,10 +2,8 @@ import sys
 import subprocess
 import numpy as np
 import pandas as pd
-from joblib import dump
 from pathlib import Path
 from rdkit.Chem import PandasTools, AllChem
-from sklearn.preprocessing import RobustScaler
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -26,10 +24,8 @@ def fps(df, rd, bt):
 
 
 data_path = Path(r"Dataset")
-out_path = Path('Baseline_noscale_es5')
+out_path = Path('Baseline_noscale')
 out_path.mkdir(parents=True, exist_ok=True)
-
-scalers = {'Robust': RobustScaler()}
 radius_type = {1: 'ECFP2', 2: 'ECFP4', 3: 'ECFP6'}
 
 col_wr = True
@@ -69,7 +65,7 @@ for db in data_path.glob('*'):
 
                 # generate model
                 for md in ['RF', 'XGB', 'SVM', 'MLP']:
-                    model_run = f'-train {train_raw_path} -valid {valid_raw_path} -test {test_raw_path} -o {t_output.as_posix()} -m {md} -core 12 -e'
+                    model_run = f'-train {train_raw_path} -valid {valid_raw_path} -test {test_raw_path} -o {t_output.as_posix()} -m {md} -core 12'
                     subprocess.run(args=[sys.executable, 'ADis_QSAR.py'] + model_run.split(' '))
 
                     model_path = t_output / f"{fn}_model" / md

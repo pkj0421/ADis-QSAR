@@ -72,7 +72,7 @@ def pick_molecules(df, cls_num, cores):
 
 if __name__ == "__main__":
     data_path = Path(r"Dataset")
-    out_path = Path('Vary_params1')
+    out_path = Path('Vary_params')
     out_path.mkdir(parents=True, exist_ok=True)
     scalers = {'Robust': RobustScaler(), 'Standard': StandardScaler(), 'MinMax': MinMaxScaler()}
     radius_type = {1: 'ECFP2', 2: 'ECFP4', 3: 'ECFP6'}
@@ -96,9 +96,6 @@ if __name__ == "__main__":
 
             start = time.time()
             for g1_cnt in [20, 50, 80]:
-
-                if g1_cnt in [20, 50]:
-                    continue
 
                 fdata_path = out_path / dn / fn / f"nG1_{g1_cnt}"
                 fdata_path.mkdir(parents=True, exist_ok=True)
