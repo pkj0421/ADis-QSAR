@@ -71,8 +71,8 @@ def pick_molecules(df, cls_num, cores):
 
 
 if __name__ == "__main__":
-    data_path = Path(r"AF_Dataset")
-    out_path = Path('Vary_params_ABL_BRAF_FGFR1')
+    data_path = Path(r"Dataset")
+    out_path = Path('Vary_params1')
     out_path.mkdir(parents=True, exist_ok=True)
     scalers = {'Robust': RobustScaler(), 'Standard': StandardScaler(), 'MinMax': MinMaxScaler()}
     radius_type = {1: 'ECFP2', 2: 'ECFP4', 3: 'ECFP6'}
@@ -134,10 +134,10 @@ if __name__ == "__main__":
                     g1['Set_type'] = 'G1'
                     train['Set_type'] = 'Train'
 
-                    # g1.to_csv(fdata_path / f"{fn}_g1.tsv", sep='\t', index=False)
-                    # train.to_csv(fdata_path / f"{fn}_train.tsv", sep='\t', index=False)
-                    # valid.to_csv(fdata_path / f"{fn}_valid.tsv", sep='\t', index=False)
-                    # test.to_csv(fdata_path / f"{fn}_test.tsv", sep='\t', index=False)
+                    g1.to_csv(fdata_path / f"{fn}_g1.tsv", sep='\t', index=False)
+                    train.to_csv(fdata_path / f"{fn}_train.tsv", sep='\t', index=False)
+                    valid.to_csv(fdata_path / f"{fn}_valid.tsv", sep='\t', index=False)
+                    test.to_csv(fdata_path / f"{fn}_test.tsv", sep='\t', index=False)
 
                 for radius in [2, 3]:
                     for nbits in [256, 512]:
@@ -204,10 +204,10 @@ if __name__ == "__main__":
                                 fwr[f"{md} PR"] = PR
                                 fwr[f"{md} SP"] = SP
 
-                            with open(str(out_path / 'Vary_params_Summary.tsv'), 'a') as fw:
-                                # if col_wr:
-                                #     fw.write('\t'.join(fwr.keys()) + '\n')
-                                #     col_wr = False
+                            with open(str(out_path / f'{out_path.stem}_Summary.tsv'), 'a') as fw:
+                                if col_wr:
+                                    fw.write('\t'.join(fwr.keys()) + '\n')
+                                    col_wr = False
                                 fw.write('\t'.join(map(str, fwr.values())) + '\n')
 
             f_time = time.strftime("%H:%M:%S", time.gmtime(time.time() - start))
