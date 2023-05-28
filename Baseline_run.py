@@ -10,9 +10,6 @@ from sklearn.preprocessing import RobustScaler
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-out_path = Path('Baseline')
-out_path.mkdir(parents=True, exist_ok=True)
-
 
 def fps(df, rd, bt):
     keys = [f"f_{x}" for x in range(bt)]
@@ -28,7 +25,10 @@ def fps(df, rd, bt):
     return pd.DataFrame(new_df)
 
 
-data_path = Path(r"F_Dataset")
+data_path = Path(r"Dataset")
+out_path = Path('Baseline')
+out_path.mkdir(parents=True, exist_ok=True)
+
 scalers = {'Robust': RobustScaler()}
 radius_type = {1: 'ECFP2', 2: 'ECFP4', 3: 'ECFP6'}
 

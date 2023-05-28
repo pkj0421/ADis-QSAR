@@ -111,6 +111,7 @@ if __name__ == "__main__":
     parser.add_argument('-train', '--train', required=True, help='Train data')
     parser.add_argument('-valid', '--valid', required=True, help='Valid data')
     parser.add_argument('-test', '--test', default=False, help='Test data')
+    parser.add_argument('-e', '--early_stop', action='store_true', help='If you want apply early_stopping')
     parser.add_argument('-o', '--output', type=str, required=True, help='Set your output path')
     parser.add_argument('-m', '--model', type=str, default='RF', help='Set your model type')
     parser.add_argument('-core', '--num_cores', type=int, default=2, help='Set the number of CPU cores to use')
@@ -195,10 +196,18 @@ if __name__ == "__main__":
     else:
         logger.error(f"{args.model} model type can not use.")
 
+    xcols = [x for x in train.columns if x.startswith('f_')]
+    if args.early_stop:
+        fit_params = {
+            'early_stopping_rounds': [5],
+            'eval_metric': ['mae'],
+            'eval_set': [(valid[xcols], valid['AD'])]
+        }
+        parameters.update(fit_params)
+
     logger.info(f"Set parameters : {parameters}")
 
     # start learning
-    xcols = [x for x in train.columns if x.startswith('f_')]
     grid, train_log = GridSearchRUN(model, parameters, train[xcols], train['AD'], cores=n_cores)
     grid_model = grid.best_estimator_
 
