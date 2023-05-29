@@ -146,6 +146,7 @@ if __name__ == "__main__":
     # load data
     train = pd.read_csv(path_train, sep='\t')
     valid = pd.read_csv(path_valid, sep='\t')
+    xcols = [x for x in train.columns if x.startswith('f_')]
 
     # data info
     logger.info('Start Learning model')
@@ -182,6 +183,14 @@ if __name__ == "__main__":
                       "eval_metric": ['auc', 'error'],
                       }
 
+        if args.early_stop:
+            fit_params = {
+                'early_stopping_rounds': [10],
+                'eval_metric': ['mae'],
+                'eval_set': [(valid[xcols], valid['AD'])]
+            }
+            parameters.update(fit_params)
+
     elif args.model.upper() == 'MLP':
         model = MLPClassifier(random_state=42)
         parameters = {'hidden_layer_sizes': [(50,), (100,), (50, 50), (100, 100)],
@@ -195,15 +204,6 @@ if __name__ == "__main__":
 
     else:
         logger.error(f"{args.model} model type can not use.")
-
-    xcols = [x for x in train.columns if x.startswith('f_')]
-    if args.early_stop:
-        fit_params = {
-            'early_stopping_rounds': [5],
-            'eval_metric': ['mae'],
-            'eval_set': [(valid[xcols], valid['AD'])]
-        }
-        parameters.update(fit_params)
 
     logger.info(f"Set parameters : {parameters}")
 
