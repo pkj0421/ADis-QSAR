@@ -111,7 +111,6 @@ if __name__ == "__main__":
     parser.add_argument('-train', '--train', required=True, help='Train data')
     parser.add_argument('-valid', '--valid', required=True, help='Valid data')
     parser.add_argument('-test', '--test', default=False, help='Test data')
-    parser.add_argument('-e', '--early_stop', action='store_true', help='If you want apply early_stopping')
     parser.add_argument('-o', '--output', type=str, required=True, help='Set your output path')
     parser.add_argument('-m', '--model', type=str, default='RF', help='Set your model type')
     parser.add_argument('-core', '--num_cores', type=int, default=2, help='Set the number of CPU cores to use')
@@ -182,14 +181,6 @@ if __name__ == "__main__":
                       "objective" : ['binary:logitraw'],
                       "eval_metric": ['auc', 'error'],
                       }
-
-        if args.early_stop:
-            fit_params = {
-                'early_stopping_rounds': [10],
-                'eval_metric': ['mae'],
-                'eval_set': [(valid[xcols], valid['AD'])]
-            }
-            parameters.update(fit_params)
 
     elif args.model.upper() == 'MLP':
         model = MLPClassifier(random_state=42)

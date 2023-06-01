@@ -2,10 +2,8 @@ import sys
 import subprocess
 import numpy as np
 import pandas as pd
-from joblib import dump
 from pathlib import Path
 from rdkit.Chem import PandasTools, AllChem
-from sklearn.preprocessing import RobustScaler
 
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -28,19 +26,18 @@ def fps(df, rd, bt):
 data_path = Path(r"Dataset")
 out_path = Path('Baseline')
 out_path.mkdir(parents=True, exist_ok=True)
-
-scalers = {'Robust': RobustScaler()}
 radius_type = {1: 'ECFP2', 2: 'ECFP4', 3: 'ECFP6'}
 
 col_wr = True
 for db in data_path.glob('*'):
     dn = db.stem
-    if 'Summary' in dn:
+    if 'TST' in dn:
         continue
 
+    run_lst = [fd.stem for fd in db.glob('*') if 'table' not in fd.stem][12:]
     for fd_idx, fd in enumerate(db.glob('*')):
         fn = fd.stem
-        if 'table' in fn:
+        if 'dataset' in fn:
             continue
 
         g1 = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_g1.tsv", sep='\t')
@@ -48,8 +45,8 @@ for db in data_path.glob('*'):
         valid = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_valid.tsv", sep='\t')
         test = pd.read_csv(fd / f"{fn}_preprocessing" / f"{fn}_test.tsv", sep='\t')
 
-        for radius in [2]:
-            for nbits in [256]:
+        for radius in [2, 3]:
+            for nbits in [256, 512]:
                 train_fps = fps(train, rd=radius, bt=nbits)
                 valid_fps = fps(valid, rd=radius, bt=nbits)
                 test_fps = fps(test, rd=radius, bt=nbits)
@@ -65,64 +62,45 @@ for db in data_path.glob('*'):
                 valid_fps.to_csv(valid_raw_path, sep='\t', index=False)
                 test_fps.to_csv(test_raw_path, sep='\t', index=False)
 
-                fcols = [col for col in train_fps.columns if col.startswith('f_')]
-                for s_type, scaler in scalers.items():
-                    train_fps[fcols] = scaler.fit_transform(train_fps[fcols])
-                    valid_fps[fcols] = scaler.transform(valid_fps[fcols])
-                    test_fps[fcols] = scaler.transform(test_fps[fcols])
+                fwr = {'Dataset': fn, 'Type': f"{radius_type[radius]}_{nbits}bits"}
 
-                    f_output = out_path / dn / fn / f"{radius_type[radius]}_{nbits}bits" / s_type
-                    f_output.mkdir(parents=True, exist_ok=True)
+                # generate model
+                for md in ['RF', 'XGB', 'SVM', 'MLP']:
+                    model_run = f'-train {train_raw_path} -valid {valid_raw_path} -test {test_raw_path} -o {t_output.as_posix()} -m {md} -core 12'
+                    subprocess.run(args=[sys.executable, 'ADis_QSAR.py'] + model_run.split(' '))
 
-                    scaler_path = (f_output / f"{fn}_scaler.pkl").as_posix()
-                    train_path = (f_output / f"{fn}_train.tsv").as_posix()
-                    valid_path = (f_output / f"{fn}_valid.tsv").as_posix()
-                    test_path = (f_output / f"{fn}_test.tsv").as_posix()
+                    model_path = t_output / f"{fn}_model" / md
+                    mcs = pd.read_csv(model_path / f"{fn}_{md}_model_score_log.tsv", sep='\t')
 
-                    dump(scaler, scaler_path)
-                    train_fps.to_csv(train_path, sep='\t', index=False)
-                    valid_fps.to_csv(valid_path, sep='\t', index=False)
-                    test_fps.to_csv(test_path, sep='\t', index=False)
+                    ACC = []
+                    AUC = []
+                    PR = []
+                    SP = []
+                    for mcd in mcs.to_dict('records'):
+                        mcd_name = mcd['Data'].capitalize()
+                        acc = f"{mcd_name} {float(mcd['ACC'].split(' ')[0]):.2f}"
+                        auc = f"{mcd_name} {float(mcd['AUC']):.2f}"
+                        pr = f"{mcd_name} {float(mcd['Precision'].split(' ')[0]):.2f}"
+                        sp = f"{mcd_name} {float(mcd['Specificity'].split(' ')[0]):.2f}"
 
-                    fwr = {'Dataset': fn, 'Type': f"{radius_type[radius]}_{nbits}bits"}
+                        ACC += [acc]
+                        AUC += [auc]
+                        PR += [pr]
+                        SP += [sp]
 
-                    # generate model
-                    for md in ['RF', 'XGB', 'SVM', 'MLP']:
-                        model_run = f'-train {train_path} -valid {valid_path} -test {test_path} -o {f_output.as_posix()} -m {md} -core 12'
-                        subprocess.run(args=[sys.executable, 'ADis_QSAR.py'] + model_run.split(' '))
+                    ACC = ' | '.join(ACC)
+                    AUC = ' | '.join(AUC)
+                    PR = ' | '.join(PR)
+                    SP = ' | '.join(SP)
 
-                        model_path = f_output / f"{fn}_model" / md
-                        mcs = pd.read_csv(model_path / f"{fn}_{md}_model_score_log.tsv", sep='\t')
+                    fwr[f"{md} ACC"] = ACC
+                    fwr[f"{md} AUC"] = AUC
+                    fwr[f"{md} PR"] = PR
+                    fwr[f"{md} SP"] = SP
 
-                        ACC = []
-                        AUC = []
-                        PR = []
-                        SP = []
-                        for mcd in mcs.to_dict('records'):
-                            mcd_name = mcd['Data'].capitalize()
-                            acc = f"{mcd_name} {float(mcd['ACC'].split(' ')[0]):.2f}"
-                            auc = f"{mcd_name} {float(mcd['AUC']):.2f}"
-                            pr = f"{mcd_name} {float(mcd['Precision'].split(' ')[0]):.2f}"
-                            sp = f"{mcd_name} {float(mcd['Specificity'].split(' ')[0]):.2f}"
-
-                            ACC += [acc]
-                            AUC += [auc]
-                            PR += [pr]
-                            SP += [sp]
-
-                        ACC = ' | '.join(ACC)
-                        AUC = ' | '.join(AUC)
-                        PR = ' | '.join(PR)
-                        SP = ' | '.join(SP)
-
-                        fwr[f"{md} ACC"] = ACC
-                        fwr[f"{md} AUC"] = AUC
-                        fwr[f"{md} PR"] = PR
-                        fwr[f"{md} SP"] = SP
-
-                    with open(str(out_path / 'Baseline_Summary.tsv'), 'a') as fw:
-                        if col_wr:
-                            fw.write('\t'.join(fwr.keys()) + '\n')
-                            col_wr = False
-                        fw.write('\t'.join(fwr.values()) + '\n')
+                with open(str(out_path / f'Summary_of_{out_path.stem}_results.tsv'), 'a') as fw:
+                    if col_wr:
+                        fw.write('\t'.join(fwr.keys()) + '\n')
+                        col_wr = False
+                    fw.write('\t'.join(fwr.values()) + '\n')
 
