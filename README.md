@@ -80,6 +80,8 @@ The test set does not participate in training/validation
 
 You can obtain directly prediction results from the generated model
 
+Outputs : model, log files
+
 ```sh
 python ADis_QSAR.py -train train_path -valid valid_path -test test_path -m model_type -o output_path -core num_cores
 ```
@@ -95,6 +97,8 @@ python ADis_QSAR.py -train Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train.tsv -v
 Predicting external dataset from the generated model
 
 If you would like to apply an external dataset to the trained model, use the following code
+
+Outputs : predict log file
 
 ```sh
 python Predict.py -m model_path -e external_path -n external_name -o output_path -ev 
