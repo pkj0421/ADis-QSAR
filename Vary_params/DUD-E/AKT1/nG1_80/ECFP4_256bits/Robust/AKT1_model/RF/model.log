@@ -1,0 +1,109 @@
+2023-05-27 03:20:33,674 [INFO] Train data : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_train_vector.tsv
+2023-05-27 03:20:33,674 [INFO] Valid data : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_valid_vector.tsv
+2023-05-27 03:20:33,674 [INFO] Output path : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_model\RF
+2023-05-27 03:20:33,674 [INFO] Model type : RF
+2023-05-27 03:20:33,674 [INFO] Use cores : 11
+2023-05-27 03:20:33,702 [INFO] Start Learning model
+2023-05-27 03:20:33,702 [INFO] Train : 451 | Valid : 120
+2023-05-27 03:20:33,702 [INFO] Set parameters : {'max_depth': [6, 8, 10, 12], 'max_features': ['sqrt', 'log2'], 'min_samples_leaf': [2, 4, 8, 10], 'min_samples_split': [2, 4, 8, 10], 'n_estimators': [200, 600, 1000]}
+2023-05-27 03:27:00,092 [INFO] GridSearchCV results :
+     mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+341             0.975749              1.000000        0.966912
+240             0.975749              1.000000        0.966912
+242             0.975749              1.000000        0.966912
+243             0.975749              1.000000        0.966912
+244             0.975749              1.000000        0.966912
+..                   ...                   ...             ...
+37              0.949082              0.968652        0.936600
+42              0.942464              0.961509        0.928626
+39              0.942464              0.961509        0.928626
+45              0.942464              0.961509        0.928626
+36              0.942464              0.961509        0.928626
+
+[384 rows x 3 columns]
+2023-05-27 03:27:00,094 [INFO] Best model :
+RandomForestClassifier(class_weight='balanced', max_depth=6,
+                       max_features='log2', min_samples_leaf=2,
+                       n_estimators=200, random_state=42)
+2023-05-27 03:27:00,117 [INFO] Save train_prediction_log data...
+2023-05-27 03:27:00,124 [INFO] {'Data': 'train', 'ACC': '0.99 (448 / 451)', 'TP': 159, 'FP': 0, 'FN': 3, 'TN': 289, 'Precision': '1.0 (159 / 159 + 0)', 'Recall': '0.98 (159 / 159 + 3)', 'F1': '0.99 (2 * (0.98 * 1.0) / 0.98 + 1.0)', 'Specificity': '1.0 (289 / 289 + 0)', 'AUC': 0.99, 'r2': 0.97}
+2023-05-27 03:27:00,140 [INFO] Save valid_prediction_log data...
+2023-05-27 03:27:00,143 [INFO] {'Data': 'valid', 'ACC': '1.0 (120 / 120)', 'TP': 48, 'FP': 0, 'FN': 0, 'TN': 72, 'Precision': '1.0 (48 / 48 + 0)', 'Recall': '1.0 (48 / 48 + 0)', 'F1': '1.0 (2 * (1.0 * 1.0) / 1.0 + 1.0)', 'Specificity': '1.0 (72 / 72 + 0)', 'AUC': 1.0, 'r2': 1.0}
+2023-05-27 03:27:00,180 [INFO] Save test_prediction_log data...
+2023-05-27 03:27:00,184 [INFO] {'Data': 'test', 'ACC': '0.69 (83 / 120)', 'TP': 14, 'FP': 3, 'FN': 34, 'TN': 69, 'Precision': '0.82 (14 / 14 + 3)', 'Recall': '0.29 (14 / 14 + 34)', 'F1': '0.43 (2 * (0.29 * 0.82) / 0.29 + 0.82)', 'Specificity': '0.96 (69 / 69 + 3)', 'AUC': 0.62, 'r2': -0.28}
+2023-05-27 03:27:00,231 [INFO] Save training_log data...
+2023-05-27 03:27:00,234 [INFO] Save score_log data...
+2023-05-27 03:27:00,235 [INFO] Time : 386.5616703033447
+2023-05-27 07:20:57,852 [INFO] Train data : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_train_vector.tsv
+2023-05-27 07:20:57,852 [INFO] Valid data : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_valid_vector.tsv
+2023-05-27 07:20:57,852 [INFO] Output path : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_model\RF
+2023-05-27 07:20:57,852 [INFO] Model type : RF
+2023-05-27 07:20:57,852 [INFO] Use cores : 11
+2023-05-27 07:20:57,890 [INFO] Start Learning model
+2023-05-27 07:20:57,890 [INFO] Train : 451 | Valid : 120
+2023-05-27 07:20:57,890 [INFO] Set parameters : {'max_depth': [6, 8, 10, 12], 'max_features': ['sqrt', 'log2'], 'min_samples_leaf': [2, 4, 8, 10], 'min_samples_split': [2, 4, 8, 10], 'n_estimators': [200, 600, 1000]}
+2023-05-27 07:22:36,463 [INFO] Train data : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_train_vector.tsv
+2023-05-27 07:22:36,463 [INFO] Valid data : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_valid_vector.tsv
+2023-05-27 07:22:36,463 [INFO] Output path : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_model\RF
+2023-05-27 07:22:36,463 [INFO] Model type : RF
+2023-05-27 07:22:36,463 [INFO] Use cores : 11
+2023-05-27 07:22:36,491 [INFO] Start Learning model
+2023-05-27 07:22:36,491 [INFO] Train : 451 | Valid : 120
+2023-05-27 07:22:36,491 [INFO] Set parameters : {'max_depth': [6, 8, 10, 12], 'max_features': ['sqrt', 'log2'], 'min_samples_leaf': [2, 4, 8, 10], 'min_samples_split': [2, 4, 8, 10], 'n_estimators': [200, 600, 1000]}
+2023-05-27 07:25:22,376 [INFO] Train data : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_train_vector.tsv
+2023-05-27 07:25:22,377 [INFO] Valid data : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_valid_vector.tsv
+2023-05-27 07:25:22,377 [INFO] Output path : Vary_params\DUD-E\AKT1\nG1_80\ECFP4_256bits\Robust\AKT1_model\RF
+2023-05-27 07:25:22,377 [INFO] Model type : RF
+2023-05-27 07:25:22,377 [INFO] Use cores : 11
+2023-05-27 07:25:22,426 [INFO] Start Learning model
+2023-05-27 07:25:22,426 [INFO] Train : 451 | Valid : 120
+2023-05-27 07:25:22,426 [INFO] Set parameters : {'max_depth': [6, 8, 10, 12], 'max_features': ['sqrt', 'log2'], 'min_samples_leaf': [2, 4, 8, 10], 'min_samples_split': [2, 4, 8, 10], 'n_estimators': [200, 600, 1000]}
+2023-05-27 07:25:24,815 [ERROR] exception calling callback for <Future at 0x2bff0ec4d90 state=finished raised BrokenProcessPool>
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\externals\loky\process_executor.py", line 391, in _process_worker
+    call_item = call_queue.get(block=True, timeout=timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\multiprocessing\queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\pandas\__init__.py", line 48, in <module>
+    from pandas.core.api import (
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\pandas\core\api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\pandas\core\groupby\__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\pandas\core\groupby\generic.py", line 76, in <module>
+    from pandas.core.frame import DataFrame
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1072, in _find_spec
+  File "<frozen importlib._bootstrap>", line 1032, in __exit__
+KeyboardInterrupt
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 176, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1129, in submit
+    raise self._flags.broken
+joblib.externals.loky.process_executor.BrokenProcessPool: A task has failed to un-serialize. Please ensure that the arguments of the function are all picklable.

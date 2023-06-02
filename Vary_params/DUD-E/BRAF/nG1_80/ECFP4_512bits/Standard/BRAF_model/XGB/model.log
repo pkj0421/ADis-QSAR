@@ -1,0 +1,76 @@
+2023-05-29 10:13:02,033 [INFO] Train data : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_512bits\Standard\BRAF_train_vector.tsv
+2023-05-29 10:13:02,033 [INFO] Valid data : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_512bits\Standard\BRAF_valid_vector.tsv
+2023-05-29 10:13:02,033 [INFO] Output path : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_512bits\Standard\BRAF_model\XGB
+2023-05-29 10:13:02,033 [INFO] Model type : XGB
+2023-05-29 10:13:02,033 [INFO] Use cores : 12
+2023-05-29 10:13:02,066 [INFO] Start Learning model
+2023-05-29 10:13:02,066 [INFO] Train : 171 | Valid : 50
+2023-05-29 10:13:02,067 [INFO] Set parameters : {'max_depth': [4, 6, 8], 'learning_rate': [0.01, 0.2], 'n_estimators': [200, 600, 1000], 'gamma': [0, 1000], 'min_child_weight': [1, 3], 'subsample': [0.5, 1], 'colsample_bytree': [0.5, 1], 'objective': ['binary:logitraw'], 'eval_metric': ['auc', 'error']}
+2023-05-29 10:17:55,407 [ERROR] exception calling callback for <Future at 0x19f6408fb50 state=finished raised TerminatedWorkerError>
+Traceback (most recent call last):
+  File "C:\Users\Choi\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Choi\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "C:\Users\Choi\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Choi\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\Choi\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Choi\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Choi\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 176, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Choi\anaconda3\envs\ADis-QSAR-env\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1129, in submit
+    raise self._flags.broken
+joblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.
+
+2023-05-29 13:14:12,065 [INFO] Train data : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_512bits\Standard\BRAF_train_vector.tsv
+2023-05-29 13:14:12,065 [INFO] Valid data : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_512bits\Standard\BRAF_valid_vector.tsv
+2023-05-29 13:14:12,065 [INFO] Output path : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_512bits\Standard\BRAF_model\XGB
+2023-05-29 13:14:12,065 [INFO] Model type : XGB
+2023-05-29 13:14:12,065 [INFO] Use cores : 10
+2023-05-29 13:14:12,096 [INFO] Start Learning model
+2023-05-29 13:14:12,097 [INFO] Train : 171 | Valid : 50
+2023-05-29 13:14:12,097 [INFO] Set parameters : {'max_depth': [4, 6, 8], 'learning_rate': [0.01, 0.2], 'n_estimators': [200, 600, 1000], 'gamma': [0, 1000], 'min_child_weight': [1, 3], 'subsample': [0.5, 1], 'colsample_bytree': [0.5, 1], 'objective': ['binary:logitraw'], 'eval_metric': ['auc', 'error']}
+2023-05-29 13:25:56,721 [INFO] GridSearchCV results :
+     mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+0               0.976471                   1.0            0.96
+305             0.982680                   1.0            0.97
+303             0.982680                   1.0            0.97
+302             0.982353                   1.0            0.97
+300             0.964706                   1.0            0.94
+..                   ...                   ...             ...
+98              0.707516                   0.0            0.50
+99              0.707516                   0.0            0.50
+100             0.707516                   0.0            0.50
+101             0.707516                   0.0            0.50
+575             0.707516                   0.0            0.50
+
+[576 rows x 3 columns]
+2023-05-29 13:25:56,722 [INFO] Best model :
+XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.5, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric='auc', feature_types=None,
+              gamma=0, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.01, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=4, max_leaves=None,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=200, n_jobs=0, num_parallel_tree=None,
+              objective='binary:logitraw', predictor=None, ...)
+2023-05-29 13:25:56,739 [INFO] Save train_prediction_log data...
+2023-05-29 13:25:56,743 [INFO] {'Data': 'train', 'ACC': '0.99 (169 / 171)', 'TP': 48, 'FP': 0, 'FN': 2, 'TN': 121, 'Precision': '1.0 (48 / 48 + 0)', 'Recall': '0.96 (48 / 48 + 2)', 'F1': '0.98 (2 * (0.96 * 1.0) / 0.96 + 1.0)', 'Specificity': '1.0 (121 / 121 + 0)', 'AUC': 0.98, 'r2': 0.94}
+2023-05-29 13:25:56,757 [INFO] Save valid_prediction_log data...
+2023-05-29 13:25:56,760 [INFO] {'Data': 'valid', 'ACC': '1.0 (50 / 50)', 'TP': 20, 'FP': 0, 'FN': 0, 'TN': 30, 'Precision': '1.0 (20 / 20 + 0)', 'Recall': '1.0 (20 / 20 + 0)', 'F1': '1.0 (2 * (1.0 * 1.0) / 1.0 + 1.0)', 'Specificity': '1.0 (30 / 30 + 0)', 'AUC': 1.0, 'r2': 1.0}
+2023-05-29 13:25:56,792 [INFO] Save test_prediction_log data...
+2023-05-29 13:25:56,795 [INFO] {'Data': 'test', 'ACC': '0.62 (31 / 50)', 'TP': 5, 'FP': 4, 'FN': 15, 'TN': 26, 'Precision': '0.56 (5 / 5 + 4)', 'Recall': '0.25 (5 / 5 + 15)', 'F1': '0.35 (2 * (0.25 * 0.56) / 0.25 + 0.56)', 'Specificity': '0.87 (26 / 26 + 4)', 'AUC': 0.56, 'r2': -0.58}
+2023-05-29 13:25:56,811 [INFO] Save training_log data...
+2023-05-29 13:25:56,816 [INFO] Save score_log data...
+2023-05-29 13:25:56,817 [INFO] Time : 704.7522497177124

@@ -1,0 +1,44 @@
+2023-05-27 09:05:35,443 [INFO] Train data : Vary_params\ChEMBL\HGF\nG1_50\ECFP6_256bits\Standard\HGF_train_vector.tsv
+2023-05-27 09:05:35,443 [INFO] Valid data : Vary_params\ChEMBL\HGF\nG1_50\ECFP6_256bits\Standard\HGF_valid_vector.tsv
+2023-05-27 09:05:35,443 [INFO] Output path : Vary_params\ChEMBL\HGF\nG1_50\ECFP6_256bits\Standard\HGF_model\XGB
+2023-05-27 09:05:35,443 [INFO] Model type : XGB
+2023-05-27 09:05:35,443 [INFO] Use cores : 11
+2023-05-27 09:05:35,490 [INFO] Start Learning model
+2023-05-27 09:05:35,490 [INFO] Train : 853 | Valid : 213
+2023-05-27 09:05:35,492 [INFO] Set parameters : {'max_depth': [4, 6, 8], 'learning_rate': [0.01, 0.2], 'n_estimators': [200, 600, 1000], 'gamma': [0, 1000], 'min_child_weight': [1, 3], 'subsample': [0.5, 1], 'colsample_bytree': [0.5, 1], 'objective': ['binary:logitraw'], 'eval_metric': ['auc', 'error']}
+2023-05-27 09:35:53,591 [INFO] GridSearchCV results :
+     mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+157             0.879275              0.929372        0.858875
+13              0.879275              0.929372        0.858875
+25              0.882791              0.927346        0.863777
+169             0.882791              0.927346        0.863777
+458             0.886306              0.925270        0.868637
+..                   ...                   ...             ...
+265             0.600233              0.000000        0.500000
+264             0.600233              0.000000        0.500000
+263             0.600233              0.000000        0.500000
+262             0.600233              0.000000        0.500000
+575             0.600233              0.000000        0.500000
+
+[576 rows x 3 columns]
+2023-05-27 09:35:53,593 [INFO] Best model :
+XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=0.5, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric='auc', feature_types=None,
+              gamma=0, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.01, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=6, max_leaves=None,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=200, n_jobs=0, num_parallel_tree=None,
+              objective='binary:logitraw', predictor=None, ...)
+2023-05-27 09:35:53,607 [INFO] Save train_prediction_log data...
+2023-05-27 09:35:53,611 [INFO] {'Data': 'train', 'ACC': '0.99 (843 / 853)', 'TP': 332, 'FP': 1, 'FN': 9, 'TN': 511, 'Precision': '1.0 (332 / 332 + 1)', 'Recall': '0.97 (332 / 332 + 9)', 'F1': '0.98 (2 * (0.97 * 1.0) / 0.97 + 1.0)', 'Specificity': '1.0 (511 / 511 + 1)', 'AUC': 0.99, 'r2': 0.95}
+2023-05-27 09:35:53,620 [INFO] Save valid_prediction_log data...
+2023-05-27 09:35:53,623 [INFO] {'Data': 'valid', 'ACC': '0.92 (195 / 213)', 'TP': 71, 'FP': 4, 'FN': 14, 'TN': 124, 'Precision': '0.95 (71 / 71 + 4)', 'Recall': '0.84 (71 / 71 + 14)', 'F1': '0.89 (2 * (0.84 * 0.95) / 0.84 + 0.95)', 'Specificity': '0.97 (124 / 124 + 4)', 'AUC': 0.9, 'r2': 0.65}
+2023-05-27 09:35:53,648 [INFO] Save test_prediction_log data...
+2023-05-27 09:35:53,650 [INFO] {'Data': 'test', 'ACC': '0.95 (203 / 214)', 'TP': 82, 'FP': 7, 'FN': 4, 'TN': 121, 'Precision': '0.92 (82 / 82 + 7)', 'Recall': '0.95 (82 / 82 + 4)', 'F1': '0.93 (2 * (0.95 * 0.92) / 0.95 + 0.92)', 'Specificity': '0.95 (121 / 121 + 7)', 'AUC': 0.95, 'r2': 0.79}
+2023-05-27 09:35:53,656 [INFO] Save training_log data...
+2023-05-27 09:35:53,660 [INFO] Save score_log data...
+2023-05-27 09:35:53,661 [INFO] Time : 1818.2176022529602

@@ -1,0 +1,35 @@
+2023-05-27 18:53:55,482 [INFO] Train data : Vary_params\DUD-E\PLK1\nG1_50\ECFP4_256bits\MinMax\PLK1_train_vector.tsv
+2023-05-27 18:53:55,482 [INFO] Valid data : Vary_params\DUD-E\PLK1\nG1_50\ECFP4_256bits\MinMax\PLK1_valid_vector.tsv
+2023-05-27 18:53:55,482 [INFO] Output path : Vary_params\DUD-E\PLK1\nG1_50\ECFP4_256bits\MinMax\PLK1_model\MLP
+2023-05-27 18:53:55,482 [INFO] Model type : MLP
+2023-05-27 18:53:55,482 [INFO] Use cores : 10
+2023-05-27 18:53:55,494 [INFO] Start Learning model
+2023-05-27 18:53:55,494 [INFO] Train : 114 | Valid : 28
+2023-05-27 18:53:55,494 [INFO] Set parameters : {'hidden_layer_sizes': [(50,), (100,), (50, 50), (100, 100)], 'learning_rate': ['constant', 'invscaling', 'adaptive'], 'activation': ['relu', 'identity', 'logistic', 'tanh'], 'solver': ['adam', 'sgd', 'lbfgs'], 'alpha': [0.1, 0.01, 0.001], 'max_iter': [500, 1000], 'early_stopping': [True]}
+2023-05-27 18:55:06,380 [INFO] GridSearchCV results :
+     mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+0               0.931061                   1.0          0.9125
+707             0.975000                   1.0          0.9700
+147             0.931061                   1.0          0.9125
+150             0.931061                   1.0          0.9125
+153             0.931061                   1.0          0.9125
+..                   ...                   ...             ...
+556             0.596970                   0.0          0.5000
+558             0.596970                   0.0          0.5000
+561             0.596970                   0.0          0.5000
+564             0.596970                   0.0          0.5000
+469             0.596970                   0.0          0.5000
+
+[864 rows x 3 columns]
+2023-05-27 18:55:06,381 [INFO] Best model :
+MLPClassifier(alpha=0.1, early_stopping=True, hidden_layer_sizes=(50,),
+              max_iter=500, random_state=42)
+2023-05-27 18:55:06,385 [INFO] Save train_prediction_log data...
+2023-05-27 18:55:06,388 [INFO] {'Data': 'train', 'ACC': '0.96 (109 / 114)', 'TP': 41, 'FP': 0, 'FN': 5, 'TN': 68, 'Precision': '1.0 (41 / 41 + 0)', 'Recall': '0.89 (41 / 41 + 5)', 'F1': '0.94 (2 * (0.89 * 1.0) / 0.89 + 1.0)', 'Specificity': '1.0 (68 / 68 + 0)', 'AUC': 0.95, 'r2': 0.82}
+2023-05-27 18:55:06,392 [INFO] Save valid_prediction_log data...
+2023-05-27 18:55:06,394 [INFO] {'Data': 'valid', 'ACC': '1.0 (28 / 28)', 'TP': 11, 'FP': 0, 'FN': 0, 'TN': 17, 'Precision': '1.0 (11 / 11 + 0)', 'Recall': '1.0 (11 / 11 + 0)', 'F1': '1.0 (2 * (1.0 * 1.0) / 1.0 + 1.0)', 'Specificity': '1.0 (17 / 17 + 0)', 'AUC': 1.0, 'r2': 1.0}
+2023-05-27 18:55:06,404 [INFO] Save test_prediction_log data...
+2023-05-27 18:55:06,408 [INFO] {'Data': 'test', 'ACC': '0.61 (17 / 28)', 'TP': 1, 'FP': 1, 'FN': 10, 'TN': 16, 'Precision': '0.5 (1 / 1 + 1)', 'Recall': '0.09 (1 / 1 + 10)', 'F1': '0.15 (2 * (0.09 * 0.5) / 0.09 + 0.5)', 'Specificity': '0.94 (16 / 16 + 1)', 'AUC': 0.52, 'r2': -0.65}
+2023-05-27 18:55:06,411 [INFO] Save training_log data...
+2023-05-27 18:55:06,417 [INFO] Save score_log data...
+2023-05-27 18:55:06,418 [INFO] Time : 70.93672132492065

@@ -1,0 +1,35 @@
+2023-05-27 21:18:10,531 [INFO] Train data : Vary_params\DUD-E\AKT2\nG1_80\ECFP4_512bits\MinMax\AKT2_train_vector.tsv
+2023-05-27 21:18:10,532 [INFO] Valid data : Vary_params\DUD-E\AKT2\nG1_80\ECFP4_512bits\MinMax\AKT2_valid_vector.tsv
+2023-05-27 21:18:10,532 [INFO] Output path : Vary_params\DUD-E\AKT2\nG1_80\ECFP4_512bits\MinMax\AKT2_model\RF
+2023-05-27 21:18:10,532 [INFO] Model type : RF
+2023-05-27 21:18:10,532 [INFO] Use cores : 11
+2023-05-27 21:18:10,575 [INFO] Start Learning model
+2023-05-27 21:18:10,575 [INFO] Train : 95 | Valid : 31
+2023-05-27 21:18:10,575 [INFO] Set parameters : {'max_depth': [6, 8, 10, 12], 'max_features': ['sqrt', 'log2'], 'min_samples_leaf': [2, 4, 8, 10], 'min_samples_split': [2, 4, 8, 10], 'n_estimators': [200, 600, 1000]}
+2023-05-27 21:23:34,872 [INFO] GridSearchCV results :
+     mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+0               1.000000                   1.0        1.000000
+195             1.000000                   1.0        1.000000
+184             0.988889                   1.0        0.975000
+185             0.988889                   1.0        0.975000
+187             0.988889                   1.0        0.975000
+..                   ...                   ...             ...
+175             0.956667                   0.9        0.917857
+178             0.956667                   0.9        0.917857
+59              0.970000                   0.9        0.925000
+79              0.956667                   0.9        0.917857
+249             0.980000                   0.9        0.950000
+
+[384 rows x 3 columns]
+2023-05-27 21:23:34,873 [INFO] Best model :
+RandomForestClassifier(class_weight='balanced', max_depth=6, min_samples_leaf=2,
+                       n_estimators=200, random_state=42)
+2023-05-27 21:23:34,892 [INFO] Save train_prediction_log data...
+2023-05-27 21:23:34,896 [INFO] {'Data': 'train', 'ACC': '1.0 (95 / 95)', 'TP': 20, 'FP': 0, 'FN': 0, 'TN': 75, 'Precision': '1.0 (20 / 20 + 0)', 'Recall': '1.0 (20 / 20 + 0)', 'F1': '1.0 (2 * (1.0 * 1.0) / 1.0 + 1.0)', 'Specificity': '1.0 (75 / 75 + 0)', 'AUC': 1.0, 'r2': 1.0}
+2023-05-27 21:23:34,913 [INFO] Save valid_prediction_log data...
+2023-05-27 21:23:34,915 [INFO] {'Data': 'valid', 'ACC': '1.0 (31 / 31)', 'TP': 12, 'FP': 0, 'FN': 0, 'TN': 19, 'Precision': '1.0 (12 / 12 + 0)', 'Recall': '1.0 (12 / 12 + 0)', 'F1': '1.0 (2 * (1.0 * 1.0) / 1.0 + 1.0)', 'Specificity': '1.0 (19 / 19 + 0)', 'AUC': 1.0, 'r2': 1.0}
+2023-05-27 21:23:34,949 [INFO] Save test_prediction_log data...
+2023-05-27 21:23:34,960 [INFO] {'Data': 'test', 'ACC': '0.77 (24 / 31)', 'TP': 6, 'FP': 1, 'FN': 6, 'TN': 18, 'Precision': '0.86 (6 / 6 + 1)', 'Recall': '0.5 (6 / 6 + 6)', 'F1': '0.63 (2 * (0.5 * 0.86) / 0.5 + 0.86)', 'Specificity': '0.95 (18 / 18 + 1)', 'AUC': 0.72, 'r2': 0.05}
+2023-05-27 21:23:35,001 [INFO] Save training_log data...
+2023-05-27 21:23:35,006 [INFO] Save score_log data...
+2023-05-27 21:23:35,008 [INFO] Time : 324.47688937187195

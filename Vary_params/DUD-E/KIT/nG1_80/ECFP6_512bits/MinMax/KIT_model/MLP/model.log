@@ -1,0 +1,35 @@
+2023-05-29 00:39:45,328 [INFO] Train data : Vary_params_IGF1R_KIT\DUD-E\KIT\nG1_80\ECFP6_512bits\MinMax\KIT_train_vector.tsv
+2023-05-29 00:39:45,328 [INFO] Valid data : Vary_params_IGF1R_KIT\DUD-E\KIT\nG1_80\ECFP6_512bits\MinMax\KIT_valid_vector.tsv
+2023-05-29 00:39:45,328 [INFO] Output path : Vary_params_IGF1R_KIT\DUD-E\KIT\nG1_80\ECFP6_512bits\MinMax\KIT_model\MLP
+2023-05-29 00:39:45,328 [INFO] Model type : MLP
+2023-05-29 00:39:45,328 [INFO] Use cores : 10
+2023-05-29 00:39:45,351 [INFO] Start Learning model
+2023-05-29 00:39:45,351 [INFO] Train : 202 | Valid : 58
+2023-05-29 00:39:45,351 [INFO] Set parameters : {'hidden_layer_sizes': [(50,), (100,), (50, 50), (100, 100)], 'learning_rate': ['constant', 'invscaling', 'adaptive'], 'activation': ['relu', 'identity', 'logistic', 'tanh'], 'solver': ['adam', 'sgd', 'lbfgs'], 'alpha': [0.1, 0.01, 0.001], 'max_iter': [500, 1000], 'early_stopping': [True]}
+2023-05-29 00:42:20,828 [INFO] GridSearchCV results :
+     mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+254             0.995238                   1.0        0.992857
+248             0.995238                   1.0        0.992857
+236             0.995238                   1.0        0.992857
+269             0.995238                   1.0        0.992857
+54              0.901905                   1.0        0.846429
+..                   ...                   ...             ...
+190             0.688333                   0.0        0.500000
+187             0.688333                   0.0        0.500000
+184             0.688333                   0.0        0.500000
+181             0.688333                   0.0        0.500000
+487             0.688333                   0.0        0.500000
+
+[864 rows x 3 columns]
+2023-05-29 00:42:20,829 [INFO] Best model :
+MLPClassifier(alpha=0.1, early_stopping=True, hidden_layer_sizes=(50,),
+              max_iter=500, random_state=42, solver='lbfgs')
+2023-05-29 00:42:20,835 [INFO] Save train_prediction_log data...
+2023-05-29 00:42:20,837 [INFO] {'Data': 'train', 'ACC': '1.0 (202 / 202)', 'TP': 63, 'FP': 0, 'FN': 0, 'TN': 139, 'Precision': '1.0 (63 / 63 + 0)', 'Recall': '1.0 (63 / 63 + 0)', 'F1': '1.0 (2 * (1.0 * 1.0) / 1.0 + 1.0)', 'Specificity': '1.0 (139 / 139 + 0)', 'AUC': 1.0, 'r2': 1.0}
+2023-05-29 00:42:20,842 [INFO] Save valid_prediction_log data...
+2023-05-29 00:42:20,844 [INFO] {'Data': 'valid', 'ACC': '0.98 (57 / 58)', 'TP': 23, 'FP': 1, 'FN': 0, 'TN': 34, 'Precision': '0.96 (23 / 23 + 1)', 'Recall': '1.0 (23 / 23 + 0)', 'F1': '0.98 (2 * (1.0 * 0.96) / 1.0 + 0.96)', 'Specificity': '0.97 (34 / 34 + 1)', 'AUC': 0.99, 'r2': 0.93}
+2023-05-29 00:42:20,859 [INFO] Save test_prediction_log data...
+2023-05-29 00:42:20,861 [INFO] {'Data': 'test', 'ACC': '0.69 (40 / 58)', 'TP': 12, 'FP': 7, 'FN': 11, 'TN': 28, 'Precision': '0.63 (12 / 12 + 7)', 'Recall': '0.52 (12 / 12 + 11)', 'F1': '0.57 (2 * (0.52 * 0.63) / 0.52 + 0.63)', 'Specificity': '0.8 (28 / 28 + 7)', 'AUC': 0.66, 'r2': -0.3}
+2023-05-29 00:42:20,863 [INFO] Save training_log data...
+2023-05-29 00:42:20,869 [INFO] Save score_log data...
+2023-05-29 00:42:20,869 [INFO] Time : 155.54044675827026

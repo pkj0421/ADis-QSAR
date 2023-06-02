@@ -1,0 +1,43 @@
+2023-05-29 09:30:41,177 [INFO] Train data : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_256bits\Standard\BRAF_train_vector.tsv
+2023-05-29 09:30:41,177 [INFO] Valid data : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_256bits\Standard\BRAF_valid_vector.tsv
+2023-05-29 09:30:41,177 [INFO] Output path : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_256bits\Standard\BRAF_model\MLP
+2023-05-29 09:30:41,177 [INFO] Model type : MLP
+2023-05-29 09:30:41,177 [INFO] Use cores : 12
+2023-05-29 09:30:41,196 [INFO] Start Learning model
+2023-05-29 09:30:41,196 [INFO] Train : 171 | Valid : 50
+2023-05-29 09:30:41,196 [INFO] Set parameters : {'hidden_layer_sizes': [(50,), (100,), (50, 50), (100, 100)], 'learning_rate': ['constant', 'invscaling', 'adaptive'], 'activation': ['relu', 'identity', 'logistic', 'tanh'], 'solver': ['adam', 'sgd', 'lbfgs'], 'alpha': [0.1, 0.01, 0.001], 'max_iter': [500, 1000], 'early_stopping': [True]}
+2023-05-29 09:33:05,180 [INFO] GridSearchCV results :
+     mean_valid_accuracy  mean_valid_precision  mean_valid_auc
+245             0.977124                   1.0            0.96
+207             0.912745                   1.0            0.85
+221             0.983007                   1.0            0.97
+525             0.912745                   1.0            0.85
+266             0.965686                   1.0            0.94
+..                   ...                   ...             ...
+630             0.707516                   0.0            0.50
+627             0.707516                   0.0            0.50
+624             0.707516                   0.0            0.50
+615             0.707516                   0.0            0.50
+618             0.707516                   0.0            0.50
+
+[864 rows x 3 columns]
+2023-05-29 09:33:05,181 [INFO] Best model :
+MLPClassifier(alpha=0.1, early_stopping=True, hidden_layer_sizes=(50,),
+              max_iter=500, random_state=42, solver='lbfgs')
+2023-05-29 09:33:05,185 [INFO] Save train_prediction_log data...
+2023-05-29 09:33:05,188 [INFO] {'Data': 'train', 'ACC': '1.0 (171 / 171)', 'TP': 50, 'FP': 0, 'FN': 0, 'TN': 121, 'Precision': '1.0 (50 / 50 + 0)', 'Recall': '1.0 (50 / 50 + 0)', 'F1': '1.0 (2 * (1.0 * 1.0) / 1.0 + 1.0)', 'Specificity': '1.0 (121 / 121 + 0)', 'AUC': 1.0, 'r2': 1.0}
+2023-05-29 09:33:05,191 [INFO] Save valid_prediction_log data...
+2023-05-29 09:33:05,193 [INFO] {'Data': 'valid', 'ACC': '1.0 (50 / 50)', 'TP': 20, 'FP': 0, 'FN': 0, 'TN': 30, 'Precision': '1.0 (20 / 20 + 0)', 'Recall': '1.0 (20 / 20 + 0)', 'F1': '1.0 (2 * (1.0 * 1.0) / 1.0 + 1.0)', 'Specificity': '1.0 (30 / 30 + 0)', 'AUC': 1.0, 'r2': 1.0}
+2023-05-29 09:33:05,203 [INFO] Save test_prediction_log data...
+2023-05-29 09:33:05,231 [INFO] {'Data': 'test', 'ACC': '0.66 (33 / 50)', 'TP': 6, 'FP': 3, 'FN': 14, 'TN': 27, 'Precision': '0.67 (6 / 6 + 3)', 'Recall': '0.3 (6 / 6 + 14)', 'F1': '0.41 (2 * (0.3 * 0.67) / 0.3 + 0.67)', 'Specificity': '0.9 (27 / 27 + 3)', 'AUC': 0.6, 'r2': -0.42}
+2023-05-29 09:33:05,233 [INFO] Save training_log data...
+2023-05-29 09:33:05,238 [INFO] Save score_log data...
+2023-05-29 09:33:05,239 [INFO] Time : 144.06236147880554
+2023-05-29 13:08:01,056 [INFO] Train data : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_256bits\Standard\BRAF_train_vector.tsv
+2023-05-29 13:08:01,057 [INFO] Valid data : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_256bits\Standard\BRAF_valid_vector.tsv
+2023-05-29 13:08:01,057 [INFO] Output path : Vary_params_BRAF_MK14\DUD-E\BRAF\nG1_80\ECFP4_256bits\Standard\BRAF_model\MLP
+2023-05-29 13:08:01,057 [INFO] Model type : MLP
+2023-05-29 13:08:01,057 [INFO] Use cores : 10
+2023-05-29 13:08:01,078 [INFO] Start Learning model
+2023-05-29 13:08:01,078 [INFO] Train : 171 | Valid : 50
+2023-05-29 13:08:01,078 [INFO] Set parameters : {'hidden_layer_sizes': [(50,), (100,), (50, 50), (100, 100)], 'learning_rate': ['constant', 'invscaling', 'adaptive'], 'activation': ['relu', 'identity', 'logistic', 'tanh'], 'solver': ['adam', 'sgd', 'lbfgs'], 'alpha': [0.1, 0.01, 0.001], 'max_iter': [500, 1000], 'early_stopping': [True]}
