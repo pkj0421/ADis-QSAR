@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58f0ce24-37c7-49fb-b024-17db7234238e" name="변경" comment="Init push" />
+    <list default="true" id="58f0ce24-37c7-49fb-b024-17db7234238e" name="변경" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,23 +31,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/W_code/ADis-QSAR/Preprocessing.py",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/W_code/ADis-QSAR&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\W_code\ADis-QSAR\Admodule" />
       <recent name="D:\W_code\ADis-QSAR" />
+      <recent name="D:\W_code\ADis-QSAR\Admodule" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\W_code\ADis-QSAR" />
+      <recent name="D:\W_code\ADis-QSAR\Dataset" />
+      <recent name="D:\W_code\ADis-QSAR\Dataset\DUD-E" />
+      <recent name="D:\W_code\ADis-QSAR\A_dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Predict">
+  <component name="RunManager" selected="Python.Baseline_run">
     <configuration name="ADis_QSAR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADis-QSAR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,6 +68,48 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ADis_QSAR.py" />
       <option name="PARAMETERS" value="-train D:\W_code\ADis-QSAR\Test\ALK_preprocessing\ALK_train_vector.tsv -test D:\W_code\ADis-QSAR\Test\ALK_preprocessing\ALK_test_vector.tsv -o D:\W_code\ADis-QSAR\Test -m RF -core 10" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Baseline_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADis-QSAR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baseline_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Baseline_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADis-QSAR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\W_code\ADis-QSAR\Baseline_run.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -99,27 +159,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Prepare inhits" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ADis-QSAR" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prepare.py" />
-      <option name="PARAMETERS" value="-d D:\W_code\ADis-QSAR\Test\ALK.tsv -o D:\W_code\ADis-QSAR\Test -i -chembl" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Prepare" type="PythonConfigurationType" factoryName="Python">
       <module name="ADis-QSAR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,19 +201,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Vary_params_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADis-QSAR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\W_code\ADis-QSAR\Vary_params_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python.Predict-ev" />
       <item itemvalue="Python.Prepare" />
       <item itemvalue="Python.Preprocessing" />
-      <item itemvalue="Python.Predict-ev" />
       <item itemvalue="Python.ADis_QSAR" />
+      <item itemvalue="Python.Baseline_run" />
       <item itemvalue="Python.Predict" />
-      <item itemvalue="Python.Prepare inhits" />
+      <item itemvalue="Python.Vary_params_run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Baseline_run" />
+        <item itemvalue="Python.Vary_params_run" />
+        <item itemvalue="Python.Baseline_run" />
         <item itemvalue="Python.Predict" />
         <item itemvalue="Python.ADis_QSAR" />
-        <item itemvalue="Python.Prepare inhits" />
       </list>
     </recent_temporary>
   </component>
@@ -186,13 +249,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674607822826</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Init push">
-      <created>1674608256562</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1674608256562</updated>
     </task>
     <task id="LOCAL-00002" summary="Remove before Ad modules">
       <created>1674608830071</created>
@@ -369,7 +425,175 @@
       <option name="project" value="LOCAL" />
       <updated>1683200855194</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="For revision">
+      <created>1684816558535</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1684816558535</updated>
+    </task>
+    <task id="LOCAL-00028" summary="For revision">
+      <created>1684817614805</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1684817614805</updated>
+    </task>
+    <task id="LOCAL-00029" summary="For revision">
+      <created>1684830433963</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1684830433963</updated>
+    </task>
+    <task id="LOCAL-00030" summary="For revision">
+      <created>1684830466069</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1684830466069</updated>
+    </task>
+    <task id="LOCAL-00031" summary="20230525">
+      <created>1685013833183</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1685013833183</updated>
+    </task>
+    <task id="LOCAL-00032" summary="20230525">
+      <created>1685013930672</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1685013930672</updated>
+    </task>
+    <task id="LOCAL-00033" summary="20230525">
+      <created>1685017713327</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1685017713327</updated>
+    </task>
+    <task id="LOCAL-00034" summary="20230525">
+      <created>1685018885320</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1685018885320</updated>
+    </task>
+    <task id="LOCAL-00035" summary="20230526">
+      <created>1685065707863</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1685065707863</updated>
+    </task>
+    <task id="LOCAL-00036" summary="20230526">
+      <created>1685093692282</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1685093692282</updated>
+    </task>
+    <task id="LOCAL-00037" summary="20230526-2">
+      <created>1685094093810</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1685094093810</updated>
+    </task>
+    <task id="LOCAL-00038" summary="20230526-3">
+      <created>1685094142026</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1685094142026</updated>
+    </task>
+    <task id="LOCAL-00039" summary="20230526-4">
+      <created>1685099754494</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1685099754494</updated>
+    </task>
+    <task id="LOCAL-00040" summary="20230527">
+      <created>1685289733640</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1685289733640</updated>
+    </task>
+    <task id="LOCAL-00041" summary="20230527">
+      <created>1685289786487</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1685289786487</updated>
+    </task>
+    <task id="LOCAL-00042" summary="20230527">
+      <created>1685290345547</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1685290345547</updated>
+    </task>
+    <task id="LOCAL-00043" summary="20230527">
+      <created>1685291049477</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1685291049477</updated>
+    </task>
+    <task id="LOCAL-00044" summary="20230528">
+      <created>1685348177987</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1685348177987</updated>
+    </task>
+    <task id="LOCAL-00045" summary="20230602">
+      <created>1685649387268</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1685649387268</updated>
+    </task>
+    <task id="LOCAL-00046" summary="init">
+      <created>1685653904791</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1685653904791</updated>
+    </task>
+    <task id="LOCAL-00047" summary="init">
+      <created>1685676876698</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1685676876698</updated>
+    </task>
+    <task id="LOCAL-00048" summary="init">
+      <created>1685678454038</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1685678454038</updated>
+    </task>
+    <task id="LOCAL-00049" summary="init">
+      <created>1685680362405</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1685680362405</updated>
+    </task>
+    <task id="LOCAL-00050" summary="init">
+      <created>1685680642782</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1685680642783</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,6 +614,18 @@
     <MESSAGE value="Fix select g1" />
     <MESSAGE value="Fix README" />
     <MESSAGE value="Init push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init push" />
+    <MESSAGE value="For revision" />
+    <MESSAGE value="20230525" />
+    <MESSAGE value="20230526" />
+    <MESSAGE value="20230526-2" />
+    <MESSAGE value="20230526-3" />
+    <MESSAGE value="20230526-4" />
+    <MESSAGE value="20230527" />
+    <MESSAGE value="20230528" />
+    <MESSAGE value="20230602" />
+    <MESSAGE value="Results" />
+    <MESSAGE value="." />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

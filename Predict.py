@@ -92,7 +92,6 @@ if __name__ == "__main__":
     parser.add_argument('-n', '--name', type=str, required=True, help='Set your external data name')
     parser.add_argument('-o', '--output', type=str, required=True, help='Set your output path')
     parser.add_argument('-core', '--num_cores', type=int, default=2, help='Set the number of CPU cores to use')
-
     parser.add_argument('-ev', '--ev', action='store_true', help='If you already have ext vectors..')
 
     # if ps == True:

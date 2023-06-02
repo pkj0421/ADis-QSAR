@@ -116,10 +116,10 @@ if __name__ == "__main__":
     parser.add_argument('-i', '--inactive', required=True, help='Inactive data')
     parser.add_argument('-o', '--output', type=str, required=True, help='Set your output path')
     parser.add_argument('-v', '--valid_size', type=float, default=0.2, help='Set your valid size')
-    parser.add_argument('-t', '--test_set', type=str, default='X', help='Set your test size')
+    parser.add_argument('-t', '--test_set', type=str, default='X', help='If you want to generate test set')
     parser.add_argument('-r', '--radius', type=int, default=2, help='Set your radius')
     parser.add_argument('-b', '--bits', type=int, default=256, help='Set your nbits')
-    parser.add_argument('-s', '--scaler', type=str, default='Robust', help='Set your scaler')
+    parser.add_argument('-s', '--scaler', type=str, default='Standard', help='Set your scaler')
     parser.add_argument('-core', '--num_cores', type=int, default=2, help='Set the number of CPU cores to use')
     args = parser.parse_args()
 
