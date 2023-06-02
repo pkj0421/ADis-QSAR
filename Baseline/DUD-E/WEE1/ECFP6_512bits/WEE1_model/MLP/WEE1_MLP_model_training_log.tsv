@@ -1,0 +1,865 @@
+activation	alpha	early_stopping	hidden_layer_sizes	learning_rate	max_iter	solver	mean_valid_accuracy	mean_valid_precision	mean_valid_auc
+tanh	0.001	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.001	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(100, 100)	constant	1000	adam	0.9200000000000002	1.0	0.9
+relu	0.001	True	(100, 100)	adaptive	500	adam	0.9200000000000002	1.0	0.9
+relu	0.001	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(100, 100)	invscaling	1000	adam	0.9200000000000002	1.0	0.9
+relu	0.001	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	invscaling	500	adam	0.96	1.0	0.95
+relu	0.001	True	(100, 100)	invscaling	500	adam	0.9200000000000002	1.0	0.9
+relu	0.001	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	invscaling	1000	adam	0.96	1.0	0.95
+identity	0.001	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50, 50)	adaptive	1000	adam	0.96	1.0	0.95
+relu	0.001	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	adaptive	500	adam	0.96	1.0	0.95
+relu	0.001	True	(50, 50)	adaptive	500	adam	0.96	1.0	0.95
+relu	0.001	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	constant	1000	adam	0.96	1.0	0.95
+relu	0.001	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(100, 100)	adaptive	1000	adam	0.9200000000000002	1.0	0.9
+tanh	0.1	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.1	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	constant	500	adam	0.96	1.0	0.95
+relu	0.001	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50, 50)	invscaling	1000	adam	0.96	1.0	0.95
+logistic	0.1	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	constant	500	adam	0.95	1.0	0.9375
+identity	0.001	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	constant	1000	adam	0.95	1.0	0.9375
+identity	0.001	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	invscaling	500	adam	0.95	1.0	0.9375
+identity	0.001	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	invscaling	1000	adam	0.95	1.0	0.9375
+logistic	0.1	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	adaptive	500	adam	0.95	1.0	0.9375
+identity	0.01	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	adaptive	1000	adam	0.95	1.0	0.9375
+identity	0.01	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+logistic	0.1	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+identity	0.01	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+logistic	0.01	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(100, 100)	constant	500	adam	0.9200000000000002	1.0	0.9
+relu	0.001	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(100, 100)	adaptive	1000	adam	0.9200000000000002	1.0	0.9
+relu	0.1	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(100, 100)	adaptive	500	adam	0.9200000000000002	1.0	0.9
+relu	0.1	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(100, 100)	invscaling	1000	adam	0.9200000000000002	1.0	0.9
+relu	0.1	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(100, 100)	invscaling	500	adam	0.9200000000000002	1.0	0.9
+relu	0.1	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(100, 100)	constant	1000	adam	0.9200000000000002	1.0	0.9
+relu	0.1	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50, 50)	adaptive	500	adam	0.96	1.0	0.95
+relu	0.01	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50, 50)	adaptive	1000	adam	0.96	1.0	0.95
+relu	0.01	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	adaptive	1000	adam	0.96	1.0	0.95
+tanh	0.01	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(100, 100)	constant	500	adam	0.9200000000000002	1.0	0.9
+tanh	0.001	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50, 50)	adaptive	1000	adam	0.96	1.0	0.95
+relu	0.1	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50, 50)	adaptive	500	adam	0.96	1.0	0.95
+relu	0.1	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50, 50)	adaptive	1000	adam	0.96	1.0	0.95
+relu	0.1	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50, 50)	invscaling	1000	adam	0.96	1.0	0.95
+tanh	0.001	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50, 50)	adaptive	500	adam	0.96	1.0	0.95
+relu	0.1	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50, 50)	invscaling	1000	adam	0.96	1.0	0.95
+relu	0.1	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50, 50)	invscaling	500	adam	0.96	1.0	0.95
+relu	0.1	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.1	True	(50, 50)	constant	1000	adam	0.96	1.0	0.95
+tanh	0.001	True	(50, 50)	invscaling	500	adam	0.96	1.0	0.95
+relu	0.1	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50, 50)	constant	500	adam	0.96	1.0	0.95
+relu	0.1	True	(50, 50)	constant	500	adam	0.96	1.0	0.95
+relu	0.1	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50, 50)	constant	1000	adam	0.96	1.0	0.95
+relu	0.1	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50,)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50,)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(100, 100)	invscaling	1000	adam	0.9200000000000002	1.0	0.9
+relu	0.001	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50, 50)	constant	500	adam	0.96	1.0	0.95
+relu	0.01	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(100, 100)	adaptive	1000	adam	0.9200000000000002	1.0	0.9
+relu	0.01	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(100, 100)	adaptive	500	adam	0.9200000000000002	1.0	0.9
+relu	0.01	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50,)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50,)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100, 100)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50, 50)	invscaling	500	adam	0.96	1.0	0.95
+relu	0.001	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50, 50)	constant	1000	adam	0.96	1.0	0.95
+relu	0.001	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(50, 50)	constant	500	adam	0.96	1.0	0.95
+relu	0.001	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(100,)	invscaling	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(100,)	invscaling	500	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100, 100)	invscaling	1000	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(100,)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.1	True	(100, 100)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.001	True	(100,)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(100,)	adaptive	500	lbfgs	1.0	1.0	1.0
+identity	0.001	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50, 50)	constant	1000	adam	0.96	1.0	0.95
+relu	0.01	True	(100, 100)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50, 50)	invscaling	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50, 50)	adaptive	500	adam	0.96	1.0	0.95
+tanh	0.01	True	(50, 50)	invscaling	500	adam	0.96	1.0	0.95
+relu	0.01	True	(50, 50)	adaptive	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50, 50)	invscaling	500	adam	0.96	1.0	0.95
+relu	0.01	True	(50, 50)	constant	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50, 50)	adaptive	1000	adam	0.96	1.0	0.95
+tanh	0.01	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50, 50)	adaptive	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50, 50)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(100, 100)	constant	500	adam	0.9200000000000002	1.0	0.9
+tanh	0.01	True	(50, 50)	constant	500	adam	0.96	1.0	0.95
+relu	0.01	True	(50, 50)	invscaling	1000	adam	0.96	1.0	0.95
+relu	0.01	True	(100, 100)	constant	1000	adam	0.9200000000000002	1.0	0.9
+tanh	0.01	True	(100,)	adaptive	1000	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(100, 100)	invscaling	500	lbfgs	1.0	1.0	1.0
+relu	0.01	True	(50, 50)	constant	1000	adam	0.96	1.0	0.95
+relu	0.01	True	(100, 100)	constant	1000	lbfgs	1.0	1.0	1.0
+tanh	0.01	True	(50, 50)	invscaling	1000	adam	0.96	1.0	0.95
+relu	0.01	True	(100, 100)	invscaling	500	adam	0.9200000000000002	1.0	0.9
+relu	0.01	True	(50, 50)	constant	500	lbfgs	1.0	1.0	1.0
+tanh	0.001	True	(100, 100)	invscaling	500	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.001	True	(100, 100)	adaptive	500	adam	0.97	0.9800000000000001	0.9666666666666668
+logistic	0.001	True	(50,)	invscaling	500	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+tanh	0.001	True	(100, 100)	adaptive	1000	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.1	True	(100, 100)	adaptive	500	adam	0.97	0.9800000000000001	0.9666666666666668
+logistic	0.001	True	(50,)	adaptive	500	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+tanh	0.01	True	(100, 100)	constant	1000	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.1	True	(100, 100)	invscaling	1000	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.1	True	(100, 100)	invscaling	500	adam	0.97	0.9800000000000001	0.9666666666666668
+logistic	0.001	True	(50,)	constant	1000	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+tanh	0.001	True	(100, 100)	invscaling	1000	adam	0.97	0.9800000000000001	0.9666666666666668
+logistic	0.001	True	(50,)	constant	500	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+tanh	0.01	True	(100, 100)	constant	500	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.001	True	(100, 100)	constant	500	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.1	True	(100, 100)	constant	500	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.1	True	(100, 100)	constant	1000	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.01	True	(100, 100)	invscaling	500	adam	0.97	0.9800000000000001	0.9666666666666668
+logistic	0.001	True	(50,)	adaptive	1000	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+tanh	0.001	True	(100, 100)	constant	1000	adam	0.97	0.9800000000000001	0.9666666666666668
+logistic	0.01	True	(50,)	adaptive	500	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+tanh	0.1	True	(100, 100)	adaptive	1000	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.01	True	(100, 100)	invscaling	1000	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.001	True	(100,)	constant	1000	adam	0.96	0.9800000000000001	0.9541666666666666
+logistic	0.01	True	(50,)	invscaling	500	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+tanh	0.001	True	(100,)	constant	500	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.01	True	(100,)	adaptive	500	adam	0.96	0.9800000000000001	0.9541666666666666
+logistic	0.01	True	(50,)	constant	1000	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+logistic	0.01	True	(50,)	adaptive	1000	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+tanh	0.01	True	(100,)	adaptive	1000	adam	0.96	0.9800000000000001	0.9541666666666666
+logistic	0.01	True	(50,)	constant	500	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+tanh	0.001	True	(100,)	invscaling	500	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.01	True	(100,)	invscaling	1000	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.01	True	(100,)	invscaling	500	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.001	True	(100,)	invscaling	1000	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.1	True	(100,)	constant	500	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.01	True	(100,)	constant	1000	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.001	True	(100,)	adaptive	500	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.1	True	(100,)	constant	1000	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.01	True	(100,)	constant	500	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.1	True	(100,)	invscaling	500	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.001	True	(100,)	adaptive	1000	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.1	True	(100,)	invscaling	1000	adam	0.96	0.9800000000000001	0.9541666666666666
+tanh	0.01	True	(100, 100)	adaptive	1000	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.1	True	(100,)	adaptive	500	adam	0.96	0.9800000000000001	0.9541666666666666
+logistic	0.01	True	(50,)	invscaling	1000	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+tanh	0.01	True	(100, 100)	adaptive	500	adam	0.97	0.9800000000000001	0.9666666666666668
+tanh	0.1	True	(100,)	adaptive	1000	adam	0.96	0.9800000000000001	0.9541666666666666
+logistic	0.001	True	(50,)	invscaling	1000	adam	0.940909090909091	0.9800000000000001	0.9303571428571429
+relu	0.1	True	(50,)	constant	500	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.001	True	(50,)	constant	500	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.1	True	(50,)	invscaling	1000	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.01	True	(50,)	adaptive	1000	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.01	True	(50,)	constant	500	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.01	True	(50,)	constant	1000	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.1	True	(50,)	adaptive	1000	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.01	True	(50,)	invscaling	500	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.001	True	(50,)	adaptive	1000	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.01	True	(50,)	invscaling	1000	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.1	True	(50,)	adaptive	500	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.1	True	(50,)	invscaling	500	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.001	True	(50,)	constant	1000	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.001	True	(50,)	adaptive	500	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.001	True	(50,)	invscaling	1000	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.01	True	(50,)	adaptive	500	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.1	True	(50,)	constant	1000	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+relu	0.001	True	(50,)	invscaling	500	adam	0.9809090909090908	0.9800000000000001	0.9803571428571429
+logistic	0.1	True	(50,)	invscaling	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+logistic	0.1	True	(50,)	constant	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.1	True	(50,)	invscaling	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.1	True	(50,)	constant	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+logistic	0.1	True	(50,)	invscaling	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.1	True	(50,)	constant	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.001	True	(50,)	adaptive	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.001	True	(50,)	adaptive	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+logistic	0.1	True	(50,)	adaptive	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.001	True	(50,)	constant	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+logistic	0.1	True	(50,)	adaptive	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.001	True	(50,)	invscaling	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.1	True	(50,)	adaptive	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.001	True	(50,)	invscaling	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.001	True	(50,)	constant	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.1	True	(50,)	adaptive	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+logistic	0.1	True	(50,)	constant	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.1	True	(50,)	invscaling	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.01	True	(50,)	constant	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.01	True	(50,)	constant	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.01	True	(50,)	invscaling	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.01	True	(50,)	invscaling	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.01	True	(50,)	adaptive	500	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.01	True	(50,)	adaptive	1000	adam	0.9418181818181818	0.9666666666666666	0.9357142857142857
+identity	0.01	True	(100,)	constant	500	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.001	True	(100,)	adaptive	1000	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.1	True	(100,)	adaptive	1000	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.001	True	(100,)	adaptive	500	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.1	True	(100,)	adaptive	500	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.1	True	(100,)	invscaling	1000	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.001	True	(100,)	constant	1000	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.001	True	(100,)	invscaling	1000	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.01	True	(100,)	invscaling	500	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.01	True	(100,)	constant	1000	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.01	True	(100,)	invscaling	1000	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.1	True	(100,)	invscaling	500	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.001	True	(100,)	constant	500	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.1	True	(100,)	constant	500	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.01	True	(100,)	adaptive	500	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.1	True	(100,)	constant	1000	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.001	True	(100,)	invscaling	500	adam	0.96	0.9550000000000001	0.9583333333333334
+identity	0.01	True	(100,)	adaptive	1000	adam	0.96	0.9550000000000001	0.9583333333333334
+tanh	0.1	True	(50,)	constant	1000	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.1	True	(50,)	adaptive	1000	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.01	True	(50,)	adaptive	500	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.1	True	(50,)	adaptive	500	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.01	True	(50,)	invscaling	1000	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.1	True	(50,)	invscaling	1000	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.01	True	(50,)	invscaling	500	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.1	True	(50,)	constant	500	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.01	True	(50,)	constant	1000	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.1	True	(50,)	invscaling	500	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.01	True	(50,)	constant	500	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.01	True	(50,)	adaptive	1000	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.001	True	(50,)	constant	500	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.001	True	(50,)	constant	1000	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.001	True	(50,)	adaptive	500	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.001	True	(50,)	invscaling	1000	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.001	True	(50,)	invscaling	500	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+tanh	0.001	True	(50,)	adaptive	1000	adam	0.9318181818181819	0.9416666666666667	0.9273809523809524
+identity	0.1	True	(100, 100)	invscaling	500	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.01	True	(100, 100)	adaptive	1000	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.001	True	(100, 100)	adaptive	1000	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.001	True	(100, 100)	adaptive	500	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.001	True	(100, 100)	invscaling	1000	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.001	True	(100, 100)	invscaling	500	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.001	True	(100, 100)	constant	1000	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.01	True	(100, 100)	invscaling	1000	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.001	True	(100, 100)	constant	500	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.1	True	(100, 100)	constant	1000	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.1	True	(100, 100)	invscaling	1000	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.01	True	(100, 100)	constant	500	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.1	True	(100, 100)	adaptive	500	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.1	True	(100, 100)	adaptive	1000	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.01	True	(100, 100)	invscaling	500	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.1	True	(100, 100)	constant	500	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.01	True	(100, 100)	adaptive	500	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.01	True	(100, 100)	constant	1000	adam	0.9400000000000001	0.9350000000000002	0.9375
+identity	0.1	True	(50, 50)	adaptive	500	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.01	True	(50, 50)	constant	500	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.01	True	(50, 50)	constant	1000	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.01	True	(50, 50)	invscaling	500	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.001	True	(50, 50)	invscaling	500	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.01	True	(50, 50)	invscaling	1000	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.1	True	(50, 50)	adaptive	1000	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.001	True	(50, 50)	invscaling	1000	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.1	True	(50, 50)	constant	1000	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.01	True	(50, 50)	adaptive	500	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.1	True	(50, 50)	invscaling	1000	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.001	True	(50, 50)	adaptive	1000	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.001	True	(50, 50)	constant	1000	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.1	True	(50, 50)	invscaling	500	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.01	True	(50, 50)	adaptive	1000	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.001	True	(50, 50)	adaptive	500	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.1	True	(50, 50)	constant	500	adam	0.9400000000000001	0.9266666666666665	0.9375
+identity	0.001	True	(50, 50)	constant	500	adam	0.9400000000000001	0.9266666666666665	0.9375
+relu	0.1	True	(100,)	constant	1000	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.1	True	(100,)	invscaling	500	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.1	True	(100,)	adaptive	1000	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.1	True	(100,)	invscaling	1000	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.1	True	(100,)	adaptive	500	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.01	True	(100,)	constant	1000	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.1	True	(100,)	constant	500	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.01	True	(100,)	constant	500	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.01	True	(100,)	adaptive	1000	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.001	True	(100,)	constant	500	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.001	True	(100,)	invscaling	500	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.001	True	(100,)	invscaling	1000	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.001	True	(100,)	adaptive	500	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.01	True	(100,)	adaptive	500	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.001	True	(100,)	constant	1000	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.001	True	(100,)	adaptive	1000	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.01	True	(100,)	invscaling	1000	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+relu	0.01	True	(100,)	invscaling	500	adam	0.9209090909090909	0.9016666666666667	0.9178571428571429
+logistic	0.001	True	(100,)	adaptive	500	adam	0.9199999999999999	0.9	0.9
+logistic	0.01	True	(100,)	invscaling	500	adam	0.9199999999999999	0.9	0.9
+logistic	0.01	True	(100,)	constant	1000	adam	0.9199999999999999	0.9	0.9
+logistic	0.01	True	(100,)	invscaling	1000	adam	0.9199999999999999	0.9	0.9
+logistic	0.001	True	(100,)	invscaling	1000	adam	0.9199999999999999	0.9	0.9
+logistic	0.01	True	(100,)	adaptive	500	adam	0.9199999999999999	0.9	0.9
+logistic	0.01	True	(100,)	constant	500	adam	0.9199999999999999	0.9	0.9
+logistic	0.001	True	(100,)	adaptive	1000	adam	0.9199999999999999	0.9	0.9
+logistic	0.01	True	(100,)	adaptive	1000	adam	0.9199999999999999	0.9	0.9
+logistic	0.001	True	(100,)	constant	500	adam	0.9199999999999999	0.9	0.9
+logistic	0.001	True	(100,)	constant	1000	adam	0.9199999999999999	0.9	0.9
+logistic	0.001	True	(100,)	invscaling	500	adam	0.9199999999999999	0.9	0.9
+identity	0.1	True	(100, 100)	adaptive	1000	sgd	0.9209090909090909	0.8800000000000001	0.9261904761904761
+identity	0.01	True	(100, 100)	adaptive	500	sgd	0.9209090909090909	0.8800000000000001	0.9261904761904761
+identity	0.01	True	(100, 100)	adaptive	1000	sgd	0.9209090909090909	0.8800000000000001	0.9261904761904761
+identity	0.001	True	(100, 100)	adaptive	500	sgd	0.9209090909090909	0.8800000000000001	0.9261904761904761
+identity	0.001	True	(100, 100)	adaptive	1000	sgd	0.9209090909090909	0.8800000000000001	0.9261904761904761
+identity	0.1	True	(100, 100)	adaptive	500	sgd	0.9209090909090909	0.8800000000000001	0.9261904761904761
+identity	0.1	True	(50, 50)	adaptive	500	sgd	0.8718181818181818	0.8216666666666667	0.8773809523809524
+identity	0.01	True	(50, 50)	adaptive	1000	sgd	0.8718181818181818	0.8216666666666667	0.8773809523809524
+identity	0.1	True	(50, 50)	adaptive	1000	sgd	0.8718181818181818	0.8216666666666667	0.8773809523809524
+identity	0.001	True	(50, 50)	adaptive	500	sgd	0.8718181818181818	0.8216666666666667	0.8773809523809524
+identity	0.01	True	(50, 50)	adaptive	500	sgd	0.8718181818181818	0.8216666666666667	0.8773809523809524
+identity	0.001	True	(50, 50)	adaptive	1000	sgd	0.8718181818181818	0.8216666666666667	0.8773809523809524
+tanh	0.01	True	(50, 50)	adaptive	500	sgd	0.8618181818181817	0.812142857142857	0.869047619047619
+tanh	0.001	True	(50, 50)	adaptive	500	sgd	0.8618181818181817	0.812142857142857	0.869047619047619
+tanh	0.01	True	(50, 50)	adaptive	1000	sgd	0.8618181818181817	0.812142857142857	0.869047619047619
+tanh	0.1	True	(50, 50)	adaptive	1000	sgd	0.8618181818181817	0.812142857142857	0.869047619047619
+tanh	0.1	True	(50, 50)	adaptive	500	sgd	0.8618181818181817	0.812142857142857	0.869047619047619
+tanh	0.001	True	(50, 50)	adaptive	1000	sgd	0.8618181818181817	0.812142857142857	0.869047619047619
+tanh	0.01	True	(100, 100)	adaptive	1000	sgd	0.8518181818181818	0.7816666666666666	0.869047619047619
+tanh	0.1	True	(100, 100)	adaptive	1000	sgd	0.8518181818181818	0.7816666666666666	0.869047619047619
+tanh	0.01	True	(100, 100)	adaptive	500	sgd	0.8518181818181818	0.7816666666666666	0.869047619047619
+tanh	0.1	True	(100, 100)	adaptive	500	sgd	0.8518181818181818	0.7816666666666666	0.869047619047619
+tanh	0.001	True	(100, 100)	adaptive	1000	sgd	0.8518181818181818	0.7816666666666666	0.869047619047619
+tanh	0.001	True	(100, 100)	adaptive	500	sgd	0.8518181818181818	0.7816666666666666	0.869047619047619
+tanh	0.1	True	(50, 50)	constant	500	sgd	0.8127272727272729	0.7638095238095237	0.8148809523809524
+tanh	0.01	True	(50, 50)	constant	1000	sgd	0.8127272727272729	0.7638095238095237	0.8148809523809524
+tanh	0.01	True	(50, 50)	constant	500	sgd	0.8127272727272729	0.7638095238095237	0.8148809523809524
+tanh	0.001	True	(50, 50)	constant	500	sgd	0.8127272727272729	0.7638095238095237	0.8148809523809524
+tanh	0.1	True	(50, 50)	constant	1000	sgd	0.8127272727272729	0.7638095238095237	0.8148809523809524
+tanh	0.001	True	(50, 50)	constant	1000	sgd	0.8127272727272729	0.7638095238095237	0.8148809523809524
+relu	0.01	True	(100,)	adaptive	1000	sgd	0.8227272727272726	0.7471428571428571	0.8327380952380953
+relu	0.01	True	(100,)	adaptive	500	sgd	0.8227272727272726	0.7471428571428571	0.8327380952380953
+relu	0.001	True	(100,)	adaptive	500	sgd	0.8227272727272726	0.7471428571428571	0.8327380952380953
+relu	0.001	True	(100,)	adaptive	1000	sgd	0.8227272727272726	0.7471428571428571	0.8327380952380953
+relu	0.1	True	(100,)	adaptive	500	sgd	0.8227272727272726	0.7471428571428571	0.8327380952380953
+relu	0.1	True	(100,)	adaptive	1000	sgd	0.8227272727272726	0.7471428571428571	0.8327380952380953
+identity	0.1	True	(50, 50)	constant	1000	sgd	0.8154545454545457	0.73	0.806547619047619
+identity	0.1	True	(50, 50)	constant	500	sgd	0.8154545454545457	0.73	0.806547619047619
+identity	0.001	True	(50, 50)	constant	500	sgd	0.8154545454545457	0.73	0.806547619047619
+identity	0.001	True	(50, 50)	constant	1000	sgd	0.8154545454545457	0.73	0.806547619047619
+identity	0.01	True	(50, 50)	constant	500	sgd	0.8154545454545457	0.73	0.806547619047619
+identity	0.01	True	(50, 50)	constant	1000	sgd	0.8154545454545457	0.73	0.806547619047619
+identity	0.01	True	(100, 100)	constant	500	sgd	0.7836363636363638	0.6766666666666665	0.8130952380952381
+identity	0.001	True	(100, 100)	constant	1000	sgd	0.7836363636363638	0.6766666666666665	0.8130952380952381
+identity	0.01	True	(100, 100)	constant	1000	sgd	0.7836363636363638	0.6766666666666665	0.8130952380952381
+identity	0.001	True	(100, 100)	constant	500	sgd	0.7836363636363638	0.6766666666666665	0.8130952380952381
+identity	0.1	True	(100, 100)	constant	500	sgd	0.7836363636363638	0.6766666666666665	0.8130952380952381
+identity	0.1	True	(100, 100)	constant	1000	sgd	0.7836363636363638	0.6766666666666665	0.8130952380952381
+identity	0.001	True	(100,)	adaptive	500	sgd	0.7736363636363637	0.675	0.7880952380952382
+identity	0.1	True	(100,)	adaptive	500	sgd	0.7736363636363637	0.675	0.7880952380952382
+identity	0.1	True	(100,)	adaptive	1000	sgd	0.7736363636363637	0.675	0.7880952380952382
+identity	0.01	True	(100,)	adaptive	500	sgd	0.7736363636363637	0.675	0.7880952380952382
+identity	0.01	True	(100,)	adaptive	1000	sgd	0.7736363636363637	0.675	0.7880952380952382
+identity	0.001	True	(100,)	adaptive	1000	sgd	0.7736363636363637	0.675	0.7880952380952382
+tanh	0.1	True	(100,)	adaptive	1000	sgd	0.7745454545454546	0.6744444444444444	0.793452380952381
+tanh	0.001	True	(100,)	adaptive	1000	sgd	0.7745454545454546	0.6744444444444444	0.793452380952381
+tanh	0.1	True	(100,)	adaptive	500	sgd	0.7745454545454546	0.6744444444444444	0.793452380952381
+tanh	0.01	True	(100,)	adaptive	500	sgd	0.7745454545454546	0.6744444444444444	0.793452380952381
+tanh	0.001	True	(100,)	adaptive	500	sgd	0.7745454545454546	0.6744444444444444	0.793452380952381
+tanh	0.01	True	(100,)	adaptive	1000	sgd	0.7745454545454546	0.6744444444444444	0.793452380952381
+tanh	0.01	True	(100, 100)	constant	1000	sgd	0.7563636363636363	0.6723809523809524	0.780952380952381
+tanh	0.001	True	(100, 100)	constant	500	sgd	0.7563636363636363	0.6723809523809524	0.780952380952381
+tanh	0.01	True	(100, 100)	constant	500	sgd	0.7563636363636363	0.6723809523809524	0.780952380952381
+tanh	0.1	True	(100, 100)	constant	500	sgd	0.7563636363636363	0.6723809523809524	0.780952380952381
+tanh	0.001	True	(100, 100)	constant	1000	sgd	0.7563636363636363	0.6723809523809524	0.780952380952381
+tanh	0.1	True	(100, 100)	constant	1000	sgd	0.7563636363636363	0.6723809523809524	0.780952380952381
+identity	0.1	True	(50,)	adaptive	500	sgd	0.7254545454545454	0.6538095238095238	0.7422619047619048
+identity	0.001	True	(50,)	adaptive	500	sgd	0.7254545454545454	0.6538095238095238	0.7422619047619048
+identity	0.01	True	(50,)	adaptive	500	sgd	0.7254545454545454	0.6538095238095238	0.7422619047619048
+identity	0.001	True	(50,)	adaptive	1000	sgd	0.7254545454545454	0.6538095238095238	0.7422619047619048
+identity	0.1	True	(50,)	adaptive	1000	sgd	0.7254545454545454	0.6538095238095238	0.7422619047619048
+identity	0.01	True	(50,)	adaptive	1000	sgd	0.7254545454545454	0.6538095238095238	0.7422619047619048
+identity	0.001	True	(100,)	constant	500	sgd	0.7436363636363638	0.6421428571428571	0.7589285714285715
+identity	0.01	True	(100,)	constant	500	sgd	0.7436363636363638	0.6421428571428571	0.7589285714285715
+identity	0.1	True	(100,)	constant	1000	sgd	0.7436363636363638	0.6421428571428571	0.7589285714285715
+identity	0.1	True	(100,)	constant	500	sgd	0.7436363636363638	0.6421428571428571	0.7589285714285715
+identity	0.01	True	(100,)	constant	1000	sgd	0.7436363636363638	0.6421428571428571	0.7589285714285715
+identity	0.001	True	(100,)	constant	1000	sgd	0.7436363636363638	0.6421428571428571	0.7589285714285715
+tanh	0.001	True	(100,)	constant	1000	sgd	0.7445454545454545	0.6415873015873016	0.7642857142857145
+tanh	0.001	True	(100,)	constant	500	sgd	0.7445454545454545	0.6415873015873016	0.7642857142857145
+tanh	0.01	True	(100,)	constant	500	sgd	0.7445454545454545	0.6415873015873016	0.7642857142857145
+tanh	0.1	True	(100,)	constant	500	sgd	0.7445454545454545	0.6415873015873016	0.7642857142857145
+tanh	0.01	True	(100,)	constant	1000	sgd	0.7445454545454545	0.6415873015873016	0.7642857142857145
+tanh	0.1	True	(100,)	constant	1000	sgd	0.7445454545454545	0.6415873015873016	0.7642857142857145
+relu	0.001	True	(100,)	constant	500	sgd	0.7127272727272727	0.6138095238095238	0.7077380952380953
+relu	0.1	True	(100,)	constant	1000	sgd	0.7127272727272727	0.6138095238095238	0.7077380952380953
+relu	0.01	True	(100,)	constant	500	sgd	0.7127272727272727	0.6138095238095238	0.7077380952380953
+relu	0.001	True	(100,)	constant	1000	sgd	0.7127272727272727	0.6138095238095238	0.7077380952380953
+relu	0.1	True	(100,)	constant	500	sgd	0.7127272727272727	0.6138095238095238	0.7077380952380953
+relu	0.01	True	(100,)	constant	1000	sgd	0.7127272727272727	0.6138095238095238	0.7077380952380953
+relu	0.01	True	(50,)	adaptive	500	sgd	0.6245454545454546	0.5430555555555555	0.6797619047619048
+relu	0.001	True	(50,)	adaptive	500	sgd	0.6245454545454546	0.5430555555555555	0.6797619047619048
+relu	0.01	True	(50,)	adaptive	1000	sgd	0.6245454545454546	0.5430555555555555	0.6797619047619048
+relu	0.001	True	(50,)	adaptive	1000	sgd	0.6245454545454546	0.5430555555555555	0.6797619047619048
+relu	0.1	True	(50,)	adaptive	500	sgd	0.6245454545454546	0.5430555555555555	0.6797619047619048
+relu	0.1	True	(50,)	adaptive	1000	sgd	0.6245454545454546	0.5430555555555555	0.6797619047619048
+identity	0.001	True	(50,)	constant	1000	sgd	0.5545454545454546	0.4920634920634921	0.6309523809523809
+identity	0.1	True	(50,)	constant	500	sgd	0.5545454545454546	0.4920634920634921	0.6309523809523809
+identity	0.01	True	(50,)	constant	500	sgd	0.5545454545454546	0.4920634920634921	0.6309523809523809
+identity	0.001	True	(50,)	constant	500	sgd	0.5545454545454546	0.4920634920634921	0.6309523809523809
+identity	0.01	True	(50,)	constant	1000	sgd	0.5545454545454546	0.4920634920634921	0.6309523809523809
+identity	0.1	True	(50,)	constant	1000	sgd	0.5545454545454546	0.4920634920634921	0.6309523809523809
+tanh	0.1	True	(50,)	adaptive	1000	sgd	0.5745454545454546	0.47777777777777775	0.6255952380952381
+tanh	0.1	True	(50,)	adaptive	500	sgd	0.5745454545454546	0.47777777777777775	0.6255952380952381
+tanh	0.01	True	(50,)	adaptive	500	sgd	0.5745454545454546	0.47777777777777775	0.6255952380952381
+tanh	0.001	True	(50,)	adaptive	1000	sgd	0.5745454545454546	0.47777777777777775	0.6255952380952381
+tanh	0.01	True	(50,)	adaptive	1000	sgd	0.5745454545454546	0.47777777777777775	0.6255952380952381
+tanh	0.001	True	(50,)	adaptive	500	sgd	0.5745454545454546	0.47777777777777775	0.6255952380952381
+tanh	0.1	True	(100, 100)	invscaling	500	sgd	0.5763636363636363	0.45904761904761904	0.5976190476190475
+tanh	0.001	True	(100, 100)	invscaling	1000	sgd	0.5763636363636363	0.45904761904761904	0.5976190476190475
+tanh	0.1	True	(100, 100)	invscaling	1000	sgd	0.5763636363636363	0.45904761904761904	0.5976190476190475
+tanh	0.01	True	(100, 100)	invscaling	500	sgd	0.5763636363636363	0.45904761904761904	0.5976190476190475
+tanh	0.01	True	(100, 100)	invscaling	1000	sgd	0.5763636363636363	0.45904761904761904	0.5976190476190475
+tanh	0.001	True	(100, 100)	invscaling	500	sgd	0.5763636363636363	0.45904761904761904	0.5976190476190475
+identity	0.1	True	(100, 100)	invscaling	1000	sgd	0.5563636363636364	0.45619047619047615	0.5851190476190476
+identity	0.1	True	(100, 100)	invscaling	500	sgd	0.5563636363636364	0.45619047619047615	0.5851190476190476
+identity	0.01	True	(100, 100)	invscaling	1000	sgd	0.5563636363636364	0.45619047619047615	0.5851190476190476
+identity	0.01	True	(100, 100)	invscaling	500	sgd	0.5563636363636364	0.45619047619047615	0.5851190476190476
+identity	0.001	True	(100, 100)	invscaling	500	sgd	0.5563636363636364	0.45619047619047615	0.5851190476190476
+identity	0.001	True	(100, 100)	invscaling	1000	sgd	0.5563636363636364	0.45619047619047615	0.5851190476190476
+relu	0.01	True	(50,)	constant	1000	sgd	0.4781818181818182	0.42523809523809514	0.5488095238095237
+relu	0.1	True	(50,)	constant	1000	sgd	0.4781818181818182	0.42523809523809514	0.5488095238095237
+relu	0.001	True	(50,)	constant	1000	sgd	0.4781818181818182	0.42523809523809514	0.5488095238095237
+relu	0.1	True	(50,)	constant	500	sgd	0.4781818181818182	0.42523809523809514	0.5488095238095237
+relu	0.01	True	(50,)	constant	500	sgd	0.4781818181818182	0.42523809523809514	0.5488095238095237
+relu	0.001	True	(50,)	constant	500	sgd	0.4781818181818182	0.42523809523809514	0.5488095238095237
+identity	0.1	True	(50,)	invscaling	500	sgd	0.4545454545454546	0.4222222222222222	0.5476190476190476
+identity	0.1	True	(50,)	invscaling	1000	sgd	0.4545454545454546	0.4222222222222222	0.5476190476190476
+identity	0.001	True	(50,)	invscaling	500	sgd	0.4545454545454546	0.4222222222222222	0.5476190476190476
+identity	0.001	True	(50,)	invscaling	1000	sgd	0.4545454545454546	0.4222222222222222	0.5476190476190476
+identity	0.01	True	(50,)	invscaling	1000	sgd	0.4545454545454546	0.4222222222222222	0.5476190476190476
+identity	0.01	True	(50,)	invscaling	500	sgd	0.4545454545454546	0.4222222222222222	0.5476190476190476
+tanh	0.01	True	(50,)	invscaling	1000	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.01	True	(50,)	invscaling	500	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.01	True	(50,)	constant	1000	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.01	True	(50,)	constant	500	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.1	True	(50,)	invscaling	1000	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.1	True	(50,)	invscaling	500	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.1	True	(50,)	constant	1000	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.1	True	(50,)	constant	500	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.001	True	(50,)	constant	500	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.001	True	(50,)	constant	1000	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.001	True	(50,)	invscaling	500	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+tanh	0.001	True	(50,)	invscaling	1000	sgd	0.4454545454545455	0.41527777777777775	0.5351190476190475
+logistic	0.01	True	(50,)	invscaling	1000	sgd	0.40636363636363637	0.40080808080808084	0.5083333333333333
+logistic	0.001	True	(50,)	invscaling	500	sgd	0.40636363636363637	0.40080808080808084	0.5083333333333333
+logistic	0.01	True	(50,)	invscaling	500	sgd	0.40636363636363637	0.40080808080808084	0.5083333333333333
+logistic	0.001	True	(50,)	invscaling	1000	sgd	0.40636363636363637	0.40080808080808084	0.5083333333333333
+logistic	0.1	True	(50,)	invscaling	1000	sgd	0.40636363636363637	0.40080808080808084	0.5083333333333333
+logistic	0.1	True	(50,)	invscaling	500	sgd	0.40636363636363637	0.40080808080808084	0.5083333333333333
+relu	0.1	True	(50,)	invscaling	1000	sgd	0.4081818181818182	0.3865079365079366	0.4904761904761904
+relu	0.1	True	(50,)	invscaling	500	sgd	0.4081818181818182	0.3865079365079366	0.4904761904761904
+relu	0.001	True	(50,)	invscaling	1000	sgd	0.4081818181818182	0.3865079365079366	0.4904761904761904
+relu	0.001	True	(50,)	invscaling	500	sgd	0.4081818181818182	0.3865079365079366	0.4904761904761904
+relu	0.01	True	(50,)	invscaling	500	sgd	0.4081818181818182	0.3865079365079366	0.4904761904761904
+relu	0.01	True	(50,)	invscaling	1000	sgd	0.4081818181818182	0.3865079365079366	0.4904761904761904
+logistic	0.1	True	(50,)	constant	500	sgd	0.48545454545454547	0.36944444444444446	0.5119047619047619
+logistic	0.01	True	(50,)	constant	1000	sgd	0.48545454545454547	0.36944444444444446	0.5119047619047619
+logistic	0.1	True	(50,)	constant	1000	sgd	0.48545454545454547	0.36944444444444446	0.5119047619047619
+logistic	0.01	True	(50,)	constant	500	sgd	0.48545454545454547	0.36944444444444446	0.5119047619047619
+logistic	0.001	True	(50,)	constant	1000	sgd	0.48545454545454547	0.36944444444444446	0.5119047619047619
+logistic	0.001	True	(50,)	constant	500	sgd	0.48545454545454547	0.36944444444444446	0.5119047619047619
+relu	0.1	True	(100,)	invscaling	500	sgd	0.5181818181818183	0.3416666666666667	0.47678571428571426
+relu	0.01	True	(100,)	invscaling	500	sgd	0.5181818181818183	0.3416666666666667	0.47678571428571426
+relu	0.001	True	(100,)	invscaling	500	sgd	0.5181818181818183	0.3416666666666667	0.47678571428571426
+relu	0.001	True	(100,)	invscaling	1000	sgd	0.5181818181818183	0.3416666666666667	0.47678571428571426
+relu	0.01	True	(100,)	invscaling	1000	sgd	0.5181818181818183	0.3416666666666667	0.47678571428571426
+relu	0.1	True	(100,)	invscaling	1000	sgd	0.5181818181818183	0.3416666666666667	0.47678571428571426
+tanh	0.1	True	(50, 50)	invscaling	1000	sgd	0.5154545454545454	0.3083333333333333	0.45238095238095244
+tanh	0.001	True	(50, 50)	invscaling	500	sgd	0.5154545454545454	0.3083333333333333	0.45238095238095244
+tanh	0.001	True	(50, 50)	invscaling	1000	sgd	0.5154545454545454	0.3083333333333333	0.45238095238095244
+tanh	0.01	True	(50, 50)	invscaling	500	sgd	0.5154545454545454	0.3083333333333333	0.45238095238095244
+tanh	0.1	True	(50, 50)	invscaling	500	sgd	0.5154545454545454	0.3083333333333333	0.45238095238095244
+tanh	0.01	True	(50, 50)	invscaling	1000	sgd	0.5154545454545454	0.3083333333333333	0.45238095238095244
+logistic	0.01	True	(50,)	adaptive	1000	sgd	0.6154545454545455	0.29166666666666663	0.5327380952380952
+logistic	0.001	True	(50,)	adaptive	500	sgd	0.6154545454545455	0.29166666666666663	0.5327380952380952
+logistic	0.1	True	(50,)	adaptive	500	sgd	0.6154545454545455	0.29166666666666663	0.5327380952380952
+logistic	0.001	True	(50,)	adaptive	1000	sgd	0.6154545454545455	0.29166666666666663	0.5327380952380952
+logistic	0.01	True	(50,)	adaptive	500	sgd	0.6154545454545455	0.29166666666666663	0.5327380952380952
+logistic	0.1	True	(50,)	adaptive	1000	sgd	0.6154545454545455	0.29166666666666663	0.5327380952380952
+identity	0.1	True	(50, 50)	invscaling	1000	sgd	0.5054545454545455	0.23333333333333334	0.4440476190476191
+identity	0.1	True	(50, 50)	invscaling	500	sgd	0.5054545454545455	0.23333333333333334	0.4440476190476191
+identity	0.01	True	(50, 50)	invscaling	500	sgd	0.5054545454545455	0.23333333333333334	0.4440476190476191
+identity	0.001	True	(50, 50)	invscaling	1000	sgd	0.5054545454545455	0.23333333333333334	0.4440476190476191
+identity	0.001	True	(50, 50)	invscaling	500	sgd	0.5054545454545455	0.23333333333333334	0.4440476190476191
+identity	0.01	True	(50, 50)	invscaling	1000	sgd	0.5054545454545455	0.23333333333333334	0.4440476190476191
+identity	0.01	True	(100,)	invscaling	500	sgd	0.3781818181818182	0.16166666666666668	0.3351190476190476
+identity	0.1	True	(100,)	invscaling	1000	sgd	0.3781818181818182	0.16166666666666668	0.3351190476190476
+identity	0.01	True	(100,)	invscaling	1000	sgd	0.3781818181818182	0.16166666666666668	0.3351190476190476
+identity	0.001	True	(100,)	invscaling	500	sgd	0.3781818181818182	0.16166666666666668	0.3351190476190476
+identity	0.001	True	(100,)	invscaling	1000	sgd	0.3781818181818182	0.16166666666666668	0.3351190476190476
+identity	0.1	True	(100,)	invscaling	500	sgd	0.3781818181818182	0.16166666666666668	0.3351190476190476
+tanh	0.001	True	(100,)	invscaling	1000	sgd	0.3381818181818182	0.05833333333333333	0.28928571428571426
+tanh	0.01	True	(100,)	invscaling	1000	sgd	0.3381818181818182	0.05833333333333333	0.28928571428571426
+tanh	0.1	True	(100,)	invscaling	1000	sgd	0.3381818181818182	0.05833333333333333	0.28928571428571426
+tanh	0.1	True	(100,)	invscaling	500	sgd	0.3381818181818182	0.05833333333333333	0.28928571428571426
+tanh	0.01	True	(100,)	invscaling	500	sgd	0.3381818181818182	0.05833333333333333	0.28928571428571426
+tanh	0.001	True	(100,)	invscaling	500	sgd	0.3381818181818182	0.05833333333333333	0.28928571428571426
+relu	0.1	True	(100, 100)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	adaptive	1000	adam	0.6036363636363635	0.0	0.5
+relu	0.1	True	(100, 100)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.1	True	(100, 100)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.1	True	(100, 100)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+relu	0.1	True	(100, 100)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(50, 50)	constant	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	invscaling	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	adaptive	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	adaptive	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	adaptive	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100,)	constant	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100,)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	constant	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	invscaling	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	constant	1000	adam	0.6036363636363635	0.0	0.5
+relu	0.1	True	(100, 100)	constant	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	constant	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.1	True	(50, 50)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	constant	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	adaptive	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	adaptive	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100,)	constant	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	invscaling	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100,)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	invscaling	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100,)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100,)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	constant	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.1	True	(50, 50)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100,)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100, 100)	constant	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100,)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	constant	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	constant	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+relu	0.1	True	(50, 50)	constant	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.1	True	(50, 50)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+relu	0.1	True	(50, 50)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.1	True	(50, 50)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(50, 50)	invscaling	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100,)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	constant	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	invscaling	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100,)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100,)	constant	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	constant	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	constant	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100,)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	constant	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100,)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100,)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(100,)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	constant	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	adaptive	1000	adam	0.6036363636363635	0.0	0.5
+relu	0.01	True	(100, 100)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	invscaling	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	invscaling	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(100, 100)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(50, 50)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(50, 50)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(50, 50)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(50, 50)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(100, 100)	constant	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(100, 100)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(100, 100)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	adaptive	1000	adam	0.6036363636363635	0.0	0.5
+relu	0.001	True	(100, 100)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	adaptive	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100, 100)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(100, 100)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.01	True	(100, 100)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	constant	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.01	True	(100, 100)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+relu	0.001	True	(50, 50)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	constant	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	adaptive	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	constant	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	invscaling	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	adaptive	500	adam	0.6036363636363635	0.0	0.5
+relu	0.01	True	(100, 100)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	invscaling	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100,)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100,)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(100,)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	invscaling	500	adam	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	invscaling	1000	adam	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.01	True	(50, 50)	constant	1000	adam	0.6036363636363635	0.0	0.5
+relu	0.01	True	(50, 50)	constant	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.01	True	(50, 50)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+relu	0.01	True	(50, 50)	invscaling	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.01	True	(50, 50)	invscaling	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	adaptive	500	adam	0.6036363636363635	0.0	0.5
+relu	0.01	True	(50, 50)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.01	True	(50, 50)	adaptive	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.1	True	(50, 50)	adaptive	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.01	True	(100, 100)	constant	500	sgd	0.6036363636363635	0.0	0.5
+relu	0.01	True	(100, 100)	constant	1000	sgd	0.6036363636363635	0.0	0.5
+logistic	0.001	True	(100, 100)	constant	500	adam	0.6036363636363635	0.0	0.5
