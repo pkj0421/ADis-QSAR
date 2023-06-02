@@ -50,7 +50,7 @@ The scaler can be chosen from three options: Standard, MinMax and Robust
 
 Afterwards, the compounds are divided into training (train), validation (valid) and test (test) sets
 
-If you do not wish to generate test set (remove '-t' option)
+If you want to generate test set with other data ('-t' option)
 
 The default value for the validation set size is 0.2, but it can be changed ('-v' option)
 
@@ -65,7 +65,7 @@ python Preprocessing.py -a active_path -i inactive_path -o output_path -v valid_
 For example:
 
 ```sh
-python Preprocessing.py -a Dataset/ChEMBL/ALK/ALK_prepare/ALK_active.tsv -i Dataset/ChEMBL/ALK/ALK_prepare/ALK_inactive.tsv -o Dataset/ChEMBL/ALK -v 0.2 -r 2 -b 256 -s Standard -core 12 -t
+python Preprocessing.py -a Dataset/ChEMBL/ALK/ALK_prepare/ALK_active.tsv -i Dataset/ChEMBL/ALK/ALK_prepare/ALK_inactive.tsv -o Dataset/ChEMBL/ALK -v 0.2 -r 2 -b 256 -s Standard -core 12
 ```
 
 * ADis_QSAR
@@ -89,7 +89,7 @@ python ADis_QSAR.py -train train_path -valid valid_path -test test_path -m model
 For example:
 
 ```sh
-python ADis_QSAR.py -train Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train.tsv -valid Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid.tsv -test Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test.tsv -m SVM -o Dataset/ChEMBL/ALK -core 12
+python ADis_QSAR.py -train Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train_vector.tsv -valid Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid_vector.tsv -test Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test_vector.tsv -m SVM -o Dataset/ChEMBL/ALK/ALK_preprocessing -core 12
 ```
 
 * Predict
@@ -107,7 +107,7 @@ python Predict.py -m model_path -e external_path -n external_name -o output_path
 For example:
 
 ```sh
-python Predict.py -m Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_model/SVM/ALK_SVM_model.pkl -e Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test.tsv -n ext -o Dataset/ChEMBL/ALK -core 12 -ev
+python Predict.py -m Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_model/SVM/ALK_SVM_model.pkl -e Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test_vector.tsv -n ext -o Dataset/ChEMBL/ALK -core 12 -ev
 ```
 
 ## Baseline run

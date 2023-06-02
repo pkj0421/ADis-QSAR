@@ -3,6 +3,35 @@
   <component name="ChangeListManager">
     <list default="true" id="58f0ce24-37c7-49fb-b024-17db7234238e" name="변경" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_active.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_active.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_active.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_active.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_active.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_active.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_inactive.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_inactive.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_inactive.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_inactive.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_inactive.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_inactive.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_total.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_total.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_total.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_total.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_total.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/ALK_total.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/prepare.log" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_prepare/prepare.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_g1.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_g1.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_g1.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_g1.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_g1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_g1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test_raw_vector.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test_raw_vector.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test_vector.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test_vector.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train_raw_vector.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train_raw_vector.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train_vector.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train_vector.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid_raw_vector.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid_raw_vector.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid_vector.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid_vector.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/preprocess.log" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset/ChEMBL/ALK/ALK_preprocessing/preprocess.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +80,7 @@
       <recent name="D:\W_code\ADis-QSAR\A_dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Baseline_run">
+  <component name="RunManager" selected="Python.Predict">
     <configuration name="ADis_QSAR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ADis-QSAR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ADis_QSAR.py" />
-      <option name="PARAMETERS" value="-train D:\W_code\ADis-QSAR\Test\ALK_preprocessing\ALK_train_vector.tsv -test D:\W_code\ADis-QSAR\Test\ALK_preprocessing\ALK_test_vector.tsv -o D:\W_code\ADis-QSAR\Test -m RF -core 10" />
+      <option name="PARAMETERS" value="-train Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_train_vector.tsv -valid Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_valid_vector.tsv -test Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test_vector.tsv -m SVM -o Dataset/ChEMBL/ALK/ALK_preprocessing -core 12" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -73,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Baseline_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Baseline_run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ADis-QSAR" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +178,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Predict.py" />
-      <option name="PARAMETERS" value="-m D:\W_code\ADis-QSAR\Test\ALK_model\RF\ALK_RF_model.pkl -e D:\W_code\ADis-QSAR\Test\ALK_preprocessing\ALK_test.xlsx -n ext -o D:\W_code\ADis-QSAR\Test -core 10 -g1 D:\W_code\ADis-QSAR\Test\ALK_preprocessing\ALK_g1.xlsx -s D:\W_code\ADis-QSAR\Test\ALK_preprocessing\ALK_scaler.pkl -r 2 -b 256" />
+      <option name="PARAMETERS" value="-m Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_model/SVM/ALK_SVM_model.pkl -e Dataset/ChEMBL/ALK/ALK_preprocessing/ALK_test_vector.tsv -n ext -o Dataset/ChEMBL/ALK -core 12 -ev" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -170,7 +199,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prepare.py" />
-      <option name="PARAMETERS" value="-d D:\W_code\ADis-QSAR\Test\ALK.tsv -o D:\W_code\ADis-QSAR\Test -chembl" />
+      <option name="PARAMETERS" value="-d Dataset/ChEMBL/ALK/ALK_raw.tsv -o Dataset/ChEMBL/ALK -i -chembl" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -191,7 +220,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Preprocessing.py" />
-      <option name="PARAMETERS" value="-a D:\W_code\ADis-QSAR\Test\ALK_prepare\ALK_active.xlsx -i D:\W_code\ADis-QSAR\Test\ALK_prepare\ALK_inactive.xlsx -o D:\W_code\ADis-QSAR\Test\ -core 10" />
+      <option name="PARAMETERS" value="-a Dataset/ChEMBL/ALK/ALK_prepare/ALK_active.tsv -i Dataset/ChEMBL/ALK/ALK_prepare/ALK_inactive.tsv -o Dataset/ChEMBL/ALK -v 0.2 -r 2 -b 256 -s Standard -core 12" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -224,18 +253,17 @@
       <item itemvalue="Python.Predict-ev" />
       <item itemvalue="Python.Prepare" />
       <item itemvalue="Python.Preprocessing" />
-      <item itemvalue="Python.ADis_QSAR" />
       <item itemvalue="Python.Baseline_run" />
+      <item itemvalue="Python.ADis_QSAR" />
       <item itemvalue="Python.Predict" />
       <item itemvalue="Python.Vary_params_run" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Baseline_run" />
-        <item itemvalue="Python.Vary_params_run" />
-        <item itemvalue="Python.Baseline_run" />
         <item itemvalue="Python.Predict" />
         <item itemvalue="Python.ADis_QSAR" />
+        <item itemvalue="Python.Vary_params_run" />
+        <item itemvalue="Python.Baseline_run" />
       </list>
     </recent_temporary>
   </component>
@@ -247,13 +275,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674607822826</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Import conda env">
-      <created>1674612389816</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1674612389816</updated>
     </task>
     <task id="LOCAL-00004" summary="Fix README">
       <created>1674614041640</created>
@@ -591,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685704861804</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="init">
+      <created>1685705032194</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1685705032194</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
