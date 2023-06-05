@@ -275,3 +275,155 @@
 2023-06-02 21:41:44,356 [INFO] Save valid_vector data...
 2023-06-02 21:41:44,378 [INFO] Save test_vector data...
 2023-06-02 21:41:44,399 [INFO] Time : 159.0580780506134
+2023-06-05 09:27:03,183 [INFO] Active data : Dataset\ChEMBL\ALK\ALK_prepare\ALK_active.tsv
+2023-06-05 09:27:03,183 [INFO] Inactive data : Dataset\ChEMBL\ALK\ALK_prepare\ALK_inactive.tsv
+2023-06-05 09:27:03,184 [INFO] Output path : Dataset\ChEMBL\ALK\ALK_preprocessing
+2023-06-05 09:27:03,184 [INFO] Fingerprint radius : 2
+2023-06-05 09:27:03,184 [INFO] Fingerprint nbits : 256
+2023-06-05 09:27:03,184 [INFO] Use cores : 12
+2023-06-05 09:27:03,416 [INFO] Train : Valid = 8 : 2
+2023-06-05 09:27:03,417 [INFO] Test size = 2
+2023-06-05 09:27:03,417 [INFO] Use radius, nbits for Butina clustering : (3, 2048)
+2023-06-05 09:27:03,417 [INFO] Generating distance matrix
+2023-06-05 09:27:08,276 [INFO] center compounds : 51 | remain compounds : 729
+2023-06-05 09:27:08,279 [INFO] Use radius, nbits for Butina clustering : (3, 1024)
+2023-06-05 09:27:08,279 [INFO] Generating distance matrix
+2023-06-05 09:27:13,072 [INFO] center compounds : 51 | remain compounds : 729
+2023-06-05 09:27:13,075 [INFO] Use radius, nbits for Butina clustering : (3, 512)
+2023-06-05 09:27:13,075 [INFO] Generating distance matrix
+2023-06-05 09:27:17,900 [INFO] center compounds : 48 | remain compounds : 732
+2023-06-05 09:27:17,902 [INFO] Use radius, nbits for Butina clustering : (3, 256)
+2023-06-05 09:27:17,903 [INFO] Generating distance matrix
+2023-06-05 09:27:21,825 [INFO] center compounds : 50 | remain compounds : 730
+2023-06-05 09:27:21,878 [INFO] Use radius, nbits for Butina clustering : (3, 2048)
+2023-06-05 09:27:21,878 [INFO] Generating distance matrix
+2023-06-05 09:27:26,344 [INFO] center compounds : 293 | remain compounds : 437
+2023-06-05 09:27:26,345 [INFO] Use radius, nbits for Butina clustering : (3, 1024)
+2023-06-05 09:27:26,345 [INFO] Generating distance matrix
+2023-06-05 09:27:30,838 [INFO] center compounds : 295 | remain compounds : 435
+2023-06-05 09:27:30,839 [INFO] Use radius, nbits for Butina clustering : (3, 512)
+2023-06-05 09:27:30,839 [INFO] Generating distance matrix
+2023-06-05 09:27:35,398 [INFO] center compounds : 304 | remain compounds : 426
+2023-06-05 09:27:35,400 [INFO] Use radius, nbits for Butina clustering : (3, 256)
+2023-06-05 09:27:35,400 [INFO] Generating distance matrix
+2023-06-05 09:27:39,947 [INFO] center compounds : 285 | remain compounds : 445
+2023-06-05 09:27:39,948 [INFO] Use radius, nbits for Butina clustering : (2, 2048)
+2023-06-05 09:27:39,948 [INFO] Generating distance matrix
+2023-06-05 09:27:44,397 [INFO] center compounds : 300 | remain compounds : 430
+2023-06-05 09:27:44,399 [INFO] Use radius, nbits for Butina clustering : (2, 1024)
+2023-06-05 09:27:44,399 [INFO] Generating distance matrix
+2023-06-05 09:27:48,917 [INFO] center compounds : 293 | remain compounds : 437
+2023-06-05 09:27:48,919 [INFO] Use radius, nbits for Butina clustering : (2, 512)
+2023-06-05 09:27:48,919 [INFO] Generating distance matrix
+2023-06-05 09:27:53,320 [INFO] center compounds : 301 | remain compounds : 429
+2023-06-05 09:27:53,322 [INFO] Use radius, nbits for Butina clustering : (2, 256)
+2023-06-05 09:27:53,322 [INFO] Generating distance matrix
+2023-06-05 09:27:57,866 [INFO] center compounds : 290 | remain compounds : 440
+2023-06-05 09:27:57,868 [INFO] Use radius, nbits for Butina clustering : (1, 2048)
+2023-06-05 09:27:57,868 [INFO] Generating distance matrix
+2023-06-05 09:28:02,408 [INFO] center compounds : 301 | remain compounds : 429
+2023-06-05 09:28:02,410 [INFO] Use radius, nbits for Butina clustering : (1, 1024)
+2023-06-05 09:28:02,410 [INFO] Generating distance matrix
+2023-06-05 09:28:06,951 [INFO] center compounds : 295 | remain compounds : 435
+2023-06-05 09:28:06,952 [INFO] Use radius, nbits for Butina clustering : (1, 512)
+2023-06-05 09:28:06,952 [INFO] Generating distance matrix
+2023-06-05 09:28:11,495 [INFO] center compounds : 306 | remain compounds : 424
+2023-06-05 09:28:11,499 [INFO] Adjust ratio : active (294), inactive (441)
+2023-06-05 09:28:11,499 [INFO] tra : 196, va : 49, tea : 49
+2023-06-05 09:28:11,499 [INFO] Use radius, nbits for Butina clustering : (3, 2048)
+2023-06-05 09:28:11,499 [INFO] Generating distance matrix
+2023-06-05 09:28:14,368 [INFO] center compounds : 192 | remain compounds : 102
+2023-06-05 09:28:14,369 [INFO] Use radius, nbits for Butina clustering : (3, 1024)
+2023-06-05 09:28:14,369 [INFO] Generating distance matrix
+2023-06-05 09:28:17,194 [INFO] center compounds : 192 | remain compounds : 102
+2023-06-05 09:28:17,195 [INFO] Use radius, nbits for Butina clustering : (3, 512)
+2023-06-05 09:28:17,195 [INFO] Generating distance matrix
+2023-06-05 09:28:20,002 [INFO] center compounds : 197 | remain compounds : 97
+2023-06-05 09:28:20,003 [INFO] Use radius, nbits for Butina clustering : (3, 256)
+2023-06-05 09:28:20,003 [INFO] Generating distance matrix
+2023-06-05 09:28:22,865 [INFO] center compounds : 194 | remain compounds : 100
+2023-06-05 09:28:22,866 [INFO] Use radius, nbits for Butina clustering : (2, 2048)
+2023-06-05 09:28:22,866 [INFO] Generating distance matrix
+2023-06-05 09:28:25,692 [INFO] center compounds : 197 | remain compounds : 97
+2023-06-05 09:28:25,693 [INFO] Use radius, nbits for Butina clustering : (2, 1024)
+2023-06-05 09:28:25,693 [INFO] Generating distance matrix
+2023-06-05 09:28:28,513 [INFO] center compounds : 192 | remain compounds : 102
+2023-06-05 09:28:28,514 [INFO] Use radius, nbits for Butina clustering : (2, 512)
+2023-06-05 09:28:28,514 [INFO] Generating distance matrix
+2023-06-05 09:28:31,347 [INFO] center compounds : 200 | remain compounds : 94
+2023-06-05 09:28:31,347 [INFO] Use radius, nbits for Butina clustering : (2, 256)
+2023-06-05 09:28:31,347 [INFO] Generating distance matrix
+2023-06-05 09:28:34,175 [INFO] center compounds : 193 | remain compounds : 101
+2023-06-05 09:28:34,176 [INFO] Use radius, nbits for Butina clustering : (1, 2048)
+2023-06-05 09:28:34,176 [INFO] Generating distance matrix
+2023-06-05 09:28:36,998 [INFO] center compounds : 188 | remain compounds : 106
+2023-06-05 09:28:36,998 [INFO] Use radius, nbits for Butina clustering : (1, 1024)
+2023-06-05 09:28:36,998 [INFO] Generating distance matrix
+2023-06-05 09:28:39,804 [INFO] center compounds : 186 | remain compounds : 108
+2023-06-05 09:28:39,805 [INFO] Use radius, nbits for Butina clustering : (1, 512)
+2023-06-05 09:28:39,805 [INFO] Generating distance matrix
+2023-06-05 09:28:42,630 [INFO] center compounds : 198 | remain compounds : 96
+2023-06-05 09:28:42,650 [INFO] Use radius, nbits for Butina clustering : (3, 2048)
+2023-06-05 09:28:42,651 [INFO] Generating distance matrix
+2023-06-05 09:28:45,252 [INFO] center compounds : 49 | remain compounds : 49
+2023-06-05 09:28:45,260 [INFO] train_act : 196, valid_act : 49, test_act : 49
+2023-06-05 09:28:45,260 [INFO] tri : 294, vi : 74, tei : 74
+2023-06-05 09:28:45,260 [INFO] Use radius, nbits for Butina clustering : (3, 2048)
+2023-06-05 09:28:45,260 [INFO] Generating distance matrix
+2023-06-05 09:28:49,040 [INFO] center compounds : 296 | remain compounds : 145
+2023-06-05 09:28:49,041 [INFO] Use radius, nbits for Butina clustering : (3, 1024)
+2023-06-05 09:28:49,042 [INFO] Generating distance matrix
+2023-06-05 09:28:52,980 [INFO] center compounds : 298 | remain compounds : 143
+2023-06-05 09:28:52,982 [INFO] Use radius, nbits for Butina clustering : (3, 512)
+2023-06-05 09:28:52,982 [INFO] Generating distance matrix
+2023-06-05 09:28:56,858 [INFO] center compounds : 289 | remain compounds : 152
+2023-06-05 09:28:56,860 [INFO] Use radius, nbits for Butina clustering : (3, 256)
+2023-06-05 09:28:56,860 [INFO] Generating distance matrix
+2023-06-05 09:29:00,959 [INFO] center compounds : 298 | remain compounds : 143
+2023-06-05 09:29:00,961 [INFO] Use radius, nbits for Butina clustering : (2, 2048)
+2023-06-05 09:29:00,961 [INFO] Generating distance matrix
+2023-06-05 09:29:04,935 [INFO] center compounds : 293 | remain compounds : 148
+2023-06-05 09:29:04,937 [INFO] Use radius, nbits for Butina clustering : (2, 1024)
+2023-06-05 09:29:04,937 [INFO] Generating distance matrix
+2023-06-05 09:29:08,974 [INFO] center compounds : 292 | remain compounds : 149
+2023-06-05 09:29:08,977 [INFO] Use radius, nbits for Butina clustering : (2, 512)
+2023-06-05 09:29:08,977 [INFO] Generating distance matrix
+2023-06-05 09:29:12,807 [INFO] center compounds : 296 | remain compounds : 145
+2023-06-05 09:29:12,809 [INFO] Use radius, nbits for Butina clustering : (2, 256)
+2023-06-05 09:29:12,809 [INFO] Generating distance matrix
+2023-06-05 09:29:16,645 [INFO] center compounds : 295 | remain compounds : 146
+2023-06-05 09:29:16,646 [INFO] Use radius, nbits for Butina clustering : (1, 2048)
+2023-06-05 09:29:16,646 [INFO] Generating distance matrix
+2023-06-05 09:29:20,503 [INFO] center compounds : 302 | remain compounds : 139
+2023-06-05 09:29:20,505 [INFO] Use radius, nbits for Butina clustering : (1, 1024)
+2023-06-05 09:29:20,505 [INFO] Generating distance matrix
+2023-06-05 09:29:24,404 [INFO] center compounds : 302 | remain compounds : 139
+2023-06-05 09:29:24,406 [INFO] Use radius, nbits for Butina clustering : (1, 512)
+2023-06-05 09:29:24,406 [INFO] Generating distance matrix
+2023-06-05 09:29:28,267 [INFO] center compounds : 297 | remain compounds : 144
+2023-06-05 09:29:28,309 [INFO] Use radius, nbits for Butina clustering : (3, 2048)
+2023-06-05 09:29:28,309 [INFO] Generating distance matrix
+2023-06-05 09:29:30,979 [INFO] center compounds : 75 | remain compounds : 72
+2023-06-05 09:29:30,980 [INFO] Use radius, nbits for Butina clustering : (3, 1024)
+2023-06-05 09:29:30,980 [INFO] Generating distance matrix
+2023-06-05 09:29:33,611 [INFO] center compounds : 73 | remain compounds : 74
+2023-06-05 09:29:33,612 [INFO] Use radius, nbits for Butina clustering : (3, 512)
+2023-06-05 09:29:33,612 [INFO] Generating distance matrix
+2023-06-05 09:29:36,205 [INFO] center compounds : 74 | remain compounds : 73
+2023-06-05 09:29:36,215 [INFO] train_inact : 294, valid_inact : 74, test_inact : 73
+2023-06-05 09:29:36,218 [INFO] G1 : 50, Train : 490, Valid : 123, Test : 122
+2023-06-05 09:29:36,218 [INFO] Save g1 data...
+2023-06-05 09:29:36,654 [INFO] Save train data...
+2023-06-05 09:29:37,493 [INFO] Save valid data...
+2023-06-05 09:29:37,718 [INFO] Save test data...
+2023-06-05 09:29:37,976 [INFO] Generate train vectors...
+2023-06-05 09:29:42,199 [INFO] Generate valid vectors...
+2023-06-05 09:29:45,148 [INFO] Generate test vectors...
+2023-06-05 09:29:48,106 [INFO] Save train_raw_vector data...
+2023-06-05 09:29:48,163 [INFO] Save valid_raw_vector data...
+2023-06-05 09:29:48,178 [INFO] Save test_raw_vector data...
+2023-06-05 09:29:48,191 [INFO] Scaling vectors...
+2023-06-05 09:29:48,291 [INFO] Save train_vector data...
+2023-06-05 09:29:48,451 [INFO] Save valid_vector data...
+2023-06-05 09:29:48,493 [INFO] Save test_vector data...
+2023-06-05 09:29:48,536 [INFO] Time : 165.35315585136414
