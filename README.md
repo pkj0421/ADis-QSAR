@@ -1,5 +1,5 @@
 # ADis-QSAR
-Activity Differences Quantatative Structure Activity Relationship
+Activity Differences - Quantatative Structure Activity Relationship
 
 ## Installation
 This code was tested in Python 3.11.
