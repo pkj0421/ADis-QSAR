@@ -54,7 +54,5 @@ if __name__ == '__main__':
             valid_vector.to_csv(f_output / f"{fn}_valid_scores.tsv", sep='\t', index=False)
             test_vector.to_csv(f_output / f"{fn}_test_scores.tsv", sep='\t', index=False)
 
-            # fcols = [col for col in train_vector.columns if col.startswith('f_')]
-
 
 

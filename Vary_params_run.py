@@ -11,14 +11,6 @@ from rdkit.Chem import PandasTools, AllChem
 from sklearn.preprocessing import RobustScaler, StandardScaler, MinMaxScaler
 from Admodule.Grouping import Cluster, Vector
 
-
-from knockknock import discord_sender
-# notice discord
-webhook_url = "https://discord.com/api/webhooks/1009749385170665533/m4nldXOXR5f9iWaXoCDLNGhNI48XEpy-Y9CcBpdFJW_xUipS54LCzXX9xZaCY6IH0vSl"
-@discord_sender(webhook_url=webhook_url)
-def finish(message):
-    return message  # Optional return value
-
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -206,4 +198,4 @@ if __name__ == "__main__":
                                 fw.write('\t'.join(map(str, fwr.values())) + '\n')
 
             f_time = time.strftime("%H:%M:%S", time.gmtime(time.time() - start))
-            finish(f'\nFinished: {fn}\nLearning time: {f_time}')
+            print(f'\nFinished: {fn}\nLearning time: {f_time}')
