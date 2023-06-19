@@ -15,7 +15,7 @@ from sklearn.preprocessing import RobustScaler, StandardScaler, MinMaxScaler
 """
 This code is used for data preprocessing
 Need active and inactive compounds data
-ADis-QSAR aims for an active:inactive ratio of 1:~1.5, excluding 50 central structures (actives)
+ADis-QSAR aims for an active:inactive ratio of 1:1.5, excluding 50 central structures (actives)
 
 Pair system is applied to generate the vectors required for model training
 And clustering maximizes the chemical space of the data
