@@ -1,5 +1,9 @@
 # ADis-QSAR
-Activity Differences - Quantatative Structure Activity Relationship
+__Activity Differences - Quantatative Structure Activity Relationship__
+
+_Park, G.J., Kang, N.S._ 
+
+[Journal of Computer-Aided Molecular Design 37, 435–451 (2023).](https://doi.org/10.1007/s10822-023-00517-1)
 
 ## Installation
 This code was tested in Python 3.11.
