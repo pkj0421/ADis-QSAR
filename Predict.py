@@ -36,8 +36,9 @@ def confusion_matrix_scorer(clf, ext, output):
     y = ext['AD']
 
     y_pred = clf.predict(X)
+    y_proba = clf.predict_proba(X)[:, 1]
     cm = confusion_matrix(y, y_pred)
-    auc = round(roc_auc_score(y, y_pred), 2)
+    auc = round(roc_auc_score(y, y_proba), 2)
     r2 = round(r2_score(y, y_pred), 2)
 
     result = pd.DataFrame({'Compound_ID': ext['Compound_ID'], 'Active': y, 'Pred': y_pred})

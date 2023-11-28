@@ -51,9 +51,9 @@ def GridSearchRUN(model, parameters, X_train, y_train, cores=4):
     return grid_model, result
 
 
-def confusion_matrix_scorer(y, y_pred):
+def confusion_matrix_scorer(y, y_pred, y_proba):
     cm = confusion_matrix(y, y_pred)
-    auc = round(roc_auc_score(y, y_pred), 2)
+    auc = round(roc_auc_score(y, y_proba), 2)
     r2 = round(r2_score(y, y_pred), 2)
     return {'tn': cm[0, 0], 'fp': cm[0, 1],
             'fn': cm[1, 0], 'tp': cm[1, 1],
@@ -67,12 +67,13 @@ def result_scoring(md, df, cols, name, out):
 
     # make dataframe
     y_pred = md.predict(X)
+    y_proba = md.predict_proba(X)[:, 1]
     df['Pred'] = y_pred
     df['Match'] = df[['AD', 'Pred']].apply(lambda x: 1 if x[0] == x[1] else 0, axis=1)
     Utils.save(df[['Compound_ID', 'AD', 'Pred', 'Match']], out, custom=f"{name}_prediction_log")
 
     # confusion matrix
-    cm = confusion_matrix_scorer(y, y_pred)
+    cm = confusion_matrix_scorer(y, y_pred, y_proba)
     if cm['tp'] != 0:
         precision = round(cm['tp'] / (cm['tp'] + cm['fp']), 2)
         recall = round(cm['tp'] / (cm['tp'] + cm['fn']), 2)
